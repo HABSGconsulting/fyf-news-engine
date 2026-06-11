@@ -1,7 +1,6 @@
 """Gemini API client with rate limit handling and retry logic."""
 import os
 import time
-import json
 import google.generativeai as genai
 from pydantic import ValidationError
 from src.ai.schema import RunOutput
@@ -53,7 +52,7 @@ def _call_gemini(model_name: str, system_prompt: str, user_prompt: str) -> str:
         system_instruction=system_prompt,
         generation_config=genai.GenerationConfig(
             response_mime_type="application/json",  # JSON mode
-            temperature=0.3,   # low temp for consistent structured output
+            temperature=0.3,
         ),
     )
     response = model.generate_content(user_prompt)
@@ -65,24 +64,30 @@ def run_batch(
     min_posts: int = 3,
     max_posts: int = 5,
     save_raw_path: str = None,
+    model_override: str = None,
 ) -> RunOutput | None:
     """
     Send batch of news items to Gemini. Returns validated RunOutput or None.
 
-    Saves raw response before validation (enables replay without re-calling API).
-    Retries once with fallback model on validation failure.
+    - model_override: pass WEEKLY_DIGEST_MODEL here for Sunday digest runs
+    - Saves raw response before validation (replay without re-calling API)
+    - Retries once with FALLBACK_MODEL on validation failure
+    - Waits 60s and retries on rate limit (429)
     """
     _configure()
     system_prompt = _load_prompt("system_prompt.txt")
     user_prompt = _build_prompt(news_items, min_posts, max_posts)
 
     for attempt in range(GEMINI_MAX_RETRIES + 1):
-        model_name = PRIMARY_MODEL if attempt == 0 else FALLBACK_MODEL
+        if model_override:
+            model_name = model_override
+        else:
+            model_name = PRIMARY_MODEL if attempt == 0 else FALLBACK_MODEL
+
         try:
             print(f"[GEMINI] Attempt {attempt + 1} using {model_name}...")
             raw = _call_gemini(model_name, system_prompt, user_prompt)
 
-            # Always save raw response before validation
             if save_raw_path:
                 os.makedirs(os.path.dirname(save_raw_path), exist_ok=True)
                 with open(save_raw_path, "w") as f:
@@ -103,9 +108,8 @@ def run_batch(
                 return None
 
         except Exception as e:
-            # Handle rate limit errors specifically
             if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
-                wait = 60  # wait a full minute on rate limit hit
+                wait = 60
                 print(f"[GEMINI] Rate limit hit. Waiting {wait}s...")
                 time.sleep(wait)
                 if attempt < GEMINI_MAX_RETRIES:
