@@ -1,0 +1,29 @@
+# RSS feed sources for Indian financial news
+# Add/remove sources here. Pipeline reads this file on every run.
+# Start with 3-5 reliable sources. Expand gradually.
+
+sources:
+  - name: Economic Times Markets
+    url: https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms
+    priority: high
+    tags: [markets, equity, macro]
+
+  - name: Mint Personal Finance
+    url: https://www.livemint.com/rss/money
+    priority: high
+    tags: [personal_finance, mutual_funds, tax]
+
+  - name: MoneyControl News
+    url: https://www.moneycontrol.com/rss/latestnews.xml
+    priority: medium
+    tags: [markets, macro, policy]
+
+  - name: SEBI Press Releases
+    url: https://www.sebi.gov.in/sebi_data/rss/rss_press_releases.xml
+    priority: high
+    tags: [regulatory, sebi]
+
+  - name: RBI Press Releases
+    url: https://www.rbi.org.in/scripts/rss.aspx
+    priority: high
+    tags: [regulatory, rbi, monetary_policy]

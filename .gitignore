@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+.DS_Store
+output/
+*.mp3
+*.webp
+*.png
+node_modules/
+.hugo_build.lock

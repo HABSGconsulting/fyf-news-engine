@@ -1,0 +1,25 @@
+Here are the financial news items collected since the last pipeline run:
+
+{NEWS_ITEMS}
+
+---
+Instructions:
+
+1. Compare all items. Select {MIN_POSTS}–{MAX_POSTS} that most materially affect a retail
+   Indian investor today. Quality over quantity — if fewer than {MIN_POSTS} items genuinely
+   matter, select fewer.
+
+2. For each SELECTED item (score >= 5):
+   Return the full editorial object with English and Hindi content.
+
+3. For all REMAINING items (score 1–4):
+   Return a one-line summary and category only (for More Reads section).
+
+4. Return a single JSON object matching this structure:
+
+{{
+  "impact_posts": [ ...array of full ImpactPost objects... ],
+  "more_reads": [ ...array of MoreReadsItem objects... ]
+}}
+
+JSON schema for ImpactPost and MoreReadsItem is defined in src/ai/schema.py.
