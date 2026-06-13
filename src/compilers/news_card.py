@@ -1,8 +1,10 @@
 """news_card.py — builds Hugo Markdown posts (EN + HI) from a validated ImpactPost."""
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from src.ai.schema import ImpactPost, ImpactContent
 from config.mappings import CATEGORY_LABEL, PERSONA_LABEL, HORIZON_LABEL
 from config.settings import IMPACT_SCORE_PREMIUM_THRESHOLD, NEWS_CONTENT_PATH
+
+IST = timezone(timedelta(hours=5, minutes=30))
 
 
 def _slug(post: ImpactPost, run_dt: datetime) -> str:
@@ -90,7 +92,7 @@ def _body_en(c: ImpactContent) -> str:
 
 
 def _body_hi(c: ImpactContent) -> str:
-    return f"""किसे असर होगा
+    return f"""## किसे असर होगा
 
 {c.who_affected}
 
@@ -112,13 +114,17 @@ def build_news_card(post: ImpactPost, run_dt: datetime | None = None) -> dict[st
     """
     Returns dict of {relative_path: markdown_content}.
     Always returns both EN and HI files.
+    run_dt is converted to IST so post dates display correctly on the site.
     """
     if run_dt is None:
         run_dt = datetime.now(timezone.utc)
 
-    slug = _slug(post, run_dt)
-    date_str = run_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-    year_month = run_dt.strftime("%Y/%m")
+    # Convert to IST so slug timestamps and frontmatter dates are in Indian time
+    run_dt_ist = run_dt.astimezone(IST)
+
+    slug = _slug(post, run_dt_ist)
+    date_str = run_dt_ist.strftime("%Y-%m-%dT%H:%M:%S+05:30")
+    year_month = run_dt_ist.strftime("%Y/%m")
 
     en_path = f"{NEWS_CONTENT_PATH}/{year_month}/{slug}.md"
     hi_path = f"{NEWS_CONTENT_PATH}/{year_month}/{slug}.hi.md"
