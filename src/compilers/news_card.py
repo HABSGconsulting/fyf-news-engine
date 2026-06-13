@@ -90,19 +90,19 @@ def _body_en(c: ImpactContent) -> str:
 
 
 def _body_hi(c: ImpactContent) -> str:
-    return f"""## Kise prabhavit karta hai
+    return f"""किसे असर होगा
 
 {c.who_affected}
 
-## Kya badlega
+## क्या बदलेगा
 
 {c.what_changes}
 
-## Kyun zaroori hai
+## यह क्यों ज़रूरी है
 
 {c.sentiment_reason}
 
-## Aap kya kar sakte hain
+## आप क्या कर सकते हैं
 
 {c.action_to_consider}
 """
