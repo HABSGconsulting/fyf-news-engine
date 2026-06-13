@@ -40,11 +40,11 @@ EXACT JSON STRUCTURE TO RETURN:
         "action_to_consider": "Check with your bank when the revised EMI schedule takes effect."
       }},
       "content_hi": {{
-        "headline": "Home loan sasta hua — RBI ne rate ghataaya",
-        "who_affected": "Floating rate home loan holders ke EMI kam hoge.",
-        "what_changes": "EMI 1–3 mahine mein kam ho sakti hai.",
-        "sentiment_reason": "Rate cut se borrowing cost ghatti hai.",
-        "action_to_consider": "Apne bank se poochhen ki nayi EMI schedule kab lagegi."
+        "headline": "होम लोन सस्ता हुआ — RBI ने rate घटाया",
+        "who_affected": "फ्लोटिंग rate वाले होम लोन धारकों की EMI कम होगी।",
+        "what_changes": "EMI 1–3 महीने में कम हो सकती है।",
+        "sentiment_reason": "rate कट से उधार लेने की लागत घटती है।",
+        "action_to_consider": "अपने बैंक से पूछें कि नई EMI schedule कब लागू होगी।"
       }},
       "learn_links": [],
       "source_links": [
@@ -52,7 +52,7 @@ EXACT JSON STRUCTURE TO RETURN:
       ],
       "shareable": true,
       "push_notify": true,
-      "whatsapp_caption": "RBI ne rate ghataaya — EMI kam hogi!"
+      "whatsapp_caption": "RBI ने rate घटाया — EMI कम होगी!"
     }}
   ],
   "more_reads": [
@@ -75,9 +75,11 @@ FIELD RULES:
 - impact_horizon: exactly one of: immediate | short_term | medium_term | long_term | structural
 - concept_difficulty: exactly one of: beginner | intermediate | advanced
 - event_series: one of RBI_MPC | UNION_BUDGET | SEBI_BOARD | QUARTERLY_RESULTS | ANNUAL_INFLATION | NIFTY_MILESTONE | FII_FLOW_TREND — or null if not a recurring event
-- whatsapp_caption: Hindi caption, max 60 chars
+- whatsapp_caption: Hindi caption in Devanagari script, max 60 chars
 - source_links: max 3 items, each with url and label
 - learn_links: can be empty list []
 - shareable: true or false
 - push_notify: true or false
+- All content_en fields must be in English
+- All content_hi fields (headline, who_affected, what_changes, sentiment_reason, action_to_consider) MUST be written entirely in Devanagari Hindi script — NOT in Roman/Hinglish. Keep financial terms (SIP, EMI, NAV, rate, portfolio etc.) in English within the Devanagari text.
 - All content_en and content_hi fields are required — do not omit any sub-field
