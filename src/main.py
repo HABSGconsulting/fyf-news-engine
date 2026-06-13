@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from src.feeds.fetcher import fetch_all_feeds
 from src.feeds.dedup import filter_seen, mark_seen
 from src.ai.gemini_client import run_batch
-from src.compilers.news_card import build_news_card
+from src.compilers.news_card import build_news_card, build_section_indexes
 from src.compilers.more_reads import build_more_reads
 from src.git.publisher import publish_files
 from src.logs.run_log import write_run_log
@@ -49,6 +49,9 @@ def main() -> None:
     # 4. Build output files
     print("[4/5] Building Markdown + YAML files...")
     files_to_publish: dict[str, str] = {}
+
+    # Always include section _index.md files so Hugo walks the full tree
+    files_to_publish.update(build_section_indexes(run_dt))
 
     for post in posts:
         path, content = build_news_card(post, run_dt)
