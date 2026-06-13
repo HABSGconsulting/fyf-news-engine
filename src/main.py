@@ -30,7 +30,7 @@ def main() -> None:
 
     if not new_items:
         print("      Nothing new — exiting cleanly.")
-        write_run_log(run_dt, status="skipped", posts_published=0, items_seen=0)
+        write_run_log({"status": "skipped", "posts_published": 0, "items_seen": 0})
         sys.exit(0)
 
     # 3. Call Gemini
@@ -60,9 +60,14 @@ def main() -> None:
     print("[5/5] Publishing to fyf-news-site...")
     publish_files(files_to_publish, run_label)
 
-    # 6. Mark items as seen + write run log
-    mark_seen(new_items)
-    write_run_log(run_dt, status="ok", posts_published=len(posts), items_seen=len(new_items))
+    # 6. Mark seen + write run log
+    item_hashes = mark_seen(new_items)
+    write_run_log({
+        "status": "ok",
+        "posts_published": len(posts),
+        "items_seen": len(new_items),
+        "item_hashes": item_hashes,
+    })
     print(f"\n=== Done. {len(posts)} posts published. ===")
 
 
