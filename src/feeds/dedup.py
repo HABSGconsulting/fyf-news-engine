@@ -21,11 +21,18 @@ def load_seen_hashes(window_hours: int = 48) -> set[str]:
         cutoff = datetime.now(timezone.utc) - timedelta(hours=window_hours)
         seen = set()
         for run in log.get("runs", []):
-            run_time = datetime.fromisoformat(run["run_id"])
-            if run_time > cutoff:
-                seen.update(run.get("item_hashes", []))
+            try:
+                run_time = datetime.fromisoformat(run["run_id"])
+                if run_time > cutoff:
+                    seen.update(run.get("item_hashes", []))
+            except Exception:
+                continue
         return seen
-    except Exception:
+    except json.JSONDecodeError as e:
+        print(f"[WARN] run_log.json corrupted: {e} — continuing without dedup")
+        return set()
+    except Exception as e:
+        print(f"[WARN] Failed to load run log: {e} — continuing without dedup")
         return set()
 
 
