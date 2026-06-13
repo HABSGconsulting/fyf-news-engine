@@ -43,7 +43,13 @@ def main() -> None:
     print(f"      {len(posts)} impact posts generated")
 
     if len(posts) < MIN_IMPACT_POSTS_PER_RUN:
-        print(f"      WARNING: only {len(posts)} posts — below minimum {MIN_IMPACT_POSTS_PER_RUN}")
+        print(f"      ERROR: only {len(posts)} posts generated — below minimum {MIN_IMPACT_POSTS_PER_RUN}. Marking run as failed.")
+        write_run_log({
+            "status": "below_minimum",
+            "posts_published": len(posts),
+            "items_seen": len(new_items),
+        })
+        sys.exit(1)
 
     print("[4/5] Building Markdown + YAML files...")
     files_to_publish: dict[str, str] = {}
