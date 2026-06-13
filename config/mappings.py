@@ -1,6 +1,36 @@
 # Lookup tables: script uses these to auto-fill frontmatter fields
 # AI never needs to know these mappings
 
+CATEGORY_LABEL = {
+    "macro":       "Macro",
+    "regulatory":  "Regulatory",
+    "taxation":    "Taxation",
+    "product":     "Product",
+    "performance": "Performance",
+    "sectoral":    "Sectoral",
+    "behavioral":  "Behavioral",
+    "house":       "Fund House",
+}
+
+PERSONA_LABEL = {
+    "sip_investor":         "SIP Investor",
+    "home_loan_holder":     "Home Loan Holder",
+    "retiree":              "Retiree",
+    "fixed_income_investor": "Fixed Income Investor",
+    "tax_planner":          "Tax Planner",
+    "new_investor":         "New Investor",
+    "equity_trader":        "Equity Trader",
+    "business_owner":       "Business Owner",
+}
+
+HORIZON_LABEL = {
+    "immediate":    "Immediate",
+    "short_term":   "Short Term",
+    "medium_term":  "Medium Term",
+    "long_term":    "Long Term",
+    "structural":   "Structural",
+}
+
 CATEGORY_TO_ORG_RELEVANCE = {
     "macro":       ["mf_house", "bank", "mfd_network", "insurance"],
     "regulatory":  ["mf_house", "mfd_network", "ria_firm"],
