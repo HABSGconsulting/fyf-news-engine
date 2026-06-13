@@ -1,6 +1,6 @@
 """main.py — FYF News Pipeline orchestrator."""
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 from src.feeds.fetcher import fetch_all_feeds
 from src.feeds.dedup import filter_seen, mark_seen
@@ -11,10 +11,12 @@ from src.git.publisher import publish_files
 from src.logs.run_log import write_run_log
 from config.settings import MIN_IMPACT_POSTS_PER_RUN
 
+IST = timezone(timedelta(hours=5, minutes=30))
+
 
 def main() -> None:
-    run_dt = datetime.now(timezone.utc)
-    run_label = run_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+    run_dt = datetime.now(IST)
+    run_label = run_dt.strftime("%Y-%m-%dT%H:%M:%S+05:30")
     print(f"\n=== FYF Pipeline run: {run_label} ===")
 
     print("[1/5] Fetching RSS feeds...")
@@ -50,7 +52,6 @@ def main() -> None:
     files_to_publish.update(build_section_indexes(run_dt))
 
     for post in posts:
-        # build_news_card now returns dict {en_path: content, hi_path: content}
         files_to_publish.update(build_news_card(post, run_dt))
 
     if run_output.more_reads:
