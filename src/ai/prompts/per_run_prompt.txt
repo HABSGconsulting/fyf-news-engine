@@ -9,17 +9,75 @@ Instructions:
    Indian investor today. Quality over quantity — if fewer than {MIN_POSTS} items genuinely
    matter, select fewer.
 
-2. For each SELECTED item (score >= 5):
-   Return the full editorial object with English and Hindi content.
+2. For each SELECTED item (impact score >= 5), return a full ImpactPost object.
 
-3. For all REMAINING items (score 1–4):
-   Return a one-line summary and category only (for More Reads section).
+3. For all REMAINING items (score 1–4), return a MoreReadsItem object.
 
-4. Return a single JSON object matching this structure:
+4. Return ONLY a single valid JSON object. No markdown, no code fences, no extra text.
+
+---
+EXACT JSON STRUCTURE TO RETURN:
 
 {{
-  "impact_posts": [ ...array of full ImpactPost objects... ],
-  "more_reads": [ ...array of MoreReadsItem objects... ]
+  "impact_posts": [
+    {{
+      "editorial_impact_score": 7,
+      "sentiment": "positive",
+      "category": "macro",
+      "subject_tags": ["repo rate", "home loan", "EMI"],
+      "trigger_event": "RBI_MPC_Jun2026",
+      "event_series": "RBI_MPC",
+      "primary_persona": "home_loan_holder",
+      "affected_personas": ["home_loan_holder", "sip_investor"],
+      "impact_horizon": "short_term",
+      "concepts": ["repo rate", "monetary policy", "EMI"],
+      "concept_difficulty": "beginner",
+      "content_en": {{
+        "headline": "Your home loan just got cheaper — RBI cuts rates",
+        "who_affected": "Home loan holders with floating rate loans will see lower EMIs.",
+        "what_changes": "EMIs on floating rate home loans will drop within 1–3 months.",
+        "sentiment_reason": "Rate cuts reduce borrowing costs for retail borrowers.",
+        "action_to_consider": "Check with your bank when the revised EMI schedule takes effect."
+      }},
+      "content_hi": {{
+        "headline": "Home loan sasta hua — RBI ne rate ghataaya",
+        "who_affected": "Floating rate home loan holders ke EMI kam hoge.",
+        "what_changes": "EMI 1–3 mahine mein kam ho sakti hai.",
+        "sentiment_reason": "Rate cut se borrowing cost ghatti hai.",
+        "action_to_consider": "Apne bank se poochhen ki nayi EMI schedule kab lagegi."
+      }},
+      "learn_links": [],
+      "source_links": [
+        {{"url": "https://example.com", "label": "RBI Press Release"}}
+      ],
+      "shareable": true,
+      "push_notify": true,
+      "whatsapp_caption": "RBI ne rate ghataaya — EMI kam hogi!"
+    }}
+  ],
+  "more_reads": [
+    {{
+      "title": "SEBI tightens MF disclosure norms",
+      "url": "https://example.com/sebi-disclosure",
+      "one_liner": "SEBI mandates stricter expense ratio disclosure for mutual funds.",
+      "category": "regulatory"
+    }}
+  ]
 }}
 
-JSON schema for ImpactPost and MoreReadsItem is defined in src/ai/schema.py.
+---
+FIELD RULES:
+- editorial_impact_score: integer 1–10
+- sentiment: exactly one of: positive | negative | neutral | watch
+- category: exactly one of: macro | regulatory | performance | product | house | taxation | sectoral | behavioral
+- primary_persona: exactly one of: sip_investor | home_loan_holder | retiree | fixed_income_investor | tax_planner | new_investor | equity_trader | business_owner
+- affected_personas: list using same values as primary_persona
+- impact_horizon: exactly one of: immediate | short_term | medium_term | long_term | structural
+- concept_difficulty: exactly one of: beginner | intermediate | advanced
+- event_series: one of RBI_MPC | UNION_BUDGET | SEBI_BOARD | QUARTERLY_RESULTS | ANNUAL_INFLATION | NIFTY_MILESTONE | FII_FLOW_TREND — or null if not a recurring event
+- whatsapp_caption: Hindi caption, max 60 chars
+- source_links: max 3 items, each with url and label
+- learn_links: can be empty list []
+- shareable: true or false
+- push_notify: true or false
+- All content_en and content_hi fields are required — do not omit any sub-field
