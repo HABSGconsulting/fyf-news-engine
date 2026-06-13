@@ -17,12 +17,10 @@ def main() -> None:
     run_label = run_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
     print(f"\n=== FYF Pipeline run: {run_label} ===")
 
-    # 1. Fetch feeds
     print("[1/5] Fetching RSS feeds...")
     raw_items = fetch_all_feeds()
     print(f"      {len(raw_items)} raw items fetched")
 
-    # 2. Dedup
     print("[2/5] Deduplicating...")
     new_items = filter_seen(raw_items)
     print(f"      {len(new_items)} new items after dedup")
@@ -32,7 +30,6 @@ def main() -> None:
         write_run_log({"status": "skipped", "posts_published": 0, "items_seen": 0})
         sys.exit(0)
 
-    # 3. Call Gemini
     print("[3/5] Calling Gemini AI...")
     run_output = run_batch(new_items)
     if run_output is None:
@@ -46,28 +43,25 @@ def main() -> None:
     if len(posts) < MIN_IMPACT_POSTS_PER_RUN:
         print(f"      WARNING: only {len(posts)} posts — below minimum {MIN_IMPACT_POSTS_PER_RUN}")
 
-    # 4. Build output files
     print("[4/5] Building Markdown + YAML files...")
     files_to_publish: dict[str, str] = {}
 
-    # Always include section _index.md files so Hugo walks the full tree
+    # Section _index.md files so Hugo walks the full year/month tree
     files_to_publish.update(build_section_indexes(run_dt))
 
     for post in posts:
-        path, content = build_news_card(post, run_dt)
-        files_to_publish[path] = content
+        # build_news_card now returns dict {en_path: content, hi_path: content}
+        files_to_publish.update(build_news_card(post, run_dt))
 
     if run_output.more_reads:
         mr_path, mr_content = build_more_reads(run_output.more_reads, run_dt)
         files_to_publish[mr_path] = mr_content
 
-    print(f"      {len(files_to_publish)} files ready")
+    print(f"      {len(files_to_publish)} files ready ({len(posts)} EN + {len(posts)} HI + indexes)")
 
-    # 5. Publish to fyf-news-site
     print("[5/5] Publishing to fyf-news-site...")
     publish_files(files_to_publish, run_label)
 
-    # 6. Mark seen + write run log
     item_hashes = mark_seen(new_items)
     write_run_log({
         "status": "ok",
@@ -75,7 +69,7 @@ def main() -> None:
         "items_seen": len(new_items),
         "item_hashes": item_hashes,
     })
-    print(f"\n=== Done. {len(posts)} posts published. ===")
+    print(f"\n=== Done. {len(posts)} EN + {len(posts)} HI posts published. ===")
 
 
 if __name__ == "__main__":
