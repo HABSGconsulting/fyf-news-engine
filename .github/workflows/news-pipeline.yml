@@ -39,7 +39,7 @@ jobs:
           CF_R2_ENDPOINT_URL: ${{ secrets.CF_R2_ENDPOINT_URL }}
           NEWS_SITE_DEPLOY_KEY: ${{ secrets.NEWS_SITE_DEPLOY_KEY }}
           BLOG_SITE_DEPLOY_KEY: ${{ secrets.BLOG_SITE_DEPLOY_KEY }}
-        run: python src/main.py
+        run: python -m src.main
 
       - name: Commit run log
         run: |
