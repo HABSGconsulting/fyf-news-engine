@@ -155,6 +155,20 @@
         "c25a4f4aa7f6bcd9c1b8f8c1bcec0e76",
         "4fc1d95006629bbf49455c136eb1e79a"
       ]
+    },
+    {
+      "run_id": "2026-06-13T10:06:40.812577+00:00",
+      "status": "ok",
+      "posts_published": 2,
+      "items_seen": 6,
+      "item_hashes": [
+        "73824f9294a2453e7b6096bc8afefcdf",
+        "6c33f43c149a06cf5114716c58a3bce8",
+        "4c5d669398263bc0239c13869e6e9a79",
+        "bafd770a7e51754f2e8b8171a48396d9",
+        "566f9c145906014a0aab117275aa9368",
+        "9eb36dcf56608d017575d944d59ff1c4"
+      ]
     }
   ]
 }
