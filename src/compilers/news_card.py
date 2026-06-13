@@ -1,6 +1,5 @@
 """news_card.py — builds Hugo Markdown post from a validated ImpactPost."""
 from datetime import datetime, timezone
-from pathlib import Path
 from src.ai.schema import ImpactPost
 from config.mappings import CATEGORY_LABEL, PERSONA_LABEL, HORIZON_LABEL
 from config.settings import IMPACT_SCORE_PREMIUM_THRESHOLD, NEWS_CONTENT_PATH
@@ -13,6 +12,22 @@ def _slug(post: ImpactPost, run_dt: datetime) -> str:
     base = "-".join(base.split()[:8])
     ts = run_dt.strftime("%Y%m%d-%H%M")
     return f"{ts}-{base}"
+
+
+def build_section_indexes(run_dt: datetime) -> dict[str, str]:
+    """
+    Return _index.md files for the year and month directories.
+    Hugo requires these to exist at every nested level to walk the tree.
+    Safe to re-publish — publisher.py uses PUT which is idempotent.
+    """
+    year = run_dt.strftime("%Y")
+    month_label = run_dt.strftime("%B %Y")   # e.g. "June 2026"
+    year_month = run_dt.strftime("%Y/%m")
+
+    return {
+        f"{NEWS_CONTENT_PATH}/{year}/_index.md": f"---\ntitle: \"{year}\"\n---\n",
+        f"{NEWS_CONTENT_PATH}/{year_month}/_index.md": f"---\ntitle: \"{month_label}\"\n---\n",
+    }
 
 
 def build_news_card(post: ImpactPost, run_dt: datetime | None = None) -> tuple[str, str]:
