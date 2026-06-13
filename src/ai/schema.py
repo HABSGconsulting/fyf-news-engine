@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 from typing import Optional
 from enum import Enum
 
@@ -73,21 +73,36 @@ class ImpactPost(BaseModel):
     editorial_impact_score: int = Field(ge=1, le=10)
     sentiment: Sentiment
     category: Category
-    subject_tags: list[str]
-    trigger_event: str = Field(description="e.g. RBI_MPC_Jun2026")
+    subject_tags: list[str] = Field(default_factory=list)
+    trigger_event: str = Field(default="")
     event_series: Optional[EventSeries] = None
     primary_persona: Persona
-    affected_personas: list[Persona]
+    affected_personas: list[Persona] = Field(default_factory=list)
     impact_horizon: ImpactHorizon
-    concepts: list[str]
-    concept_difficulty: str
+    concepts: list[str] = Field(default_factory=list)
+    concept_difficulty: str = Field(default="beginner")
     content_en: ImpactContent
     content_hi: ImpactContent
-    learn_links: list[LearnLink] = []
-    source_links: list[SourceLink] = Field(max_length=3, default=[])
-    shareable: bool
-    push_notify: bool
-    whatsapp_caption: str = Field(description="Short Hindi caption for WhatsApp, max 60 chars")
+    learn_links: list[LearnLink] = Field(default_factory=list)
+    source_links: list[SourceLink] = Field(max_length=3, default_factory=list)
+    shareable: bool = True
+    push_notify: bool = False
+    whatsapp_caption: str = Field(default="")
+
+    @field_validator("trigger_event", mode="before")
+    @classmethod
+    def coerce_trigger_event(cls, v):
+        return v or ""
+
+    @field_validator("whatsapp_caption", mode="before")
+    @classmethod
+    def coerce_whatsapp_caption(cls, v):
+        return v or ""
+
+    @field_validator("concept_difficulty", mode="before")
+    @classmethod
+    def coerce_concept_difficulty(cls, v):
+        return v if v in ("beginner", "intermediate", "advanced") else "beginner"
 
 
 class MoreReadsItem(BaseModel):
@@ -99,4 +114,4 @@ class MoreReadsItem(BaseModel):
 
 class RunOutput(BaseModel):
     impact_posts: list[ImpactPost] = Field(min_length=0, max_length=5)
-    more_reads: list[MoreReadsItem]
+    more_reads: list[MoreReadsItem] = Field(default_factory=list)
