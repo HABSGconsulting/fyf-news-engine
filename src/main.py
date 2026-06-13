@@ -4,8 +4,7 @@ from datetime import datetime, timezone
 
 from src.feeds.fetcher import fetch_all_feeds
 from src.feeds.dedup import filter_seen, mark_seen
-from src.ai.gemini_client import call_gemini
-from src.ai.schema import RunOutput
+from src.ai.gemini_client import run_batch
 from src.compilers.news_card import build_news_card
 from src.compilers.more_reads import build_more_reads
 from src.git.publisher import publish_files
@@ -35,7 +34,12 @@ def main() -> None:
 
     # 3. Call Gemini
     print("[3/5] Calling Gemini AI...")
-    run_output: RunOutput = call_gemini(new_items, run_dt)
+    run_output = run_batch(new_items)
+    if run_output is None:
+        print("      Gemini returned nothing — aborting.")
+        write_run_log({"status": "gemini_failed", "posts_published": 0, "items_seen": len(new_items)})
+        sys.exit(1)
+
     posts = run_output.impact_posts
     print(f"      {len(posts)} impact posts generated")
 
