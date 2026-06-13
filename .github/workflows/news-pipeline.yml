@@ -12,7 +12,7 @@ on:
 
 concurrency:
   group: fyf-news-pipeline
-  cancel-in-progress: false   # queue, never cancel overlapping runs
+  cancel-in-progress: false
 
 jobs:
   run-pipeline:
@@ -46,10 +46,11 @@ jobs:
         run: python -m src.main
 
       - name: Commit run log
+        if: always()
         run: |
           git config user.name "fyf-pipeline"
           git config user.email "pipeline@fundyourfreedom.in"
           git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
-          git add data/run_log.json data/last_run.txt
+          git add data/ 2>/dev/null || true
           git diff --staged --quiet || git commit -m "log: pipeline run $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git push
+          git push || true
