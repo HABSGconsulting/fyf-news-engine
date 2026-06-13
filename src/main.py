@@ -3,7 +3,7 @@ import sys
 from datetime import datetime, timezone, timedelta
 
 from src.feeds.fetcher import fetch_all_feeds
-from src.feeds.dedup import filter_seen, mark_seen
+from src.feeds.dedup import filter_seen, mark_seen, write_seen_hashes
 from src.ai.gemini_client import run_batch
 from src.compilers.news_card import build_news_card, build_section_indexes
 from src.compilers.more_reads import build_more_reads
@@ -48,7 +48,6 @@ def main() -> None:
     print("[4/5] Building Markdown + YAML files...")
     files_to_publish: dict[str, str] = {}
 
-    # Section _index.md files so Hugo walks the full year/month tree
     files_to_publish.update(build_section_indexes(run_dt))
 
     for post in posts:
@@ -63,12 +62,15 @@ def main() -> None:
     print("[5/5] Publishing to fyf-news-site...")
     publish_files(files_to_publish, run_label)
 
+    # Write dedup hashes to seen_hashes.json (separate from run history)
     item_hashes = mark_seen(new_items)
+    write_seen_hashes(item_hashes)
+
+    # Write run history to run_log.json (no hashes)
     write_run_log({
         "status": "ok",
         "posts_published": len(posts),
         "items_seen": len(new_items),
-        "item_hashes": item_hashes,
     })
     print(f"\n=== Done. {len(posts)} EN + {len(posts)} HI posts published. ===")
 
