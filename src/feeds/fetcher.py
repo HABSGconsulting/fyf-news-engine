@@ -1,10 +1,7 @@
 """Fetch and normalize RSS feed items."""
 import feedparser
-import requests
 from datetime import datetime, timezone
-from typing import Optional
 import yaml
-import os
 
 
 def load_sources(sources_path: str = "src/feeds/sources.yaml") -> list[dict]:
@@ -12,7 +9,7 @@ def load_sources(sources_path: str = "src/feeds/sources.yaml") -> list[dict]:
         return yaml.safe_load(f)["sources"]
 
 
-def fetch_feed(url: str, timeout: int = 15) -> list[dict]:
+def fetch_feed(url: str) -> list[dict]:
     """Fetch one RSS feed and return normalized items."""
     try:
         feed = feedparser.parse(url, request_headers={"User-Agent": "FYF-NewsEngine/1.0"})
@@ -31,8 +28,8 @@ def fetch_feed(url: str, timeout: int = 15) -> list[dict]:
         return []
 
 
-def fetch_all(sources_path: str = "src/feeds/sources.yaml") -> list[dict]:
-    """Fetch all sources and return combined deduplicated list."""
+def fetch_all_feeds(sources_path: str = "src/feeds/sources.yaml") -> list[dict]:
+    """Fetch all sources and return combined list."""
     sources = load_sources(sources_path)
     all_items = []
     for source in sources:
