@@ -124,6 +124,37 @@
         "f2885391436ad1099f6a4918b5760f39",
         "aab1dc4d56d2fac7af27b1191f4ca36e"
       ]
+    },
+    {
+      "run_id": "2026-06-13T07:37:33.943485+00:00",
+      "status": "ok",
+      "posts_published": 2,
+      "items_seen": 23,
+      "item_hashes": [
+        "01b6e5d1ccd30889f2ebe77991ea280d",
+        "23ae288ff3620a247356d13ac7df026b",
+        "edd3f654fb8d5cdfa427f44e4d432f44",
+        "aa488136e9fb769ac7f22796cb36d0dd",
+        "dbae9470bbe0818c05a4758ee830bfe5",
+        "b23036f382609ff09a79109076cd2be3",
+        "7c6cfcdf10ec101df42dadbc2338606d",
+        "9955a91c38ec1f7ad4dfd9c27995b647",
+        "21de81ac1cdeca616be0c29a49ed333d",
+        "74b8b3965e760924147ea6476b52a737",
+        "9d228e10f3028f5e259fde29952f9a9a",
+        "67fd50f749fa985c984f88b7fbc44c1d",
+        "c0bd78ac3d29f9efc5bc83f5e43a2b5b",
+        "6bea927dfc68e88bf86ac9f60b5bae41",
+        "bdb58339f68687d8bae305d5cfa25034",
+        "2233d325eeb616db9131b174e76a9e5f",
+        "bada61adbdbe8930ba17eabdc60f3dad",
+        "84f10725369db352d6dd406af4e6547f",
+        "1d3d4da2423b3bc211f467c92a8e9223",
+        "c026fc25c648ee63934144862aefbc24",
+        "e89a96cf3f8c3800febf3d701b5f29e8",
+        "c25a4f4aa7f6bcd9c1b8f8c1bcec0e76",
+        "4fc1d95006629bbf49455c136eb1e79a"
+      ]
     }
   ]
 }
