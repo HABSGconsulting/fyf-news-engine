@@ -1,12 +1,35 @@
-"""Deduplication against run history."""
-import json
+"""Deduplication via Cloudflare KV (48h TTL per hash)."""
 import hashlib
-from datetime import datetime, timezone, timedelta
+import json
 import os
-
-SEEN_HASHES_PATH = "data/seen_hashes.json"
+import urllib.request
+import urllib.error
+from datetime import datetime, timezone, timedelta
 
 IST = timezone(timedelta(hours=5, minutes=30))
+
+# Cloudflare KV REST API
+_CF_ACCOUNT_ID = os.environ.get("CF_KV_ACCOUNT_ID", "")
+_CF_NAMESPACE_ID = os.environ.get("CF_KV_NAMESPACE_ID", "")
+_CF_API_TOKEN = os.environ.get("CF_KV_API_TOKEN", "")
+_KV_BASE = "https://api.cloudflare.com/client/v4/accounts/{account}/storage/kv/namespaces/{ns}"
+_TTL_SECONDS = 48 * 3600  # 48 hours — KV auto-expires keys
+
+
+def _kv_available() -> bool:
+    return bool(_CF_ACCOUNT_ID and _CF_NAMESPACE_ID and _CF_API_TOKEN)
+
+
+def _kv_url(suffix: str = "") -> str:
+    base = _KV_BASE.format(account=_CF_ACCOUNT_ID, ns=_CF_NAMESPACE_ID)
+    return base + suffix
+
+
+def _headers() -> dict:
+    return {
+        "Authorization": f"Bearer {_CF_API_TOKEN}",
+        "Content-Type": "application/json",
+    }
 
 
 def _item_hash(item: dict) -> str:
@@ -14,76 +37,87 @@ def _item_hash(item: dict) -> str:
     return hashlib.md5(key.encode()).hexdigest()
 
 
-def load_seen_hashes(window_hours: int = 48) -> set[str]:
-    """Load hashes seen within the last window_hours from seen_hashes.json."""
-    if not os.path.exists(SEEN_HASHES_PATH):
-        return set()
+# ---------------------------------------------------------------------------
+# KV read
+# ---------------------------------------------------------------------------
+
+def _kv_key_exists(hash_val: str) -> bool:
+    """Return True if the hash key exists in KV (i.e. was seen recently)."""
+    url = _kv_url(f"/values/{hash_val}")
+    req = urllib.request.Request(url, headers=_headers())
     try:
-        with open(SEEN_HASHES_PATH) as f:
-            data = json.load(f)
-        cutoff = datetime.now(IST) - timedelta(hours=window_hours)
-        seen = set()
-        for entry in data.get("entries", []):
-            try:
-                entry_time = datetime.fromisoformat(entry["seen_at"])
-                if entry_time > cutoff:
-                    seen.update(entry.get("hashes", []))
-            except Exception:
-                continue
-        return seen
-    except json.JSONDecodeError as e:
-        print(f"[WARN] seen_hashes.json corrupted: {e} — continuing without dedup")
-        return set()
-    except Exception as e:
-        print(f"[WARN] Failed to load seen hashes: {e} — continuing without dedup")
-        return set()
+        with urllib.request.urlopen(req):
+            return True
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return False
+        raise
+
+
+# ---------------------------------------------------------------------------
+# KV write (bulk)
+# ---------------------------------------------------------------------------
+
+def _kv_write_bulk(hashes: list[str]) -> None:
+    """Write all hashes to KV in one bulk PUT call with 48h expiration."""
+    if not hashes:
+        return
+    url = _kv_url("/bulk")
+    payload = [
+        {"key": h, "value": "1", "expiration_ttl": _TTL_SECONDS}
+        for h in hashes
+    ]
+    body = json.dumps(payload).encode()
+    req = urllib.request.Request(url, data=body, headers=_headers(), method="PUT")
+    with urllib.request.urlopen(req) as resp:
+        resp.read()
+
+
+# ---------------------------------------------------------------------------
+# Public API (same interface as before — main.py unchanged)
+# ---------------------------------------------------------------------------
+
+def load_seen_hashes(window_hours: int = 48) -> set[str]:
+    """Returns empty set — KV checks are done per-item in filter_seen."""
+    return set()
 
 
 def filter_seen(items: list[dict], window_hours: int = 48) -> list[dict]:
-    """Return only items not seen in the last window_hours."""
-    seen = load_seen_hashes(window_hours)
-    return [item for item in items if _item_hash(item) not in seen]
+    """Return only items whose hash is NOT present in KV.
+
+    Falls back to allowing all items if KV secrets are missing (safe default).
+    """
+    if not _kv_available():
+        print("[DEDUP] KV secrets not set — skipping dedup (all items pass through)")
+        return items
+
+    new_items = []
+    for item in items:
+        h = _item_hash(item)
+        try:
+            if not _kv_key_exists(h):
+                new_items.append(item)
+        except Exception as e:
+            print(f"[DEDUP] KV read error for hash {h}: {e} — treating as new")
+            new_items.append(item)
+    return new_items
 
 
 def mark_seen(items: list[dict]) -> list[str]:
-    """Return hashes for the given items (for storing in seen_hashes.json)."""
+    """Return MD5 hashes for the given items."""
     return [_item_hash(item) for item in items]
 
 
 def write_seen_hashes(hashes: list[str]) -> None:
-    """Append a new batch of hashes to seen_hashes.json, pruning entries older than 72h."""
-    os.makedirs("data", exist_ok=True)
-    now = datetime.now(IST)
-    cutoff = now - timedelta(hours=72)
+    """Write hashes to Cloudflare KV with 48h TTL.
 
-    data = {"entries": []}
-    if os.path.exists(SEEN_HASHES_PATH):
-        try:
-            with open(SEEN_HASHES_PATH) as f:
-                data = json.load(f)
-        except Exception:
-            data = {"entries": []}
-
-    # Prune entries older than 72h
-    data["entries"] = [
-        e for e in data.get("entries", [])
-        if _parse_dt(e.get("seen_at", "")) > cutoff
-    ]
-
-    # Append new batch
-    if hashes:
-        data["entries"].append({
-            "seen_at": now.isoformat(),
-            "hashes": hashes,
-        })
-
-    with open(SEEN_HASHES_PATH, "w") as f:
-        json.dump(data, f, indent=2)
-
-
-def _parse_dt(s: str) -> datetime:
-    """Parse ISO datetime string; return epoch if unparseable."""
+    Falls back silently if KV secrets are not configured.
+    """
+    if not _kv_available():
+        print("[DEDUP] KV secrets not set — hashes not persisted")
+        return
     try:
-        return datetime.fromisoformat(s)
-    except Exception:
-        return datetime(1970, 1, 1, tzinfo=timezone.utc)
+        _kv_write_bulk(hashes)
+        print(f"[DEDUP] {len(hashes)} hashes written to KV (48h TTL)")
+    except Exception as e:
+        print(f"[DEDUP] KV write error: {e} — hashes not persisted (next run may re-process)")
