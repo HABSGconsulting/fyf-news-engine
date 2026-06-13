@@ -6,8 +6,8 @@ from datetime import datetime, timezone
 RUN_LOG_PATH = "data/run_log.json"
 
 
-def write_run_log(run_data: dict):
-    """Append run metadata to run_log.json."""
+def write_run_log(run_data: dict) -> None:
+    """Append run metadata to run_log.json. run_data must include status, posts_published, items_seen."""
     log = {"runs": []}
     if os.path.exists(RUN_LOG_PATH):
         with open(RUN_LOG_PATH) as f:
