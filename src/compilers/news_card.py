@@ -61,6 +61,11 @@ affected_personas:
 {personas_yaml}
 impact_horizon: "{horizon_label}"
 editorial_impact_score: {post.editorial_impact_score}
+reach_score: {post.reach_score}
+immediacy_score: {post.immediacy_score}
+materiality_score: {post.materiality_score}
+surprise_score: {post.surprise_score}
+source_score: {post.source_score}
 premium: {str(premium).lower()}
 shareable: {str(post.shareable).lower()}
 push_notify: {str(post.push_notify).lower()}
