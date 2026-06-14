@@ -231,6 +231,15 @@
       "items_evaluated": 3,
       "items_skipped": 2,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-06-14T19:34:30.440565+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "items_seen": 3,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "more_reads": 0
     }
   ]
 }
