@@ -25,6 +25,8 @@ Instructions:
    - Hindi content must be in Devanagari script (not Hinglish)
    - push_notify: true only for score >= 8
    - source_links: include up to 3 real source URLs from the items provided
+   - primary_persona: the single persona most directly affected by this story
+   - affected_personas: ALL meaningfully affected personas (include primary; do not truncate)
 
 5. There is no minimum or maximum number of impact posts.
    If 8 items score >= 5 today, return 8. If 1 item scores >= 5, return 1.
@@ -37,7 +39,7 @@ Instructions:
   "evaluated_items": [
     {{
       "reach_score": 2,
-      "reach_reasoning": "Affects home loan holders, SIP investors, and retirees directly.",
+      "reach_reasoning": "Affects retail borrowers, mutual fund investors, and fixed income investors directly.",
       "immediacy_score": 2,
       "immediacy_reasoning": "Banks will adjust floating rates within days of the RBI notification.",
       "materiality_score": 2,
@@ -53,15 +55,15 @@ Instructions:
       "subject_tags": ["repo rate", "home loan", "EMI", "monetary policy"],
       "trigger_event": "RBI_MPC_Jun2026",
       "event_series": "RBI_MPC",
-      "primary_persona": "home_loan_holder",
-      "affected_personas": ["home_loan_holder", "sip_investor", "retiree", "fixed_income_investor"],
+      "primary_persona": "retail_borrower",
+      "affected_personas": ["retail_borrower", "mutual_fund_investor", "fixed_income_investor", "long_term_investor"],
       "impact_horizon": "immediate",
       "concepts": ["repo rate", "monetary policy", "EMI", "floating rate"],
       "concept_difficulty": "beginner",
       "content_en": {{
         "headline": "Your home loan just got cheaper — RBI cuts rates",
         "who_affected": "Home loan holders with floating rate loans will see lower EMIs within weeks.",
-        "what_changes": "Monthly EMI on a Rs 50L, 20-year loan could drop by Rs 800-1,200.",
+        "what_changes": "Monthly EMI on a ₹50L, 20-year loan could drop by ₹800–1,200.",
         "sentiment_reason": "Rate cuts directly reduce borrowing costs for retail loan holders.",
         "action_to_consider": "Check with your bank when the revised EMI schedule takes effect."
       }},
@@ -82,52 +84,18 @@ Instructions:
       "shareable": true,
       "push_notify": true,
       "whatsapp_caption": "RBI ने rate घटाया — EMI कम होगी!"
-    }},
-    {{
-      "reach_score": 1,
-      "reach_reasoning": "Only relevant to long-term equity investors tracking IT sector.",
-      "immediacy_score": 0,
-      "immediacy_reasoning": "No action required by a retail investor; quarterly result already filed.",
-      "materiality_score": 0,
-      "materiality_reasoning": "Corporate earnings beat does not change the investor's personal finances.",
-      "surprise_score": 1,
-      "surprise_reasoning": "Slight beat within normal variance; not a significant delta.",
-      "source_score": 2,
-      "source_reasoning": "Official corporate filing to NSE/BSE.",
-      "editorial_impact_score": 4,
-      "gate_action": "More Reads",
-      "sentiment": null,
-      "category": null,
-      "subject_tags": [],
-      "trigger_event": "",
-      "event_series": null,
-      "primary_persona": null,
-      "affected_personas": [],
-      "impact_horizon": null,
-      "concepts": [],
-      "concept_difficulty": "beginner",
-      "content_en": null,
-      "content_hi": null,
-      "learn_links": [],
-      "source_links": [],
-      "more_reads_title": "Infosys Q4 profit beats estimates — steady but no surprise",
-      "more_reads_url": "https://example.com/infosys-q4",
-      "more_reads_one_liner": "Infosys Q4 net profit marginally beat consensus; no guidance revision.",
-      "shareable": true,
-      "push_notify": false,
-      "whatsapp_caption": ""
     }}
   ]
 }}
 
 ---
 FIELD RULES:
-- editorial_impact_score: must be the exact arithmetic sum of the 5 dimension scores
+- editorial_impact_score: exact arithmetic sum of the 5 dimension scores
 - gate_action: derived strictly from threshold — never override based on editorial judgment
 - sentiment: positive | negative | neutral | watch (null for Skip/More Reads)
-- category: macro | regulatory | performance | product | house | taxation | sectoral | behavioral (null for Skip/More Reads)
-- primary_persona: one of the 9 valid persona values (null for Skip/More Reads)
-- affected_personas: list of valid persona values (empty list for Skip/More Reads)
+- category: macro | regulatory | performance | product | house | taxation | sectoral | behavioral
+- primary_persona: one of the 8 valid values below (null for Skip/More Reads)
+- affected_personas: list of valid persona values; include all meaningfully affected; empty list for Skip/More Reads
 - impact_horizon: immediate | short_term | medium_term | long_term | structural (null for Skip/More Reads)
 - concept_difficulty: beginner | intermediate | advanced
 - event_series: RBI_MPC | UNION_BUDGET | SEBI_BOARD | QUARTERLY_RESULTS | ANNUAL_INFLATION | NIFTY_MILESTONE | FII_FLOW_TREND — or null
@@ -135,5 +103,7 @@ FIELD RULES:
 - push_notify: true only if editorial_impact_score >= 8
 - source_links: max 3 items; use real URLs from the news items provided
 - All content_en and content_hi sub-fields are required when gate_action starts with "Impact post"
-- For Skip entirely: return null for all content and publication fields
-- For More Reads: return null for content fields; populate more_reads_title, more_reads_url, more_reads_one_liner
+
+VALID PERSONA VALUES (use exactly these strings):
+mutual_fund_investor | retail_borrower | fixed_income_investor | long_term_investor
+active_trader | salaried_taxpayer | new_investor | business_owner
