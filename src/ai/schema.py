@@ -1,17 +1,17 @@
-from pydantic import BaseModel, Field, field_validator
-from typing import Optional, Literal
+from pydantic import BaseModel, Field, field_validator, model_validator
+from typing import Optional, Literal, List, Dict, Any
 from enum import Enum
 
 
 class Category(str, Enum):
-    MACRO = "macro"
-    REGULATORY = "regulatory"
+    MACRO       = "macro"
+    REGULATORY  = "regulatory"
     PERFORMANCE = "performance"
-    PRODUCT = "product"
-    HOUSE = "house"
-    TAXATION = "taxation"
-    SECTORAL = "sectoral"
-    BEHAVIORAL = "behavioral"
+    PRODUCT     = "product"
+    HOUSE       = "house"
+    TAXATION    = "taxation"
+    SECTORAL    = "sectoral"
+    BEHAVIORAL  = "behavioral"
 
 
 class Persona(str, Enum):
@@ -41,8 +41,8 @@ class Persona(str, Enum):
 class Sentiment(str, Enum):
     POSITIVE = "positive"
     NEGATIVE = "negative"
-    NEUTRAL = "neutral"
-    WATCH = "watch"
+    NEUTRAL  = "neutral"
+    WATCH    = "watch"
 
 
 class ImpactHorizon(str, Enum):
@@ -64,11 +64,19 @@ class EventSeries(str, Enum):
 
 
 class ImpactContent(BaseModel):
-    headline:          str = Field(description="Investor-framed headline. Lead with the investor.")
-    who_affected:      str = Field(description="One sentence: exact investor type and why affected")
-    what_changes:      str = Field(description="One sentence: what materially changes for them")
-    sentiment_reason:  str = Field(description="One sentence: why this sentiment tag")
-    action_to_consider:str = Field(description="One concrete non-advisory action investor can take")
+    headline:           str = Field(description="Investor-framed headline. Lead with the investor, not the institution. Max 12 words.")
+    who_affected:       str = Field(description="Exactly 1 sentence. Name the persona explicitly. Max 20 words.")
+    what_changes:       str = Field(description="Exactly 1 sentence. State what materially changes. MUST include a specific number, metric, or percentage. Max 30 words.")
+    # sentiment_reason removed: dead field, wasted tokens. Sentiment is self-evident from sentiment enum + what_changes.
+    action_to_consider: str = Field(
+        description=(
+            "Exactly 1 sentence. One concrete, non-advisory action the investor can take. "
+            "Write as if advising a client on a call — direct and conditional on the persona. "
+            "If the persona is sip_investor and horizon is short_term, affirm long-term discipline; do not suggest tactical moves. "
+            "If no action is warranted, state that explicitly and explain why in the same sentence. "
+            "Max 30 words. Active voice. No jargon without explanation."
+        )
+    )
 
 
 class LearnLink(BaseModel):
@@ -82,6 +90,33 @@ class SourceLink(BaseModel):
     label: str
 
 
+# ---------------------------------------------------------------------------
+# Horizon × Category constraint tables
+#
+# TIER 1 — Hard blocks: logically impossible combinations.
+# A ValidationError here causes gemini_client.py to retry the item.
+#
+# TIER 2 — Soft flags: unusual but plausible combinations.
+# Appended to validation_warnings for human review; no retry triggered.
+# ---------------------------------------------------------------------------
+
+_HARD_BLOCKS: set[tuple[str, str]] = {
+    # (impact_horizon, category)
+    ("immediate",  "behavioral"),   # Behavioural change cannot be immediate
+    ("structural", "performance"),  # Performance is point-in-time, not structural
+    ("long_term",  "performance"),  # Same: performance data is not long-term horizon
+    ("structural", "behavioral"),   # Behavioural shifts are medium/long, not structural policy
+}
+
+_SOFT_FLAGS: dict[tuple[str, str], str] = {
+    ("immediate",  "macro"):      "Macro events tagged immediate are rare. Verify reasoning.",
+    ("immediate",  "taxation"):   "Taxation changes rarely take immediate effect. Verify enactment date.",
+    ("immediate",  "sectoral"):   "Sectoral shifts are usually gradual. Verify immediate impact claim.",
+    ("structural", "product"):    "Product changes are rarely structural. Verify scope and permanence.",
+    ("long_term",  "behavioral"): "Behavioural trends are usually short/medium term. Verify long-term claim.",
+}
+
+
 class ImpactPost(BaseModel):
     # ------------------------------------------------------------------
     # Chain-of-Thought scoring (filled for ALL items, including skips)
@@ -89,17 +124,17 @@ class ImpactPost(BaseModel):
     reach_score:       int = Field(ge=0, le=2, description="0: institutional only. 1: 1-2 personas. 2: 3+ personas.")
     reach_reasoning:   str = Field(description="1-sentence justification for reach_score.")
 
-    immediacy_score:   int = Field(ge=0, le=2, description="0: long-term background. 1: 1-6 months. 2: days/weeks or immediate.")
+    immediacy_score:     int = Field(ge=0, le=2, description="0: long-term background. 1: 1-6 months. 2: days/weeks or already in effect.")
     immediacy_reasoning: str = Field(description="1-sentence justification for immediacy_score.")
 
-    materiality_score: int = Field(ge=0, le=2, description="0: opinion/no wallet impact. 1: indirect sector impact. 2: direct EMI/tax/fund cost change.")
+    materiality_score:     int = Field(ge=0, le=2, description="0: opinion/no wallet impact. 1: indirect sector impact. 2: direct EMI/tax/fund cost change.")
     materiality_reasoning: str = Field(description="1-sentence justification for materiality_score.")
 
-    surprise_score:    int = Field(ge=0, le=2, description="0: fully priced in. 1: partial surprise. 2: unexpected/landmark.")
+    surprise_score:     int = Field(ge=0, le=2, description="0: fully priced in. 1: partial surprise. 2: unexpected/landmark.")
     surprise_reasoning: str = Field(description="1-sentence justification for surprise_score.")
 
-    source_score:      int = Field(ge=0, le=2, description="0: rumour/analyst opinion. 1: credible draft/proposal. 2: official final circular/gazette.")
-    source_reasoning:  str = Field(description="1-sentence justification for source_score.")
+    source_score:     int = Field(ge=0, le=2, description="0: rumour/analyst opinion. 1: credible draft/proposal. 2: official final circular/gazette.")
+    source_reasoning: str = Field(description="1-sentence justification for source_score.")
 
     editorial_impact_score: int = Field(
         ge=0, le=10,
@@ -147,8 +182,31 @@ class ImpactPost(BaseModel):
     more_reads_one_liner: Optional[str] = Field(default=None)
 
     # ------------------------------------------------------------------
+    # Validation telemetry — written by model_validators below
+    # ------------------------------------------------------------------
+    validation_failed:   bool                  = Field(default=False)
+    validation_warnings: List[Dict[str, Any]]  = Field(default_factory=list)
+
+    # ------------------------------------------------------------------
     # Validators
     # ------------------------------------------------------------------
+
+    @field_validator("editorial_impact_score", mode="after")
+    @classmethod
+    def validate_score_is_sum(cls, v: int, info) -> int:
+        """Catch Gemini arithmetic errors before they affect gate_action."""
+        d = info.data
+        fields = ["reach_score", "immediacy_score", "materiality_score", "surprise_score", "source_score"]
+        if all(f in d for f in fields):
+            expected = sum(d[f] for f in fields)
+            if v != expected:
+                raise ValueError(
+                    f"editorial_impact_score {v} does not equal sum of dimension scores "
+                    f"({' + '.join(str(d[f]) for f in fields)} = {expected}). "
+                    "Recalculate and correct."
+                )
+        return v
+
     @field_validator("gate_action")
     @classmethod
     def validate_gate_action(cls, v: str, info) -> str:
@@ -179,6 +237,42 @@ class ImpactPost(BaseModel):
     @classmethod
     def coerce_concept_difficulty(cls, v):
         return v if v in ("beginner", "intermediate", "advanced") else "beginner"
+
+    @model_validator(mode="after")
+    def validate_horizon_constraints(self) -> "ImpactPost":
+        """Two-tier horizon × category validation.
+
+        Tier 1 — Hard blocks: raise ValueError → gemini_client retries the item.
+        Tier 2 — Soft flags: append to validation_warnings → logged for review, no retry.
+        """
+        # Only validate posts that have actual content
+        if self.gate_action in ("Skip entirely", "More Reads"):
+            return self
+        if not self.category or not self.impact_horizon:
+            return self
+
+        cat     = self.category.value      # e.g. "behavioral"
+        horizon = self.impact_horizon.value  # e.g. "immediate"
+
+        # Tier 1: Hard block
+        if (horizon, cat) in _HARD_BLOCKS:
+            raise ValueError(
+                f"Logical mismatch: category '{cat}' cannot have impact_horizon '{horizon}'. "
+                "Review both fields and correct the less certain one."
+            )
+
+        # Tier 2: Soft flag
+        flag_note = _SOFT_FLAGS.get((horizon, cat))
+        if flag_note:
+            self.validation_warnings.append({
+                "field": "impact_horizon",
+                "category": cat,
+                "horizon": horizon,
+                "flag": f"{cat}_{horizon}_review",
+                "note": flag_note,
+            })
+
+        return self
 
 
 class RunOutput(BaseModel):

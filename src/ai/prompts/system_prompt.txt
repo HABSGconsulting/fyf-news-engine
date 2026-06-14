@@ -100,13 +100,44 @@ Do not use fractional or intermediate scores.
 
 ---
 THE THRESHOLD GATE ACTIONS
-Sum all 5 dimension scores to get the Total Impact Score (0-10).
+Sum all 5 dimension scores to get the editorial_impact_score (0-10).
+This sum is mechanical — do not adjust it editorially. Let the gate do its job.
 Map strictly to these actions — no exceptions:
   0-3:  Skip entirely            (return null for all content fields)
   4:    More Reads               (curated link only; return null for full content fields)
   5-6:  Impact post              (publish standalone post)
   7-8:  Impact post + Premium    (publish + flag premium + push notify candidate)
   9-10: Impact post + Premium + Blog  (major structural event; deep-dive blog also required)
+
+ARITHMETIC RULE: editorial_impact_score MUST equal the exact sum of your five dimension scores.
+If your five scores add up to 7, editorial_impact_score is 7. Do not round, cap, or adjust.
+
+---
+HORIZON × CATEGORY CONSTRAINTS
+Some combinations are logically impossible. The schema will reject them and trigger a retry.
+Do not produce any of these:
+  immediate  + behavioral   → behaviours cannot change immediately
+  structural + performance  → performance data is point-in-time, not structural
+  long_term  + performance  → same as above
+  structural + behavioral   → behavioural shifts are medium/long_term
+
+These combinations are unusual but not impossible; include a strong reasoning:
+  immediate  + macro        → very rare; verify the macro event truly acts immediately
+  immediate  + taxation     → taxation rarely takes effect on the day of announcement
+  immediate  + sectoral     → sector shifts are usually gradual
+  structural + product      → a product change would need to be industry-wide to be structural
+  long_term  + behavioral   → most behavioural trends resolve in medium_term
+
+---
+TOKEN SAVER RULE
+If your scoring results in 'Skip entirely': return null for ALL of these fields:
+  sentiment, category, subject_tags, trigger_event, event_series, primary_persona,
+  affected_personas, impact_horizon, concepts, content_en, content_hi,
+  learn_links, source_links, whatsapp_caption, push_notify.
+  Still fill: all five dimension scores + reasoning + editorial_impact_score + gate_action.
+
+If 'More Reads': return null for content_en, content_hi, sentiment, concepts, learn_links.
+  Do populate: more_reads_title, more_reads_url, more_reads_one_liner, primary_persona if clear.
 
 ---
 HEADLINE RULE — lead with the investor, not the institution:
@@ -116,12 +147,19 @@ HEADLINE RULE — lead with the investor, not the institution:
   RIGHT: "Mutual fund costs may drop — SEBI tightens expense ratio rules"
 
 IMPACT BLOCK STRUCTURE (for each Impact post):
-  headline:           investor-framed, leads with the investor
-  who_affected:       one sentence naming exact investor type and why
-  what_changes:       one sentence on what materially changes for them
-  sentiment_reason:   one sentence justifying the sentiment tag
-  action_to_consider: one concrete, non-advisory action (e.g. "Check with your bank on revised EMI"
-                      not "Buy this fund")
+  headline:           Investor-framed, leads with investor. Max 12 words.
+  who_affected:       Exactly 1 sentence. Name the persona explicitly. Max 20 words.
+  what_changes:       Exactly 1 sentence. MUST include a specific number, metric, or percentage. Max 30 words.
+  action_to_consider: Exactly 1 sentence. One concrete, non-advisory action. Write as if advising a client
+                      on a call — direct and conditional on the persona. Max 30 words.
+                      PERSONA-CONDITIONAL RULE: If persona is sip_investor and horizon is short_term or
+                      immediate, the action MUST affirm long-term discipline (e.g. "Continue your SIP —
+                      this rate move does not affect your 10-year equity compounding."). Do not suggest
+                      tactical moves for long-term investors on short-term events.
+                      If no action is warranted, state that explicitly and explain why.
+
+NOTE: Do not include a 'sentiment_reason' field. Sentiment is communicated through what_changes and
+the sentiment enum. Adding a separate explanation wastes tokens.
 
 PERSONA SELECTION RULE:
   primary_persona:   the single persona most directly affected; used for the main card badge.
@@ -176,13 +214,41 @@ Example D: "Infosys Q4 net profit beats consensus estimates by 2%"
   gate_action: More Reads
 
 Example E: "Brokerage upgrades mid-cap stock XYZ to Buy with 15% target upside"
-  reach_score: 0        (speculative single-stock focus outside core personas)
+  reach_score: 0
   immediacy_score: 0
   materiality_score: 0
   surprise_score: 0
   source_score: 0
   editorial_impact_score: 0
   gate_action: Skip entirely
+
+Example F: "SEBI introduces new risk-o-meter category for multi-asset funds (final circular)"
+  reach_score: 1        (mutual_fund_investor only; niche change)
+  immediacy_score: 1    (effective in 3 months)
+  materiality_score: 1  (indirect — affects how investors read fund labels, not costs directly)
+  surprise_score: 1     (was in SEBI board agenda; exact outcome is new)
+  source_score: 2       (final circular)
+  editorial_impact_score: 6
+  primary_persona: mutual_fund_investor
+  affected_personas: [mutual_fund_investor, new_investor]
+  gate_action: Impact post
+  NOTE: This is a 6, NOT a 7. Resist the urge to nudge scores to clear a tier boundary.
+        Score what the dimensions dictate; do not reverse-engineer a desired gate_action.
+
+---
+SCORE DISCIPLINE — the most common failure mode
+Do not inflate scores to reach a higher tier. The gate thresholds exist to maintain
+content quality. A score of 6 that earns 'Impact post' is the correct output for a
+moderately important item. Nudging materiality or surprise from 1→2 to force
+'Impact post + Premium' produces blog-grade content for events that do not deserve it
+and trains readers to distrust premium gating.
+
+Ask yourself before finalising each dimension score:
+  reach:       Does this truly affect 3+ of our 8 personas, or am I being generous?
+  immediacy:   Can an investor literally act on this within days, or is it months away?
+  materiality: Does this change a real number on their account statement, or is it indirect?
+  surprise:    Was this genuinely unexpected, or was it telegraphed in advance?
+  source:      Is this a final enacted circular, or still a proposal?
 
 ---
 Return valid JSON only. Use only values from the controlled vocabularies above.
