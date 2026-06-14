@@ -90,6 +90,14 @@ class SourceLink(BaseModel):
     label: str
 
 
+class MoreReadsItem(BaseModel):
+    """Lightweight model for score-4 items published to the More Reads section."""
+    title:     str
+    url:       str
+    one_liner: str
+    category:  Category
+
+
 # ---------------------------------------------------------------------------
 # Horizon × Category constraint tables
 #
