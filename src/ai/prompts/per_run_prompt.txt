@@ -5,81 +5,135 @@ Here are the financial news items collected since the last pipeline run:
 ---
 Instructions:
 
-1. Compare all items. Select {MIN_POSTS}–{MAX_POSTS} that most materially affect a retail
-   Indian investor today. Quality over quantity — if fewer than {MIN_POSTS} items genuinely
-   matter, select fewer.
+1. Evaluate EVERY item independently using the 5-dimension scoring algorithm in your system prompt.
+   Do not rank or compare items against each other. Each item is scored on its own merits.
 
-2. For each SELECTED item (impact score >= 5), return a full ImpactPost object.
+2. For EVERY item — regardless of gate_action — you must return:
+   - All 5 dimension scores and 1-sentence reasoning strings
+   - editorial_impact_score (must equal the exact arithmetic sum of the 5 scores)
+   - gate_action (derived strictly from the score threshold — no editorial override)
 
-3. For all REMAINING items (score 1–4), return a MoreReadsItem object.
+3. For items where gate_action is "Skip entirely" or "More Reads":
+   - Return null for: content_en, content_hi, sentiment, category, primary_persona,
+     affected_personas, impact_horizon, subject_tags, concepts, learn_links, source_links,
+     trigger_event, event_series, shareable, push_notify, whatsapp_caption
+   - For "More Reads" items only: populate more_reads_title, more_reads_url, more_reads_one_liner
 
-4. Return ONLY a single valid JSON object. No markdown, no code fences, no extra text.
+4. For items where gate_action is "Impact post", "Impact post + Premium", or
+   "Impact post + Premium + Blog":
+   - Populate ALL fields including full content_en and content_hi blocks
+   - Hindi content must be in Devanagari script (not Hinglish)
+   - push_notify: true only for score >= 8
+   - source_links: include up to 3 real source URLs from the items provided
 
----
-EXACT JSON STRUCTURE TO RETURN:
+5. There is no minimum or maximum number of impact posts.
+   If 8 items score >= 5 today, return 8. If 1 item scores >= 5, return 1.
+   Never suppress a qualifying story. Never pad with a story that does not qualify.
+   Missing a qualifying story is the only editorial failure that matters.
+
+6. Return ONLY a single valid JSON object in this exact structure:
 
 {{
-  "impact_posts": [
+  "evaluated_items": [
     {{
-      "editorial_impact_score": 7,
+      "reach_score": 2,
+      "reach_reasoning": "Affects home loan holders, SIP investors, and retirees directly.",
+      "immediacy_score": 2,
+      "immediacy_reasoning": "Banks will adjust floating rates within days of the RBI notification.",
+      "materiality_score": 2,
+      "materiality_reasoning": "Directly lowers monthly EMI cash outflow for floating rate borrowers.",
+      "surprise_score": 2,
+      "surprise_reasoning": "Market consensus was a hold; cut was not priced in.",
+      "source_score": 2,
+      "source_reasoning": "Official RBI monetary policy press release, final and enacted.",
+      "editorial_impact_score": 10,
+      "gate_action": "Impact post + Premium + Blog",
       "sentiment": "positive",
       "category": "macro",
-      "subject_tags": ["repo rate", "home loan", "EMI"],
+      "subject_tags": ["repo rate", "home loan", "EMI", "monetary policy"],
       "trigger_event": "RBI_MPC_Jun2026",
       "event_series": "RBI_MPC",
       "primary_persona": "home_loan_holder",
-      "affected_personas": ["home_loan_holder", "sip_investor"],
-      "impact_horizon": "short_term",
-      "concepts": ["repo rate", "monetary policy", "EMI"],
+      "affected_personas": ["home_loan_holder", "sip_investor", "retiree", "fixed_income_investor"],
+      "impact_horizon": "immediate",
+      "concepts": ["repo rate", "monetary policy", "EMI", "floating rate"],
       "concept_difficulty": "beginner",
       "content_en": {{
         "headline": "Your home loan just got cheaper — RBI cuts rates",
-        "who_affected": "Home loan holders with floating rate loans will see lower EMIs.",
-        "what_changes": "EMIs on floating rate home loans will drop within 1–3 months.",
-        "sentiment_reason": "Rate cuts reduce borrowing costs for retail borrowers.",
+        "who_affected": "Home loan holders with floating rate loans will see lower EMIs within weeks.",
+        "what_changes": "Monthly EMI on a Rs 50L, 20-year loan could drop by Rs 800-1,200.",
+        "sentiment_reason": "Rate cuts directly reduce borrowing costs for retail loan holders.",
         "action_to_consider": "Check with your bank when the revised EMI schedule takes effect."
       }},
       "content_hi": {{
-        "headline": "होम लोन सस्ता हुआ — RBI ने rate घटाया",
-        "who_affected": "फ्लोटिंग rate वाले होम लोन धारकों की EMI कम होगी।",
-        "what_changes": "EMI 1–3 महीने में कम हो सकती है।",
-        "sentiment_reason": "rate कट से उधार लेने की लागत घटती है।",
+        "headline": "होम लोन सस्ता हुआ — RBI ने repo rate घटाया",
+        "who_affected": "floating rate वाले होम लोन धारकों की EMI कुछ हफ्तों में कम होगी।",
+        "what_changes": "₹50 लाख, 20 साल के loan पर monthly EMI ₹800–1,200 तक घट सकती है।",
+        "sentiment_reason": "Rate cut से retail borrowers की borrowing cost सीधे कम होती है।",
         "action_to_consider": "अपने बैंक से पूछें कि नई EMI schedule कब लागू होगी।"
       }},
       "learn_links": [],
       "source_links": [
-        {{"url": "https://example.com", "label": "RBI Press Release"}}
+        {{"url": "https://rbi.org.in", "label": "RBI Monetary Policy Statement"}}
       ],
+      "more_reads_title": null,
+      "more_reads_url": null,
+      "more_reads_one_liner": null,
       "shareable": true,
       "push_notify": true,
       "whatsapp_caption": "RBI ने rate घटाया — EMI कम होगी!"
-    }}
-  ],
-  "more_reads": [
+    }},
     {{
-      "title": "SEBI tightens MF disclosure norms",
-      "url": "https://example.com/sebi-disclosure",
-      "one_liner": "SEBI mandates stricter expense ratio disclosure for mutual funds.",
-      "category": "regulatory"
+      "reach_score": 1,
+      "reach_reasoning": "Only relevant to long-term equity investors tracking IT sector.",
+      "immediacy_score": 0,
+      "immediacy_reasoning": "No action required by a retail investor; quarterly result already filed.",
+      "materiality_score": 0,
+      "materiality_reasoning": "Corporate earnings beat does not change the investor's personal finances.",
+      "surprise_score": 1,
+      "surprise_reasoning": "Slight beat within normal variance; not a significant delta.",
+      "source_score": 2,
+      "source_reasoning": "Official corporate filing to NSE/BSE.",
+      "editorial_impact_score": 4,
+      "gate_action": "More Reads",
+      "sentiment": null,
+      "category": null,
+      "subject_tags": [],
+      "trigger_event": "",
+      "event_series": null,
+      "primary_persona": null,
+      "affected_personas": [],
+      "impact_horizon": null,
+      "concepts": [],
+      "concept_difficulty": "beginner",
+      "content_en": null,
+      "content_hi": null,
+      "learn_links": [],
+      "source_links": [],
+      "more_reads_title": "Infosys Q4 profit beats estimates — steady but no surprise",
+      "more_reads_url": "https://example.com/infosys-q4",
+      "more_reads_one_liner": "Infosys Q4 net profit marginally beat consensus; no guidance revision.",
+      "shareable": true,
+      "push_notify": false,
+      "whatsapp_caption": ""
     }}
   ]
 }}
 
 ---
 FIELD RULES:
-- editorial_impact_score: integer 1–10
-- sentiment: exactly one of: positive | negative | neutral | watch
-- category: exactly one of: macro | regulatory | performance | product | house | taxation | sectoral | behavioral
-- primary_persona: exactly one of: sip_investor | home_loan_holder | retiree | fixed_income_investor | tax_planner | new_investor | equity_trader | business_owner
-- affected_personas: list using same values as primary_persona
-- impact_horizon: exactly one of: immediate | short_term | medium_term | long_term | structural
-- concept_difficulty: exactly one of: beginner | intermediate | advanced
-- event_series: one of RBI_MPC | UNION_BUDGET | SEBI_BOARD | QUARTERLY_RESULTS | ANNUAL_INFLATION | NIFTY_MILESTONE | FII_FLOW_TREND — or null if not a recurring event
-- whatsapp_caption: Hindi caption in Devanagari script, max 60 chars
-- source_links: max 3 items, each with url and label
-- learn_links: can be empty list []
-- shareable: true or false
-- push_notify: true or false
-- All content_en fields must be in English
-- All content_hi fields (headline, who_affected, what_changes, sentiment_reason, action_to_consider) MUST be written entirely in Devanagari Hindi script — NOT in Roman/Hinglish. Keep financial terms (SIP, EMI, NAV, rate, portfolio etc.) in English within the Devanagari text.
-- All content_en and content_hi fields are required — do not omit any sub-field
+- editorial_impact_score: must be the exact arithmetic sum of the 5 dimension scores
+- gate_action: derived strictly from threshold — never override based on editorial judgment
+- sentiment: positive | negative | neutral | watch (null for Skip/More Reads)
+- category: macro | regulatory | performance | product | house | taxation | sectoral | behavioral (null for Skip/More Reads)
+- primary_persona: one of the 9 valid persona values (null for Skip/More Reads)
+- affected_personas: list of valid persona values (empty list for Skip/More Reads)
+- impact_horizon: immediate | short_term | medium_term | long_term | structural (null for Skip/More Reads)
+- concept_difficulty: beginner | intermediate | advanced
+- event_series: RBI_MPC | UNION_BUDGET | SEBI_BOARD | QUARTERLY_RESULTS | ANNUAL_INFLATION | NIFTY_MILESTONE | FII_FLOW_TREND — or null
+- whatsapp_caption: Hindi Devanagari, max 60 chars (empty string for Skip/More Reads)
+- push_notify: true only if editorial_impact_score >= 8
+- source_links: max 3 items; use real URLs from the news items provided
+- All content_en and content_hi sub-fields are required when gate_action starts with "Impact post"
+- For Skip entirely: return null for all content and publication fields
+- For More Reads: return null for content fields; populate more_reads_title, more_reads_url, more_reads_one_liner
