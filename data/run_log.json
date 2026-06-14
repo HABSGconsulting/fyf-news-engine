@@ -169,6 +169,15 @@
         "566f9c145906014a0aab117275aa9368",
         "9eb36dcf56608d017575d944d59ff1c4"
       ]
+    },
+    {
+      "run_id": "2026-06-14T08:05:43.365509+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "items_seen": 100,
+      "items_evaluated": 2,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
