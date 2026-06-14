@@ -26,20 +26,27 @@ def build_section_indexes(run_dt: datetime) -> dict[str, str]:
 
 
 def _frontmatter(post: ImpactPost, title: str, date_str: str, lang: str) -> str:
-    category_label = CATEGORY_LABEL.get(post.category.value, post.category.value)
-    persona_label = PERSONA_LABEL.get(post.primary_persona.value, post.primary_persona.value)
-    horizon_label = HORIZON_LABEL.get(post.impact_horizon.value, post.impact_horizon.value)
-    premium = post.editorial_impact_score >= IMPACT_SCORE_PREMIUM_THRESHOLD
+    # All three are Optional on ImpactPost — guard before calling .value
+    category_val   = post.category.value       if post.category       else "macro"
+    persona_val    = post.primary_persona.value if post.primary_persona else "new_investor"
+    horizon_val    = post.impact_horizon.value  if post.impact_horizon  else "medium_term"
+
+    category_label = CATEGORY_LABEL.get(category_val, category_val)
+    persona_label  = PERSONA_LABEL.get(persona_val, persona_val)
+    horizon_label  = HORIZON_LABEL.get(horizon_val, horizon_val)
+    premium        = post.editorial_impact_score >= IMPACT_SCORE_PREMIUM_THRESHOLD
 
     subject_tags_yaml = "\n".join(f'  - "{t}"' for t in post.subject_tags)
-    personas_yaml = "\n".join(f'  - "{PERSONA_LABEL.get(p.value, p.value)}"' for p in post.affected_personas)
-    concepts_yaml = "\n".join(f'  - "{c}"' for c in post.concepts)
+    personas_yaml     = "\n".join(
+        f'  - "{PERSONA_LABEL.get(p.value, p.value)}"' for p in post.affected_personas
+    )
+    concepts_yaml     = "\n".join(f'  - "{c}"' for c in post.concepts)
     source_links_yaml = "\n".join(
         f'  - url: "{s.url}"\n    label: "{s.label}"' for s in post.source_links
     )
-    learn_links_yaml = "\n".join(
-        f'  - slug: "{l.slug}"\n    title: "{l.title}"\n    difficulty: "{l.difficulty}"'
-        for l in post.learn_links
+    learn_links_yaml  = "\n".join(
+        f'  - slug: "{ll.slug}"\n    title: "{ll.title}"\n    difficulty: "{ll.difficulty}"'
+        for ll in post.learn_links
     )
 
     return f"""---
@@ -48,7 +55,7 @@ date: {date_str}
 draft: false
 language: {lang}
 category: "{category_label}"
-sentiment: "{post.sentiment.value}"
+sentiment: "{post.sentiment.value if post.sentiment else 'neutral'}"
 primary_persona: "{persona_label}"
 affected_personas:
 {personas_yaml}
@@ -81,10 +88,6 @@ def _body_en(c: ImpactContent) -> str:
 
 {c.what_changes}
 
-## Why this matters
-
-{c.sentiment_reason}
-
 ## What you can do
 
 {c.action_to_consider}
@@ -99,10 +102,6 @@ def _body_hi(c: ImpactContent) -> str:
 ## क्या बदलेगा
 
 {c.what_changes}
-
-## यह क्यों ज़रूरी है
-
-{c.sentiment_reason}
 
 ## आप क्या कर सकते हैं
 
@@ -119,10 +118,9 @@ def build_news_card(post: ImpactPost, run_dt: datetime | None = None) -> dict[st
     if run_dt is None:
         run_dt = datetime.now(timezone.utc)
 
-    # Convert to IST so slug timestamps and frontmatter dates are in Indian time
     run_dt_ist = run_dt.astimezone(IST)
 
-    slug = _slug(post, run_dt_ist)
+    slug     = _slug(post, run_dt_ist)
     date_str = run_dt_ist.strftime("%Y-%m-%dT%H:%M:%S+05:30")
     year_month = run_dt_ist.strftime("%Y/%m")
 
