@@ -13,6 +13,15 @@ Usage in Hugo templates (via .Site.Data or JSON endpoint):
 Usage in Python (news_card builder, tests):
   from src.ai.persona_map import PERSONA_UI_LABEL
   label = PERSONA_UI_LABEL["mutual_fund_investor"]   # → "Mutual Fund Investors"
+
+=== SYNC CONTRACT ===
+This file is the ONLY place persona data lives.
+Any change here must be mirrored to fyf-news-site in the same PR/commit:
+  • data/persona_labels.json   — re-export PERSONA_UI_LABEL (EN + HI keys)
+  • system_prompt.txt          — regenerate [PERSONA_CONTEXT] block from PERSONA_GEMINI_CONTEXT
+Do NOT edit persona labels or descriptions directly in fyf-news-site or system_prompt.txt;
+always edit here first and let the sync be the source of the update.
+=====================
 """
 
 from __future__ import annotations
