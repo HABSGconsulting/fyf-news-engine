@@ -1,4 +1,10 @@
-"""Deduplication via Cloudflare KV (48h TTL per hash)."""
+"""Deduplication via Cloudflare KV (48h TTL per hash).
+
+Policy items (feed_type: policy) bypass the KV check entirely —
+they are always passed through as new. This is intentional:
+Policy feeds are low-volume and the freshness window in fetcher.py
+already acts as the primary dedup gate for policy items.
+"""
 import hashlib
 import json
 import os
@@ -74,7 +80,7 @@ def _kv_write_bulk(hashes: list[str]) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Public API (same interface as before — main.py unchanged)
+# Public API
 # ---------------------------------------------------------------------------
 
 def load_seen_hashes(window_hours: int = 48) -> set[str]:
@@ -85,7 +91,10 @@ def load_seen_hashes(window_hours: int = 48) -> set[str]:
 def filter_seen(items: list[dict], window_hours: int = 48) -> list[dict]:
     """Return only items whose hash is NOT present in KV.
 
-    Falls back to allowing all items if KV secrets are missing (safe default).
+    Policy items (feed_type: policy) always pass through — freshness
+    window in fetcher.py is their dedup gate.
+
+    Falls back to allowing all items if KV secrets are missing.
     """
     if not _kv_available():
         print("[DEDUP] KV secrets not set — skipping dedup (all items pass through)")
@@ -93,6 +102,11 @@ def filter_seen(items: list[dict], window_hours: int = 48) -> list[dict]:
 
     new_items = []
     for item in items:
+        # Policy items bypass KV check entirely
+        if item.get("feed_type") == "policy":
+            new_items.append(item)
+            continue
+
         h = _item_hash(item)
         try:
             if not _kv_key_exists(h):
@@ -104,8 +118,8 @@ def filter_seen(items: list[dict], window_hours: int = 48) -> list[dict]:
 
 
 def mark_seen(items: list[dict]) -> list[str]:
-    """Return MD5 hashes for the given items."""
-    return [_item_hash(item) for item in items]
+    """Return MD5 hashes for the given items. Policy items return empty list."""
+    return [_item_hash(item) for item in items if item.get("feed_type") != "policy"]
 
 
 def write_seen_hashes(hashes: list[str]) -> None:
