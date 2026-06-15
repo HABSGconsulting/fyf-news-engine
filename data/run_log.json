@@ -1455,6 +1455,182 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-15T15:26:10.123927+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 4,
+      "items_seen": 31,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "more_reads": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 16,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister welcomes US-Iran agreement to end conflict in West Asia.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister highlights government efforts to improve ease of living for the middle class.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Social Justice highlights student success under the Top Class Education Scheme.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NCC establishes two new state directorates in Andhra Pradesh and Jharkhand to expand youth opportunities.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister highlights the importance of diversity in innovation and entrepreneurship through Sanskrit Subhashitam.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "India and France adopt bilateral Innovation Roadmap 2030 to co-develop deep tech and clean energy solutions.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister expresses grief over tragic accident in Solapur, Maharashtra.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India and France announce strategic agreements across defense, space, and clean energy during PM's state visit.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Government to establish 700 She-Marts and 1,000 District Fulfillment Centers to support rural women micro-entrepreneurs.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister holds bilateral talks with French President to strengthen strategic partnership.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "India-France ATL Bridge School innovation labs to strengthen bilateral innovation cooperation.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares article on Yoga and healthy aging.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares article on farmers' welfare and empowerment.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares highlights of address at 'Bharat Innovates' program.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Project GIB adds three chicks, raising captive bird count to 94 to prevent extinction.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "India and France launch 'Bharat Innovates 2026' initiative to establish a bilateral Deep Tech Alliance.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Principal CCA Delhi office organizes blood donation camp on World Blood Donor Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government highlights fertilizer production achievements and self-reliance milestones over the last 12 years.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister participates in 'Bharat Innovates 2026' event to promote deep tech collaboration.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares article by Delhi Chief Minister on 'Viksit Bharat' journey.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
