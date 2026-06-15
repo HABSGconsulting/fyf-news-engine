@@ -4,7 +4,9 @@ Two parallel paths per run:
   [A] News path:   fetch_all_feeds → news_items   → run_batch()        → news_card.py   → content/posts/
   [B] Policy path: fetch_all_feeds → policy_items → run_policy_batch() → policy_card.py → content/policy/
 
-Both paths share the same dedup layer (seen_hashes.json) and publisher.
+Both paths share the same dedup layer (Cloudflare KV, 48h TTL) and publisher.
+Hashes are only written to KV after a successful Gemini run — failed runs
+do NOT mark items as seen, so they will be retried on the next run.
 """
 import sys
 from datetime import datetime, timezone, timedelta
@@ -60,7 +62,7 @@ def main() -> None:
     print(f"      {len(raw_news)} news items, {len(raw_policy)} policy items fetched")
 
     # -----------------------------------------------------------------------
-    # [2] DEDUP — shared layer for both paths
+    # [2] DEDUP — shared KV layer for both paths
     # -----------------------------------------------------------------------
     print("[2/6] Deduplicating...")
     new_news = filter_seen(raw_news)
@@ -78,7 +80,8 @@ def main() -> None:
         sys.exit(0)
 
     files_to_publish: dict[str, str] = {}
-    all_new_hashes: list[dict] = []
+    news_hashes: list[str] = []
+    policy_hashes: list[str] = []
     run_log_data = {
         "status": "ok",
         "posts_published": 0,
@@ -103,6 +106,7 @@ def main() -> None:
         if run_output is None:
             print("      Gemini (news) returned nothing.")
             run_log_data["status"] = "gemini_failed"
+            # Do NOT mark news items as seen — retry on next run
         else:
             qualifying = [p for p in run_output.evaluated_items if p.gate_action.startswith("Impact post")]
             more_reads_items = [p for p in run_output.evaluated_items if p.gate_action == "More Reads"]
@@ -116,15 +120,12 @@ def main() -> None:
             print(f"      {len(run_output.evaluated_items)} evaluated: "
                   f"{len(qualifying)} qualifying, {len(more_reads_items)} more reads, {len(skipped)} skipped")
 
-            # Build section indexes
             files_to_publish.update(build_section_indexes(run_dt))
 
-            # Build news card files
             for post in qualifying:
                 files_to_publish.update(build_news_card(post, run_dt))
             run_log_data["posts_published"] = len(qualifying)
 
-            # Build more reads
             if more_reads_items:
                 mr_converted = [
                     MoreReadsItem(
@@ -140,7 +141,8 @@ def main() -> None:
                     mr_path, mr_content = build_more_reads(mr_converted, run_dt)
                     files_to_publish[mr_path] = mr_content
 
-        all_new_hashes.extend(mark_seen(new_news))
+            # Mark news items as seen only after successful processing
+            news_hashes.extend(mark_seen(new_news))
     else:
         print("[3/6] No new news items — skipping news Gemini call.")
 
@@ -153,6 +155,7 @@ def main() -> None:
         if policy_output is None:
             print("      Gemini (policy) returned nothing.")
             run_log_data["status"] = "gemini_policy_failed"
+            # Do NOT mark policy items as seen — retry on next run
         else:
             publishing_cards = [c for c in policy_output.evaluated_items if c.gate_action == "Policy Desk"]
             skipped_cards    = [c for c in policy_output.evaluated_items if c.gate_action == "Skip entirely"]
@@ -170,11 +173,12 @@ def main() -> None:
                     files_to_publish.update(build_policy_card(card, run_dt))
                 run_log_data["policy_published"] = len(publishing_cards)
 
-        # Write bootstrap flag after first successful policy run
-        if not is_policy_bootstrapped():
-            write_bootstrap_flag()
+            # Write bootstrap flag after first successful policy Gemini run
+            if not is_policy_bootstrapped():
+                write_bootstrap_flag()
 
-        all_new_hashes.extend(mark_seen(new_policy))
+            # Mark policy items as seen only after successful processing
+            policy_hashes.extend(mark_seen(new_policy))
     else:
         print("[4/6] No new policy items — skipping policy Gemini call.")
 
@@ -191,8 +195,9 @@ def main() -> None:
     # [6] DEDUP + RUN LOG
     # -----------------------------------------------------------------------
     print("[6/6] Writing dedup hashes and run log...")
-    if all_new_hashes:
-        write_seen_hashes(all_new_hashes)
+    all_hashes = news_hashes + policy_hashes
+    if all_hashes:
+        write_seen_hashes(all_hashes)
 
     write_run_log(run_log_data)
 
