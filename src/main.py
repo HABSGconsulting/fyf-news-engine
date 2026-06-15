@@ -14,6 +14,19 @@ from src.ai.schema import MoreReadsItem, Category
 IST = timezone(timedelta(hours=5, minutes=30))
 
 
+def _item_audit(post) -> dict:
+    """Compact audit record for one evaluated item — title, score, gate."""
+    content = post.content_en or post.content_hi
+    title = content.headline if content else "(no headline)"
+    return {
+        "title": title,
+        "score": post.editorial_impact_score,
+        "gate": post.gate_action,
+        "persona": post.primary_persona.value if post.primary_persona else None,
+        "category": post.category.value if post.category else None,
+    }
+
+
 def main() -> None:
     run_dt = datetime.now(IST)
     run_label = run_dt.strftime("%Y-%m-%dT%H:%M:%S+05:30")
@@ -59,10 +72,12 @@ def main() -> None:
           f"{len(more_reads_items)} more reads, "
           f"{len(skipped)} skipped")
 
+    # Build audit trail — all evaluated items with title + score + gate
+    items_detail = [_item_audit(p) for p in run_output.evaluated_items]
+
     # Slow news day — valid clean exit
     if len(qualifying) == 0:
         print("      No qualifying stories today — slow news day.")
-        # Still publish more_reads if any
         if more_reads_items:
             mr_converted = [
                 MoreReadsItem(
@@ -86,6 +101,7 @@ def main() -> None:
             "items_evaluated": total_evaluated,
             "items_skipped": len(skipped),
             "more_reads": len(more_reads_items),
+            "items_detail": items_detail,
         })
         sys.exit(0)
 
@@ -97,7 +113,6 @@ def main() -> None:
     for post in qualifying:
         files_to_publish.update(build_news_card(post, run_dt))
 
-    # Convert more_reads items from ImpactPost to MoreReadsItem
     if more_reads_items:
         mr_converted = [
             MoreReadsItem(
@@ -123,7 +138,7 @@ def main() -> None:
     item_hashes = mark_seen(new_items)
     write_seen_hashes(item_hashes)
 
-    # Write run log
+    # Write run log with full audit trail
     write_run_log({
         "status": "ok",
         "posts_published": len(qualifying),
@@ -131,6 +146,7 @@ def main() -> None:
         "items_evaluated": total_evaluated,
         "items_skipped": len(skipped),
         "more_reads": len(more_reads_items),
+        "items_detail": items_detail,
     })
     print(f"\n=== Done. {len(qualifying)} posts published. "
           f"{len(more_reads_items)} more reads. "
