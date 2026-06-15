@@ -11,6 +11,7 @@ See 00-ai-context.md § Locked Decisions #1.
 import os
 import time
 import json
+import traceback
 import google.generativeai as genai
 from pydantic import ValidationError
 from src.ai.schema import RunOutput, PolicyRunOutput, PolicyCard
@@ -101,7 +102,7 @@ def run_batch(
       - Attempt 0: PRIMARY_MODEL; attempts 1+: FALLBACK_MODEL
       - ValidationError → retry (Gemini arithmetic/schema mistake)
       - 429 / RESOURCE_EXHAUSTED → 60s back-off then retry
-      - Any other exception → retry up to limit, then return None
+      - Any other exception → log full traceback, retry up to limit, then return None
     """
     _configure()
     system_prompt = _load_prompt("system_prompt.txt")
@@ -137,20 +138,26 @@ def run_batch(
             if attempt < GEMINI_MAX_RETRIES:
                 print(f"  [GEMINI] Waiting {GEMINI_RETRY_DELAY_SEC}s before retry...")
                 time.sleep(GEMINI_RETRY_DELAY_SEC)
-            else:
-                print("  [GEMINI] All retries exhausted.")
-                return None
+                continue
+            print("  [GEMINI] All retries exhausted (ValidationError).")
+            return None
 
         except Exception as e:
-            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+            err_str = str(e)
+            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
                 wait = 60
                 print(f"  [GEMINI] Rate limit hit. Waiting {wait}s...")
                 time.sleep(wait)
                 if attempt < GEMINI_MAX_RETRIES:
                     continue
             print(f"  [GEMINI] API error on attempt {attempt + 1}: {e}")
-            if attempt >= GEMINI_MAX_RETRIES:
-                return None
+            print(traceback.format_exc())
+            if attempt < GEMINI_MAX_RETRIES:
+                print(f"  [GEMINI] Waiting {GEMINI_RETRY_DELAY_SEC}s before retry...")
+                time.sleep(GEMINI_RETRY_DELAY_SEC)
+                continue
+            print("  [GEMINI] All retries exhausted (Exception).")
+            return None
 
     return None
 
@@ -200,19 +207,25 @@ def run_policy_batch(
             if attempt < GEMINI_MAX_RETRIES:
                 print(f"  [GEMINI-POLICY] Waiting {GEMINI_RETRY_DELAY_SEC}s before retry...")
                 time.sleep(GEMINI_RETRY_DELAY_SEC)
-            else:
-                print("  [GEMINI-POLICY] All retries exhausted.")
-                return None
+                continue
+            print("  [GEMINI-POLICY] All retries exhausted (ValidationError).")
+            return None
 
         except Exception as e:
-            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+            err_str = str(e)
+            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
                 wait = 60
                 print(f"  [GEMINI-POLICY] Rate limit hit. Waiting {wait}s...")
                 time.sleep(wait)
                 if attempt < GEMINI_MAX_RETRIES:
                     continue
             print(f"  [GEMINI-POLICY] API error on attempt {attempt + 1}: {e}")
-            if attempt >= GEMINI_MAX_RETRIES:
-                return None
+            print(traceback.format_exc())
+            if attempt < GEMINI_MAX_RETRIES:
+                print(f"  [GEMINI-POLICY] Waiting {GEMINI_RETRY_DELAY_SEC}s before retry...")
+                time.sleep(GEMINI_RETRY_DELAY_SEC)
+                continue
+            print("  [GEMINI-POLICY] All retries exhausted (Exception).")
+            return None
 
     return None
