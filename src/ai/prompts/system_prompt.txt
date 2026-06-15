@@ -131,7 +131,7 @@ These combinations are unusual but not impossible; include a strong reasoning:
 ---
 TOKEN SAVER RULE
 If your scoring results in 'Skip entirely': return null for ALL of these fields:
-  sentiment, category, subject_tags, trigger_event, event_series, primary_persona,
+  sentiment, category, trigger_event, event_series, primary_persona,
   affected_personas, impact_horizon, concepts, content_en, content_hi,
   learn_links, source_links, whatsapp_caption, push_notify.
   Still fill: all five dimension scores + reasoning + editorial_impact_score + gate_action.

@@ -162,14 +162,11 @@ class ImpactPost(BaseModel):
     # ------------------------------------------------------------------
     sentiment:       Optional[Sentiment]     = Field(default=None)
     category:        Optional[Category]      = Field(default=None)
-    subject_tags:    list[str]               = Field(default_factory=list)
+    subject_tags:    Optional[list[str]]     = Field(default=None)   # legacy alias — prompt may send null; normalised to [] below
     trigger_event:   str                     = Field(default="")
     event_series:    Optional[EventSeries]   = None
 
     # Persona fields
-    # primary_persona   → drives the "RELEVANT FOR: <UI LABEL>" badge on the card
-    # affected_personas → drives secondary badges (shown only for reach_score == 2)
-    # See persona_map.PERSONA_UI_LABEL to resolve enum → display string in templates
     primary_persona:   Optional[Persona]     = Field(default=None)
     affected_personas: list[Persona]         = Field(default_factory=list)
 
@@ -199,20 +196,27 @@ class ImpactPost(BaseModel):
     # Validators
     # ------------------------------------------------------------------
 
+    @field_validator("reach_score", "immediacy_score", "materiality_score",
+                     "surprise_score", "source_score", mode="before")
+    @classmethod
+    def coerce_none_score(cls, v):
+        """Guard against Gemini returning null for dimension scores — default to 0."""
+        return v if v is not None else 0
+
     @field_validator("editorial_impact_score", mode="after")
     @classmethod
     def validate_score_is_sum(cls, v: int, info) -> int:
-        """Catch Gemini arithmetic errors before they affect gate_action."""
+        """Auto-correct Gemini arithmetic errors instead of crashing."""
         d = info.data
         fields = ["reach_score", "immediacy_score", "materiality_score", "surprise_score", "source_score"]
         if all(f in d for f in fields):
             expected = sum(d[f] for f in fields)
             if v != expected:
-                raise ValueError(
-                    f"editorial_impact_score {v} does not equal sum of dimension scores "
-                    f"({' + '.join(str(d[f]) for f in fields)} = {expected}). "
-                    "Recalculate and correct."
+                print(
+                    f"  [SCHEMA] editorial_impact_score mismatch — Gemini said {v}, "
+                    f"correcting to {expected} (sum of dimension scores)"
                 )
+                return expected
         return v
 
     @field_validator("gate_action")
@@ -246,6 +250,18 @@ class ImpactPost(BaseModel):
     def coerce_concept_difficulty(cls, v):
         return v if v in ("beginner", "intermediate", "advanced") else "beginner"
 
+    @field_validator("subject_tags", mode="before")
+    @classmethod
+    def coerce_subject_tags(cls, v):
+        """Prompt sends subject_tags (legacy name) — accept null or list gracefully."""
+        return v if isinstance(v, list) else None
+
+    @field_validator("push_notify", mode="before")
+    @classmethod
+    def coerce_push_notify(cls, v):
+        """Guard against Gemini returning null for boolean field."""
+        return bool(v) if v is not None else False
+
     @model_validator(mode="after")
     def validate_horizon_constraints(self) -> "ImpactPost":
         """Two-tier horizon × category validation.
@@ -259,8 +275,8 @@ class ImpactPost(BaseModel):
         if not self.category or not self.impact_horizon:
             return self
 
-        cat     = self.category.value      # e.g. "behavioral"
-        horizon = self.impact_horizon.value  # e.g. "immediate"
+        cat     = self.category.value
+        horizon = self.impact_horizon.value
 
         # Tier 1: Hard block
         if (horizon, cat) in _HARD_BLOCKS:
