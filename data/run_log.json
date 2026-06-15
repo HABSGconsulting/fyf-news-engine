@@ -984,6 +984,477 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-15T12:06:50.762482+05:30",
+      "status": "ok",
+      "posts_published": 11,
+      "policy_published": 5,
+      "items_seen": 42,
+      "items_evaluated": 42,
+      "items_skipped": 29,
+      "more_reads": 2,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 15,
+      "items_detail": [
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Auto stocks surge as global geopolitical tensions ease",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Oswal Pumps eyes Rs 500 crore revenue from new solar project",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "IFCI shares rally on NSE IPO optimism",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "Railway stocks rally on Rs 16 lakh crore bullet train plan",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Vedanta demerged entities debut on exchanges",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Vedanta Oil & Gas lists at Rs 39",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Vedanta Iron & Steel lists at Rs 22",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "Vedanta Aluminium lists at Rs 527",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "Vedanta Power lists at Rs 42",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "Rupee strengthens against the dollar on peace deal news",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "macro"
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Crude-sensitive stocks jump as oil prices drop",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 4,
+          "gate": "More Reads",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 4,
+          "gate": "More Reads",
+          "persona": null,
+          "category": null
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister emphasizes importance of diversity in innovation and entrepreneurship",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India-France Innovation Roadmap 2030",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister expresses condolences for Solapur accident",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Outcomes of Prime Minister's visit to France",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Establishment of 700 She-Marts and 1,000 District Fulfillment Centers to support Lakhpati Didis",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Bilateral talks between Prime Minister and President of France",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India-France ATL Bridge School innovation labs",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares article on Yoga and healthy aging",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares article on farmer empowerment",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares highlights from 'India Innovates' program",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Addition of three chicks under Project GIB",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of India Innovates 2026 and strengthening of India-France Deep Tech Alliance",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Blood donation camp organized by Pradhan CCA",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of fertilizer production achievements",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister participates in India Innovates 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares article on Viksit Bharat",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Foundation stone for Integrated Aqua Park in Bhojpur and NFDB regional center in Patna",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Text of Prime Minister's address at India Innovates 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Foundation stone laying for KVK in Vidisha",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Projections for India's space economy growth",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
