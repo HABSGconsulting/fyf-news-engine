@@ -1,12 +1,12 @@
 """policy_card.py — Build Hugo Markdown files from validated PolicyCard objects.
 
 Output:
-  EN:  content/policy/YYYY/MM/SLUG.md
-  HI:  content/policy/YYYY/MM/SLUG.hi.md
+  EN:  content/policy/YYYY/MM/SLUG.md       — English frontmatter + no body
+  HI:  content/policy/YYYY/MM/SLUG.hi.md    — Hindi frontmatter (translated fields)
 
 Slug:         kebab-case from headline, truncated to 60 chars, date-prefixed.
 One EN + one HI file per PolicyCard that passes the Policy Desk gate (relevance_score >= 6).
-Hindi frontmatter mirrors EN exactly — Hugo renders the Hindi layout using the same fields.
+EN file uses English text fields. HI file uses *_hi translated text fields.
 """
 import re
 from datetime import datetime, timezone, timedelta
@@ -36,14 +36,14 @@ def _escape(text: Optional[str]) -> str:
     return text.replace('"', "'").replace('\n', ' ').strip()
 
 
-def _build_frontmatter(
+def _build_frontmatter_en(
     card: PolicyCard,
     run_ist: datetime,
     display_date: str,
     personas_display: list[str],
     sectors_display: list[str],
 ) -> str:
-    """Build YAML frontmatter block shared by both EN and HI files."""
+    """Build YAML frontmatter for the English (.md) file."""
     lines = [
         "---",
         f'title: "{_escape(card.headline)}"',
@@ -69,6 +69,44 @@ def _build_frontmatter(
         lines.append(f'materiality_reason: "{_escape(card.materiality_reason)}"')
     if card.market_lens:
         lines.append(f'market_lens: "{_escape(card.market_lens)}"')
+
+    lines.append("---")
+    return "\n".join(lines) + "\n"
+
+
+def _build_frontmatter_hi(
+    card: PolicyCard,
+    run_ist: datetime,
+    display_date: str,
+    personas_display: list[str],
+    sectors_display: list[str],
+) -> str:
+    """Build YAML frontmatter for the Hindi (.hi.md) file — uses *_hi translated fields."""
+    lines = [
+        "---",
+        f'title: "{_escape(card.headline_hi or card.headline)}"',
+        f'date: "{run_ist.isoformat()}"',
+        f'ministry: "{_escape(card.ministry)}"',
+        f'decision_type: "{_escape(card.decision_type)}"',
+        f'horizon: "{_escape(card.horizon)}"',
+        f'materiality_flag: {str(card.materiality_flag).lower()}',
+        f'sentiment: "{card.sentiment}"',
+        f'relevance_score: {card.relevance_score}',
+        f'source_url: "{card.source_url}"',
+        f'display_date: "{display_date}"',
+        f'context_and_trigger: "{_escape(card.context_and_trigger_hi or card.context_and_trigger)}"',
+        f'mechanism_of_impact: "{_escape(card.mechanism_of_impact_hi or card.mechanism_of_impact)}"',
+        f'forward_outlook: "{_escape(card.forward_outlook_hi or card.forward_outlook)}"',
+        "personas_affected:",
+        _format_list(personas_display),
+        "sectors_affected:",
+        _format_list(sectors_display),
+    ]
+
+    if card.materiality_reason_hi or card.materiality_reason:
+        lines.append(f'materiality_reason: "{_escape(card.materiality_reason_hi or card.materiality_reason)}"')
+    if card.market_lens_hi or card.market_lens:
+        lines.append(f'market_lens: "{_escape(card.market_lens_hi or card.market_lens)}"')
 
     lines.append("---")
     return "\n".join(lines) + "\n"
@@ -100,14 +138,15 @@ def build_policy_card(card: PolicyCard, run_dt: datetime) -> dict[str, str]:
     personas_display = [persona_labels.get(p, p) for p in (card.personas_affected or [])]
     sectors_display  = [s.replace("_", " ").title() for s in (card.sectors_affected or [])]
 
-    fm = _build_frontmatter(card, run_ist, display_date, personas_display, sectors_display)
+    en_fm = _build_frontmatter_en(card, run_ist, display_date, personas_display, sectors_display)
+    hi_fm = _build_frontmatter_hi(card, run_ist, display_date, personas_display, sectors_display)
 
     en_path = f"content/policy/{year}/{month}/{slug}.md"
     hi_path = f"content/policy/{year}/{month}/{slug}.hi.md"
 
     return {
-        en_path: fm,
-        hi_path: fm,   # identical frontmatter; Hugo picks the right layout by .hi suffix
+        en_path: en_fm,
+        hi_path: hi_fm,
     }
 
 

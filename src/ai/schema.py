@@ -289,6 +289,9 @@ class PolicyCard(BaseModel):
     Hard gate at relevance_score >= 6. Items below 6 are dropped and stripped.
     Gemini does NOT set gate_action — the model_validator sets it deterministically.
     source_url is stamped from RSS item AFTER Gemini responds (never trust LLM URL reproduction).
+
+    Hindi fields (headline_hi, context_and_trigger_hi, mechanism_of_impact_hi, forward_outlook_hi)
+    are written to the .hi.md file. Required when relevance_score >= 6.
     """
     ministry: str = Field(
         description="Exact formal name of the issuing government entity or regulator. E.g. 'Reserve Bank of India', 'Ministry of Finance', 'CCEA', 'SEBI', 'IFSC Authority'."
@@ -298,34 +301,66 @@ class PolicyCard(BaseModel):
     )
     headline: str = Field(
         description=(
-            "Factual, decision-focused title. Completely strip out political, vague, or congratulatory PR framing. "
+            "Factual, decision-focused title IN ENGLISH. Completely strip out political, vague, or congratulatory PR framing. "
             "Extract the exact actionable decision or structural policy shift. "
             "Do NOT replicate PR titles like 'PM addresses conference...' or 'Minister inaugurates...'. "
             "If no real decision exists, set relevance_score to 1 or 2."
         )
     )
+    headline_hi: Optional[str] = Field(
+        default=None,
+        description=(
+            "Hindi translation of headline. Required when relevance_score >= 6. "
+            "Write in natural, fluent Hindi (Devanagari script). "
+            "Preserve the factual, decision-focused tone. Max ~15 words."
+        )
+    )
 
-    # --- TRI-PARTITE ANALYST BLOCK ---
+    # --- TRI-PARTITE ANALYST BLOCK (English) ---
     context_and_trigger: Optional[str] = Field(
         default=None,
         description=(
-            "1 concise sentence: The macro context, structural deficit, or economic problem "
+            "1 concise sentence IN ENGLISH: The macro context, structural deficit, or economic problem "
             "this policy intends to solve. Required when relevance_score >= 6."
         )
     )
     mechanism_of_impact: Optional[str] = Field(
         default=None,
         description=(
-            "1 concise sentence: The exact fiscal, compliance, or regulatory lever pulled "
+            "1 concise sentence IN ENGLISH: The exact fiscal, compliance, or regulatory lever pulled "
             "by this administrative decision. Required when relevance_score >= 6."
         )
     )
     forward_outlook: Optional[str] = Field(
         default=None,
         description=(
-            "1 precise sentence: The 12-36 month forward-looking trajectory for asset allocation "
+            "1 precise sentence IN ENGLISH: The 12-36 month forward-looking trajectory for asset allocation "
             "or business operations. NO stock names, tickers, or advisory directives. "
             "Required when relevance_score >= 6."
+        )
+    )
+
+    # --- TRI-PARTITE ANALYST BLOCK (Hindi) ---
+    context_and_trigger_hi: Optional[str] = Field(
+        default=None,
+        description=(
+            "Hindi translation of context_and_trigger. Required when relevance_score >= 6. "
+            "1 sentence in fluent Hindi (Devanagari script). Same factual content as English version."
+        )
+    )
+    mechanism_of_impact_hi: Optional[str] = Field(
+        default=None,
+        description=(
+            "Hindi translation of mechanism_of_impact. Required when relevance_score >= 6. "
+            "1 sentence in fluent Hindi (Devanagari script). Same factual content as English version."
+        )
+    )
+    forward_outlook_hi: Optional[str] = Field(
+        default=None,
+        description=(
+            "Hindi translation of forward_outlook. Required when relevance_score >= 6. "
+            "1 sentence in fluent Hindi (Devanagari script). Same factual content as English version. "
+            "NO stock names, tickers, or advisory directives."
         )
     )
 
@@ -357,14 +392,25 @@ class PolicyCard(BaseModel):
     )
     materiality_reason: Optional[str] = Field(
         default=None,
-        description="Required when materiality_flag is True. One sentence explaining why this is a macro paradigm shift."
+        description="Required when materiality_flag is True. One sentence IN ENGLISH explaining why this is a macro paradigm shift."
+    )
+    materiality_reason_hi: Optional[str] = Field(
+        default=None,
+        description="Hindi translation of materiality_reason. Required when materiality_flag is True. One sentence in Devanagari."
     )
     market_lens: Optional[str] = Field(
         default=None,
         description=(
-            "Required when materiality_flag is True. Time-boxed to next 12-18 months. "
+            "Required when materiality_flag is True. IN ENGLISH. Time-boxed to next 12-18 months. "
             "Use probability language: 'raises probability of...', 'reduces regulatory friction for...'. "
             "NO stock names, tickers, or price targets."
+        )
+    )
+    market_lens_hi: Optional[str] = Field(
+        default=None,
+        description=(
+            "Hindi translation of market_lens. Required when materiality_flag is True. "
+            "In Devanagari script. Same probability language as English version."
         )
     )
     relevance_score: int = Field(
@@ -414,31 +460,55 @@ class PolicyCard(BaseModel):
             self.context_and_trigger = None
             self.mechanism_of_impact = None
             self.forward_outlook = None
+            self.context_and_trigger_hi = None
+            self.mechanism_of_impact_hi = None
+            self.forward_outlook_hi = None
             self.materiality_reason = None
+            self.materiality_reason_hi = None
             self.market_lens = None
+            self.market_lens_hi = None
+            self.headline_hi = None
             return self
 
-        # 3. Published items (score >= 6): enforce complete Tri-Partite block
+        # 3. Published items (score >= 6): enforce complete Tri-Partite block (EN + HI)
         self.gate_action = "Policy Desk"
-        if not self.context_and_trigger or not self.mechanism_of_impact or not self.forward_outlook:
+        missing_en = not self.context_and_trigger or not self.mechanism_of_impact or not self.forward_outlook
+        missing_hi = not self.context_and_trigger_hi or not self.mechanism_of_impact_hi or not self.forward_outlook_hi
+        if missing_en:
             raise ValueError(
-                "Complete Tri-Partite analyst block (context_and_trigger, mechanism_of_impact, "
+                "Complete English Tri-Partite analyst block (context_and_trigger, mechanism_of_impact, "
                 "forward_outlook) is required for relevance_score >= 6."
+            )
+        if missing_hi:
+            raise ValueError(
+                "Complete Hindi Tri-Partite block (context_and_trigger_hi, mechanism_of_impact_hi, "
+                "forward_outlook_hi) is required for relevance_score >= 6. "
+                "Write in fluent Hindi (Devanagari script)."
+            )
+        if not self.headline_hi or not self.headline_hi.strip():
+            raise ValueError(
+                "headline_hi (Hindi translation of headline) is required for relevance_score >= 6."
             )
 
         # 4. Auto-promote materiality for score >= 8
         if self.relevance_score >= 8:
             self.materiality_flag = True
 
-        # 5. Material items must have justification fields
+        # 5. Material items must have justification fields (EN + HI)
         if self.materiality_flag:
             if not self.materiality_reason or not self.materiality_reason.strip():
                 raise ValueError("materiality_reason is required when materiality_flag is True.")
             if not self.market_lens or not self.market_lens.strip():
                 raise ValueError("market_lens is required when materiality_flag is True.")
+            if not self.materiality_reason_hi or not self.materiality_reason_hi.strip():
+                raise ValueError("materiality_reason_hi (Hindi) is required when materiality_flag is True.")
+            if not self.market_lens_hi or not self.market_lens_hi.strip():
+                raise ValueError("market_lens_hi (Hindi) is required when materiality_flag is True.")
         else:
             self.materiality_reason = None
+            self.materiality_reason_hi = None
             self.market_lens = None
+            self.market_lens_hi = None
 
         return self
 

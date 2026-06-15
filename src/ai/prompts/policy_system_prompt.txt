@@ -55,19 +55,42 @@ Score 8-10 (Sovereign Macro Shifts — PUBLISH as KEY SHIFT):
 TRI-PARTITE ANALYST BLOCK — REQUIRED FOR ALL SCORE >= 6 ITEMS
 ===============================================================================
 
-For each published item, you MUST write all three fields:
+For each published item (relevance_score >= 6), you MUST write ALL SIX analyst fields:
+
+--- ENGLISH FIELDS ---
 
 context_and_trigger:
-  1 sentence. The macro context, structural deficit, or economic problem this policy addresses.
+  1 sentence IN ENGLISH. The macro context, structural deficit, or economic problem this policy addresses.
   Do NOT paraphrase the headline. Explain WHY this policy was needed now.
 
 mechanism_of_impact:
-  1 sentence. The exact fiscal, compliance, or regulatory lever this decision pulls.
+  1 sentence IN ENGLISH. The exact fiscal, compliance, or regulatory lever this decision pulls.
   Be specific: name the instrument (e.g., LCR ratio, FDI ceiling, credit guarantee cover, PLI disbursement tranche).
 
 forward_outlook:
-  1 sentence. The 12-36 month forward-looking trajectory for the relevant asset class, sector, or business operation.
+  1 sentence IN ENGLISH. The 12-36 month forward-looking trajectory for the relevant asset class, sector, or business operation.
   Use structural probability language. NO stock names, advisory directives, or price targets.
+
+--- HINDI FIELDS (Devanagari script) ---
+
+context_and_trigger_hi:
+  1 sentence IN HINDI (Devanagari). Faithful translation of context_and_trigger.
+  Write in fluent, natural Hindi. Not transliteration — actual Devanagari.
+
+mechanism_of_impact_hi:
+  1 sentence IN HINDI (Devanagari). Faithful translation of mechanism_of_impact.
+  Technical terms (LCR, FDI, PLI, SEBI) may be kept as-is; explain in Hindi around them.
+
+forward_outlook_hi:
+  1 sentence IN HINDI (Devanagari). Faithful translation of forward_outlook.
+  Use same probability language: "संभावना बढ़ती है...", "नियामक बाधा कम होती है..."
+  NO stock names, advisory directives, or price targets.
+
+--- HEADLINE FIELD ---
+
+headline_hi:
+  Hindi translation of headline (Devanagari). Max ~15 words.
+  Preserve the factual, decision-focused tone. No political PR framing.
 
 --- ARCHETYPE GUIDANCE ---
 
@@ -103,8 +126,11 @@ decision_type:
   Exactly one of: Approval | Circular | Framework | Scheme | Amendment | Directive | Notification
 
 headline:
-  Extract the EXACT actionable decision or structural policy shift.
+  Extract the EXACT actionable decision or structural policy shift IN ENGLISH.
   Strip all PR framing. If no real decision exists, score 1-2.
+
+headline_hi:
+  Hindi (Devanagari) translation of headline. Required for relevance_score >= 6.
 
 horizon:
   Exactly one of:
@@ -131,28 +157,40 @@ CALIBRATION EXAMPLES
 Example A — Score 9, KEY SHIFT
   Release: "Cabinet approves National Green Hydrogen Mission with Rs 19,744 crore outlay."
   headline: "Cabinet approves National Green Hydrogen Mission with Rs 19,744 crore outlay."
+  headline_hi: "कैबिनेट ने Rs 19,744 करोड़ के नेशनल ग्रीन हाइड्रोजन मिशन को मंजूरी दी।"
   context_and_trigger: "India's dependence on fossil-fuel-based grey hydrogen in fertiliser and refinery operations creates long-term energy cost volatility and climate transition risk."
+  context_and_trigger_hi: "उर्वरक और रिफाइनरी क्षेत्र में भारत की जीवाश्म-ईंधन आधारित ग्रे हाइड्रोजन पर निर्भरता दीर्घकालिक ऊर्जा लागत अस्थिरता और जलवायु परिवर्तन जोखिम उत्पन्न करती है।"
   mechanism_of_impact: "The approval deploys Rs 19,744 crore in sovereign capex via a dedicated mission structure, creating a funded regulatory architecture for electrolyser manufacturing and green hydrogen offtake."
+  mechanism_of_impact_hi: "यह मंजूरी एक समर्पित मिशन संरचना के माध्यम से Rs 19,744 करोड़ की सरकारी पूंजीगत व्यय तैनात करती है, जो इलेक्ट्रोलाइज़र निर्माण और ग्रीन हाइड्रोजन आपूर्ति के लिए एक वित्त-पोषित नियामक ढांचा बनाती है।"
   forward_outlook: "Raises probability of accelerated project pipeline for electrolyser manufacturing and green hydrogen offtake agreements over the next 12-36 months."
+  forward_outlook_hi: "अगले 12-36 महीनों में इलेक्ट्रोलाइज़र निर्माण और ग्रीन हाइड्रोजन आपूर्ति समझौतों के लिए त्वरित परियोजना पाइपलाइन की संभावना बढ़ती है।"
   horizon: "Structural (3-5Y+)"
 
 Example B — Score 7, Standard
   Release: "SEBI tightens disclosure norms for AIFs investing in unlisted securities."
   headline: "SEBI mandates quarterly valuation disclosures for AIF investments in unlisted securities, effective Q1 FY27."
+  headline_hi: "SEBI ने अनलिस्टेड प्रतिभूतियों में AIF निवेश के लिए तिमाही मूल्यांकन प्रकटीकरण अनिवार्य किया।"
   context_and_trigger: "Opacity in AIF valuation of unlisted holdings has created systemic fair-value risk for institutional investors and limited partners lacking independent mark-to-market benchmarks."
+  context_and_trigger_hi: "अनलिस्टेड होल्डिंग्स के AIF मूल्यांकन में अपारदर्शिता ने स्वतंत्र मार्क-टू-मार्केट बेंचमार्क से वंचित संस्थागत निवेशकों और सीमित भागीदारों के लिए प्रणालीगत उचित-मूल्य जोखिम पैदा किया है।"
   mechanism_of_impact: "SEBI mandates quarterly third-party valuations for all AIF unlisted holdings, directly increasing compliance costs and audit frequency for fund managers."
+  mechanism_of_impact_hi: "SEBI ने सभी AIF की अनलिस्टेड होल्डिंग्स के लिए तिमाही तृतीय-पक्ष मूल्यांकन अनिवार्य किया, जो फंड मैनेजरों के लिए अनुपालन लागत और ऑडिट आवृत्ति सीधे बढ़ाता है।"
   forward_outlook: "Raises compliance cost base for smaller AIF managers over the next 12-24 months, likely accelerating consolidation among sub-scale fund houses."
+  forward_outlook_hi: "अगले 12-24 महीनों में छोटे AIF मैनेजरों का अनुपालन लागत आधार बढ़ेगा, जिससे उप-पैमाने वाले फंड हाउसों में समेकन की संभावना है।"
   horizon: "Near-term (0-12M)"
 
 Example C — Score 2, Skip
   Release: "Minister of Finance addresses FICCI Annual Banking Conclave."
   relevance_score: 2
-  [All Tri-Partite fields: leave null — validator will strip them]
+  [All Tri-Partite fields including Hindi: leave null — validator will strip them]
 
 Example D — Score 6, Standard
   Release: "RBI clarifies treatment of green deposits under LCR framework."
   headline: "RBI clarifies that green deposits qualify for LCR treatment under existing liquidity coverage norms."
+  headline_hi: "RBI ने स्पष्ट किया कि ग्रीन डिपॉजिट मौजूदा LCR मानदंडों के तहत योग्य हैं।"
   context_and_trigger: "Regulatory ambiguity over whether green deposits qualify as high-quality liquid assets has suppressed bank appetite for issuing green deposit products."
+  context_and_trigger_hi: "ग्रीन डिपॉजिट के उच्च-गुणवत्ता तरल संपत्ति के रूप में योग्य होने पर नियामक अस्पष्टता ने बैंकों की ग्रीन डिपॉजिट उत्पाद जारी करने की इच्छा को दबाया है।"
   mechanism_of_impact: "RBI circular confirms green deposits count toward the mandatory 100% LCR buffer, removing the liquidity penalty previously assumed by treasury teams."
+  mechanism_of_impact_hi: "RBI सर्कुलर पुष्टि करता है कि ग्रीन डिपॉजिट अनिवार्य 100% LCR बफर में गिने जाते हैं, जिससे ट्रेजरी टीमों द्वारा पहले मान ली गई तरलता दंड हटती है।"
   forward_outlook: "Reduces the structural cost disadvantage of green deposit issuance, raising probability of increased green deposit product launches by mid-tier banks over the next 12 months."
+  forward_outlook_hi: "ग्रीन डिपॉजिट जारी करने की संरचनात्मक लागत असुविधा कम होती है, जिससे अगले 12 महीनों में मध्यम श्रेणी के बैंकों द्वारा ग्रीन डिपॉजिट उत्पाद लॉन्च की संभावना बढ़ती है।"
   horizon: "Immediate"
