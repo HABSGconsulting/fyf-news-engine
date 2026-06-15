@@ -1,29 +1,71 @@
 # RSS feed sources for Indian financial news
 # Add/remove sources here. Pipeline reads this file on every run.
-# Start with 3-5 reliable sources. Expand gradually.
+#
+# feed_type: news   -> ImpactPost schema  -> content/posts/
+# feed_type: policy -> PolicyCard schema  -> content/policy/
+#                      Freshness rule: 7-day bootstrap on first run, 24h steady-state.
 
 sources:
+
+  # -----------------------------------------------------------------------
+  # FINANCIAL NEWS FEEDS  (feed_type: news)
+  # -----------------------------------------------------------------------
+
   - name: Economic Times Markets
     url: https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms
     priority: high
+    feed_type: news
     tags: [markets, equity, macro]
 
   - name: Mint Personal Finance
     url: https://www.livemint.com/rss/money
     priority: high
+    feed_type: news
     tags: [personal_finance, mutual_funds, tax]
 
   - name: MoneyControl News
     url: https://www.moneycontrol.com/rss/latestnews.xml
     priority: medium
+    feed_type: news
     tags: [markets, macro, policy]
+
+  # -----------------------------------------------------------------------
+  # REGULATORY / POLICY FEEDS  (feed_type: policy)
+  # These use PolicyCard schema. Freshness: 7-day bootstrap, then 24h.
+  # -----------------------------------------------------------------------
 
   - name: SEBI Press Releases
     url: https://www.sebi.gov.in/sebi_data/rss/rss_press_releases.xml
     priority: high
+    feed_type: policy
     tags: [regulatory, sebi]
 
   - name: RBI Press Releases
     url: https://www.rbi.org.in/scripts/rss.aspx
     priority: high
+    feed_type: policy
     tags: [regulatory, rbi, monetary_policy]
+
+  - name: PIB Ministry of Finance
+    url: https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3
+    priority: high
+    feed_type: policy
+    tags: [pib, ministry_of_finance, budget, taxation]
+
+  - name: PIB CCEA
+    url: https://pib.gov.in/RssMain.aspx?ModId=25&Lang=1&Regid=3
+    priority: high
+    feed_type: policy
+    tags: [pib, ccea, cabinet, approval]
+
+  - name: PIB Ministry of Corporate Affairs
+    url: https://pib.gov.in/RssMain.aspx?ModId=14&Lang=1&Regid=3
+    priority: medium
+    feed_type: policy
+    tags: [pib, mca, corporate, regulatory]
+
+  - name: PIB IFSC Authority
+    url: https://pib.gov.in/RssMain.aspx?ModId=86&Lang=1&Regid=3
+    priority: medium
+    feed_type: policy
+    tags: [pib, ifsc, gift_city, financial_services]
