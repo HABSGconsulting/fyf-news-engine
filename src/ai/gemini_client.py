@@ -9,6 +9,7 @@ No chunking. No merge. No CHUNK_SIZE.
 See 00-ai-context.md § Locked Decisions #1.
 """
 import os
+import re
 import time
 import json
 import traceback
@@ -37,6 +38,32 @@ def _configure():
             "Add it to GitHub Secrets (CI) or .env (local)."
         )
     genai.configure(api_key=GEMINI_API_KEY)
+
+
+def _clean_pib_url(url: str) -> str:
+    """Normalise a PIB URL to a clean, language-neutral, directly-openable link.
+
+    PIB RSS item links often carry lang= and reg= query parameters that:
+      - Set lang=2 (Hindi) even on English feeds
+      - Use IframePage which blocks direct browser navigation
+
+    We strip all query parameters except PRID and rewrite IframePage → PressReleasePage.
+    Result: https://pib.gov.in/PressReleasePage.aspx?PRID=<id>
+    Non-PIB URLs (SEBI, RBI) pass through unchanged.
+    """
+    if "pib.gov.in" not in url:
+        return url
+
+    # Rewrite IframePage to PressReleasePage
+    url = url.replace("PressReleaseIframePage.aspx", "PressReleasePage.aspx")
+
+    # Extract PRID value and rebuild clean URL
+    match = re.search(r"PRID=(\d+)", url)
+    if match:
+        prid = match.group(1)
+        return f"https://pib.gov.in/PressReleasePage.aspx?PRID={prid}"
+
+    return url
 
 
 def _build_prompt(news_items: list[dict]) -> str:
@@ -178,6 +205,9 @@ def run_policy_batch(
     LLMs must never be trusted to reproduce URLs faithfully.
     Positional order is guaranteed because the prompt instructs Gemini to return
     items in the same order as input and with no items skipped.
+
+    URL cleaning (_clean_pib_url) strips lang/reg params and rewrites IframePage
+    so the English page always links to a clean, directly-openable English URL.
     """
     _configure()
     system_prompt = _load_prompt("policy_system_prompt.txt")
@@ -199,13 +229,13 @@ def run_policy_batch(
 
             result = PolicyRunOutput.model_validate_json(raw)
 
-            # Stamp source_url from RSS item by position.
+            # Stamp source_url from RSS item by position, then clean it.
             # Gemini returns items in input order; never trust LLM URL reproduction.
             for i, card in enumerate(result.evaluated_items):
                 if i < len(policy_items):
                     rss_url = policy_items[i].get("url", "") or ""
                     if rss_url and rss_url.startswith("http"):
-                        card.source_url = rss_url
+                        card.source_url = _clean_pib_url(rss_url)
 
             publishing = [c for c in result.evaluated_items if c.gate_action == "Policy Desk"]
             skipped    = [c for c in result.evaluated_items if c.gate_action == "Skip entirely"]

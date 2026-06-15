@@ -1,10 +1,12 @@
 """policy_card.py — Build Hugo Markdown files from validated PolicyCard objects.
 
-Output path: content/policy/YYYY/MM/SLUG.md  (in fyf-news-site)
-Slug:         kebab-case from headline, truncated to 60 chars, date-prefixed
+Output:
+  EN:  content/policy/YYYY/MM/SLUG.md
+  HI:  content/policy/YYYY/MM/SLUG.hi.md
 
-One .md file per PolicyCard that passes the Policy Desk gate (relevance_score >= 6).
-No .hi.md for policy cards — EN only.
+Slug:         kebab-case from headline, truncated to 60 chars, date-prefixed.
+One EN + one HI file per PolicyCard that passes the Policy Desk gate (relevance_score >= 6).
+Hindi frontmatter mirrors EN exactly — Hugo renders the Hindi layout using the same fields.
 """
 import re
 from datetime import datetime, timezone, timedelta
@@ -34,34 +36,15 @@ def _escape(text: Optional[str]) -> str:
     return text.replace('"', "'").replace('\n', ' ').strip()
 
 
-def build_policy_card(card: PolicyCard, run_dt: datetime) -> dict[str, str]:
-    """Build one Hugo Markdown file for a PolicyCard.
-
-    Returns: {path: content} dict ready for publisher.py.
-    Skipped items (gate_action != 'Policy Desk') return empty dict.
-    """
-    if card.gate_action != "Policy Desk":
-        return {}
-
-    run_ist     = run_dt.astimezone(IST)
-    year        = run_ist.strftime("%Y")
-    month       = run_ist.strftime("%m")
-    date_prefix = run_ist.strftime("%Y%m%d%H%M")
-    slug        = f"{date_prefix}-{_slugify(card.headline)}"
-    path        = f"content/policy/{year}/{month}/{slug}.md"
-    display_date = run_ist.strftime("%d %b %Y, %I:%M %p IST")
-
-    persona_labels = {
-        "retail":         "Retail Investor",
-        "fund_manager":   "Fund Manager",
-        "hni":            "HNI / Family Office",
-        "business_owner": "Business Owner",
-        "psu_banker":     "PSU Banker",
-    }
-    personas_display = [persona_labels.get(p, p) for p in (card.personas_affected or [])]
-    sectors_display  = [s.replace("_", " ").title() for s in (card.sectors_affected or [])]
-
-    fm_lines = [
+def _build_frontmatter(
+    card: PolicyCard,
+    run_ist: datetime,
+    display_date: str,
+    personas_display: list[str],
+    sectors_display: list[str],
+) -> str:
+    """Build YAML frontmatter block shared by both EN and HI files."""
+    lines = [
         "---",
         f'title: "{_escape(card.headline)}"',
         f'date: "{run_ist.isoformat()}"',
@@ -83,14 +66,49 @@ def build_policy_card(card: PolicyCard, run_dt: datetime) -> dict[str, str]:
     ]
 
     if card.materiality_reason:
-        fm_lines.append(f'materiality_reason: "{_escape(card.materiality_reason)}"')
+        lines.append(f'materiality_reason: "{_escape(card.materiality_reason)}"')
     if card.market_lens:
-        fm_lines.append(f'market_lens: "{_escape(card.market_lens)}"')
+        lines.append(f'market_lens: "{_escape(card.market_lens)}"')
 
-    fm_lines.append("---")
+    lines.append("---")
+    return "\n".join(lines) + "\n"
 
-    content = "\n".join(fm_lines) + "\n"
-    return {path: content}
+
+def build_policy_card(card: PolicyCard, run_dt: datetime) -> dict[str, str]:
+    """Build one EN and one HI Hugo Markdown file for a PolicyCard.
+
+    Returns: {path: content} dict with 2 entries (EN + HI).
+    Skipped items (gate_action != 'Policy Desk') return empty dict.
+    """
+    if card.gate_action != "Policy Desk":
+        return {}
+
+    run_ist      = run_dt.astimezone(IST)
+    year         = run_ist.strftime("%Y")
+    month        = run_ist.strftime("%m")
+    date_prefix  = run_ist.strftime("%Y%m%d%H%M")
+    slug         = f"{date_prefix}-{_slugify(card.headline)}"
+    display_date = run_ist.strftime("%d %b %Y, %I:%M %p IST")
+
+    persona_labels = {
+        "retail":         "Retail Investor",
+        "fund_manager":   "Fund Manager",
+        "hni":            "HNI / Family Office",
+        "business_owner": "Business Owner",
+        "psu_banker":     "PSU Banker",
+    }
+    personas_display = [persona_labels.get(p, p) for p in (card.personas_affected or [])]
+    sectors_display  = [s.replace("_", " ").title() for s in (card.sectors_affected or [])]
+
+    fm = _build_frontmatter(card, run_ist, display_date, personas_display, sectors_display)
+
+    en_path = f"content/policy/{year}/{month}/{slug}.md"
+    hi_path = f"content/policy/{year}/{month}/{slug}.hi.md"
+
+    return {
+        en_path: fm,
+        hi_path: fm,   # identical frontmatter; Hugo picks the right layout by .hi suffix
+    }
 
 
 def build_policy_section_index(run_dt: datetime) -> dict[str, str]:
