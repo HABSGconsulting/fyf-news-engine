@@ -730,6 +730,260 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-06-15T10:12:41.349007+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 6,
+      "items_seen": 11,
+      "items_evaluated": 11,
+      "items_skipped": 8,
+      "more_reads": 2,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 14,
+      "items_detail": [
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 2,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 4,
+          "gate": "More Reads",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 2,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 2,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 2,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Vedanta demerger complete \u2014 what you need to know",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 4,
+          "gate": "More Reads",
+          "persona": null,
+          "category": null
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Condolence message for Solapur accident",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Summary of outcomes from Prime Minister's visit to France",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Expansion of She-Mart and District Fulfillment Centers to support Lakhpati Didi target",
+          "score": 5,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Bilateral talks between Prime Minister and President of France",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Establishment of India-France ATL Bridge School innovation labs",
+          "score": 4,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Article shared on yoga and healthy aging",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Article shared on farmer welfare",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Excerpts from Bharat Innovates program address",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Status update on Project GIB conservation",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Bharat Innovates 2026 and Deep Tech alliance with France",
+          "score": 5,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Blood donation camp organized by CCA office",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of fertilizer production milestones",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister's participation in Bharat Innovates 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Article shared on Viksit Bharat journey",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Foundation stone for Integrated Aqua Park and NFDB regional center",
+          "score": 4,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Text of Prime Minister's address at Bharat Innovates 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Foundation stone for Krishi Vigyan Kendra in Vidisha",
+          "score": 4,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Projections for India's space economy growth",
+          "score": 5,
+          "gate": "Policy Desk",
+          "ministry": "Department of Space",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Selection of projects for Waves Doc Bazaar 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "INS Sharda visit to Colombo",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
