@@ -1829,6 +1829,253 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-15T21:04:22.365833+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 10,
+      "items_evaluated": 10,
+      "items_skipped": 6,
+      "more_reads": 1,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 19,
+      "items_detail": [
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Angel One settles SEBI case over monitoring lapses",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "active_trader",
+          "category": "regulatory"
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "New Nifty indices launched \u2014 more options for your portfolio",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "persona": "mutual_fund_investor",
+          "category": "product"
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Gifting money to NRI children: Understand the TCS rules",
+          "score": 6,
+          "gate": "Impact post",
+          "persona": "salaried_taxpayer",
+          "category": "taxation"
+        },
+        {
+          "title": "(no headline)",
+          "score": 4,
+          "gate": "More Reads",
+          "persona": null,
+          "category": null
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "UIDAI completes biometric SDK benchmarking challenge",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "UIDAI",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MeitY holds industry consultation on AI-driven transformation in IT services",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "MeitY",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Yuva Sangam Phase VI cultural exchange program concludes",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Yuva Sangam Phase VI cultural exchange program concludes",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Book launch event on historical unity",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Vice President Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Successful flight test of long-range surface-attack cruise missile",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of regional center activities",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Compliance with Delhi High Court order for CAPF exam reserve list",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Briefing on recent developments in West Asia",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Constitution of Search-cum-Selection Committee for National Sports Board",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of master plans for busy railway stations",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ceremonial tribute to unknown soldiers",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of 12 years of panchayat reforms",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Bilateral meeting with Slovak Republic",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Foundation stone laid for technology center in Gaya",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India-Slovakia joint statement",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Outcomes of Prime Minister's visit to Slovakia",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Growth report of India's bio-economy",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National conference on insolvency and bankruptcy code",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Joint press statement with Slovakia",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
