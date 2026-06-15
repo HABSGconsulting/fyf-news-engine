@@ -265,196 +265,180 @@ class ImpactPost(BaseModel):
 
 
 class RunOutput(BaseModel):
-    """All evaluated items from a single pipeline run — qualifying and non-qualifying.
-    main.py routes items by gate_action:
-      'Impact post*'  → news_card builder → fyf-news-site
-      'More Reads'    → more_reads builder → data/more-reads/
-      'Skip entirely' → discarded, counted in run log only
-    """
+    """All evaluated items from a single pipeline run — qualifying and non-qualifying."""
     evaluated_items: list[ImpactPost] = Field(default_factory=list)
 
 
 # ---------------------------------------------------------------------------
 # PolicyCard — used exclusively for feed_type: policy items
-# (PIB ministry feeds + SEBI regulatory circulars)
-# ImpactPost is NOT used for these items.
 # ---------------------------------------------------------------------------
 
 POLICY_HORIZON_VALUES = Literal[
     "Immediate",
-    "Near-term (0–12M)",
-    "Cyclical (1–3Y)",
-    "Structural (3–5Y+)",
+    "Near-term (0-12M)",
+    "Cyclical (1-3Y)",
+    "Structural (3-5Y+)",
     "Pending Parliament",
-]
-
-POLICY_PERSONA_VALUES = Literal[
-    "retail",
-    "fund_manager",
-    "hni",
-    "business_owner",
-    "psu_banker",
-]
-
-POLICY_SECTOR_VALUES = Literal[
-    "banking",
-    "insurance",
-    "infra",
-    "consumption",
-    "microfinance",
-    "sme_lending",
-    "capital_markets",
-    "real_estate",
-    "energy",
-    "agriculture",
-    "defence",
-    "taxation",
-    "fintech",
-    "healthcare",
-    "education",
 ]
 
 
 class PolicyCard(BaseModel):
     """
-    Structured intelligence card for a single PIB / SEBI policy release.
-    Used only when feed_type == 'policy' in sources.yaml.
-    Gate logic, materiality promotion, sentiment sentinel, and field cleanup
-    are all enforced by validate_materiality_and_gate.
-    Gemini does NOT set gate_action.
+    Institutional-grade intelligence card for a single PIB / SEBI / RBI / MCA policy release.
+    Uses a Tri-Partite Analyst Block (context_and_trigger, mechanism_of_impact, forward_outlook).
+    Hard gate at relevance_score >= 6. Items below 6 are dropped and stripped.
+    Gemini does NOT set gate_action — the model_validator sets it deterministically.
+    source_url is stamped from RSS item AFTER Gemini responds (never trust LLM URL reproduction).
     """
     ministry: str = Field(
-        description="Exact ministry or regulator name. E.g. 'Ministry of Finance', 'CCEA', 'MCA', 'IFSC Authority', 'SEBI', 'RBI'."
+        description="Exact formal name of the issuing government entity or regulator. E.g. 'Reserve Bank of India', 'Ministry of Finance', 'CCEA', 'SEBI', 'IFSC Authority'."
     )
     decision_type: str = Field(
-        description="One of: Approval | Circular | Framework | Scheme | Amendment | Directive | Notification"
+        description="Classification: 'Approval' | 'Circular' | 'Framework' | 'Scheme' | 'Amendment' | 'Directive' | 'Notification'"
     )
     headline: str = Field(
         description=(
+            "Factual, decision-focused title. Completely strip out political, vague, or congratulatory PR framing. "
             "Extract the exact actionable decision or structural policy shift. "
-            "Do NOT replicate vague PIB PR titles like 'PM addresses conference on...' or 'Minister inaugurates...'. "
-            "If there is no real decision, set gate_action to empty string — the validator will set Skip entirely."
+            "Do NOT replicate PR titles like 'PM addresses conference...' or 'Minister inaugurates...'. "
+            "If no real decision exists, set relevance_score to 1 or 2."
         )
     )
-    what_it_means: str = Field(
+
+    # --- TRI-PARTITE ANALYST BLOCK ---
+    context_and_trigger: Optional[str] = Field(
+        default=None,
         description=(
-            "One crisp sentence. Investor-framed. "
-            "Explain the immediate economic or operational consequence for the affected personas."
+            "1 concise sentence: The macro context, structural deficit, or economic problem "
+            "this policy intends to solve. Required when relevance_score >= 6."
         )
     )
+    mechanism_of_impact: Optional[str] = Field(
+        default=None,
+        description=(
+            "1 concise sentence: The exact fiscal, compliance, or regulatory lever pulled "
+            "by this administrative decision. Required when relevance_score >= 6."
+        )
+    )
+    forward_outlook: Optional[str] = Field(
+        default=None,
+        description=(
+            "1 precise sentence: The 12-36 month forward-looking trajectory for asset allocation "
+            "or business operations. NO stock names, tickers, or advisory directives. "
+            "Required when relevance_score >= 6."
+        )
+    )
+
     personas_affected: List[str] = Field(
         default_factory=list,
-        description="Subset of: retail, fund_manager, hni, business_owner, psu_banker. Min 1."
+        description="Target segments. Subset of: ['retail', 'fund_manager', 'hni', 'business_owner', 'psu_banker']. Min 1."
     )
     sectors_affected: List[str] = Field(
         default_factory=list,
         description=(
-            "Relevant sectors from: banking, insurance, infra, consumption, microfinance, "
-            "sme_lending, capital_markets, real_estate, energy, agriculture, defence, "
-            "taxation, fintech, healthcare, education. Min 1."
+            "Impacted sectors. Minimalist tokens from: banking, insurance, infra, consumption, "
+            "microfinance, sme_lending, capital_markets, real_estate, energy, agriculture, "
+            "defence, taxation, fintech, healthcare, education. Min 1."
         )
     )
     horizon: str = Field(
         description=(
-            "Select EXACTLY one of these 5 values based on Indian bureaucratic execution reality:\n"
+            "Select EXACTLY one of these 5 values:\n"
             "  'Immediate'           — gazette notification / RBI circular effective today or this quarter\n"
-            "  'Near-term (0–12M)'   — tied to upcoming Union Budget or current FY targets\n"
-            "  'Cyclical (1–3Y)'     — multi-year PLI, credit guarantee schemes, fiscal spending cycles\n"
-            "  'Structural (3–5Y+)'  — multi-ministry frameworks, deep legal reform, national masterplans\n"
+            "  'Near-term (0-12M)'   — tied to upcoming Union Budget or current FY targets\n"
+            "  'Cyclical (1-3Y)'     — multi-year PLI, credit guarantee schemes, fiscal spending cycles\n"
+            "  'Structural (3-5Y+)'  — multi-ministry frameworks, deep legal reform, national masterplans\n"
             "  'Pending Parliament'  — cabinet approval for bill not yet passed into law"
         )
     )
     materiality_flag: bool = Field(
         default=False,
-        description="True for structurally important or market-moving policy shifts. Auto-set to True if relevance_score >= 8."
+        description="Auto-set to True by validator if relevance_score >= 8. Do not set manually."
     )
     materiality_reason: Optional[str] = Field(
         default=None,
-        description=(
-            "Required when materiality_flag is True. "
-            "One sentence: why this is a key structural or market-moving change."
-        )
+        description="Required when materiality_flag is True. One sentence explaining why this is a macro paradigm shift."
     )
     market_lens: Optional[str] = Field(
         default=None,
         description=(
-            "Required when materiality_flag is True. "
-            "Time-boxed to next 12–18 months. "
-            "Use language like: 'raises probability of...', 'reduces regulatory friction for...', "
-            "'accelerates execution timelines across...', 'makes it easier for...'. "
-            "STRICTLY NO stock names, equity tickers, brand names, or price targets."
+            "Required when materiality_flag is True. Time-boxed to next 12-18 months. "
+            "Use probability language: 'raises probability of...', 'reduces regulatory friction for...'. "
+            "NO stock names, tickers, or price targets."
         )
     )
     relevance_score: int = Field(
         ge=1, le=10,
         description=(
-            "1–10. Score >= 4 publishes to Policy Desk. Score >= 8 auto-triggers materiality. "
-            "Score 1–2: PR fluff, inaugurations, delegation visits — skip these. "
-            "Score 3: minor administrative update — borderline skip. "
-            "Score 4–7: genuine policy, circular, or scheme — publish. "
-            "Score 8–10: structural/market-moving shift — publish with KEY SHIFT badge."
+            "Ruthless 1-10 structural capital market impact score.\n"
+            "1-3: PR fluff, inaugurations, foundation stones, MoUs without fiscal backing — SKIP.\n"
+            "4-5: Administrative routine, procedural clarifications, localized micro-grants — SKIP.\n"
+            "6-7: Direct regulatory changes by SEBI/RBI, FDI cap revisions, Cabinet strategic approvals — PUBLISH.\n"
+            "8-10: Systemic fiscal amendments, sweeping code changes, market-wide capital adjustments — PUBLISH as KEY SHIFT."
         )
     )
     sentiment: str = Field(
         default="neutral",
-        description="One of: positive | negative | neutral | watch"
+        description="Market directional bias: 'positive' | 'negative' | 'neutral' | 'watch'"
     )
     source_url: str = Field(
         default="",
-        description="Original PIB or SEBI URL — from the RSS item link field."
+        description="Stamped from RSS item after Gemini responds. Leave as empty string."
     )
     gate_action: str = Field(
         default="",
-        description="Leave as empty string. The Pydantic validator sets this from relevance_score. Do not guess."
+        description="Leave as empty string. Set deterministically by model_validator from relevance_score."
     )
 
     @field_validator("personas_affected", "sectors_affected", mode="before")
     @classmethod
     def coerce_list_fields(cls, v):
-        """Guard against Gemini omitting list fields — default to empty list."""
         return v if isinstance(v, list) else []
 
     @field_validator("source_url", "sentiment", mode="before")
     @classmethod
     def coerce_str_fields(cls, v):
-        """Guard against Gemini omitting string fields — default to empty string."""
         return v if isinstance(v, str) and v.strip() else ""
 
     @model_validator(mode="after")
-    def validate_materiality_and_gate(self) -> "PolicyCard":
-        # 0. Sentinel: guarantee sentiment is always a valid frontmatter value.
-        #    coerce_str_fields may have left it as "" if Gemini omitted it.
-        #    Any blank or out-of-contract value falls back to "neutral".
+    def enforce_institutional_gating(self) -> "PolicyCard":
+        # 1. Sentinel: guarantee sentiment is always a valid value
         _VALID_SENTIMENTS = {"positive", "negative", "neutral", "watch"}
         if not self.sentiment or self.sentiment.strip() not in _VALID_SENTIMENTS:
             self.sentiment = "neutral"
 
-        # 1. Auto-promote to material if score is high enough
-        if self.relevance_score >= 8 and not self.materiality_flag:
-            self.materiality_flag = True
-
-        # 2. Material items MUST have both justification fields populated
-        if self.materiality_flag:
-            if not self.materiality_reason or not self.materiality_reason.strip():
-                raise ValueError(
-                    "materiality_reason is required when materiality_flag is True. "
-                    "Provide one sentence explaining why this is a key structural or market-moving change."
-                )
-            if not self.market_lens or not self.market_lens.strip():
-                raise ValueError(
-                    "market_lens is required when materiality_flag is True. "
-                    "Provide a 12–18 month macro/sector impact sentence using probability language."
-                )
-        else:
-            # 3. Non-material items: null out these fields to keep frontmatter clean
+        # 2. HARD GATE: below 6 is permanently dropped
+        if self.relevance_score < 6:
+            self.gate_action = "Skip entirely"
+            self.materiality_flag = False
+            self.context_and_trigger = None
+            self.mechanism_of_impact = None
+            self.forward_outlook = None
             self.materiality_reason = None
             self.market_lens = None
+            return self
 
-        # 4. Gate action is derived from score — Gemini does not set this
-        if self.relevance_score < 4:
-            self.gate_action = "Skip entirely"
+        # 3. Published items (score >= 6): enforce complete Tri-Partite block
+        self.gate_action = "Policy Desk"
+        if not self.context_and_trigger or not self.mechanism_of_impact or not self.forward_outlook:
+            raise ValueError(
+                "Complete Tri-Partite analyst block (context_and_trigger, mechanism_of_impact, "
+                "forward_outlook) is required for relevance_score >= 6."
+            )
+
+        # 4. Auto-promote materiality for score >= 8
+        if self.relevance_score >= 8:
+            self.materiality_flag = True
+
+        # 5. Material items must have justification fields
+        if self.materiality_flag:
+            if not self.materiality_reason or not self.materiality_reason.strip():
+                raise ValueError("materiality_reason is required when materiality_flag is True.")
+            if not self.market_lens or not self.market_lens.strip():
+                raise ValueError("market_lens is required when materiality_flag is True.")
         else:
-            self.gate_action = "Policy Desk"
+            self.materiality_reason = None
+            self.market_lens = None
 
         return self
 
