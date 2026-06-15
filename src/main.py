@@ -24,6 +24,16 @@ from src.ai.schema import MoreReadsItem, Category
 IST = timezone(timedelta(hours=5, minutes=30))
 
 
+def _normalise_source_url(url: str) -> str:
+    """Rewrite PIB IframePage URLs to the directly-openable PressReleasePage variant.
+
+    PIB RSS items use PressReleaseIframePage.aspx which is an internal wrapper
+    that blocks direct browser navigation. Swapping to PressReleasePage.aspx
+    produces a clean, shareable URL that opens in any browser.
+    """
+    return url.replace("PressReleaseIframePage.aspx", "PressReleasePage.aspx")
+
+
 def _item_audit(post) -> dict:
     """Compact audit record for one ImpactPost item."""
     content = post.content_en or post.content_hi
@@ -170,6 +180,8 @@ def main() -> None:
             if publishing_cards:
                 files_to_publish.update(build_policy_section_index(run_dt))
                 for card in publishing_cards:
+                    # Normalise PIB IframePage URLs before stamping into frontmatter
+                    card.source_url = _normalise_source_url(card.source_url)
                     files_to_publish.update(build_policy_card(card, run_dt))
                 run_log_data["policy_published"] = len(publishing_cards)
 
