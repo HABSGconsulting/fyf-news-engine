@@ -67,7 +67,6 @@ class ImpactContent(BaseModel):
     headline:           str = Field(description="Investor-framed headline. Lead with the investor, not the institution. Max 12 words.")
     who_affected:       str = Field(description="Exactly 1 sentence. Name the persona explicitly. Max 20 words.")
     what_changes:       str = Field(description="Exactly 1 sentence. State what materially changes. MUST include a specific number, metric, or percentage. Max 30 words.")
-    # sentiment_reason removed: dead field, wasted tokens. Sentiment is self-evident from sentiment enum + what_changes.
     action_to_consider: str = Field(
         description=(
             "Exactly 1 sentence. One concrete, non-advisory action the investor can take. "
@@ -100,20 +99,13 @@ class MoreReadsItem(BaseModel):
 
 # ---------------------------------------------------------------------------
 # Horizon × Category constraint tables
-#
-# TIER 1 — Hard blocks: logically impossible combinations.
-# A ValidationError here causes gemini_client.py to retry the item.
-#
-# TIER 2 — Soft flags: unusual but plausible combinations.
-# Appended to validation_warnings for human review; no retry triggered.
 # ---------------------------------------------------------------------------
 
 _HARD_BLOCKS: set[tuple[str, str]] = {
-    # (impact_horizon, category)
-    ("immediate",  "behavioral"),   # Behavioural change cannot be immediate
-    ("structural", "performance"),  # Performance is point-in-time, not structural
-    ("long_term",  "performance"),  # Same: performance data is not long-term horizon
-    ("structural", "behavioral"),   # Behavioural shifts are medium/long, not structural policy
+    ("immediate",  "behavioral"),
+    ("structural", "performance"),
+    ("long_term",  "performance"),
+    ("structural", "behavioral"),
 }
 
 _SOFT_FLAGS: dict[tuple[str, str], str] = {
@@ -126,9 +118,6 @@ _SOFT_FLAGS: dict[tuple[str, str], str] = {
 
 
 class ImpactPost(BaseModel):
-    # ------------------------------------------------------------------
-    # Chain-of-Thought scoring (filled for ALL items, including skips)
-    # ------------------------------------------------------------------
     reach_score:       int = Field(ge=0, le=2, description="0: institutional only. 1: 1-2 personas. 2: 3+ personas.")
     reach_reasoning:   str = Field(description="1-sentence justification for reach_score.")
 
@@ -157,16 +146,12 @@ class ImpactPost(BaseModel):
         "Impact post + Premium + Blog",
     ] = Field(description="Action derived strictly from editorial_impact_score threshold.")
 
-    # ------------------------------------------------------------------
-    # Publication fields — None for Skip/More Reads items (saves tokens)
-    # ------------------------------------------------------------------
     sentiment:       Optional[Sentiment]     = Field(default=None)
     category:        Optional[Category]      = Field(default=None)
-    subject_tags:    Optional[list[str]]     = Field(default=None)   # legacy alias — prompt may send null; normalised to [] below
+    subject_tags:    Optional[list[str]]     = Field(default=None)
     trigger_event:   str                     = Field(default="")
     event_series:    Optional[EventSeries]   = None
 
-    # Persona fields
     primary_persona:   Optional[Persona]     = Field(default=None)
     affected_personas: list[Persona]         = Field(default_factory=list)
 
@@ -181,32 +166,22 @@ class ImpactPost(BaseModel):
     push_notify:       bool                  = False
     whatsapp_caption:  str                   = Field(default="")
 
-    # More Reads fields — populated when gate_action == "More Reads"
     more_reads_title:     Optional[str] = Field(default=None)
     more_reads_url:       Optional[str] = Field(default=None)
     more_reads_one_liner: Optional[str] = Field(default=None)
 
-    # ------------------------------------------------------------------
-    # Validation telemetry — written by model_validators below
-    # ------------------------------------------------------------------
     validation_failed:   bool                  = Field(default=False)
     validation_warnings: List[Dict[str, Any]]  = Field(default_factory=list)
-
-    # ------------------------------------------------------------------
-    # Validators
-    # ------------------------------------------------------------------
 
     @field_validator("reach_score", "immediacy_score", "materiality_score",
                      "surprise_score", "source_score", mode="before")
     @classmethod
     def coerce_none_score(cls, v):
-        """Guard against Gemini returning null for dimension scores — default to 0."""
         return v if v is not None else 0
 
     @field_validator("editorial_impact_score", mode="after")
     @classmethod
     def validate_score_is_sum(cls, v: int, info) -> int:
-        """Auto-correct Gemini arithmetic errors instead of crashing."""
         d = info.data
         fields = ["reach_score", "immediacy_score", "materiality_score", "surprise_score", "source_score"]
         if all(f in d for f in fields):
@@ -253,23 +228,15 @@ class ImpactPost(BaseModel):
     @field_validator("subject_tags", mode="before")
     @classmethod
     def coerce_subject_tags(cls, v):
-        """Prompt sends subject_tags (legacy name) — accept null or list gracefully."""
         return v if isinstance(v, list) else None
 
     @field_validator("push_notify", mode="before")
     @classmethod
     def coerce_push_notify(cls, v):
-        """Guard against Gemini returning null for boolean field."""
         return bool(v) if v is not None else False
 
     @model_validator(mode="after")
     def validate_horizon_constraints(self) -> "ImpactPost":
-        """Two-tier horizon × category validation.
-
-        Tier 1 — Hard blocks: raise ValueError → gemini_client retries the item.
-        Tier 2 — Soft flags: append to validation_warnings → logged for review, no retry.
-        """
-        # Only validate posts that have actual content
         if self.gate_action in ("Skip entirely", "More Reads"):
             return self
         if not self.category or not self.impact_horizon:
@@ -278,14 +245,12 @@ class ImpactPost(BaseModel):
         cat     = self.category.value
         horizon = self.impact_horizon.value
 
-        # Tier 1: Hard block
         if (horizon, cat) in _HARD_BLOCKS:
             raise ValueError(
                 f"Logical mismatch: category '{cat}' cannot have impact_horizon '{horizon}'. "
                 "Review both fields and correct the less certain one."
             )
 
-        # Tier 2: Soft flag
         flag_note = _SOFT_FLAGS.get((horizon, cat))
         if flag_note:
             self.validation_warnings.append({
@@ -315,7 +280,6 @@ class RunOutput(BaseModel):
 # ImpactPost is NOT used for these items.
 # ---------------------------------------------------------------------------
 
-# Canonical horizon values — must match exactly in Gemini prompt
 POLICY_HORIZON_VALUES = Literal[
     "Immediate",
     "Near-term (0–12M)",
@@ -324,7 +288,6 @@ POLICY_HORIZON_VALUES = Literal[
     "Pending Parliament",
 ]
 
-# Canonical persona values for Policy Desk cards (different from ImpactPost Persona enum)
 POLICY_PERSONA_VALUES = Literal[
     "retail",
     "fund_manager",
@@ -333,7 +296,6 @@ POLICY_PERSONA_VALUES = Literal[
     "psu_banker",
 ]
 
-# Canonical sector values for Policy Desk cards
 POLICY_SECTOR_VALUES = Literal[
     "banking",
     "insurance",
@@ -380,16 +342,17 @@ class PolicyCard(BaseModel):
         )
     )
     personas_affected: List[str] = Field(
+        default_factory=list,
         description="Subset of: retail, fund_manager, hni, business_owner, psu_banker. Min 1."
     )
     sectors_affected: List[str] = Field(
+        default_factory=list,
         description=(
             "Relevant sectors from: banking, insurance, infra, consumption, microfinance, "
             "sme_lending, capital_markets, real_estate, energy, agriculture, defence, "
             "taxation, fintech, healthcare, education. Min 1."
         )
     )
-
     horizon: str = Field(
         description=(
             "Select EXACTLY one of these 5 values based on Indian bureaucratic execution reality:\n"
@@ -400,7 +363,6 @@ class PolicyCard(BaseModel):
             "  'Pending Parliament'  — cabinet approval for bill not yet passed into law"
         )
     )
-
     materiality_flag: bool = Field(
         default=False,
         description="True for structurally important or market-moving policy shifts. Auto-set to True if relevance_score >= 8."
@@ -422,7 +384,6 @@ class PolicyCard(BaseModel):
             "STRICTLY NO stock names, equity tickers, brand names, or price targets."
         )
     )
-
     relevance_score: int = Field(
         ge=1, le=10,
         description=(
@@ -434,15 +395,29 @@ class PolicyCard(BaseModel):
         )
     )
     sentiment: str = Field(
+        default="neutral",
         description="One of: positive | negative | neutral | watch"
     )
     source_url: str = Field(
+        default="",
         description="Original PIB or SEBI URL — from the RSS item link field."
     )
     gate_action: str = Field(
         default="",
         description="Leave as empty string. The Pydantic validator sets this from relevance_score. Do not guess."
     )
+
+    @field_validator("personas_affected", "sectors_affected", mode="before")
+    @classmethod
+    def coerce_list_fields(cls, v):
+        """Guard against Gemini omitting list fields — default to empty list."""
+        return v if isinstance(v, list) else []
+
+    @field_validator("source_url", "sentiment", mode="before")
+    @classmethod
+    def coerce_str_fields(cls, v):
+        """Guard against Gemini omitting string fields — default to empty string."""
+        return v if isinstance(v, str) and v.strip() else ""
 
     @model_validator(mode="after")
     def validate_materiality_and_gate(self) -> "PolicyCard":
