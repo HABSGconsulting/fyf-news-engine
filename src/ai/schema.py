@@ -319,8 +319,9 @@ class PolicyCard(BaseModel):
     """
     Structured intelligence card for a single PIB / SEBI policy release.
     Used only when feed_type == 'policy' in sources.yaml.
-    Gate logic, materiality promotion, and field cleanup are enforced by
-    validate_materiality_and_gate — Gemini does NOT set gate_action.
+    Gate logic, materiality promotion, sentiment sentinel, and field cleanup
+    are all enforced by validate_materiality_and_gate.
+    Gemini does NOT set gate_action.
     """
     ministry: str = Field(
         description="Exact ministry or regulator name. E.g. 'Ministry of Finance', 'CCEA', 'MCA', 'IFSC Authority', 'SEBI', 'RBI'."
@@ -421,6 +422,13 @@ class PolicyCard(BaseModel):
 
     @model_validator(mode="after")
     def validate_materiality_and_gate(self) -> "PolicyCard":
+        # 0. Sentinel: guarantee sentiment is always a valid frontmatter value.
+        #    coerce_str_fields may have left it as "" if Gemini omitted it.
+        #    Any blank or out-of-contract value falls back to "neutral".
+        _VALID_SENTIMENTS = {"positive", "negative", "neutral", "watch"}
+        if not self.sentiment or self.sentiment.strip() not in _VALID_SENTIMENTS:
+            self.sentiment = "neutral"
+
         # 1. Auto-promote to material if score is high enough
         if self.relevance_score >= 8 and not self.materiality_flag:
             self.materiality_flag = True
