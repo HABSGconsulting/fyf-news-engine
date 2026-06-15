@@ -2076,6 +2076,225 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-15T22:49:34.081366+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 6,
+      "items_evaluated": 6,
+      "items_skipped": 5,
+      "more_reads": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 19,
+      "items_detail": [
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Government to sell 5% stake in GIC via OFS",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "persona": "long_term_investor",
+          "category": "product"
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "19th Mumbai International Film Festival (MIFF) 2026 commences in Mumbai",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of 19th Mumbai International Film Festival 2026 with a call to establish India as a creative superpower",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "First OEMs operationalize commercial vehicle scrappage discounts in Delhi-NCR under Voluntary Fleet Modernization Program",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "ASI and National Museum of Denmark sign MoU for underwater archaeological exploration of historic Danish ship 'Oresund'",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "UIDAI successfully completes biometric SDK benchmarking challenges and announces winners",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MeitY holds consultation meeting with industry on supporting AI-led transition in IT services sector",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Karnataka delegation explores Rajasthan's heritage and innovation ecosystem under Yuva Sangam Phase VI",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Bihar delegation learns about Punjab's heritage and urban planning under Yuva Sangam Phase VI",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President releases book 'Agathiyar - The Unifier' highlighting saints and sages of India",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DRDO conducts successful flight test of Long Range Land Attack Cruise Missile",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Union Ministers review activities of Savitribai Phule National Institute of Women and Child Development in Indore",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Release of reserve list for CAPF (AC) Exam 2024 in compliance with Delhi High Court order",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Briefing by various ministries on recent developments in West Asia",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Central Government constitutes Search-cum-Selection Committee for National Sports Board under National Sports Board Act 2025",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Railway Minister reviews master plan for busy railway stations to minimize passenger inconvenience during construction",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister lays wreath at the Tomb of the Unknown Soldier",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Retrospective review of 12 years of panchayat reforms and grassroots innovations",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister meets with the Prime Minister of the Slovak Republic",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Foundation stone laid for MSME Technology Centre in Gaya, Bihar",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Micro, Small and Medium Enterprises",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "India-Slovakia Joint Statement issued during bilateral visit",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
