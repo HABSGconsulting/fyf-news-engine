@@ -173,6 +173,11 @@ def run_policy_batch(
 
     Same retry logic as run_batch().
     Gate action is NOT set by Gemini — the PolicyCard Pydantic validator sets it.
+
+    source_url is STAMPED from the original RSS item after Gemini responds.
+    LLMs must never be trusted to reproduce URLs faithfully.
+    Positional order is guaranteed because the prompt instructs Gemini to return
+    items in the same order as input and with no items skipped.
     """
     _configure()
     system_prompt = _load_prompt("policy_system_prompt.txt")
@@ -193,6 +198,14 @@ def run_policy_batch(
                     f.write(raw)
 
             result = PolicyRunOutput.model_validate_json(raw)
+
+            # Stamp source_url from RSS item by position.
+            # Gemini returns items in input order; never trust LLM URL reproduction.
+            for i, card in enumerate(result.evaluated_items):
+                if i < len(policy_items):
+                    rss_url = policy_items[i].get("url", "") or ""
+                    if rss_url and rss_url.startswith("http"):
+                        card.source_url = rss_url
 
             publishing = [c for c in result.evaluated_items if c.gate_action == "Policy Desk"]
             skipped    = [c for c in result.evaluated_items if c.gate_action == "Skip entirely"]
