@@ -3,19 +3,20 @@ import os
 # =============================================================================
 # GEMINI API CONFIGURATION
 # =============================================================================
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.PASTE_YOUR_NEW_GEMINI_KEY_HERE")
+GEMINI_API_KEY   = os.environ.get("GEMINI_API_KEY",   "AQ.PASTE_YOUR_NEW_GEMINI_KEY_HERE")
+GEMINI_API_KEY_2 = os.environ.get("GEMINI_API_KEY_2", "")  # Optional second key for rotation
 
 # Model selection
-# gemini-3.1-flash-lite : 15 RPM, 500 RPD — PRIMARY for all daily runs
-# gemini-3.5-flash      :  5 RPM,  20 RPD — WEEKLY DIGEST only
-PRIMARY_MODEL       = os.environ.get("GEMINI_MODEL",         "gemini-3.1-flash-lite")
+# gemini-3.5-flash : 15 RPM, 20 RPD per key — PRIMARY for all daily runs
+# Dual-key rotation doubles effective RPD to 40/day across 6 runs
+PRIMARY_MODEL       = os.environ.get("GEMINI_MODEL",          "gemini-3.5-flash")
 FALLBACK_MODEL      = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.5-flash")
-WEEKLY_DIGEST_MODEL = os.environ.get("GEMINI_WEEKLY_MODEL",  "gemini-3.5-flash")
+WEEKLY_DIGEST_MODEL = os.environ.get("GEMINI_WEEKLY_MODEL",   "gemini-3.5-flash")
 
 # Rate limit awareness
 GEMINI_CALLS_PER_RUN   = 1
 GEMINI_RUNS_PER_DAY    = 6
-GEMINI_DAILY_BUDGET    = 500
+GEMINI_DAILY_BUDGET    = 40   # 20 RPD x 2 keys
 GEMINI_RATE_LIMIT_RPM  = 15
 GEMINI_MAX_RETRIES     = 2
 GEMINI_RETRY_DELAY_SEC = 10
@@ -23,11 +24,9 @@ GEMINI_RETRY_DELAY_SEC = 10
 # =============================================================================
 # PIPELINE SETTINGS
 # =============================================================================
-# No minimum post count — gate_action threshold in the prompt is the only gate.
-# MAX_IMPACT_POSTS_PER_RUN is a per-chunk Pydantic safety cap in gemini_client.
-MAX_IMPACT_POSTS_PER_RUN       = 10   # per-chunk cap; merged total can exceed this
-IMPACT_SCORE_BLOG_THRESHOLD    = 9    # gate_action "Impact post + Premium + Blog"
-IMPACT_SCORE_PREMIUM_THRESHOLD = 7    # gate_action "Impact post + Premium"
+MAX_IMPACT_POSTS_PER_RUN       = 10
+IMPACT_SCORE_BLOG_THRESHOLD    = 9
+IMPACT_SCORE_PREMIUM_THRESHOLD = 7
 DEDUP_WINDOW_HOURS             = 48
 ROLLING_WINDOW_DAYS            = 90
 

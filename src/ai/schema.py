@@ -179,6 +179,24 @@ class ImpactPost(BaseModel):
     def coerce_none_score(cls, v):
         return v if v is not None else 0
 
+    @field_validator("concepts", "learn_links", "source_links", mode="before")
+    @classmethod
+    def coerce_none_lists(cls, v):
+        """Coerce null → empty list. Gemini sometimes omits these on thin articles."""
+        return v if isinstance(v, list) else []
+
+    @field_validator("affected_personas", mode="before")
+    @classmethod
+    def coerce_affected_personas(cls, v):
+        """Coerce null → empty list. Strict persona validation still applies to list items."""
+        return v if isinstance(v, list) else []
+
+    @field_validator("shareable", mode="before")
+    @classmethod
+    def coerce_shareable(cls, v):
+        """Coerce null → True (default: all posts are shareable unless explicitly False)."""
+        return bool(v) if v is not None else True
+
     @field_validator("editorial_impact_score", mode="after")
     @classmethod
     def validate_score_is_sum(cls, v: int, info) -> int:
@@ -446,14 +464,21 @@ class PolicyCard(BaseModel):
     def coerce_str_fields(cls, v):
         return v if isinstance(v, str) and v.strip() else ""
 
+    @field_validator("horizon", mode="before")
+    @classmethod
+    def coerce_horizon(cls, v):
+        """Coerce null/empty horizon to a safe default instead of crashing."""
+        valid = {"Immediate", "Near-term (0-12M)", "Cyclical (1-3Y)", "Structural (3-5Y+)", "Pending Parliament"}
+        if isinstance(v, str) and v.strip() in valid:
+            return v.strip()
+        return "Near-term (0-12M)"  # safe default; human review can correct
+
     @model_validator(mode="after")
     def enforce_institutional_gating(self) -> "PolicyCard":
-        # 1. Sentinel: guarantee sentiment is always a valid value
         _VALID_SENTIMENTS = {"positive", "negative", "neutral", "watch"}
         if not self.sentiment or self.sentiment.strip() not in _VALID_SENTIMENTS:
             self.sentiment = "neutral"
 
-        # 2. HARD GATE: below 6 is permanently dropped
         if self.relevance_score < 6:
             self.gate_action = "Skip entirely"
             self.materiality_flag = False
@@ -470,7 +495,6 @@ class PolicyCard(BaseModel):
             self.headline_hi = None
             return self
 
-        # 3. Published items (score >= 6): enforce complete Tri-Partite block (EN + HI)
         self.gate_action = "Policy Desk"
         missing_en = not self.context_and_trigger or not self.mechanism_of_impact or not self.forward_outlook
         missing_hi = not self.context_and_trigger_hi or not self.mechanism_of_impact_hi or not self.forward_outlook_hi
@@ -490,11 +514,9 @@ class PolicyCard(BaseModel):
                 "headline_hi (Hindi translation of headline) is required for relevance_score >= 6."
             )
 
-        # 4. Auto-promote materiality for score >= 8
         if self.relevance_score >= 8:
             self.materiality_flag = True
 
-        # 5. Material items must have justification fields (EN + HI)
         if self.materiality_flag:
             if not self.materiality_reason or not self.materiality_reason.strip():
                 raise ValueError("materiality_reason is required when materiality_flag is True.")

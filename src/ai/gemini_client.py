@@ -7,6 +7,9 @@ Two entry points:
 Locked decision: one Gemini call per item type per pipeline run.
 No chunking. No merge. No CHUNK_SIZE.
 See 00-ai-context.md § Locked Decisions #1.
+
+Dual-key rotation: if GEMINI_API_KEY_2 is set, calls alternate between
+key 1 (news) and key 2 (policy) per run — doubling effective RPD to 40/day.
 """
 import os
 import re
@@ -18,6 +21,7 @@ from pydantic import ValidationError
 from src.ai.schema import RunOutput, PolicyRunOutput, PolicyCard
 from config.settings import (
     GEMINI_API_KEY,
+    GEMINI_API_KEY_2,
     PRIMARY_MODEL,
     FALLBACK_MODEL,
     GEMINI_MAX_RETRIES,
@@ -31,38 +35,28 @@ def _load_prompt(filename: str) -> str:
         return f.read()
 
 
-def _configure():
-    if not GEMINI_API_KEY or GEMINI_API_KEY.startswith("AQ.PASTE"):
+def _configure(use_key_2: bool = False):
+    """Configure Gemini with key 1 (news) or key 2 (policy) if available."""
+    key = (GEMINI_API_KEY_2 if use_key_2 and GEMINI_API_KEY_2 else GEMINI_API_KEY)
+    if not key or key.startswith("AQ.PASTE"):
         raise EnvironmentError(
             "GEMINI_API_KEY is not set. "
             "Add it to GitHub Secrets (CI) or .env (local)."
         )
-    genai.configure(api_key=GEMINI_API_KEY)
+    genai.configure(api_key=key)
+    if use_key_2 and GEMINI_API_KEY_2:
+        print("  [GEMINI] Using API key 2 (policy rotation)")
 
 
 def _clean_pib_url(url: str) -> str:
-    """Normalise a PIB URL to a clean, language-neutral, directly-openable link.
-
-    PIB RSS item links often carry lang= and reg= query parameters that:
-      - Set lang=2 (Hindi) even on English feeds
-      - Use IframePage which blocks direct browser navigation
-
-    We strip all query parameters except PRID and rewrite IframePage → PressReleasePage.
-    Result: https://pib.gov.in/PressReleasePage.aspx?PRID=<id>
-    Non-PIB URLs (SEBI, RBI) pass through unchanged.
-    """
+    """Normalise a PIB URL to a clean, language-neutral, directly-openable link."""
     if "pib.gov.in" not in url:
         return url
-
-    # Rewrite IframePage to PressReleasePage
     url = url.replace("PressReleaseIframePage.aspx", "PressReleasePage.aspx")
-
-    # Extract PRID value and rebuild clean URL
     match = re.search(r"PRID=(\d+)", url)
     if match:
         prid = match.group(1)
         return f"https://pib.gov.in/PressReleasePage.aspx?PRID={prid}"
-
     return url
 
 
@@ -123,22 +117,16 @@ def run_batch(
     """
     Send all new news items to Gemini in a single call.
     Returns RunOutput (with evaluated_items list) or None if all retries fail.
-
-    Retry policy:
-      - GEMINI_MAX_RETRIES attempts total
-      - Attempt 0: PRIMARY_MODEL; attempts 1+: FALLBACK_MODEL
-      - ValidationError → retry (Gemini arithmetic/schema mistake)
-      - 429 / RESOURCE_EXHAUSTED → 60s back-off then retry
-      - Any other exception → log full traceback, retry up to limit, then return None
+    Uses API key 1 (news calls).
     """
-    _configure()
+    _configure(use_key_2=False)
     system_prompt = _load_prompt("system_prompt.txt")
     user_prompt = _build_prompt(news_items)
 
     print(f"[GEMINI] News batch — {len(news_items)} items")
 
     for attempt in range(GEMINI_MAX_RETRIES + 1):
-        model_name = model_override or (PRIMARY_MODEL if attempt == 0 else FALLBACK_MODEL)
+        model_name = model_override or PRIMARY_MODEL
 
         try:
             print(f"  [GEMINI] Attempt {attempt + 1} using {model_name}...")
@@ -197,26 +185,16 @@ def run_policy_batch(
     """
     Send all new policy items to Gemini using the PolicyCard schema.
     Returns PolicyRunOutput or None if all retries fail.
-
-    Same retry logic as run_batch().
-    Gate action is NOT set by Gemini — the PolicyCard Pydantic validator sets it.
-
-    source_url is STAMPED from the original RSS item after Gemini responds.
-    LLMs must never be trusted to reproduce URLs faithfully.
-    Positional order is guaranteed because the prompt instructs Gemini to return
-    items in the same order as input and with no items skipped.
-
-    URL cleaning (_clean_pib_url) strips lang/reg params and rewrites IframePage
-    so the English page always links to a clean, directly-openable English URL.
+    Uses API key 2 if available (policy calls) — separates RPD quota from news.
     """
-    _configure()
+    _configure(use_key_2=True)
     system_prompt = _load_prompt("policy_system_prompt.txt")
     user_prompt = _build_policy_prompt(policy_items)
 
     print(f"[GEMINI] Policy batch — {len(policy_items)} items")
 
     for attempt in range(GEMINI_MAX_RETRIES + 1):
-        model_name = model_override or (PRIMARY_MODEL if attempt == 0 else FALLBACK_MODEL)
+        model_name = model_override or PRIMARY_MODEL
 
         try:
             print(f"  [GEMINI-POLICY] Attempt {attempt + 1} using {model_name}...")
@@ -229,8 +207,6 @@ def run_policy_batch(
 
             result = PolicyRunOutput.model_validate_json(raw)
 
-            # Stamp source_url from RSS item by position, then clean it.
-            # Gemini returns items in input order; never trust LLM URL reproduction.
             for i, card in enumerate(result.evaluated_items):
                 if i < len(policy_items):
                     rss_url = policy_items[i].get("url", "") or ""
