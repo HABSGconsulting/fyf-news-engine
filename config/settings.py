@@ -7,8 +7,8 @@ GEMINI_API_KEY   = os.environ.get("GEMINI_API_KEY",   "AQ.PASTE_YOUR_NEW_GEMINI_
 GEMINI_API_KEY_2 = os.environ.get("GEMINI_API_KEY_2", "")  # Optional second key for rotation
 
 # Model selection
-# gemini-3.1-flash-lite: PRIMARY — stable, lower latency, chosen for production reliability
-# gemini-3.1-flash-lite: FALLBACK — same model to avoid unreliable 3.5-flash failover path
+# gemini-3.1-flash-lite: PRIMARY — stable, low latency, chosen for production reliability
+# gemini-3.1-flash-lite: FALLBACK — same model, 503-prone 3.5-flash removed from all paths
 PRIMARY_MODEL       = os.environ.get("GEMINI_MODEL",          "gemini-3.1-flash-lite")
 FALLBACK_MODEL      = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.1-flash-lite")
 WEEKLY_DIGEST_MODEL = os.environ.get("GEMINI_WEEKLY_MODEL",   "gemini-3.1-flash-lite")
@@ -23,6 +23,11 @@ GEMINI_RETRY_DELAY_SEC  = 10   # default retry delay
 GEMINI_503_RETRY_DELAY  = 60   # longer wait for server overload (503)
 NEWS_MAX_ITEMS_PER_CALL = 25
 
+# News freshness: relative to last run (see fetcher.py news_freshness_cutoff)
+# Fallback used only when data/last_run.txt is absent (e.g. first ever run)
+NEWS_FRESHNESS_FALLBACK_HOURS  = 2.5
+NEWS_FRESHNESS_BUFFER_MINUTES  = 30
+
 # =============================================================================
 # PIPELINE SETTINGS
 # =============================================================================
@@ -31,7 +36,6 @@ IMPACT_SCORE_BLOG_THRESHOLD    = 9
 IMPACT_SCORE_PREMIUM_THRESHOLD = 7
 DEDUP_WINDOW_HOURS             = 48
 ROLLING_WINDOW_DAYS            = 90
-NEWS_FRESHNESS_WINDOW_HOURS    = 2.5
 
 # =============================================================================
 # CONTENT PATHS (in fyf-news-site repo)
