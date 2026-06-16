@@ -1,9 +1,8 @@
 """Deduplication via Cloudflare KV (48h TTL per hash).
 
-Policy items (feed_type: policy) bypass the KV check entirely —
-they are always passed through as new. This is intentional:
-Policy feeds are low-volume and the freshness window in fetcher.py
-already acts as the primary dedup gate for policy items.
+Both news and policy items are deduped via KV.
+Hashes are only written after a successful Gemini run — failed runs
+do NOT mark items as seen, so they will be retried on the next run.
 """
 import hashlib
 import json
@@ -91,9 +90,7 @@ def load_seen_hashes(window_hours: int = 48) -> set[str]:
 def filter_seen(items: list[dict], window_hours: int = 48) -> list[dict]:
     """Return only items whose hash is NOT present in KV.
 
-    Policy items (feed_type: policy) always pass through — freshness
-    window in fetcher.py is their dedup gate.
-
+    Applies to both news and policy items.
     Falls back to allowing all items if KV secrets are missing.
     """
     if not _kv_available():
@@ -102,11 +99,6 @@ def filter_seen(items: list[dict], window_hours: int = 48) -> list[dict]:
 
     new_items = []
     for item in items:
-        # Policy items bypass KV check entirely
-        if item.get("feed_type") == "policy":
-            new_items.append(item)
-            continue
-
         h = _item_hash(item)
         try:
             if not _kv_key_exists(h):
@@ -118,8 +110,8 @@ def filter_seen(items: list[dict], window_hours: int = 48) -> list[dict]:
 
 
 def mark_seen(items: list[dict]) -> list[str]:
-    """Return MD5 hashes for the given items. Policy items return empty list."""
-    return [_item_hash(item) for item in items if item.get("feed_type") != "policy"]
+    """Return MD5 hashes for all given items (news and policy)."""
+    return [_item_hash(item) for item in items]
 
 
 def write_seen_hashes(hashes: list[str]) -> None:
