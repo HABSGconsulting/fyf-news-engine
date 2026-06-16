@@ -7,6 +7,11 @@ Two parallel paths per run:
 Both paths share the same dedup layer (Cloudflare KV, 48h TTL) and publisher.
 Hashes are only written to KV after a successful Gemini run — failed runs
 do NOT mark items as seen, so they will be retried on the next run.
+
+Learn-links (Phase 2.2):
+  After the Gemini AI step, each qualifying ImpactPost is enriched with up to
+  2 relevant learn09 posts via Cloudflare Vectorize semantic search.
+  Failures are silent — learn_links stays [] and the post publishes normally.
 """
 import sys
 from datetime import datetime, timezone, timedelta
@@ -20,17 +25,13 @@ from src.compilers.policy_card import build_policy_card, build_policy_section_in
 from src.git.publisher import publish_files
 from src.logs.run_log import write_run_log
 from src.ai.schema import MoreReadsItem, Category
+from src.learn.matcher import get_learn_links
 
 IST = timezone(timedelta(hours=5, minutes=30))
 
 
 def _normalise_source_url(url: str) -> str:
-    """Rewrite PIB IframePage URLs to the directly-openable PressReleasePage variant.
-
-    PIB RSS items use PressReleaseIframePage.aspx which is an internal wrapper
-    that blocks direct browser navigation. Swapping to PressReleasePage.aspx
-    produces a clean, shareable URL that opens in any browser.
-    """
+    """Rewrite PIB IframePage URLs to the directly-openable PressReleasePage variant."""
     return url.replace("PressReleaseIframePage.aspx", "PressReleasePage.aspx")
 
 
@@ -59,20 +60,42 @@ def _policy_audit(card) -> dict:
     }
 
 
+def _enrich_learn_links(qualifying: list) -> int:
+    """Enrich each qualifying ImpactPost with learn_links from Vectorize.
+
+    Mutates posts in-place. Returns count of posts that received at least 1 link.
+    Failures are silent — learn_links stays [] and post publishes normally.
+    """
+    matched = 0
+    for post in qualifying:
+        content = post.content_en or post.content_hi
+        if not content:
+            continue
+        headline     = content.headline or ""
+        concepts     = list(post.concepts or [])
+        who_affected = post.who_affected or ""
+
+        links = get_learn_links(headline, concepts, who_affected)
+        post.learn_links = links
+        if links:
+            matched += 1
+    return matched
+
+
 def main() -> None:
     run_dt = datetime.now(IST)
     run_label = run_dt.strftime("%Y-%m-%dT%H:%M:%S+05:30")
     print(f"\n=== FYF Pipeline run: {run_label} ===")
 
     # -----------------------------------------------------------------------
-    # [1] FETCH — returns (news_items, policy_items) split by feed_type
+    # [1] FETCH
     # -----------------------------------------------------------------------
     print("[1/6] Fetching RSS feeds...")
     raw_news, raw_policy = fetch_all_feeds()
     print(f"      {len(raw_news)} news items, {len(raw_policy)} policy items fetched")
 
     # -----------------------------------------------------------------------
-    # [2] DEDUP — shared KV layer for both paths
+    # [2] DEDUP
     # -----------------------------------------------------------------------
     print("[2/6] Deduplicating...")
     new_news = filter_seen(raw_news)
@@ -100,6 +123,7 @@ def main() -> None:
         "items_evaluated": 0,
         "items_skipped": 0,
         "more_reads": 0,
+        "learn_links_matched": 0,
         "policy_seen": len(new_policy),
         "policy_evaluated": 0,
         "policy_skipped": 0,
@@ -116,7 +140,6 @@ def main() -> None:
         if run_output is None:
             print("      Gemini (news) returned nothing.")
             run_log_data["status"] = "gemini_failed"
-            # Do NOT mark news items as seen — retry on next run
         else:
             qualifying = [p for p in run_output.evaluated_items if p.gate_action.startswith("Impact post")]
             more_reads_items = [p for p in run_output.evaluated_items if p.gate_action == "More Reads"]
@@ -129,6 +152,15 @@ def main() -> None:
 
             print(f"      {len(run_output.evaluated_items)} evaluated: "
                   f"{len(qualifying)} qualifying, {len(more_reads_items)} more reads, {len(skipped)} skipped")
+
+            # -----------------------------------------------------------
+            # [3a] LEARN LINKS — enrich qualifying posts via Vectorize
+            # -----------------------------------------------------------
+            if qualifying:
+                print("[3a]  Enriching learn_links via Vectorize...")
+                matched = _enrich_learn_links(qualifying)
+                run_log_data["learn_links_matched"] = matched
+                print(f"      learn_links: {matched}/{len(qualifying)} posts matched")
 
             files_to_publish.update(build_section_indexes(run_dt))
 
@@ -151,7 +183,6 @@ def main() -> None:
                     mr_path, mr_content = build_more_reads(mr_converted, run_dt)
                     files_to_publish[mr_path] = mr_content
 
-            # Mark news items as seen only after successful processing
             news_hashes.extend(mark_seen(new_news))
     else:
         print("[3/6] No new news items — skipping news Gemini call.")
@@ -165,7 +196,6 @@ def main() -> None:
         if policy_output is None:
             print("      Gemini (policy) returned nothing.")
             run_log_data["status"] = "gemini_policy_failed"
-            # Do NOT mark policy items as seen — retry on next run
         else:
             publishing_cards = [c for c in policy_output.evaluated_items if c.gate_action == "Policy Desk"]
             skipped_cards    = [c for c in policy_output.evaluated_items if c.gate_action == "Skip entirely"]
@@ -180,16 +210,13 @@ def main() -> None:
             if publishing_cards:
                 files_to_publish.update(build_policy_section_index(run_dt))
                 for card in publishing_cards:
-                    # Normalise PIB IframePage URLs before stamping into frontmatter
                     card.source_url = _normalise_source_url(card.source_url)
                     files_to_publish.update(build_policy_card(card, run_dt))
                 run_log_data["policy_published"] = len(publishing_cards)
 
-            # Write bootstrap flag after first successful policy Gemini run
             if not is_policy_bootstrapped():
                 write_bootstrap_flag()
 
-            # Mark policy items as seen only after successful processing
             policy_hashes.extend(mark_seen(new_policy))
     else:
         print("[4/6] No new policy items — skipping policy Gemini call.")
@@ -217,10 +244,10 @@ def main() -> None:
         f"\n=== Done. "
         f"{run_log_data['posts_published']} news posts, "
         f"{run_log_data['policy_published']} policy cards published. "
-        f"{run_log_data['more_reads']} more reads. ==="
+        f"{run_log_data['more_reads']} more reads. "
+        f"{run_log_data['learn_links_matched']} posts with learn links. ==="
     )
 
-    # Exit 1 if BOTH paths produced zero output and there were items to process
     if (
         run_log_data["posts_published"] == 0
         and run_log_data["policy_published"] == 0
