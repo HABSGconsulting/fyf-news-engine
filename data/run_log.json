@@ -3308,6 +3308,119 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-16T17:25:06.302326+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 59,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 12,
+      "policy_evaluated": 12,
+      "policy_skipped": 11,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Union Minister to lead Fit India Cyclothon in Mumbai ahead of International Yoga Day",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Union Minister to lead Fit India Cyclothon in Mumbai ahead of International Yoga Day (Hindi Release)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy represents India at 5th WHO expert meeting",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Industry discussions on micro-drama storytelling at 19th Mumbai International Film Festival",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of Viksit Bharat Youth Parliament 2026 national conference",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Yoga Park Portal launched to promote public spaces as community health centers",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "House listing and housing census fieldwork commences in Himachal Pradesh, Kerala, and Nagaland",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Union Minister reviews overall agriculture sector performance in high-level meeting",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Prime Minister reiterates commitment to building next-generation infrastructure",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Investor-startup interactions highlighted on Day 2 of India Innovates 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Clarification issued on media reports regarding proposed Middle East-India Deepwater Pipeline",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Petroleum and Natural Gas",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Health amends Drugs Rules 1945 to withdraw cough syrup sale exemptions in small villages",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
