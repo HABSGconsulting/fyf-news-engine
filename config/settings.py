@@ -7,10 +7,10 @@ GEMINI_API_KEY   = os.environ.get("GEMINI_API_KEY",   "AQ.PASTE_YOUR_NEW_GEMINI_
 GEMINI_API_KEY_2 = os.environ.get("GEMINI_API_KEY_2", "")  # Optional second key for rotation
 
 # Model selection
-# gemini-3.5-flash : 15 RPM, 20 RPD per key — PRIMARY for all daily runs
-# Dual-key rotation doubles effective RPD to 40/day across 6 runs
+# gemini-3.5-flash     : PRIMARY — fast, capable, GA as of May 2026
+# gemini-3.1-flash-lite: FALLBACK — cheaper, lower latency, used if primary 503s
 PRIMARY_MODEL       = os.environ.get("GEMINI_MODEL",          "gemini-3.5-flash")
-FALLBACK_MODEL      = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.5-flash")
+FALLBACK_MODEL      = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.1-flash-lite")
 WEEKLY_DIGEST_MODEL = os.environ.get("GEMINI_WEEKLY_MODEL",   "gemini-3.5-flash")
 
 # Rate limit awareness
@@ -19,7 +19,8 @@ GEMINI_RUNS_PER_DAY    = 6
 GEMINI_DAILY_BUDGET    = 40   # 20 RPD x 2 keys
 GEMINI_RATE_LIMIT_RPM  = 15
 GEMINI_MAX_RETRIES     = 2
-GEMINI_RETRY_DELAY_SEC = 10
+GEMINI_RETRY_DELAY_SEC = 10   # default retry delay
+GEMINI_503_RETRY_DELAY = 60   # longer wait for server overload (503)
 
 # =============================================================================
 # PIPELINE SETTINGS

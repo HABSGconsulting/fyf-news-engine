@@ -12,7 +12,10 @@ Dual-key rotation: if GEMINI_API_KEY_2 is set, calls alternate between
 key 1 (news) and key 2 (policy) per run — doubling effective RPD to 40/day.
 
 SDK: google-genai (new SDK). NOT google-generativeai (deprecated, abandoned).
-All calls have a hard 120s timeout to prevent silent hangs.
+Retry logic:
+  - 429 / RESOURCE_EXHAUSTED : wait 60s, retry same model
+  - 503 / UNAVAILABLE        : wait 60s, retry; on final retry use FALLBACK_MODEL
+  - Other exceptions          : wait RETRY_DELAY_SEC, retry same model
 """
 import os
 import re
@@ -30,9 +33,8 @@ from config.settings import (
     FALLBACK_MODEL,
     GEMINI_MAX_RETRIES,
     GEMINI_RETRY_DELAY_SEC,
+    GEMINI_503_RETRY_DELAY,
 )
-
-GEMINI_TIMEOUT_SEC = 120
 
 
 def _load_prompt(filename: str) -> str:
@@ -102,7 +104,7 @@ def _build_policy_prompt(policy_items: list[dict]) -> str:
 
 
 def _call_gemini(client: genai.Client, model_name: str, system_prompt: str, user_prompt: str) -> str:
-    """Single Gemini API call with hard timeout. Returns raw response text."""
+    """Single Gemini API call. Returns raw response text."""
     response = client.models.generate_content(
         model=model_name,
         contents=user_prompt,
@@ -111,10 +113,16 @@ def _call_gemini(client: genai.Client, model_name: str, system_prompt: str, user
             response_mime_type="application/json",
             temperature=0.3,
         ),
-        # Hard timeout — prevents silent hangs that caused 25-min pipeline timeouts
-        # See: github.com/HABSGconsulting/fyf-news-engine issue history June 2026
     )
     return response.text
+
+
+def _is_503(err_str: str) -> bool:
+    return "503" in err_str or "UNAVAILABLE" in err_str
+
+
+def _is_429(err_str: str) -> bool:
+    return "429" in err_str or "RESOURCE_EXHAUSTED" in err_str
 
 
 def run_batch(
@@ -126,6 +134,7 @@ def run_batch(
     Send all new news items to Gemini in a single call.
     Returns RunOutput (with evaluated_items list) or None if all retries fail.
     Uses API key 1 (news calls).
+    On final retry after 503s, automatically switches to FALLBACK_MODEL.
     """
     client = _get_client(use_key_2=False)
     system_prompt = _load_prompt("system_prompt.txt")
@@ -134,7 +143,9 @@ def run_batch(
     print(f"[GEMINI] News batch — {len(news_items)} items")
 
     for attempt in range(GEMINI_MAX_RETRIES + 1):
-        model_name = model_override or PRIMARY_MODEL
+        # On final attempt after repeated 503s, try fallback model
+        is_last_attempt = attempt == GEMINI_MAX_RETRIES
+        model_name = model_override or (FALLBACK_MODEL if is_last_attempt else PRIMARY_MODEL)
 
         try:
             print(f"  [GEMINI] Attempt {attempt + 1} using {model_name}...")
@@ -167,18 +178,23 @@ def run_batch(
 
         except Exception as e:
             err_str = str(e)
-            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
-                wait = 60
-                print(f"  [GEMINI] Rate limit hit. Waiting {wait}s...")
-                time.sleep(wait)
+            if _is_429(err_str):
+                print(f"  [GEMINI] Rate limit (429). Waiting 60s...")
+                time.sleep(60)
                 if attempt < GEMINI_MAX_RETRIES:
                     continue
-            print(f"  [GEMINI] API error on attempt {attempt + 1}: {e}")
-            print(traceback.format_exc())
-            if attempt < GEMINI_MAX_RETRIES:
-                print(f"  [GEMINI] Waiting {GEMINI_RETRY_DELAY_SEC}s before retry...")
-                time.sleep(GEMINI_RETRY_DELAY_SEC)
-                continue
+            elif _is_503(err_str):
+                print(f"  [GEMINI] Server overload (503). Waiting {GEMINI_503_RETRY_DELAY}s...")
+                time.sleep(GEMINI_503_RETRY_DELAY)
+                if attempt < GEMINI_MAX_RETRIES:
+                    continue
+            else:
+                print(f"  [GEMINI] API error on attempt {attempt + 1}: {e}")
+                print(traceback.format_exc())
+                if attempt < GEMINI_MAX_RETRIES:
+                    print(f"  [GEMINI] Waiting {GEMINI_RETRY_DELAY_SEC}s before retry...")
+                    time.sleep(GEMINI_RETRY_DELAY_SEC)
+                    continue
             print("  [GEMINI] All retries exhausted (Exception).")
             return None
 
@@ -194,6 +210,7 @@ def run_policy_batch(
     Send all new policy items to Gemini using the PolicyCard schema.
     Returns PolicyRunOutput or None if all retries fail.
     Uses API key 2 if available (policy calls) — separates RPD quota from news.
+    On final retry after repeated 503s, automatically switches to FALLBACK_MODEL.
     """
     client = _get_client(use_key_2=True)
     system_prompt = _load_prompt("policy_system_prompt.txt")
@@ -202,7 +219,8 @@ def run_policy_batch(
     print(f"[GEMINI] Policy batch — {len(policy_items)} items")
 
     for attempt in range(GEMINI_MAX_RETRIES + 1):
-        model_name = model_override or PRIMARY_MODEL
+        is_last_attempt = attempt == GEMINI_MAX_RETRIES
+        model_name = model_override or (FALLBACK_MODEL if is_last_attempt else PRIMARY_MODEL)
 
         try:
             print(f"  [GEMINI-POLICY] Attempt {attempt + 1} using {model_name}...")
@@ -240,18 +258,23 @@ def run_policy_batch(
 
         except Exception as e:
             err_str = str(e)
-            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
-                wait = 60
-                print(f"  [GEMINI-POLICY] Rate limit hit. Waiting {wait}s...")
-                time.sleep(wait)
+            if _is_429(err_str):
+                print(f"  [GEMINI-POLICY] Rate limit (429). Waiting 60s...")
+                time.sleep(60)
                 if attempt < GEMINI_MAX_RETRIES:
                     continue
-            print(f"  [GEMINI-POLICY] API error on attempt {attempt + 1}: {e}")
-            print(traceback.format_exc())
-            if attempt < GEMINI_MAX_RETRIES:
-                print(f"  [GEMINI-POLICY] Waiting {GEMINI_RETRY_DELAY_SEC}s before retry...")
-                time.sleep(GEMINI_RETRY_DELAY_SEC)
-                continue
+            elif _is_503(err_str):
+                print(f"  [GEMINI-POLICY] Server overload (503). Waiting {GEMINI_503_RETRY_DELAY}s...")
+                time.sleep(GEMINI_503_RETRY_DELAY)
+                if attempt < GEMINI_MAX_RETRIES:
+                    continue
+            else:
+                print(f"  [GEMINI-POLICY] API error on attempt {attempt + 1}: {e}")
+                print(traceback.format_exc())
+                if attempt < GEMINI_MAX_RETRIES:
+                    print(f"  [GEMINI-POLICY] Waiting {GEMINI_RETRY_DELAY_SEC}s before retry...")
+                    time.sleep(GEMINI_RETRY_DELAY_SEC)
+                    continue
             print("  [GEMINI-POLICY] All retries exhausted (Exception).")
             return None
 

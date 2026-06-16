@@ -33,6 +33,8 @@ jobs:
           [ -z "${{ secrets.CF_KV_ACCOUNT_ID }}" ]      && { echo "CF_KV_ACCOUNT_ID not set — dedup will be skipped"; } || true
           [ -z "${{ secrets.CF_KV_NAMESPACE_ID }}" ]    && { echo "CF_KV_NAMESPACE_ID not set — dedup will be skipped"; } || true
           [ -z "${{ secrets.CF_KV_API_TOKEN }}" ]       && { echo "CF_KV_API_TOKEN not set — dedup will be skipped"; } || true
+          [ -z "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" ] && { echo "CLOUDFLARE_ACCOUNT_ID not set — learn links will be skipped"; } || true
+          [ -z "${{ secrets.CLOUDFLARE_API_TOKEN }}" ]  && { echo "CLOUDFLARE_API_TOKEN not set — learn links will be skipped"; } || true
           echo "Secrets validation complete"
 
       - name: Set up Python
@@ -48,17 +50,20 @@ jobs:
         id: pipeline
         timeout-minutes: 20
         env:
-          GEMINI_API_KEY:            ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_API_KEY_2:          ${{ secrets.GEMINI_API_KEY_2 }}
-          CF_R2_ACCESS_KEY_ID:       ${{ secrets.CF_R2_ACCESS_KEY_ID }}
-          CF_R2_SECRET_ACCESS_KEY:   ${{ secrets.CF_R2_SECRET_ACCESS_KEY }}
-          CF_R2_BUCKET_NAME:         ${{ secrets.CF_R2_BUCKET_NAME }}
-          CF_R2_ENDPOINT_URL:        ${{ secrets.CF_R2_ENDPOINT_URL }}
-          NEWS_SITE_DEPLOY_KEY:      ${{ secrets.NEWS_SITE_DEPLOY_KEY }}
-          BLOG_SITE_DEPLOY_KEY:      ${{ secrets.BLOG_SITE_DEPLOY_KEY }}
-          CF_KV_ACCOUNT_ID:          ${{ secrets.CF_KV_ACCOUNT_ID }}
-          CF_KV_NAMESPACE_ID:        ${{ secrets.CF_KV_NAMESPACE_ID }}
-          CF_KV_API_TOKEN:           ${{ secrets.CF_KV_API_TOKEN }}
+          GEMINI_API_KEY:              ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2:            ${{ secrets.GEMINI_API_KEY_2 }}
+          CF_R2_ACCESS_KEY_ID:         ${{ secrets.CF_R2_ACCESS_KEY_ID }}
+          CF_R2_SECRET_ACCESS_KEY:     ${{ secrets.CF_R2_SECRET_ACCESS_KEY }}
+          CF_R2_BUCKET_NAME:           ${{ secrets.CF_R2_BUCKET_NAME }}
+          CF_R2_ENDPOINT_URL:          ${{ secrets.CF_R2_ENDPOINT_URL }}
+          NEWS_SITE_DEPLOY_KEY:        ${{ secrets.NEWS_SITE_DEPLOY_KEY }}
+          BLOG_SITE_DEPLOY_KEY:        ${{ secrets.BLOG_SITE_DEPLOY_KEY }}
+          CF_KV_ACCOUNT_ID:            ${{ secrets.CF_KV_ACCOUNT_ID }}
+          CF_KV_NAMESPACE_ID:          ${{ secrets.CF_KV_NAMESPACE_ID }}
+          CF_KV_API_TOKEN:             ${{ secrets.CF_KV_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID:       ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN:        ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_EMBEDDING_MODEL:  ${{ secrets.CLOUDFLARE_EMBEDDING_MODEL }}
         run: python -m src.main
 
       - name: Commit run log
@@ -77,6 +82,3 @@ jobs:
         run: |
           echo "Pipeline failed at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           echo "Run URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          echo "To get email alerts: go to GitHub → Settings → Notifications → enable Actions failures"
-          # Extend this step later to POST to a Slack webhook or send via email API
-          # e.g. curl -X POST ${{ secrets.SLACK_WEBHOOK }} -d '{"text":"FYF pipeline failed"}'
