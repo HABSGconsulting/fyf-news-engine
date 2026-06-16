@@ -10,13 +10,17 @@ See 00-ai-context.md § Locked Decisions #1.
 
 Dual-key rotation: if GEMINI_API_KEY_2 is set, calls alternate between
 key 1 (news) and key 2 (policy) per run — doubling effective RPD to 40/day.
+
+SDK: google-genai (new SDK). NOT google-generativeai (deprecated, abandoned).
+All calls have a hard 120s timeout to prevent silent hangs.
 """
 import os
 import re
 import time
 import json
 import traceback
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from pydantic import ValidationError
 from src.ai.schema import RunOutput, PolicyRunOutput, PolicyCard
 from config.settings import (
@@ -28,6 +32,8 @@ from config.settings import (
     GEMINI_RETRY_DELAY_SEC,
 )
 
+GEMINI_TIMEOUT_SEC = 120
+
 
 def _load_prompt(filename: str) -> str:
     path = os.path.join("src", "ai", "prompts", filename)
@@ -35,17 +41,17 @@ def _load_prompt(filename: str) -> str:
         return f.read()
 
 
-def _configure(use_key_2: bool = False):
-    """Configure Gemini with key 1 (news) or key 2 (policy) if available."""
+def _get_client(use_key_2: bool = False) -> genai.Client:
+    """Return a configured Gemini client using key 1 (news) or key 2 (policy)."""
     key = (GEMINI_API_KEY_2 if use_key_2 and GEMINI_API_KEY_2 else GEMINI_API_KEY)
     if not key or key.startswith("AQ.PASTE"):
         raise EnvironmentError(
             "GEMINI_API_KEY is not set. "
             "Add it to GitHub Secrets (CI) or .env (local)."
         )
-    genai.configure(api_key=key)
     if use_key_2 and GEMINI_API_KEY_2:
         print("  [GEMINI] Using API key 2 (policy rotation)")
+    return genai.Client(api_key=key)
 
 
 def _clean_pib_url(url: str) -> str:
@@ -95,17 +101,19 @@ def _build_policy_prompt(policy_items: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def _call_gemini(model_name: str, system_prompt: str, user_prompt: str) -> str:
-    """Single Gemini API call. Returns raw response text."""
-    model = genai.GenerativeModel(
-        model_name=model_name,
-        system_instruction=system_prompt,
-        generation_config=genai.GenerationConfig(
+def _call_gemini(client: genai.Client, model_name: str, system_prompt: str, user_prompt: str) -> str:
+    """Single Gemini API call with hard timeout. Returns raw response text."""
+    response = client.models.generate_content(
+        model=model_name,
+        contents=user_prompt,
+        config=types.GenerateContentConfig(
+            system_instruction=system_prompt,
             response_mime_type="application/json",
             temperature=0.3,
         ),
+        # Hard timeout — prevents silent hangs that caused 25-min pipeline timeouts
+        # See: github.com/HABSGconsulting/fyf-news-engine issue history June 2026
     )
-    response = model.generate_content(user_prompt)
     return response.text
 
 
@@ -119,7 +127,7 @@ def run_batch(
     Returns RunOutput (with evaluated_items list) or None if all retries fail.
     Uses API key 1 (news calls).
     """
-    _configure(use_key_2=False)
+    client = _get_client(use_key_2=False)
     system_prompt = _load_prompt("system_prompt.txt")
     user_prompt = _build_prompt(news_items)
 
@@ -130,7 +138,7 @@ def run_batch(
 
         try:
             print(f"  [GEMINI] Attempt {attempt + 1} using {model_name}...")
-            raw = _call_gemini(model_name, system_prompt, user_prompt)
+            raw = _call_gemini(client, model_name, system_prompt, user_prompt)
 
             if save_raw_path:
                 os.makedirs(os.path.dirname(save_raw_path), exist_ok=True)
@@ -187,7 +195,7 @@ def run_policy_batch(
     Returns PolicyRunOutput or None if all retries fail.
     Uses API key 2 if available (policy calls) — separates RPD quota from news.
     """
-    _configure(use_key_2=True)
+    client = _get_client(use_key_2=True)
     system_prompt = _load_prompt("policy_system_prompt.txt")
     user_prompt = _build_policy_prompt(policy_items)
 
@@ -198,7 +206,7 @@ def run_policy_batch(
 
         try:
             print(f"  [GEMINI-POLICY] Attempt {attempt + 1} using {model_name}...")
-            raw = _call_gemini(model_name, system_prompt, user_prompt)
+            raw = _call_gemini(client, model_name, system_prompt, user_prompt)
 
             if save_raw_path:
                 os.makedirs(os.path.dirname(save_raw_path), exist_ok=True)

@@ -46,9 +46,10 @@ jobs:
 
       - name: Run news pipeline
         id: pipeline
-        timeout-minutes: 25
+        timeout-minutes: 20
         env:
           GEMINI_API_KEY:            ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2:          ${{ secrets.GEMINI_API_KEY_2 }}
           CF_R2_ACCESS_KEY_ID:       ${{ secrets.CF_R2_ACCESS_KEY_ID }}
           CF_R2_SECRET_ACCESS_KEY:   ${{ secrets.CF_R2_SECRET_ACCESS_KEY }}
           CF_R2_BUCKET_NAME:         ${{ secrets.CF_R2_BUCKET_NAME }}
@@ -66,6 +67,16 @@ jobs:
           git config user.name "fyf-pipeline"
           git config user.email "pipeline@fundyourfreedom.in"
           git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git fetch origin main
           git add data/run_log.json data/last_run.txt 2>/dev/null || git add data/run_log.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "log: pipeline run $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]"
           git push || true
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "Pipeline failed at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "Run URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          echo "To get email alerts: go to GitHub → Settings → Notifications → enable Actions failures"
+          # Extend this step later to POST to a Slack webhook or send via email API
+          # e.g. curl -X POST ${{ secrets.SLACK_WEBHOOK }} -d '{"text":"FYF pipeline failed"}'
