@@ -26,6 +26,7 @@ from src.git.publisher import publish_files
 from src.logs.run_log import write_run_log
 from src.ai.schema import MoreReadsItem, Category
 from src.learn.matcher import get_learn_links
+from config.settings import NEWS_MAX_ITEMS_PER_CALL
 
 IST = timezone(timedelta(hours=5, minutes=30))
 
@@ -87,20 +88,19 @@ def main() -> None:
     run_label = run_dt.strftime("%Y-%m-%dT%H:%M:%S+05:30")
     print(f"\n=== FYF Pipeline run: {run_label} ===")
 
-    # -----------------------------------------------------------------------
-    # [1] FETCH
-    # -----------------------------------------------------------------------
     print("[1/6] Fetching RSS feeds...")
     raw_news, raw_policy = fetch_all_feeds()
     print(f"      {len(raw_news)} news items, {len(raw_policy)} policy items fetched")
 
-    # -----------------------------------------------------------------------
-    # [2] DEDUP
-    # -----------------------------------------------------------------------
     print("[2/6] Deduplicating...")
     new_news = filter_seen(raw_news)
     new_policy = filter_seen(raw_policy)
     print(f"      {len(new_news)} new news items, {len(new_policy)} new policy items after dedup")
+
+    if len(new_news) > NEWS_MAX_ITEMS_PER_CALL:
+        overflow = len(new_news) - NEWS_MAX_ITEMS_PER_CALL
+        print(f"[NEWS] Capping Gemini news batch to {NEWS_MAX_ITEMS_PER_CALL} items this run; {overflow} overflow items will be retried next run.")
+        new_news = new_news[:NEWS_MAX_ITEMS_PER_CALL]
 
     all_new_items = new_news + new_policy
     if not all_new_items:
@@ -131,9 +131,6 @@ def main() -> None:
         "policy_detail": [],
     }
 
-    # -----------------------------------------------------------------------
-    # [3] NEWS PATH — Gemini ImpactPost
-    # -----------------------------------------------------------------------
     if new_news:
         print("[3/6] Calling Gemini (news)...")
         run_output = run_batch(new_news)
@@ -153,9 +150,6 @@ def main() -> None:
             print(f"      {len(run_output.evaluated_items)} evaluated: "
                   f"{len(qualifying)} qualifying, {len(more_reads_items)} more reads, {len(skipped)} skipped")
 
-            # -----------------------------------------------------------
-            # [3a] LEARN LINKS — enrich qualifying posts via Vectorize
-            # -----------------------------------------------------------
             if qualifying:
                 print("[3a]  Enriching learn_links via Vectorize...")
                 matched = _enrich_learn_links(qualifying)
@@ -187,9 +181,6 @@ def main() -> None:
     else:
         print("[3/6] No new news items — skipping news Gemini call.")
 
-    # -----------------------------------------------------------------------
-    # [4] POLICY PATH — Gemini PolicyCard
-    # -----------------------------------------------------------------------
     if new_policy:
         print("[4/6] Calling Gemini (policy)...")
         policy_output = run_policy_batch(new_policy)
@@ -221,18 +212,12 @@ def main() -> None:
     else:
         print("[4/6] No new policy items — skipping policy Gemini call.")
 
-    # -----------------------------------------------------------------------
-    # [5] PUBLISH
-    # -----------------------------------------------------------------------
     if files_to_publish:
         print(f"[5/6] Publishing {len(files_to_publish)} files to fyf-news-site...")
         publish_files(files_to_publish, run_label)
     else:
         print("[5/6] No files to publish — slow news day.")
 
-    # -----------------------------------------------------------------------
-    # [6] DEDUP + RUN LOG
-    # -----------------------------------------------------------------------
     print("[6/6] Writing dedup hashes and run log...")
     all_hashes = news_hashes + policy_hashes
     if all_hashes:

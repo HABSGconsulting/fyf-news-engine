@@ -1,7 +1,7 @@
 """Fetch and normalize RSS feed items.
 
 Freshness rules:
-  feed_type: news   -> no freshness filter (same as before)
+  feed_type: news   -> 2.5-hour window
   feed_type: policy -> 7-day window on first run (no .flag file),
                        24-hour window on all subsequent runs.
 
@@ -12,6 +12,7 @@ import feedparser
 import os
 from datetime import datetime, timezone, timedelta
 import yaml
+from config.settings import NEWS_FRESHNESS_WINDOW_HOURS
 
 _BOOTSTRAP_FLAG = "data/policy_bootstrapped.flag"
 _BOOTSTRAP_WINDOW_DAYS = 7
@@ -37,25 +38,33 @@ def policy_freshness_cutoff() -> datetime:
     return now - timedelta(hours=_STEADYSTATE_WINDOW_HOURS)
 
 
+def news_freshness_cutoff() -> datetime:
+    """Returns the earliest published timestamp we will accept for news items."""
+    now = datetime.now(timezone.utc)
+    return now - timedelta(hours=NEWS_FRESHNESS_WINDOW_HOURS)
+
+
 def fetch_feed(source: dict) -> list[dict]:
     """Fetch one RSS feed and return normalized items.
 
     For feed_type: policy, items older than the freshness cutoff are dropped here,
     before dedup and before any Gemini call.
+
+    For feed_type: news, items older than NEWS_FRESHNESS_WINDOW_HOURS are dropped here,
+    reducing oversize Gemini batches on busy days.
     """
     url = source["url"]
     feed_type = source.get("feed_type", "news")
 
     try:
         feed = feedparser.parse(url, request_headers={"User-Agent": "FYF-NewsEngine/1.0"})
-        cutoff = policy_freshness_cutoff() if feed_type == "policy" else None
+        cutoff = policy_freshness_cutoff() if feed_type == "policy" else news_freshness_cutoff()
 
         items = []
         dropped = 0
         for entry in feed.entries:
             published = _parse_date(entry)
 
-            # Drop stale policy items before dedup + Gemini
             if cutoff and published < cutoff:
                 dropped += 1
                 continue
@@ -70,7 +79,7 @@ def fetch_feed(source: dict) -> list[dict]:
             })
 
         if dropped:
-            print(f"[FEED] {source['name']}: {dropped} stale policy items dropped (outside freshness window).")
+            print(f"[FEED] {source['name']}: {dropped} stale {feed_type} items dropped (outside freshness window).")
         return items
 
     except Exception as e:

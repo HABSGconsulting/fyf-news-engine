@@ -7,20 +7,21 @@ GEMINI_API_KEY   = os.environ.get("GEMINI_API_KEY",   "AQ.PASTE_YOUR_NEW_GEMINI_
 GEMINI_API_KEY_2 = os.environ.get("GEMINI_API_KEY_2", "")  # Optional second key for rotation
 
 # Model selection
-# gemini-3.5-flash     : PRIMARY — fast, capable, GA as of May 2026
-# gemini-3.1-flash-lite: FALLBACK — cheaper, lower latency, used if primary 503s
-PRIMARY_MODEL       = os.environ.get("GEMINI_MODEL",          "gemini-3.5-flash")
+# gemini-3.1-flash-lite: PRIMARY — stable, lower latency, chosen for production reliability
+# gemini-3.1-flash-lite: FALLBACK — same model to avoid unreliable 3.5-flash failover path
+PRIMARY_MODEL       = os.environ.get("GEMINI_MODEL",          "gemini-3.1-flash-lite")
 FALLBACK_MODEL      = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.1-flash-lite")
-WEEKLY_DIGEST_MODEL = os.environ.get("GEMINI_WEEKLY_MODEL",   "gemini-3.5-flash")
+WEEKLY_DIGEST_MODEL = os.environ.get("GEMINI_WEEKLY_MODEL",   "gemini-3.1-flash-lite")
 
 # Rate limit awareness
-GEMINI_CALLS_PER_RUN   = 1
-GEMINI_RUNS_PER_DAY    = 6
-GEMINI_DAILY_BUDGET    = 40   # 20 RPD x 2 keys
-GEMINI_RATE_LIMIT_RPM  = 15
-GEMINI_MAX_RETRIES     = 2
-GEMINI_RETRY_DELAY_SEC = 10   # default retry delay
-GEMINI_503_RETRY_DELAY = 60   # longer wait for server overload (503)
+GEMINI_CALLS_PER_RUN    = 2
+GEMINI_RUNS_PER_DAY     = 10
+GEMINI_DAILY_BUDGET     = 500
+GEMINI_RATE_LIMIT_RPM   = 15
+GEMINI_MAX_RETRIES      = 2
+GEMINI_RETRY_DELAY_SEC  = 10   # default retry delay
+GEMINI_503_RETRY_DELAY  = 60   # longer wait for server overload (503)
+NEWS_MAX_ITEMS_PER_CALL = 25
 
 # =============================================================================
 # PIPELINE SETTINGS
@@ -30,6 +31,7 @@ IMPACT_SCORE_BLOG_THRESHOLD    = 9
 IMPACT_SCORE_PREMIUM_THRESHOLD = 7
 DEDUP_WINDOW_HOURS             = 48
 ROLLING_WINDOW_DAYS            = 90
+NEWS_FRESHNESS_WINDOW_HOURS    = 2.5
 
 # =============================================================================
 # CONTENT PATHS (in fyf-news-site repo)
