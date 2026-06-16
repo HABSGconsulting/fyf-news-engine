@@ -2471,6 +2471,659 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-16T10:41:55.743926+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 3,
+      "items_seen": 68,
+      "items_evaluated": 68,
+      "items_skipped": 57,
+      "more_reads": 6,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 17,
+      "items_detail": [
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 4,
+          "gate": "More Reads",
+          "persona": "long_term_investor",
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 4,
+          "gate": "More Reads",
+          "persona": "long_term_investor",
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Japan's Nikkei index hits historic 70,000 mark after rate hike",
+          "score": 5,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "macro"
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Government to sell 5% stake in GIC via OFS at discount",
+          "score": 6,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "sectoral"
+        },
+        {
+          "title": "India's first clean economy index fund launches \u2014 should you invest?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "persona": "mutual_fund_investor",
+          "category": "product"
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 4,
+          "gate": "More Reads",
+          "persona": "long_term_investor",
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 4,
+          "gate": "More Reads",
+          "persona": "long_term_investor",
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "Bank of Japan raises interest rates to a 31-year high of 1%",
+          "score": 6,
+          "gate": "Impact post",
+          "persona": "long_term_investor",
+          "category": "macro"
+        },
+        {
+          "title": "(no headline)",
+          "score": 0,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 4,
+          "gate": "More Reads",
+          "persona": "long_term_investor",
+          "category": null
+        },
+        {
+          "title": "Compare education loan rates before you apply for studies this season",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "persona": "retail_borrower",
+          "category": "product"
+        },
+        {
+          "title": "(no headline)",
+          "score": 4,
+          "gate": "More Reads",
+          "persona": "new_investor",
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        },
+        {
+          "title": "(no headline)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "persona": null,
+          "category": null
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "UPSC declares results of Civil Services (Preliminary) Examination 2026 for Indian Forest Service (Main) eligibility",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Union Public Service Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "UPSC declares results of Civil Services (Preliminary) Examination 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Union Public Service Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashita on the importance of thoughtful decision making",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister conferred with Slovak Republic's highest national award",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister meets President of the Slovak Republic to discuss bilateral ties",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "19th Mumbai International Film Festival 2026 to open with three global stories",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "GeM and Digital India Bhashini Division sign MoU to enable multilingual procurement access for regional sellers",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Foundation stone laid for Integrated Aqua Park in Bhojpur and regional center in Patna",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Department of Administrative Reforms hosts regional workshop celebrating 12 years of administrative reforms",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister interacts with prominent business leaders in Slovakia to promote investment",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "19th Mumbai International Film Festival commences in Mumbai",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of 19th Mumbai International Film Festival highlights India's creative economy",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commercial vehicle OEMs offer discounts under Delhi-NCR fleet modernization and scrapping policy",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "ASI and National Museum of Denmark sign MoU for underwater archaeological exploration of historic ship",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "UIDAI successfully completes biometric SDK benchmarking challenges to enhance security",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MeitY holds consultation meeting with industry on AI-led transition in the IT services sector",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Yuva Sangam Phase VI Karnataka delegation explores Rajasthan's innovation ecosystem",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Yuva Sangam Phase VI Bihar delegation visits Punjab to study urban planning and governance",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President releases book on spiritual heritage and national integration",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Vice President's Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DRDO conducts successful flight test of Long Range Land Attack Cruise Missile",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
     }
   ]
 }
