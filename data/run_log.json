@@ -3639,6 +3639,64 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-17T10:09:17.957358+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 0,
+      "items_skipped": 15,
+      "views_filtered": 7,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister shares cultural sentiment on respect and appreciation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister meets UAE President on the sidelines of G7 Summit.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister meets UK Prime Minister on the sidelines of G7 Summit.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister meets Canadian Prime Minister on the sidelines of G7 Summit.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister addresses G7 session on international partnerships and solidarity.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
