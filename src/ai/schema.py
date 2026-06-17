@@ -224,10 +224,25 @@ class ImpactPost(BaseModel):
     def coerce_none_score(cls, v):
         return v if v is not None else 0
 
-    @field_validator("concepts", "learn_links", "source_links", mode="before")
+    @field_validator("concepts", "learn_links", mode="before")
     @classmethod
     def coerce_none_lists(cls, v):
         return v if isinstance(v, list) else []
+
+    @field_validator("source_links", mode="before")
+    @classmethod
+    def coerce_source_links(cls, v):
+        """Accept list of {url, label} dicts OR plain URL strings — never crash."""
+        if not isinstance(v, list):
+            return []
+        coerced = []
+        for item in v:
+            if isinstance(item, dict):
+                coerced.append(item)
+            elif isinstance(item, str) and item.strip():
+                # Gemini returned a raw URL string — wrap it gracefully
+                coerced.append({"url": item.strip(), "label": "Source"})
+        return coerced[:3]
 
     @field_validator("affected_personas", mode="before")
     @classmethod
