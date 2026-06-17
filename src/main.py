@@ -69,10 +69,11 @@ def _enrich_learn_links(qualifying: list) -> int:
         content = post.content_en or post.content_hi
         if not content:
             continue
+        # who_affected lives on ImpactContent (nested), not on ImpactPost directly
         links = get_learn_links(
             content.headline or "",
             list(post.concepts or []),
-            post.who_affected or "",
+            content.who_affected or "",
         )
         post.learn_links = links
         if links:
@@ -247,8 +248,6 @@ def main() -> None:
         f"{run_log_data['more_reads']} more reads. "
         f"Status: {run_log_data['status']} ==="
     )
-    # Always exit 0. Gemini failures are soft — logged but never red.
-    # Only a Python crash (unhandled exception) will exit non-zero.
     sys.exit(0)
 
 
