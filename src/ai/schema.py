@@ -97,11 +97,9 @@ class ScoreItem(BaseModel):
                     self.actionability_score)
         if self.editorial_impact_score != expected:
             self.editorial_impact_score = expected
-        # Hard gate: views never qualify
         if self.content_type == ContentType.VIEW:
             self.gate_action = "Skip entirely"
             self.editorial_impact_score = 0
-        # Soft_news max gate is More Reads
         if self.content_type == ContentType.SOFT_NEWS:
             if self.gate_action not in ("Skip entirely", "More Reads"):
                 self.gate_action = "More Reads"
@@ -118,18 +116,10 @@ class ScoreOutput(BaseModel):
 # ---------------------------------------------------------------------------
 
 class ImpactContent(BaseModel):
-    headline:           str = Field(description="Investor-framed headline. Lead with the investor, not the institution. Max 12 words.")
-    who_affected:       str = Field(description="Exactly 1 sentence. Name the persona explicitly. Max 20 words.")
-    what_changes:       str = Field(description="Exactly 1 sentence. State what materially changes. MUST include a specific number, metric, or percentage. Max 30 words.")
-    action_to_consider: str = Field(
-        description=(
-            "Exactly 1 sentence. One concrete, non-advisory action the investor can take. "
-            "Write as if advising a client on a call — direct and conditional on the persona. "
-            "If the persona is sip_investor and horizon is short_term, affirm long-term discipline; do not suggest tactical moves. "
-            "If no action is warranted, state that explicitly and explain why in the same sentence. "
-            "Max 30 words. Active voice. No jargon without explanation."
-        )
-    )
+    headline:           str
+    who_affected:       str
+    what_changes:       str
+    action_to_consider: str
 
 
 class LearnLink(BaseModel):
@@ -194,28 +184,30 @@ class ImpactPost(BaseModel):
     content_type: ContentType = Field(default=ContentType.NEWS)
 
     # --- Pass 2 content fields ---
-    sentiment:         Optional[Sentiment]      = Field(default=None)
-    category:          Optional[Category]       = Field(default=None)
-    subject_tags:      Optional[list[str]]      = Field(default=None)
-    trigger_event:     str                      = Field(default="")
-    event_series:      Optional[EventSeries]    = None
-    primary_persona:   Optional[Persona]        = Field(default=None)
-    affected_personas: list[Persona]            = Field(default_factory=list)
-    impact_horizon:    Optional[ImpactHorizon]  = Field(default=None)
-    concepts:          list[str]                = Field(default_factory=list)
+    sentiment:          Optional[Sentiment]     = Field(default=None)
+    category:           Optional[Category]      = Field(default=None)
+    subject_tags:       Optional[list[str]]     = Field(default=None)
+    trigger_event:      str                     = Field(default="")
+    event_series:       Optional[EventSeries]   = None
+    primary_persona:    Optional[Persona]       = Field(default=None)
+    affected_personas:  list[Persona]           = Field(default_factory=list)
+    impact_horizon:     Optional[ImpactHorizon] = Field(default=None)
+    concepts:           list[str]               = Field(default_factory=list)
     concept_difficulty: str                     = Field(default="beginner")
-    content_en:        Optional[ImpactContent]  = Field(default=None)
-    content_hi:        Optional[ImpactContent]  = Field(default=None)
-    learn_links:       list[LearnLink]          = Field(default_factory=list)
-    source_links:      list[SourceLink]         = Field(default_factory=list, max_length=3)
-    shareable:         bool                     = True
-    push_notify:       bool                     = False
-    whatsapp_caption:  str                      = Field(default="")
+    content_en:         Optional[ImpactContent] = Field(default=None)
+    content_hi:         Optional[ImpactContent] = Field(default=None)
+    learn_links:        list[LearnLink]         = Field(default_factory=list)
+    source_links:       list[SourceLink]        = Field(default_factory=list, max_length=3)
+    shareable:          bool                    = True
+    push_notify:        bool                    = False
+    whatsapp_caption:   str                     = Field(default="")
 
-    # --- Pro fields (advisor-facing) ---
-    behavioral_risk:        Optional[BehavioralRisk] = Field(default=None)
-    advisor_talking_point:  Optional[str]            = Field(default=None)
-    advisor_opportunity:    Optional[str]            = Field(default=None)
+    # --- Pro fields — bilingual, advisor-facing ---
+    behavioral_risk:           Optional[BehavioralRisk] = Field(default=None)
+    advisor_talking_point_en:  Optional[str]            = Field(default=None)
+    advisor_talking_point_hi:  Optional[str]            = Field(default=None)
+    advisor_opportunity_en:    Optional[str]            = Field(default=None)
+    advisor_opportunity_hi:    Optional[str]            = Field(default=None)
 
     # --- More Reads fields ---
     more_reads_title:     Optional[str] = Field(default=None)
@@ -326,9 +318,11 @@ class ImpactPost(BaseModel):
     def clear_pro_fields_if_not_actionable(self) -> "ImpactPost":
         """Pro fields only meaningful when actionability_score >= 1."""
         if self.actionability_score == 0:
-            self.behavioral_risk       = None
-            self.advisor_talking_point = None
-            self.advisor_opportunity   = None
+            self.behavioral_risk          = None
+            self.advisor_talking_point_en = None
+            self.advisor_talking_point_hi = None
+            self.advisor_opportunity_en   = None
+            self.advisor_opportunity_hi   = None
         return self
 
 
@@ -351,18 +345,9 @@ POLICY_HORIZON_VALUES = Literal[
 
 
 class PolicyCard(BaseModel):
-    ministry: str = Field(
-        description="Exact formal name of the issuing government entity or regulator."
-    )
-    decision_type: str = Field(
-        description="Classification: 'Approval' | 'Circular' | 'Framework' | 'Scheme' | 'Amendment' | 'Directive' | 'Notification'"
-    )
-    headline: str = Field(
-        description=(
-            "Factual, decision-focused title IN ENGLISH. Strip political/PR framing. "
-            "Extract the exact actionable decision or structural policy shift."
-        )
-    )
+    ministry: str
+    decision_type: str
+    headline: str
     headline_hi: Optional[str] = Field(default=None)
     context_and_trigger: Optional[str] = Field(default=None)
     mechanism_of_impact: Optional[str] = Field(default=None)
@@ -372,7 +357,7 @@ class PolicyCard(BaseModel):
     forward_outlook_hi: Optional[str] = Field(default=None)
     personas_affected: List[str] = Field(default_factory=list)
     sectors_affected: List[str] = Field(default_factory=list)
-    horizon: str = Field(description="One of: Immediate | Near-term (0-12M) | Cyclical (1-3Y) | Structural (3-5Y+) | Pending Parliament")
+    horizon: str
     materiality_flag: bool = Field(default=False)
     materiality_reason: Optional[str] = Field(default=None)
     materiality_reason_hi: Optional[str] = Field(default=None)
