@@ -3827,6 +3827,77 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-17T14:45:53.715519+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 15,
+      "items_evaluated": 2,
+      "items_skipped": 6,
+      "views_filtered": 4,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Avoid PF withdrawal delays: Check your EPFO account details today",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Do you need to file ITR? Check the rules for AY 2026-27",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Political statement regarding national security infrastructure.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Coal Ministry to host third roadshow for surface coal/lignite gasification projects.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister highlights transformation in defense capabilities.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "General overview of defense sector progress.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
