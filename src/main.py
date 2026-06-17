@@ -7,6 +7,11 @@ Two-pass news architecture:
 Policy path (run_policy_batch) unchanged — single call, working.
 
 Exit policy: sys.exit(0) always. Gemini failures logged but never turn workflow red.
+
+Dedup policy: hashes are written only for items that were successfully processed.
+  - Non-qualifying items (skip/views/more-reads) are marked seen after Pass 1.
+  - Qualifying items are marked seen only after Pass 2 succeeds.
+  - Items that fail Pass 2 validation are NOT marked seen — they retry next run.
 """
 import sys
 from datetime import datetime, timezone, timedelta
@@ -61,7 +66,6 @@ def _enrich_learn_links(qualifying: list) -> int:
         content = post.content_en or post.content_hi
         if not content:
             continue
-        # who_affected lives on ImpactContent (nested), not on ImpactPost
         links = get_learn_links(
             content.headline or "",
             list(post.concepts or []),
@@ -131,7 +135,6 @@ def main() -> None:
     # [3] NEWS PATH — Two-pass
     # -----------------------------------------------------------------------
     if new_news:
-        # Tag each item with its original index for score_map lookup
         for i, item in enumerate(new_news):
             item["_pass1_index"] = i
 
@@ -142,10 +145,12 @@ def main() -> None:
         if score_output is None:
             print("      Pass 1 failed — skipping news path.")
             run_log_data["status"] = "gemini_failed"
+            # Do NOT mark any hashes — entire batch retries next run
         else:
             score_map = {s.index: s for s in score_output.scores}
 
             qualifying_items  = []
+            non_qualifying_items = []  # skip + views + more_reads — safe to mark seen
             more_reads_scores = []
             skipped_count     = 0
             views_count       = 0
@@ -153,21 +158,28 @@ def main() -> None:
             for i, item in enumerate(new_news):
                 score = score_map.get(i)
                 if not score:
+                    non_qualifying_items.append(item)
                     continue
                 gate = score.gate_action
                 ct   = score.content_type.value
                 if ct == "view":
                     views_count += 1
+                    non_qualifying_items.append(item)
                 elif gate == "Skip entirely":
                     skipped_count += 1
+                    non_qualifying_items.append(item)
                 elif gate == "More Reads":
                     more_reads_scores.append((item, score))
+                    non_qualifying_items.append(item)
                 else:
                     qualifying_items.append(item)
 
             run_log_data["views_filtered"] = views_count
             run_log_data["items_skipped"]  = skipped_count
             run_log_data["more_reads"]     = len(more_reads_scores)
+
+            # Mark non-qualifying items seen immediately — no point retrying
+            news_hashes.extend(mark_seen(non_qualifying_items))
 
             print(f"      Pass 1 result: {len(qualifying_items)} qualify, "
                   f"{len(more_reads_scores)} more reads, {skipped_count} skip, {views_count} views filtered")
@@ -188,6 +200,11 @@ def main() -> None:
                     files_to_publish.update(build_news_card(post, run_dt))
                 run_log_data["posts_published"] = len(impact_posts)
 
+                # Only mark qualifying items seen after Pass 2 succeeds
+                # This ensures failed items are retried on the next run
+                if impact_posts:
+                    news_hashes.extend(mark_seen(qualifying_items))
+
             # --- More Reads ---
             if more_reads_scores:
                 mr_converted = []
@@ -205,7 +222,6 @@ def main() -> None:
                     mr_path, mr_content = build_more_reads(mr_converted, run_dt)
                     files_to_publish[mr_path] = mr_content
 
-            news_hashes.extend(mark_seen(new_news))
     else:
         print("[3/6] No new news items — skipping news path.")
 
