@@ -4,6 +4,11 @@ from src.ai.schema import MoreReadsItem
 from config.settings import MORE_READS_DATA_PATH
 
 
+def _ys(v) -> str:
+    """Wrap value in YAML double-quotes, escaping any inner double-quotes."""
+    return '"' + str(v).replace('"', '\\"') + '"'
+
+
 def build_more_reads(items: list[MoreReadsItem], run_dt: datetime | None = None) -> tuple[str, str]:
     """
     Returns (relative_path, yaml_content).
@@ -18,10 +23,10 @@ def build_more_reads(items: list[MoreReadsItem], run_dt: datetime | None = None)
 
     lines = ["items:"]
     for item in items:
-        lines.append(f"  - title: \"{item.title}\"")
-        lines.append(f"    url: \"{item.url}\"")
-        lines.append(f"    one_liner: \"{item.one_liner}\"")
-        lines.append(f"    category: \"{item.category.value}\"")
+        lines.append(f"  - title: {_ys(item.title)}")
+        lines.append(f"    url: {_ys(item.url)}")
+        lines.append(f"    one_liner: {_ys(item.one_liner)}")
+        lines.append(f"    category: {_ys(item.category.value)}")
 
     content = "\n".join(lines) + "\n"
     return rel_path, content
