@@ -149,10 +149,10 @@ advisor_opportunity_en:   {_yaml_str(post.advisor_opportunity_en)}
 advisor_opportunity_hi:   {_yaml_str(post.advisor_opportunity_hi)}
 
 # ── DEEP DIVE ────────────────────────────────────────────────────────────────
-learn_links:{learn_links_yaml}
+learn_links: {learn_links_yaml}
 
 # ── SOURCE LINKS ─────────────────────────────────────────────────────────────
-source_links:{source_links_yaml}
+source_links: {source_links_yaml}
 
 # ── SCORING AUDIT (not rendered to users) ────────────────────────────────────
 scoring:
