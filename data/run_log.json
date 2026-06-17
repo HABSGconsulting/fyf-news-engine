@@ -4013,6 +4013,85 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-17T17:57:54.418847+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 5,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Investing in US stocks to become easier via GIFT City platforms",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Returning to India? Use Form 40 to defer tax on foreign retirement accounts",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister expresses condolences for casualties in Badaun, Uttar Pradesh accident.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister expresses condolences for casualties in Vadodara, Gujarat accident.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government reiterates commitment to women-led development and inclusive ecosystem.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MIFF masterclass on Stanislavski's theatre techniques.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Railways approves Rs 172 crore Somtane-Chikhali chord line project to decongest Panvel junction.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
     }
   ]
 }
