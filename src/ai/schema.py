@@ -15,19 +15,6 @@ class Category(str, Enum):
 
 
 class Persona(str, Enum):
-    """
-    Backend enum values.  One source of truth.
-    UI labels and Gemini prompt descriptions live in persona_map.py.
-
-    mutual_fund_investor   → "Mutual Fund & SIP Investors"    → "Mutual Fund Investors"
-    retail_borrower        → "Home Loan & Retail Borrowers"   → "Retail Borrowers"
-    fixed_income_investor  → "Retirees & Fixed Income"        → "Fixed Income Seekers"
-    long_term_investor     → "Direct Equity Long-Term"        → "Core Equity Investors"
-    active_trader          → "Active F&O / Day Traders"       → "Active Traders"
-    salaried_taxpayer      → "Salaried Taxpayers"             → "Taxpayers"
-    new_investor           → "Millennial/Gen-Z Beginners"     → "New Investors"
-    business_owner         → "Tech / Gig / MSME Earners"     → "Business Owners & Gig Earners"
-    """
     MUTUAL_FUND_INVESTOR  = "mutual_fund_investor"
     RETAIL_BORROWER       = "retail_borrower"
     FIXED_INCOME_INVESTOR = "fixed_income_investor"
@@ -53,6 +40,19 @@ class ImpactHorizon(str, Enum):
     STRUCTURAL  = "structural"
 
 
+class BehavioralRisk(str, Enum):
+    HIGH   = "high"
+    MEDIUM = "medium"
+    LOW    = "low"
+
+
+class ContentType(str, Enum):
+    NEWS             = "news"
+    VIEW             = "view"
+    SOFT_NEWS        = "soft_news"
+    REGULATORY_DRAFT = "regulatory_draft"
+
+
 class EventSeries(str, Enum):
     RBI_MPC           = "RBI_MPC"
     UNION_BUDGET      = "UNION_BUDGET"
@@ -62,6 +62,60 @@ class EventSeries(str, Enum):
     NIFTY_MILESTONE   = "NIFTY_MILESTONE"
     FII_FLOW_TREND    = "FII_FLOW_TREND"
 
+
+# ---------------------------------------------------------------------------
+# Pass 1 — Scoring only (lightweight, zero content)
+# ---------------------------------------------------------------------------
+
+class ScoreItem(BaseModel):
+    """Lightweight scoring result for a single news item from Pass 1."""
+    index:                   int
+    content_type:            ContentType
+    reach_score:             int = Field(ge=0, le=2)
+    reach_reasoning:         str
+    immediacy_score:         int = Field(ge=0, le=2)
+    immediacy_reasoning:     str
+    materiality_score:       int = Field(ge=0, le=2)
+    materiality_reasoning:   str
+    surprise_score:          int = Field(ge=0, le=2)
+    surprise_reasoning:      str
+    actionability_score:     int = Field(ge=0, le=2)
+    actionability_reasoning: str
+    editorial_impact_score:  int = Field(ge=0, le=10)
+    gate_action:             str
+
+    @field_validator("reach_score", "immediacy_score", "materiality_score",
+                     "surprise_score", "actionability_score", mode="before")
+    @classmethod
+    def coerce_none_score(cls, v):
+        return v if v is not None else 0
+
+    @model_validator(mode="after")
+    def fix_score_sum(self) -> "ScoreItem":
+        expected = (self.reach_score + self.immediacy_score +
+                    self.materiality_score + self.surprise_score +
+                    self.actionability_score)
+        if self.editorial_impact_score != expected:
+            self.editorial_impact_score = expected
+        # Hard gate: views never qualify
+        if self.content_type == ContentType.VIEW:
+            self.gate_action = "Skip entirely"
+            self.editorial_impact_score = 0
+        # Soft_news max gate is More Reads
+        if self.content_type == ContentType.SOFT_NEWS:
+            if self.gate_action not in ("Skip entirely", "More Reads"):
+                self.gate_action = "More Reads"
+        return self
+
+
+class ScoreOutput(BaseModel):
+    """Full Pass 1 response — one ScoreItem per input news item."""
+    scores: List[ScoreItem] = Field(default_factory=list)
+
+
+# ---------------------------------------------------------------------------
+# Pass 2 — Full content (only for qualifying items)
+# ---------------------------------------------------------------------------
 
 class ImpactContent(BaseModel):
     headline:           str = Field(description="Investor-framed headline. Lead with the investor, not the institution. Max 12 words.")
@@ -98,7 +152,7 @@ class MoreReadsItem(BaseModel):
 
 
 # ---------------------------------------------------------------------------
-# Horizon × Category constraint tables
+# Horizon x Category constraint tables
 # ---------------------------------------------------------------------------
 
 _HARD_BLOCKS: set[tuple[str, str]] = {
@@ -118,63 +172,62 @@ _SOFT_FLAGS: dict[tuple[str, str], str] = {
 
 
 class ImpactPost(BaseModel):
-    reach_score:       int = Field(ge=0, le=2, description="0: institutional only. 1: 1-2 personas. 2: 3+ personas.")
-    reach_reasoning:   str = Field(description="1-sentence justification for reach_score.")
-
-    immediacy_score:     int = Field(ge=0, le=2, description="0: long-term background. 1: 1-6 months. 2: days/weeks or already in effect.")
-    immediacy_reasoning: str = Field(description="1-sentence justification for immediacy_score.")
-
-    materiality_score:     int = Field(ge=0, le=2, description="0: opinion/no wallet impact. 1: indirect sector impact. 2: direct EMI/tax/fund cost change.")
-    materiality_reasoning: str = Field(description="1-sentence justification for materiality_score.")
-
-    surprise_score:     int = Field(ge=0, le=2, description="0: fully priced in. 1: partial surprise. 2: unexpected/landmark.")
-    surprise_reasoning: str = Field(description="1-sentence justification for surprise_score.")
-
-    source_score:     int = Field(ge=0, le=2, description="0: rumour/analyst opinion. 1: credible draft/proposal. 2: official final circular/gazette.")
-    source_reasoning: str = Field(description="1-sentence justification for source_score.")
-
-    editorial_impact_score: int = Field(
-        ge=0, le=10,
-        description="MUST equal reach_score + immediacy_score + materiality_score + surprise_score + source_score exactly."
-    )
-
-    gate_action: Literal[
+    # --- Scores carried over from Pass 1 ---
+    reach_score:             int = Field(ge=0, le=2)
+    reach_reasoning:         str = Field(default="")
+    immediacy_score:         int = Field(ge=0, le=2)
+    immediacy_reasoning:     str = Field(default="")
+    materiality_score:       int = Field(ge=0, le=2)
+    materiality_reasoning:   str = Field(default="")
+    surprise_score:          int = Field(ge=0, le=2)
+    surprise_reasoning:      str = Field(default="")
+    actionability_score:     int = Field(ge=0, le=2, default=0)
+    actionability_reasoning: str = Field(default="")
+    editorial_impact_score:  int = Field(ge=0, le=10)
+    gate_action:             Literal[
         "Skip entirely",
         "More Reads",
         "Impact post",
         "Impact post + Premium",
         "Impact post + Premium + Blog",
-    ] = Field(description="Action derived strictly from editorial_impact_score threshold.")
+    ]
+    content_type: ContentType = Field(default=ContentType.NEWS)
 
-    sentiment:       Optional[Sentiment]     = Field(default=None)
-    category:        Optional[Category]      = Field(default=None)
-    subject_tags:    Optional[list[str]]     = Field(default=None)
-    trigger_event:   str                     = Field(default="")
-    event_series:    Optional[EventSeries]   = None
+    # --- Pass 2 content fields ---
+    sentiment:         Optional[Sentiment]      = Field(default=None)
+    category:          Optional[Category]       = Field(default=None)
+    subject_tags:      Optional[list[str]]      = Field(default=None)
+    trigger_event:     str                      = Field(default="")
+    event_series:      Optional[EventSeries]    = None
+    primary_persona:   Optional[Persona]        = Field(default=None)
+    affected_personas: list[Persona]            = Field(default_factory=list)
+    impact_horizon:    Optional[ImpactHorizon]  = Field(default=None)
+    concepts:          list[str]                = Field(default_factory=list)
+    concept_difficulty: str                     = Field(default="beginner")
+    content_en:        Optional[ImpactContent]  = Field(default=None)
+    content_hi:        Optional[ImpactContent]  = Field(default=None)
+    learn_links:       list[LearnLink]          = Field(default_factory=list)
+    source_links:      list[SourceLink]         = Field(default_factory=list, max_length=3)
+    shareable:         bool                     = True
+    push_notify:       bool                     = False
+    whatsapp_caption:  str                      = Field(default="")
 
-    primary_persona:   Optional[Persona]     = Field(default=None)
-    affected_personas: list[Persona]         = Field(default_factory=list)
+    # --- Pro fields (advisor-facing) ---
+    behavioral_risk:        Optional[BehavioralRisk] = Field(default=None)
+    advisor_talking_point:  Optional[str]            = Field(default=None)
+    advisor_opportunity:    Optional[str]            = Field(default=None)
 
-    impact_horizon:    Optional[ImpactHorizon] = Field(default=None)
-    concepts:          list[str]             = Field(default_factory=list)
-    concept_difficulty: str                  = Field(default="beginner")
-    content_en:        Optional[ImpactContent] = Field(default=None)
-    content_hi:        Optional[ImpactContent] = Field(default=None)
-    learn_links:       list[LearnLink]       = Field(default_factory=list)
-    source_links:      list[SourceLink]      = Field(default_factory=list, max_length=3)
-    shareable:         bool                  = True
-    push_notify:       bool                  = False
-    whatsapp_caption:  str                   = Field(default="")
-
+    # --- More Reads fields ---
     more_reads_title:     Optional[str] = Field(default=None)
     more_reads_url:       Optional[str] = Field(default=None)
     more_reads_one_liner: Optional[str] = Field(default=None)
 
-    validation_failed:   bool                  = Field(default=False)
-    validation_warnings: List[Dict[str, Any]]  = Field(default_factory=list)
+    # --- Internal validation flags ---
+    validation_failed:   bool                 = Field(default=False)
+    validation_warnings: List[Dict[str, Any]] = Field(default_factory=list)
 
     @field_validator("reach_score", "immediacy_score", "materiality_score",
-                     "surprise_score", "source_score", mode="before")
+                     "surprise_score", "actionability_score", mode="before")
     @classmethod
     def coerce_none_score(cls, v):
         return v if v is not None else 0
@@ -182,33 +235,48 @@ class ImpactPost(BaseModel):
     @field_validator("concepts", "learn_links", "source_links", mode="before")
     @classmethod
     def coerce_none_lists(cls, v):
-        """Coerce null → empty list. Gemini sometimes omits these on thin articles."""
         return v if isinstance(v, list) else []
 
     @field_validator("affected_personas", mode="before")
     @classmethod
     def coerce_affected_personas(cls, v):
-        """Coerce null → empty list. Strict persona validation still applies to list items."""
         return v if isinstance(v, list) else []
 
     @field_validator("shareable", mode="before")
     @classmethod
     def coerce_shareable(cls, v):
-        """Coerce null → True (default: all posts are shareable unless explicitly False)."""
         return bool(v) if v is not None else True
+
+    @field_validator("push_notify", mode="before")
+    @classmethod
+    def coerce_push_notify(cls, v):
+        return bool(v) if v is not None else False
+
+    @field_validator("trigger_event", "whatsapp_caption", mode="before")
+    @classmethod
+    def coerce_str_fields(cls, v):
+        return v or ""
+
+    @field_validator("concept_difficulty", mode="before")
+    @classmethod
+    def coerce_concept_difficulty(cls, v):
+        return v if v in ("beginner", "intermediate", "advanced") else "beginner"
+
+    @field_validator("subject_tags", mode="before")
+    @classmethod
+    def coerce_subject_tags(cls, v):
+        return v if isinstance(v, list) else None
 
     @field_validator("editorial_impact_score", mode="after")
     @classmethod
     def validate_score_is_sum(cls, v: int, info) -> int:
         d = info.data
-        fields = ["reach_score", "immediacy_score", "materiality_score", "surprise_score", "source_score"]
+        fields = ["reach_score", "immediacy_score", "materiality_score",
+                  "surprise_score", "actionability_score"]
         if all(f in d for f in fields):
             expected = sum(d[f] for f in fields)
             if v != expected:
-                print(
-                    f"  [SCHEMA] editorial_impact_score mismatch — Gemini said {v}, "
-                    f"correcting to {expected} (sum of dimension scores)"
-                )
+                print(f"  [SCHEMA] editorial_impact_score mismatch — Gemini said {v}, correcting to {expected}")
                 return expected
         return v
 
@@ -230,45 +298,19 @@ class ImpactPost(BaseModel):
             raise ValueError(f"Score {score} must map to 'Impact post + Premium + Blog', got '{v}'")
         return v
 
-    @field_validator("trigger_event", mode="before")
-    @classmethod
-    def coerce_trigger_event(cls, v): return v or ""
-
-    @field_validator("whatsapp_caption", mode="before")
-    @classmethod
-    def coerce_whatsapp_caption(cls, v): return v or ""
-
-    @field_validator("concept_difficulty", mode="before")
-    @classmethod
-    def coerce_concept_difficulty(cls, v):
-        return v if v in ("beginner", "intermediate", "advanced") else "beginner"
-
-    @field_validator("subject_tags", mode="before")
-    @classmethod
-    def coerce_subject_tags(cls, v):
-        return v if isinstance(v, list) else None
-
-    @field_validator("push_notify", mode="before")
-    @classmethod
-    def coerce_push_notify(cls, v):
-        return bool(v) if v is not None else False
-
     @model_validator(mode="after")
     def validate_horizon_constraints(self) -> "ImpactPost":
         if self.gate_action in ("Skip entirely", "More Reads"):
             return self
         if not self.category or not self.impact_horizon:
             return self
-
         cat     = self.category.value
         horizon = self.impact_horizon.value
-
         if (horizon, cat) in _HARD_BLOCKS:
             raise ValueError(
                 f"Logical mismatch: category '{cat}' cannot have impact_horizon '{horizon}'. "
                 "Review both fields and correct the less certain one."
             )
-
         flag_note = _SOFT_FLAGS.get((horizon, cat))
         if flag_note:
             self.validation_warnings.append({
@@ -278,17 +320,25 @@ class ImpactPost(BaseModel):
                 "flag": f"{cat}_{horizon}_review",
                 "note": flag_note,
             })
+        return self
 
+    @model_validator(mode="after")
+    def clear_pro_fields_if_not_actionable(self) -> "ImpactPost":
+        """Pro fields only meaningful when actionability_score >= 1."""
+        if self.actionability_score == 0:
+            self.behavioral_risk       = None
+            self.advisor_talking_point = None
+            self.advisor_opportunity   = None
         return self
 
 
 class RunOutput(BaseModel):
-    """All evaluated items from a single pipeline run — qualifying and non-qualifying."""
+    """All evaluated items from a single pipeline run."""
     evaluated_items: list[ImpactPost] = Field(default_factory=list)
 
 
 # ---------------------------------------------------------------------------
-# PolicyCard — used exclusively for feed_type: policy items
+# PolicyCard — unchanged, policy path untouched
 # ---------------------------------------------------------------------------
 
 POLICY_HORIZON_VALUES = Literal[
@@ -301,158 +351,37 @@ POLICY_HORIZON_VALUES = Literal[
 
 
 class PolicyCard(BaseModel):
-    """
-    Institutional-grade intelligence card for a single PIB / SEBI / RBI / MCA policy release.
-    Uses a Tri-Partite Analyst Block (context_and_trigger, mechanism_of_impact, forward_outlook).
-    Hard gate at relevance_score >= 6. Items below 6 are dropped and stripped.
-    Gemini does NOT set gate_action — the model_validator sets it deterministically.
-    source_url is stamped from RSS item AFTER Gemini responds (never trust LLM URL reproduction).
-
-    Hindi fields (headline_hi, context_and_trigger_hi, mechanism_of_impact_hi, forward_outlook_hi)
-    are written to the .hi.md file. Required when relevance_score >= 6.
-    """
     ministry: str = Field(
-        description="Exact formal name of the issuing government entity or regulator. E.g. 'Reserve Bank of India', 'Ministry of Finance', 'CCEA', 'SEBI', 'IFSC Authority'."
+        description="Exact formal name of the issuing government entity or regulator."
     )
     decision_type: str = Field(
         description="Classification: 'Approval' | 'Circular' | 'Framework' | 'Scheme' | 'Amendment' | 'Directive' | 'Notification'"
     )
     headline: str = Field(
         description=(
-            "Factual, decision-focused title IN ENGLISH. Completely strip out political, vague, or congratulatory PR framing. "
-            "Extract the exact actionable decision or structural policy shift. "
-            "Do NOT replicate PR titles like 'PM addresses conference...' or 'Minister inaugurates...'. "
-            "If no real decision exists, set relevance_score to 1 or 2."
+            "Factual, decision-focused title IN ENGLISH. Strip political/PR framing. "
+            "Extract the exact actionable decision or structural policy shift."
         )
     )
-    headline_hi: Optional[str] = Field(
-        default=None,
-        description=(
-            "Hindi translation of headline. Required when relevance_score >= 6. "
-            "Write in natural, fluent Hindi (Devanagari script). "
-            "Preserve the factual, decision-focused tone. Max ~15 words."
-        )
-    )
-
-    # --- TRI-PARTITE ANALYST BLOCK (English) ---
-    context_and_trigger: Optional[str] = Field(
-        default=None,
-        description=(
-            "1 concise sentence IN ENGLISH: The macro context, structural deficit, or economic problem "
-            "this policy intends to solve. Required when relevance_score >= 6."
-        )
-    )
-    mechanism_of_impact: Optional[str] = Field(
-        default=None,
-        description=(
-            "1 concise sentence IN ENGLISH: The exact fiscal, compliance, or regulatory lever pulled "
-            "by this administrative decision. Required when relevance_score >= 6."
-        )
-    )
-    forward_outlook: Optional[str] = Field(
-        default=None,
-        description=(
-            "1 precise sentence IN ENGLISH: The 12-36 month forward-looking trajectory for asset allocation "
-            "or business operations. NO stock names, tickers, or advisory directives. "
-            "Required when relevance_score >= 6."
-        )
-    )
-
-    # --- TRI-PARTITE ANALYST BLOCK (Hindi) ---
-    context_and_trigger_hi: Optional[str] = Field(
-        default=None,
-        description=(
-            "Hindi translation of context_and_trigger. Required when relevance_score >= 6. "
-            "1 sentence in fluent Hindi (Devanagari script). Same factual content as English version."
-        )
-    )
-    mechanism_of_impact_hi: Optional[str] = Field(
-        default=None,
-        description=(
-            "Hindi translation of mechanism_of_impact. Required when relevance_score >= 6. "
-            "1 sentence in fluent Hindi (Devanagari script). Same factual content as English version."
-        )
-    )
-    forward_outlook_hi: Optional[str] = Field(
-        default=None,
-        description=(
-            "Hindi translation of forward_outlook. Required when relevance_score >= 6. "
-            "1 sentence in fluent Hindi (Devanagari script). Same factual content as English version. "
-            "NO stock names, tickers, or advisory directives."
-        )
-    )
-
-    personas_affected: List[str] = Field(
-        default_factory=list,
-        description="Target segments. Subset of: ['retail', 'fund_manager', 'hni', 'business_owner', 'psu_banker']. Min 1."
-    )
-    sectors_affected: List[str] = Field(
-        default_factory=list,
-        description=(
-            "Impacted sectors. Minimalist tokens from: banking, insurance, infra, consumption, "
-            "microfinance, sme_lending, capital_markets, real_estate, energy, agriculture, "
-            "defence, taxation, fintech, healthcare, education. Min 1."
-        )
-    )
-    horizon: str = Field(
-        description=(
-            "Select EXACTLY one of these 5 values:\n"
-            "  'Immediate'           — gazette notification / RBI circular effective today or this quarter\n"
-            "  'Near-term (0-12M)'   — tied to upcoming Union Budget or current FY targets\n"
-            "  'Cyclical (1-3Y)'     — multi-year PLI, credit guarantee schemes, fiscal spending cycles\n"
-            "  'Structural (3-5Y+)'  — multi-ministry frameworks, deep legal reform, national masterplans\n"
-            "  'Pending Parliament'  — cabinet approval for bill not yet passed into law"
-        )
-    )
-    materiality_flag: bool = Field(
-        default=False,
-        description="Auto-set to True by validator if relevance_score >= 8. Do not set manually."
-    )
-    materiality_reason: Optional[str] = Field(
-        default=None,
-        description="Required when materiality_flag is True. One sentence IN ENGLISH explaining why this is a macro paradigm shift."
-    )
-    materiality_reason_hi: Optional[str] = Field(
-        default=None,
-        description="Hindi translation of materiality_reason. Required when materiality_flag is True. One sentence in Devanagari."
-    )
-    market_lens: Optional[str] = Field(
-        default=None,
-        description=(
-            "Required when materiality_flag is True. IN ENGLISH. Time-boxed to next 12-18 months. "
-            "Use probability language: 'raises probability of...', 'reduces regulatory friction for...'. "
-            "NO stock names, tickers, or price targets."
-        )
-    )
-    market_lens_hi: Optional[str] = Field(
-        default=None,
-        description=(
-            "Hindi translation of market_lens. Required when materiality_flag is True. "
-            "In Devanagari script. Same probability language as English version."
-        )
-    )
-    relevance_score: int = Field(
-        ge=1, le=10,
-        description=(
-            "Ruthless 1-10 structural capital market impact score.\n"
-            "1-3: PR fluff, inaugurations, foundation stones, MoUs without fiscal backing — SKIP.\n"
-            "4-5: Administrative routine, procedural clarifications, localized micro-grants — SKIP.\n"
-            "6-7: Direct regulatory changes by SEBI/RBI, FDI cap revisions, Cabinet strategic approvals — PUBLISH.\n"
-            "8-10: Systemic fiscal amendments, sweeping code changes, market-wide capital adjustments — PUBLISH as KEY SHIFT."
-        )
-    )
-    sentiment: str = Field(
-        default="neutral",
-        description="Market directional bias: 'positive' | 'negative' | 'neutral' | 'watch'"
-    )
-    source_url: str = Field(
-        default="",
-        description="Stamped from RSS item after Gemini responds. Leave as empty string."
-    )
-    gate_action: str = Field(
-        default="",
-        description="Leave as empty string. Set deterministically by model_validator from relevance_score."
-    )
+    headline_hi: Optional[str] = Field(default=None)
+    context_and_trigger: Optional[str] = Field(default=None)
+    mechanism_of_impact: Optional[str] = Field(default=None)
+    forward_outlook: Optional[str] = Field(default=None)
+    context_and_trigger_hi: Optional[str] = Field(default=None)
+    mechanism_of_impact_hi: Optional[str] = Field(default=None)
+    forward_outlook_hi: Optional[str] = Field(default=None)
+    personas_affected: List[str] = Field(default_factory=list)
+    sectors_affected: List[str] = Field(default_factory=list)
+    horizon: str = Field(description="One of: Immediate | Near-term (0-12M) | Cyclical (1-3Y) | Structural (3-5Y+) | Pending Parliament")
+    materiality_flag: bool = Field(default=False)
+    materiality_reason: Optional[str] = Field(default=None)
+    materiality_reason_hi: Optional[str] = Field(default=None)
+    market_lens: Optional[str] = Field(default=None)
+    market_lens_hi: Optional[str] = Field(default=None)
+    relevance_score: int = Field(ge=1, le=10)
+    sentiment: str = Field(default="neutral")
+    source_url: str = Field(default="")
+    gate_action: str = Field(default="")
 
     @field_validator("personas_affected", "sectors_affected", mode="before")
     @classmethod
@@ -467,18 +396,16 @@ class PolicyCard(BaseModel):
     @field_validator("horizon", mode="before")
     @classmethod
     def coerce_horizon(cls, v):
-        """Coerce null/empty horizon to a safe default instead of crashing."""
         valid = {"Immediate", "Near-term (0-12M)", "Cyclical (1-3Y)", "Structural (3-5Y+)", "Pending Parliament"}
         if isinstance(v, str) and v.strip() in valid:
             return v.strip()
-        return "Near-term (0-12M)"  # safe default; human review can correct
+        return "Near-term (0-12M)"
 
     @model_validator(mode="after")
     def enforce_institutional_gating(self) -> "PolicyCard":
         _VALID_SENTIMENTS = {"positive", "negative", "neutral", "watch"}
         if not self.sentiment or self.sentiment.strip() not in _VALID_SENTIMENTS:
             self.sentiment = "neutral"
-
         if self.relevance_score < 6:
             self.gate_action = "Skip entirely"
             self.materiality_flag = False
@@ -494,44 +421,31 @@ class PolicyCard(BaseModel):
             self.market_lens_hi = None
             self.headline_hi = None
             return self
-
         self.gate_action = "Policy Desk"
         missing_en = not self.context_and_trigger or not self.mechanism_of_impact or not self.forward_outlook
         missing_hi = not self.context_and_trigger_hi or not self.mechanism_of_impact_hi or not self.forward_outlook_hi
         if missing_en:
-            raise ValueError(
-                "Complete English Tri-Partite analyst block (context_and_trigger, mechanism_of_impact, "
-                "forward_outlook) is required for relevance_score >= 6."
-            )
+            raise ValueError("Complete English Tri-Partite analyst block required for relevance_score >= 6.")
         if missing_hi:
-            raise ValueError(
-                "Complete Hindi Tri-Partite block (context_and_trigger_hi, mechanism_of_impact_hi, "
-                "forward_outlook_hi) is required for relevance_score >= 6. "
-                "Write in fluent Hindi (Devanagari script)."
-            )
+            raise ValueError("Complete Hindi Tri-Partite block required for relevance_score >= 6.")
         if not self.headline_hi or not self.headline_hi.strip():
-            raise ValueError(
-                "headline_hi (Hindi translation of headline) is required for relevance_score >= 6."
-            )
-
+            raise ValueError("headline_hi required for relevance_score >= 6.")
         if self.relevance_score >= 8:
             self.materiality_flag = True
-
         if self.materiality_flag:
             if not self.materiality_reason or not self.materiality_reason.strip():
-                raise ValueError("materiality_reason is required when materiality_flag is True.")
+                raise ValueError("materiality_reason required when materiality_flag is True.")
             if not self.market_lens or not self.market_lens.strip():
-                raise ValueError("market_lens is required when materiality_flag is True.")
+                raise ValueError("market_lens required when materiality_flag is True.")
             if not self.materiality_reason_hi or not self.materiality_reason_hi.strip():
-                raise ValueError("materiality_reason_hi (Hindi) is required when materiality_flag is True.")
+                raise ValueError("materiality_reason_hi required when materiality_flag is True.")
             if not self.market_lens_hi or not self.market_lens_hi.strip():
-                raise ValueError("market_lens_hi (Hindi) is required when materiality_flag is True.")
+                raise ValueError("market_lens_hi required when materiality_flag is True.")
         else:
             self.materiality_reason = None
             self.materiality_reason_hi = None
             self.market_lens = None
             self.market_lens_hi = None
-
         return self
 
 
