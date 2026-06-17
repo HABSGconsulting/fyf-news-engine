@@ -3898,6 +3898,121 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-17T16:48:00.829455+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 2,
+      "items_seen": 16,
+      "items_evaluated": 4,
+      "items_skipped": 1,
+      "views_filtered": 5,
+      "more_reads": 6,
+      "learn_links_matched": 0,
+      "policy_seen": 14,
+      "policy_evaluated": 7,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Manipal Hospitals eyes $1 billion IPO: What you need to know",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Tata Motors shares slide 10% after JLR guidance disappoints",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "high"
+        },
+        {
+          "title": "NSE IPO buzz: IFCI rallies 8% as exchange prepares filing",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "How your debt fund tax treatment changes based on purchase date",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government to distribute Rs 2,400 crore as incentives under the Viksit Bharat Rozgar Yojana.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Local initiative for waste-to-wealth in Ghaziabad.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves Rs 493 crore Adipur-Bhuj railway doubling project to enhance connectivity in Kutch.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Launch of smart warehousing system for food grain storage.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Consumer Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Integration of state identity databases with DigiLocker.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Integration of Rajasthan Jan Aadhaar with DigiLocker.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Integration of MP Samagra ID with DigiLocker.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
