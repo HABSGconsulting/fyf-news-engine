@@ -7,11 +7,9 @@ GEMINI_API_KEY   = os.environ.get("GEMINI_API_KEY",   "AQ.PASTE_YOUR_NEW_GEMINI_
 GEMINI_API_KEY_2 = os.environ.get("GEMINI_API_KEY_2", "")  # Optional second key for rotation
 
 # Model selection
-# gemini-3.1-flash-lite: PRIMARY — stable, low latency, chosen for production reliability
-# gemini-3.1-flash-lite: FALLBACK — same model, 503-prone 3.5-flash removed from all paths
-PRIMARY_MODEL       = os.environ.get("GEMINI_MODEL",          "gemini-3.1-flash-lite")
-FALLBACK_MODEL      = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.1-flash-lite")
-WEEKLY_DIGEST_MODEL = os.environ.get("GEMINI_WEEKLY_MODEL",   "gemini-3.1-flash-lite")
+PRIMARY_MODEL       = os.environ.get("GEMINI_MODEL",          "gemini-2.0-flash-lite")
+FALLBACK_MODEL      = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-2.0-flash-lite")
+WEEKLY_DIGEST_MODEL = os.environ.get("GEMINI_WEEKLY_MODEL",   "gemini-2.0-flash-lite")
 
 # Rate limit awareness
 GEMINI_CALLS_PER_RUN    = 2
@@ -19,12 +17,14 @@ GEMINI_RUNS_PER_DAY     = 10
 GEMINI_DAILY_BUDGET     = 500
 GEMINI_RATE_LIMIT_RPM   = 15
 GEMINI_MAX_RETRIES      = 2
-GEMINI_RETRY_DELAY_SEC  = 10   # default retry delay
-GEMINI_503_RETRY_DELAY  = 60   # longer wait for server overload (503)
-NEWS_MAX_ITEMS_PER_CALL = 25
+GEMINI_RETRY_DELAY_SEC  = 10
+GEMINI_503_RETRY_DELAY  = 60
 
-# News freshness: relative to last run (see fetcher.py news_freshness_cutoff)
-# Fallback used only when data/last_run.txt is absent (e.g. first ever run)
+# Two-pass pipeline settings
+NEWS_MAX_ITEMS_PER_CALL    = 25   # Max items sent to Pass 1 (scoring)
+NEWS_CONTENT_BATCH_SIZE    = 3    # Items per Pass 2 content call (safe: ~26% of output limit)
+
+# News freshness
 NEWS_FRESHNESS_FALLBACK_HOURS  = 2.5
 NEWS_FRESHNESS_BUFFER_MINUTES  = 30
 

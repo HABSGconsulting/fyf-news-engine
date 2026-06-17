@@ -1,35 +1,25 @@
 """main.py — FYF News Pipeline orchestrator.
 
-Two parallel paths per run:
-  [A] News path:   fetch_all_feeds → news_items   → run_batch()        → news_card.py   → content/posts/
-  [B] Policy path: fetch_all_feeds → policy_items → run_policy_batch() → policy_card.py → content/policy/
+Two-pass news architecture:
+  Pass 1 (run_score_pass):   Score + classify all items. ~150 tokens output. Zero truncation risk.
+  Pass 2 (run_content_pass): Write content for qualifying items. 3 items/call. ~2k tokens/call.
 
-Both paths share the same dedup layer (Cloudflare KV, 48h TTL) and publisher.
-Hashes are only written to KV after a successful Gemini run — failed runs
-do NOT mark items as seen, so they will be retried on the next run.
+Policy path (run_policy_batch) unchanged — single call, working.
 
-Learn-links (Phase 2.2):
-  After the Gemini AI step, each qualifying ImpactPost is enriched with up to
-  2 relevant learn09 posts via Cloudflare Vectorize semantic search.
-  Failures are silent — learn_links stays [] and the post publishes normally.
-
-Exit policy:
-  sys.exit(0) always — including Gemini failures. Transient API errors are
-  logged in run_log.json but never turn the workflow red.
-  sys.exit(1) only happens on unhandled Python exceptions (crash).
+Exit policy: sys.exit(0) always. Gemini failures logged but never turn workflow red.
 """
 import sys
 from datetime import datetime, timezone, timedelta
 
 from src.feeds.fetcher import fetch_all_feeds, write_bootstrap_flag, is_policy_bootstrapped
 from src.feeds.dedup import filter_seen, mark_seen, write_seen_hashes
-from src.ai.gemini_client import run_batch, run_policy_batch
+from src.ai.gemini_client import run_score_pass, run_content_pass, run_policy_batch
 from src.compilers.news_card import build_news_card, build_section_indexes
 from src.compilers.more_reads import build_more_reads
 from src.compilers.policy_card import build_policy_card, build_policy_section_index
 from src.git.publisher import publish_files
 from src.logs.run_log import write_run_log
-from src.ai.schema import MoreReadsItem, Category
+from src.ai.schema import MoreReadsItem, Category, ImpactPost
 from src.learn.matcher import get_learn_links
 from config.settings import NEWS_MAX_ITEMS_PER_CALL
 
@@ -40,15 +30,17 @@ def _normalise_source_url(url: str) -> str:
     return url.replace("PressReleaseIframePage.aspx", "PressReleasePage.aspx")
 
 
-def _item_audit(post) -> dict:
+def _item_audit(post: ImpactPost) -> dict:
     content = post.content_en or post.content_hi
-    title = content.headline if content else "(no headline)"
     return {
-        "title":    title,
-        "score":    post.editorial_impact_score,
-        "gate":     post.gate_action,
-        "persona":  post.primary_persona.value if post.primary_persona else None,
-        "category": post.category.value if post.category else None,
+        "title":        content.headline if content else "(no headline)",
+        "score":        post.editorial_impact_score,
+        "gate":         post.gate_action,
+        "content_type": post.content_type.value,
+        "persona":      post.primary_persona.value if post.primary_persona else None,
+        "category":     post.category.value if post.category else None,
+        "actionability": post.actionability_score,
+        "behavioral_risk": post.behavioral_risk.value if post.behavioral_risk else None,
     }
 
 
@@ -69,7 +61,7 @@ def _enrich_learn_links(qualifying: list) -> int:
         content = post.content_en or post.content_hi
         if not content:
             continue
-        # who_affected lives on ImpactContent (nested), not on ImpactPost directly
+        # who_affected lives on ImpactContent (nested), not on ImpactPost
         links = get_learn_links(
             content.headline or "",
             list(post.concepts or []),
@@ -82,7 +74,7 @@ def _enrich_learn_links(qualifying: list) -> int:
 
 
 def main() -> None:
-    run_dt = datetime.now(IST)
+    run_dt    = datetime.now(IST)
     run_label = run_dt.strftime("%Y-%m-%dT%H:%M:%S+05:30")
     print(f"\n=== FYF Pipeline run: {run_label} ===")
 
@@ -97,17 +89,16 @@ def main() -> None:
     # [2] DEDUP
     # -----------------------------------------------------------------------
     print("[2/6] Deduplicating...")
-    new_news = filter_seen(raw_news)
+    new_news   = filter_seen(raw_news)
     new_policy = filter_seen(raw_policy)
     print(f"      {len(new_news)} new news items, {len(new_policy)} new policy items after dedup")
 
     if len(new_news) > NEWS_MAX_ITEMS_PER_CALL:
         overflow = len(new_news) - NEWS_MAX_ITEMS_PER_CALL
-        print(f"[NEWS] Capping batch to {NEWS_MAX_ITEMS_PER_CALL} items; {overflow} overflow items deferred to next run.")
+        print(f"[NEWS] Capping to {NEWS_MAX_ITEMS_PER_CALL} items; {overflow} deferred to next run.")
         new_news = new_news[:NEWS_MAX_ITEMS_PER_CALL]
 
-    all_new_items = new_news + new_policy
-    if not all_new_items:
+    if not new_news and not new_policy:
         print("      Nothing new — exiting cleanly.")
         write_run_log({
             "status": "skipped",
@@ -120,75 +111,106 @@ def main() -> None:
     news_hashes:   list[str] = []
     policy_hashes: list[str] = []
     run_log_data = {
-        "status":             "ok",
-        "posts_published":    0,
-        "policy_published":   0,
-        "items_seen":         len(new_news),
-        "items_evaluated":    0,
-        "items_skipped":      0,
-        "more_reads":         0,
+        "status":              "ok",
+        "posts_published":     0,
+        "policy_published":    0,
+        "items_seen":          len(new_news),
+        "items_evaluated":     0,
+        "items_skipped":       0,
+        "views_filtered":      0,
+        "more_reads":          0,
         "learn_links_matched": 0,
-        "policy_seen":        len(new_policy),
-        "policy_evaluated":   0,
-        "policy_skipped":     0,
-        "items_detail":       [],
-        "policy_detail":      [],
+        "policy_seen":         len(new_policy),
+        "policy_evaluated":    0,
+        "policy_skipped":      0,
+        "items_detail":        [],
+        "policy_detail":       [],
     }
 
     # -----------------------------------------------------------------------
-    # [3] NEWS PATH
+    # [3] NEWS PATH — Two-pass
     # -----------------------------------------------------------------------
     if new_news:
-        print("[3/6] Calling Gemini (news)...")
-        run_output = run_batch(new_news)
-        if run_output is None:
-            print("      Gemini (news) returned nothing — logging and continuing.")
+        # Tag each item with its original index for score_map lookup
+        for i, item in enumerate(new_news):
+            item["_pass1_index"] = i
+
+        # --- Pass 1: Score ---
+        print("[3/6] Pass 1 — Scoring news items...")
+        score_output = run_score_pass(new_news)
+
+        if score_output is None:
+            print("      Pass 1 failed — skipping news path.")
             run_log_data["status"] = "gemini_failed"
         else:
-            qualifying       = [p for p in run_output.evaluated_items if p.gate_action.startswith("Impact post")]
-            more_reads_items = [p for p in run_output.evaluated_items if p.gate_action == "More Reads"]
-            skipped          = [p for p in run_output.evaluated_items if p.gate_action == "Skip entirely"]
+            score_map = {s.index: s for s in score_output.scores}
 
-            run_log_data["items_evaluated"] = len(run_output.evaluated_items)
-            run_log_data["items_skipped"]   = len(skipped)
-            run_log_data["more_reads"]       = len(more_reads_items)
-            run_log_data["items_detail"]     = [_item_audit(p) for p in run_output.evaluated_items]
+            qualifying_items  = []
+            more_reads_scores = []
+            skipped_count     = 0
+            views_count       = 0
 
-            print(f"      {len(run_output.evaluated_items)} evaluated: "
-                  f"{len(qualifying)} qualifying, {len(more_reads_items)} more reads, {len(skipped)} skipped")
+            for i, item in enumerate(new_news):
+                score = score_map.get(i)
+                if not score:
+                    continue
+                gate = score.gate_action
+                ct   = score.content_type.value
+                if ct == "view":
+                    views_count += 1
+                elif gate == "Skip entirely":
+                    skipped_count += 1
+                elif gate == "More Reads":
+                    more_reads_scores.append((item, score))
+                else:
+                    qualifying_items.append(item)
 
-            if qualifying:
+            run_log_data["views_filtered"] = views_count
+            run_log_data["items_skipped"]  = skipped_count
+            run_log_data["more_reads"]     = len(more_reads_scores)
+
+            print(f"      Pass 1 result: {len(qualifying_items)} qualify, "
+                  f"{len(more_reads_scores)} more reads, {skipped_count} skip, {views_count} views filtered")
+
+            # --- Pass 2: Content ---
+            if qualifying_items:
+                print("[3/6] Pass 2 — Writing content for qualifying items...")
+                impact_posts = run_content_pass(qualifying_items, score_map)
+                run_log_data["items_evaluated"] = len(impact_posts)
+                run_log_data["items_detail"]    = [_item_audit(p) for p in impact_posts]
+
                 print("[3a]  Enriching learn_links via Vectorize...")
-                matched = _enrich_learn_links(qualifying)
+                matched = _enrich_learn_links(impact_posts)
                 run_log_data["learn_links_matched"] = matched
-                print(f"      learn_links: {matched}/{len(qualifying)} posts matched")
 
-            files_to_publish.update(build_section_indexes(run_dt))
-            for post in qualifying:
-                files_to_publish.update(build_news_card(post, run_dt))
-            run_log_data["posts_published"] = len(qualifying)
+                files_to_publish.update(build_section_indexes(run_dt))
+                for post in impact_posts:
+                    files_to_publish.update(build_news_card(post, run_dt))
+                run_log_data["posts_published"] = len(impact_posts)
 
-            if more_reads_items:
-                mr_converted = [
-                    MoreReadsItem(
-                        title=p.more_reads_title or "",
-                        url=p.more_reads_url or "",
-                        one_liner=p.more_reads_one_liner or "",
-                        category=p.category or Category.MACRO,
-                    )
-                    for p in more_reads_items
-                    if p.more_reads_title and p.more_reads_url
-                ]
+            # --- More Reads ---
+            if more_reads_scores:
+                mr_converted = []
+                for item, score in more_reads_scores:
+                    title = item.get("title", "")
+                    url   = item.get("url", "")
+                    if title and url:
+                        mr_converted.append(MoreReadsItem(
+                            title=title,
+                            url=url,
+                            one_liner=item.get("summary", "")[:120],
+                            category=Category.MACRO,
+                        ))
                 if mr_converted:
                     mr_path, mr_content = build_more_reads(mr_converted, run_dt)
                     files_to_publish[mr_path] = mr_content
 
             news_hashes.extend(mark_seen(new_news))
     else:
-        print("[3/6] No new news items — skipping news Gemini call.")
+        print("[3/6] No new news items — skipping news path.")
 
     # -----------------------------------------------------------------------
-    # [4] POLICY PATH
+    # [4] POLICY PATH — unchanged
     # -----------------------------------------------------------------------
     if new_policy:
         print("[4/6] Calling Gemini (policy)...")
@@ -200,27 +222,22 @@ def main() -> None:
         else:
             publishing_cards = [c for c in policy_output.evaluated_items if c.gate_action == "Policy Desk"]
             skipped_cards    = [c for c in policy_output.evaluated_items if c.gate_action == "Skip entirely"]
-
             run_log_data["policy_evaluated"] = len(policy_output.evaluated_items)
             run_log_data["policy_skipped"]   = len(skipped_cards)
             run_log_data["policy_detail"]    = [_policy_audit(c) for c in policy_output.evaluated_items]
-
             print(f"      {len(policy_output.evaluated_items)} evaluated: "
                   f"{len(publishing_cards)} publishing, {len(skipped_cards)} skipped")
-
             if publishing_cards:
                 files_to_publish.update(build_policy_section_index(run_dt))
                 for card in publishing_cards:
                     card.source_url = _normalise_source_url(card.source_url)
                     files_to_publish.update(build_policy_card(card, run_dt))
                 run_log_data["policy_published"] = len(publishing_cards)
-
             if not is_policy_bootstrapped():
                 write_bootstrap_flag()
-
             policy_hashes.extend(mark_seen(new_policy))
     else:
-        print("[4/6] No new policy items — skipping policy Gemini call.")
+        print("[4/6] No new policy items — skipping policy path.")
 
     # -----------------------------------------------------------------------
     # [5] PUBLISH
@@ -229,7 +246,7 @@ def main() -> None:
         print(f"[5/6] Publishing {len(files_to_publish)} files to fyf-news-site...")
         publish_files(files_to_publish, run_label)
     else:
-        print("[5/6] No files to publish — slow news day or Gemini unavailable.")
+        print("[5/6] No files to publish.")
 
     # -----------------------------------------------------------------------
     # [6] DEDUP + RUN LOG
@@ -238,7 +255,6 @@ def main() -> None:
     all_hashes = news_hashes + policy_hashes
     if all_hashes:
         write_seen_hashes(all_hashes)
-
     write_run_log(run_log_data)
 
     print(
@@ -246,6 +262,7 @@ def main() -> None:
         f"{run_log_data['posts_published']} news posts, "
         f"{run_log_data['policy_published']} policy cards published. "
         f"{run_log_data['more_reads']} more reads. "
+        f"{run_log_data['views_filtered']} views filtered. "
         f"Status: {run_log_data['status']} ==="
     )
     sys.exit(0)
