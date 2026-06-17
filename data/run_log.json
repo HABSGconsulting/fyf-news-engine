@@ -3714,6 +3714,119 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-06-17T12:59:50.386913+05:30",
+      "status": "ok",
+      "posts_published": 7,
+      "policy_published": 1,
+      "items_seen": 24,
+      "items_evaluated": 7,
+      "items_skipped": 1,
+      "views_filtered": 7,
+      "more_reads": 9,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Clay Craft India IPO opens June 17: Price band set at Rs 193-203",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Wipro buyback closes today: Last chance for eligible shareholders",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Cyient shares drop 6% as stock turns ex-record date for buyback",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Jio and NSE prepare for India's largest $6 billion IPO launch",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "MSRTC employees see 5% DA hike; arrears demand gains momentum",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Booked losses? Why filing ITR is essential for your tax savings",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Why your home loan might fall short due to property valuation gaps",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "India and Thailand agree to strengthen cooperation in defense manufacturing, research, and innovation.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defense production reaches record Rs 1.78 lakh crore in FY 2025-26.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "42nd meeting of the National Capital Region Planning Board held in New Delhi.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
