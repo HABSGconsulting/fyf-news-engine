@@ -4467,6 +4467,59 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-06-18T10:34:51.183246+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 1,
+      "items_skipped": 16,
+      "views_filtered": 5,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Last chance: Buy these 16 stocks today to claim dividends",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister shares a Sanskrit subhashit on virtues of truth, service, knowledge and action.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister expresses condolences on the passing of Buddhist scholar Robert A.F. Thurman.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister meets US President during G7 Summit in Evian.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
