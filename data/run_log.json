@@ -4619,6 +4619,95 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-18T14:28:15.213798+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 23,
+      "items_evaluated": 3,
+      "items_skipped": 5,
+      "views_filtered": 2,
+      "more_reads": 10,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "ITAT ruling clarifies: High trading volume doesn't automatically mean business income",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Filing ITR-4? Keep these documents ready to claim your tax deductions",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Cheaper imports: How India's new trade deals could lower your luxury costs",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "MSME Ministry to host BRICS SME Forum and Working Group meeting in Agra on June 19, 2026.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Micro, Small and Medium Enterprises",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "KVIC distributes 3,645 machines and toolkits to artisans at Khadi Rozgar Utsav in Siwani.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Micro, Small and Medium Enterprises",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Minister to perform Bhumi Pujan for 10,000-ton capacity aluminium extrusion press at Yantra India Limited.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Second national consultation meeting held for National Technical Guidelines (NTG) on watershed management under REWARD program.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Centre reviews progress of rural road construction with states, targeting completion of 26,000 km in FY 2026-27.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
