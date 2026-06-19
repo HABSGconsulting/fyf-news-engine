@@ -5535,6 +5535,143 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-19T17:47:50.170401+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 14,
+      "items_evaluated": 3,
+      "items_skipped": 5,
+      "views_filtered": 2,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 11,
+      "policy_evaluated": 11,
+      "policy_skipped": 10,
+      "items_detail": [
+        {
+          "title": "SBI Mutual Fund IPO expected in July; Sebi approval likely soon",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "EPF members get free life insurance cover of up to Rs 7 lakh",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "EPFO retains 8.25% interest rate; UPI-based withdrawals coming soon",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "APEDA facilitates first export of fresh lychees from Uttarakhand to Italy",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Expert discussion on OTT platform opportunities for documentary filmmakers",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of 12 years of pension reforms and digital empowerment initiatives",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of power sector and urban development schemes in Jharkhand",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Astronomers identify origins of cosmic X-ray flashes",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "UPSC expands administrative infrastructure with new office inauguration",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "UPSC",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares article on youth empowerment and welfare schemes",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Groundbreaking for 10,000-ton aluminium extrusion press at YIL Nagpur",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Screening of documentaries at Mumbai International Film Festival 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Showcase of mid-fest films at MIFF 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Restored documentary classics showcased at MIFF 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
