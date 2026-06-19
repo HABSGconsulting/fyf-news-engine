@@ -5672,6 +5672,135 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-19T19:20:56.824513+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 2,
+      "items_seen": 8,
+      "items_evaluated": 3,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "SEBI's new reforms: 5 key changes impacting your investments",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Jio IPO filing: What you need to know about the $3B plan",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Open-market buybacks return: What this means for your stocks",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Mega eye surgery camp organized in Jharkhand under Operation Drishti",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Home Minister addresses 26th All India Fingerprint Conference 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MoD signs Rs 425 crore contract for 12 Marine Gas Turbine Generator sets for Indian Navy",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "NCSC organizes Project Super 50 civil services guidance program",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Filmmaker Federico Atehortua discusses film editing at MIFF 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of Swachh Bharat Mission-Urban progress in Jharkhand",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Navy to commission three indigenous warships in Kolkata",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHAI launches first multi-lane free flow tolling system at Daulatpura toll plaza",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "German student films showcased at MIFF 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHRC takes cognizance of illegal detention of a minor in Kasna jail",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
