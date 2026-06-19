@@ -5392,6 +5392,123 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-19T14:47:05.909525+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 2,
+      "items_seen": 13,
+      "items_evaluated": 1,
+      "items_skipped": 6,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 11,
+      "policy_evaluated": 11,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "New SEBI rules for Gold ETFs start September 1: What changes",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Review of measures to empower station masters for improved station management efficiency.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Strategic review of internal security and Naxal-affected region status.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Internal administrative workshop on official Hindi documentation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Presidential participation in International Sickle Cell Day event.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Preparatory planning for International Yoga Day 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Foundation stone laying for India's first commercial-scale coal-to-ammonium nitrate project in Odisha.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Coal",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "MoU signed for establishing long-term monitoring center for India Climate Observation Network (BCON).",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Public awareness event for International Yoga Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Digital reforms and initiatives to streamline scholarship access for students.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Official visit of the Prime Minister to West Bengal.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Official visit of the Prime Minister to Odisha.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
