@@ -5902,6 +5902,40 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-19T22:10:36.558039+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Lok Sabha Speaker highlights historical civilizational ties between India and Republic of Korea.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NFRA and ICAI conduct workshop on financial reporting ecosystem in Pune.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
