@@ -6677,6 +6677,15 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-21T01:27:36.534264+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
