@@ -6317,6 +6317,75 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-20T17:39:03.839672+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 5,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Lower your tax bill: Key deductions for pensioners in ITR 2026",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministerial address at public event in Kolhapur, Maharashtra.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Transcript of Prime Minister's address regarding state government anniversary.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Announcement of International Yoga Day event at JLN Stadium.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Announcement of International Yoga Day event venue.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Public invitation for nationwide International Yoga Day celebrations.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
