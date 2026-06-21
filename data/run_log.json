@@ -7218,6 +7218,91 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-21T18:57:29.889383+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Save capital gains tax by investing in under-construction property",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister congratulates Indian Women's Hockey Team on winning FIH Hockey Women's Nations Cup.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Fisheries and Department of Animal Husbandry and Dairying celebrate International Yoga Day 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Tourism celebrates 12th International Yoga Day across the country.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Khadi and Village Industries Commission celebrates 12th International Yoga Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India to host 11th BRICS Energy Ministers meeting in Gurugram.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CCPA imposes penalties on food companies for misleading '100 percent' claims.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Central Consumer Protection Authority",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister commissions three frontline Indian Navy vessels.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
