@@ -7157,6 +7157,67 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-21T17:32:25.121632+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Secure your retirement: Check your EPF nominee details today",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "International Yoga Day event held at Seva Teerth",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "International Yoga Day event held at Old Fort, Delhi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Rashtriya Ayurveda Vidyapeeth observes International Yoga Day",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Coal and Ministry of Mines observe International Yoga Day",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal and Ministry of Mines",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
