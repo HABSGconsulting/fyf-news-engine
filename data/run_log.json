@@ -7374,6 +7374,112 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-21T22:41:13.183343+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 0,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 11,
+      "policy_evaluated": 11,
+      "policy_skipped": 10,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "President of India visits Kuno National Park to review cheetah management.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Rural Development observes International Yoga Day 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of New and Renewable Energy observes International Yoga Day 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "19th Mumbai International Film Festival concludes.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NMCG organizes International Yoga Day 2026 events across Ganga basin.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DAE inaugurates Deuterated Compound Production Plant and commissions sodium cell prototype.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Atomic Energy",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Indian Naval Ship arrives in Port Louis, Mauritius.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry observes International Yoga Day 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of MSME hosts BRICS MSME Forum and SME Working Group meeting.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister of State participates in International Yoga Day 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Chemicals and Petrochemicals observes International Yoga Day 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Chemicals and Petrochemicals",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
