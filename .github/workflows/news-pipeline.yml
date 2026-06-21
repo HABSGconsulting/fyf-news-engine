@@ -2,16 +2,16 @@ name: FYF News Pipeline
 
 on:
   schedule:
-    - cron: '15 0 * * *'    # 05:45 AM IST
-    - cron: '15 2 * * *'    # 07:45 AM IST
-    - cron: '15 4 * * *'    # 09:45 AM IST
-    - cron: '15 6 * * *'    # 11:45 AM IST
-    - cron: '15 8 * * *'    # 01:45 PM IST
-    - cron: '15 10 * * *'   # 03:45 PM IST
-    - cron: '15 12 * * *'   # 05:45 PM IST
-    - cron: '15 14 * * *'   # 07:45 PM IST
-    - cron: '15 16 * * *'   # 09:45 PM IST
-    - cron: '15 18 * * *'   # 11:45 PM IST
+    - cron: '45 21 * * *'   # 03:15 AM IST  (was 05:45 AM)
+    - cron: '45 23 * * *'   # 05:15 AM IST  (was 07:45 AM)
+    - cron: '45 1  * * *'   # 07:15 AM IST  (was 09:45 AM)
+    - cron: '45 3  * * *'   # 09:15 AM IST  (was 11:45 AM)
+    - cron: '45 5  * * *'   # 11:15 AM IST  (was 01:45 PM)
+    - cron: '45 7  * * *'   # 01:15 PM IST  (was 03:45 PM)
+    - cron: '45 9  * * *'   # 03:15 PM IST  (was 05:45 PM)
+    - cron: '45 11 * * *'   # 05:15 PM IST  (was 07:45 PM)
+    - cron: '45 13 * * *'   # 07:15 PM IST  (was 09:45 PM)
+    - cron: '45 15 * * *'   # 09:15 PM IST  (was 11:45 PM)
   workflow_dispatch:
 
 concurrency:
