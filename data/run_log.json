@@ -8157,6 +8157,34 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-23T00:30:08.224983+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "SEBI plans to simplify market rules for a smoother trading experience",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
