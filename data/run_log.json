@@ -8078,6 +8078,48 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-22T21:49:09.258193+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Marshal of the Air Force Arjan Singh Memorial Hockey Tournament 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India achieves milestone of 5 lakh organ donation pledges",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Haj Policy 2027 announced; applications invited for pilgrims",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Minority Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
