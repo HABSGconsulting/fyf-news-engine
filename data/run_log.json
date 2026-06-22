@@ -7817,6 +7817,88 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-22T16:52:31.195617+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 3,
+      "items_seen": 25,
+      "items_evaluated": 0,
+      "items_skipped": 25,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 5,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "International Yoga Day 2026 theme announced",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHAI mandates development of repair and puncture facilities on National Highways and Expressways",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Aadhaar app download statistics update",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Approval for Kavach implementation on 631 route kilometers of East Coast Railway",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Special drive initiated for disposal of long-pending labour cases",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares article on governance and public trust",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares article on strengthening judicial access",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Approval of DISHA 2.0 scheme for innovative legal solutions",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
