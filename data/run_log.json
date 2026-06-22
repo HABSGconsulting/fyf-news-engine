@@ -8012,6 +8012,72 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-22T20:40:43.571265+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 0,
+      "items_skipped": 4,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 6,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Fertilizer shipment transit through Strait of Hormuz successfully completed.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government commits to tourism sector reforms for global competitiveness.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister expresses condolences on Lucknow fire incident.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Shri Neeraj Dangi takes oath as Rajya Sabha member.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rajya Sabha Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National workshop on environmental trade measures and free trade agreements held.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India achieves status as global leader in ship recycling for 2025.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
