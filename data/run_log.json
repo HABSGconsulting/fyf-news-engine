@@ -8371,6 +8371,40 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-06-23T14:24:38.854557+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 0,
+      "items_skipped": 4,
+      "views_filtered": 6,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Government invites applications for Chairperson and two member positions in the National Sports Board.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government announces call for nominations for Pradhan Mantri Rashtriya Bal Puraskar.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
