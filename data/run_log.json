@@ -8470,6 +8470,115 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-23T17:56:02.957275+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 2,
+      "items_seen": 9,
+      "items_evaluated": 1,
+      "items_skipped": 4,
+      "views_filtered": 4,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "Save big on taxes: Claim up to \u20b910 crore exemption on asset sales",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "NAFED launches e-auction portal NAFEX.in for agricultural commodities",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Successful auction of 56 critical mineral blocks and 11 exploration licenses",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Mines",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "My Bharat to organize Vande Mataram camps nationwide",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "International Yoga Day 2026 participation review",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Naval ships visit Ho Chi Minh City, Vietnam",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Progress report on Swachh Bharat Mission-Urban 2.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "15th meeting of Defence IT Advisory Committee",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Tribute paid to Dr. Syama Prasad Mookerjee",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Pharmaceuticals invites comments on proposed amendments to global tender exemption list for medical devices",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Pharmaceuticals",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHAI signs MoU with NCAER to establish Centre for Economics of Transportation, Mobility and Logistics",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
