@@ -8805,6 +8805,40 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-23T23:00:24.599439+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister attends Civil Investiture Ceremony-II at Rashtrapati Bhavan.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NITI Aayog releases the eighth edition of Trade Watch Quarterly.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "NITI Aayog",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
