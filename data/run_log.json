@@ -9060,6 +9060,73 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-24T12:33:10.751716+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 4,
+      "items_skipped": 0,
+      "views_filtered": 4,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Margin trading hits record Rs 1.27 lakh crore; is your portfolio safe?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SIS shares jump 12% on buyback news; what should you do?",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Avoid TDS on your FD interest: Submit Form 15G or 15H now",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Secure your retirement: How to track your EPF balance and contributions",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Award distribution ceremony for the 36th National Youth Parliament Competition 2025-26 for Kendriya Vidyalayas",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
