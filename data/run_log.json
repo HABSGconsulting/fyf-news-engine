@@ -9981,6 +9981,107 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-25T17:36:57.457146+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 2,
+      "items_seen": 8,
+      "items_evaluated": 1,
+      "items_skipped": 3,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Housing demand surges 19% as Indian real estate shows resilience",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "National conference on cooperative sector vision and roadmap",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Oath taking ceremony for newly elected Rajya Sabha members",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rajya Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Construction launch of next-generation offshore patrol vessels for Indian Coast Guard",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "President meets Military Engineer Services trainee officers",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation of Multi-Lane Free Flow (MLFF) tolling on NH-44",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial statement on Nagpur airport development",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India hosts 11th BRICS Energy Ministers meeting",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Notification for Joint Section Officer (Grade B) competitive exam 2025",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Personnel and Training",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Jan Vishwas reforms in Clinical Establishments Act to reduce compliance burden",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
