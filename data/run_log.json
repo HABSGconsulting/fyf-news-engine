@@ -10132,6 +10132,96 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-25T21:40:36.682668+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 2,
+      "items_seen": 9,
+      "items_evaluated": 0,
+      "items_skipped": 4,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 18,
+      "policy_evaluated": 9,
+      "policy_skipped": 7,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Ministerial visit to Uttarakhand",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Extension of deadline for citizen feedback on Jal Sanchay Janbhagidari 2.0 portal",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Distribution of awards for 36th National Youth Parliament Competition",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DoT enables intra-circle roaming in four districts of Arunachal Pradesh to ensure connectivity during natural disasters",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Webinar on sustainability and replicability of initiatives under Prime Minister's Awards",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Administrative Reforms and Public Grievances",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Announcement of Kaushal Mahotsav-Warangal 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Settlement of long-pending labour cases in New Delhi",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Steel sector performance report for May 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Steel",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government restores non-domestic packed LPG supply to pre-crisis levels and removes sector-wise restrictions",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Petroleum and Natural Gas",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
