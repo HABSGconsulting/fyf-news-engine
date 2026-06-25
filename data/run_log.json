@@ -10082,6 +10082,56 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-25T19:22:36.444907+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 9,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 3,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "DoT launches online portal for telecom service authorizations and license migration under Telecommunications Act 2023.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Heavy Industries extends bid submission deadline for Sintered Rare Earth Permanent Magnets (REPM) global tender.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Statistics to celebrate 20th Statistics Day on June 29, 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Shatayu Dashboard expands caregiver network for senior citizens nationwide.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
