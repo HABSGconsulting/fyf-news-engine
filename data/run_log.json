@@ -9767,6 +9767,101 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-25T14:09:19.369351+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 2,
+      "items_skipped": 6,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Fix tax payment errors online with new 2026 challan correction rules",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Prefer offline? You can now pay your ITR taxes at bank counters",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Launch of Air Suvidha 2.0 portal for health screening of international passengers.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of Air Suvidha 2.0 portal for health screening of international passengers.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MoSPI signs MoU for fellowship program.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister reviews quality and maintenance of national highway projects.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Condolence message issued by the Prime Minister.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Condolence message issued by the Prime Minister.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Commemorative tribute issued by the Prime Minister.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
