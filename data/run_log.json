@@ -10561,6 +10561,59 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-26T19:20:46.370295+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 5,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "EPFO portal services are down: Plan your PF tasks accordingly",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "National Rural Development Conference scheduled for June 28-29 in Delhi.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes 2kg of cocaine in Surat; one arrest made.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Revenue Intelligence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government simplifies import procedures for drugs for examination, test, or analysis under Drugs Rules, 1945.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
