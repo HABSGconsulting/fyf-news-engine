@@ -10614,6 +10614,83 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-26T21:28:58.444076+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 2,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "New RBI rules offer up to \u20b925,000 protection for digital fraud",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Launch of cooperative-based taxi service initiative in Gujarat",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Deployment of 1,000 advisory personnel to optimize India-UK trade agreement benefits",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Standard Operating Procedure (SOP) issued for scientific identification and notification of threatened species",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "National Biodiversity Authority",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of regional 'Easy Connect' flight service from Varanasi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government initiates policy framework for domestic green urea production",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Government initiates policy framework for domestic green urea production",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
