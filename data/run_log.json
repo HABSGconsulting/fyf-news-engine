@@ -10861,6 +10861,75 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-27T15:21:19.032932+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 7,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Manage your Income Tax notices online without visiting the tax office",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Indian Navy vessel INS Sudarshini reaches Baltimore, USA.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Health Minister to launch Aarogya Setu 2.0 and digital health initiatives.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "APEDA facilitates first commercial export of GI-tagged Rewa Sundarja mangoes to UAE.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of world's first hydrogen production facility using nuclear heat from Fast Breeder Test Reactor.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Department of Atomic Energy",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Saras Aajeevika initiative to promote women-led rural enterprises.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
