@@ -11166,6 +11166,48 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-28T04:14:20.693490+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "DRI seizes illegal Chinese firecrackers worth Rs 35 crore in Chennai and Mumbai",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Department of Revenue Intelligence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "ICGS Akshay commissioned into the Indian Coast Guard fleet",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister urges industry to accelerate India-UK trade engagement",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
