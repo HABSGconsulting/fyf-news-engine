@@ -10956,6 +10956,103 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-27T18:27:41.854330+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 3,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Need cash from your PPF? Know the rules before withdrawing early",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Save up to 12% on your next foreign trip with the right card",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SpaceX joins Nasdaq 100: How to get exposure through your portfolio",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Launch of Bharat Taxi service in Gujarat cities",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "INS Ikshak arrives at Port Victoria, Seychelles",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Captain of Ports terminal building in Goa",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President chairs MSME Day 2026 event",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of digital initiatives for MSMEs on International MSME Day",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Navy ships arrive in Thailand for port call",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
