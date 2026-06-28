@@ -11438,6 +11438,15 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-28T16:55:30.576253+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
