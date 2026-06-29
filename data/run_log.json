@@ -12158,6 +12158,101 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-29T20:35:33.644941+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 4,
+      "items_evaluated": 2,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Yes Bank plans \u20b9160 billion capital raise to strengthen balance sheet",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Planning an EPF withdrawal? Here is your complete guide to the process",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister visit to flood-affected areas in Arunachal Pradesh",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister visit to Haryana",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MPEDA to organize National Seafood Skill Olympiad during Seafood Expo India 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Team India performance at Global Skills Challenge Australia 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of TRL Compass platform and MoU with Data Security Council of India",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Office of the Principal Scientific Adviser",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of national highway quality and maintenance in Jharkhand and Uttarakhand",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Release of SDG publications on Statistics Day 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
