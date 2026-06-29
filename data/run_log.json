@@ -12314,6 +12314,44 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-06-29T23:30:29.222752+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 2,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Delhi EV policy: Get up to \u20b930,000 subsidy on two-wheelers",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Big savings: Delhi offers road tax waiver on EVs up to \u20b930 lakh",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
