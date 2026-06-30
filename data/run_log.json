@@ -12484,6 +12484,44 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-06-30T13:09:22.126396+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 12,
+      "items_evaluated": 2,
+      "items_skipped": 5,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Delhi's new EV policy boosts Ola Electric and Ather Energy shares",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "How to check your ITR status online for AY 2026-27",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
