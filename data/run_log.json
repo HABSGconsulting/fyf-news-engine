@@ -12790,6 +12790,125 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-06-30T21:42:04.718434+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 2,
+      "items_skipped": 2,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 10,
+      "items_detail": [
+        {
+          "title": "Gold loans are surging: What this means for your borrowing",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Is your debt fund liquid? RBI stress test results explained",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministry of Tourism and NITI Aayog release report on accelerating growth in tourism and hospitality sector.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister visits flood-affected areas in Itanagar.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister visits flood-affected areas in Itanagar.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Navy Eastern Fleet ships conclude visit to Sattahip port, Thailand.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Conclusion of Yuva Sangam Phase-6.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial remarks on technology adoption and community accessibility.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister reviews MSME schemes in Ladakh.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister pays tribute on Hul Diwas.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National study report on low participation in Gram Sabhas released.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of IndiaSkills Competition 2026-27 for next-gen skill champions.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
