@@ -12522,6 +12522,101 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-06-30T14:16:57.118074+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 2,
+      "items_seen": 9,
+      "items_evaluated": 2,
+      "items_skipped": 5,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Fibe parent files for IPO: What you need to know",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Hidden costs in used-car loans: Are you paying too much?",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government extends deadline for filing appeals before GST Appellate Tribunal to July 31, 2026",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Rural Development Conference 2026 and launch of 'SARAS Shakti' collection",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Board of Directors of PFC and REC approve merger scheme",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Power",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "BRICS Women's Working Group preparatory meeting held",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Air Force concludes 5th edition of Warfare and Aerospace Strategy Program",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of I&B announces two major decisions to boost the Indian film industry",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "20th Statistics Day celebrated on the 133rd birth anniversary of Prof. P.C. Mahalanobis",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
