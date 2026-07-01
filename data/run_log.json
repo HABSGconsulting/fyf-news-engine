@@ -13338,6 +13338,165 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-01T16:29:00.608600+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 2,
+      "items_seen": 13,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 6,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 15,
+      "policy_skipped": 13,
+      "items_detail": [
+        {
+          "title": "July 1 financial changes: What you need to know today",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Start your SIP early: A 10-year delay costs you \u20b925 lakh",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "High Level Committee on Demographic Changes meets Home Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves Rs 7,145.14 crore for 4/6 lane access-controlled highway in Uttar Pradesh via BOT mode.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "CCEA",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves Rs 6,969.67 crore for 8.1 km tunnel project connecting Dwarka Expressway to Vasant Kunj.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "CCEA",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Duplicate entry for Kanpur-Kabrai highway project.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "CCEA",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Duplicate entry for tunnel project.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "CCEA",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Staff appointment in Southern Command.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of food incubation center in Parbhani.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Food Processing Industries",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Staff appointment in Army.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "President attends university convocation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Staff appointment in CISC.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Staff appointment in Air Force.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister travels to France.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM wishes Chartered Accountant community.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "TRAI quality of service assessment in Udupi.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "TRAI quality of service assessment in Satara.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
