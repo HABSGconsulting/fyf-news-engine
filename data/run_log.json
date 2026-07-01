@@ -13011,6 +13011,143 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-01T11:42:59.668564+05:30",
+      "status": "ok",
+      "posts_published": 7,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 7,
+      "items_skipped": 8,
+      "views_filtered": 5,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Zee Entertainment gains 6% on Rs 418 crore FDI approval",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Nike Q4 earnings beat expectations despite ongoing China challenges",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "KPIT Tech shares fall 15% on revenue slowdown warning",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Reliance Power surges 18% on new AI-focused business strategy",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Vedanta Iron & Steel rallies 89% post-listing; institutional interest fuels surge",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Gold and silver prices tumble; should you hold or sell?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "RailTel secures Rs 108 crore order; stock gains momentum",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government notifies revised wage rates under the VB-G Ram Ji Act, 2025.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "UPI payment services launched in Greece.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Progress report on Kharif crop area coverage as of June 2026.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Clarification regarding media reports on Supreme Court proceedings concerning ethanol allocation.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Petroleum and Natural Gas",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NITI Aayog and Ministry of Tourism release report on unlocking growth potential in tourism and hospitality.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "NITI Aayog",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "ESIC holds 198th meeting to discuss administrative and social security coverage.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
