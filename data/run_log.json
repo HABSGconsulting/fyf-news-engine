@@ -14362,6 +14362,32 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-02T18:52:44.843090+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 9,
+      "items_evaluated": 0,
+      "items_skipped": 3,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister expresses condolences on the loss of lives in Bengaluru accident",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
