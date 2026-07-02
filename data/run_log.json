@@ -13972,6 +13972,69 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-02T11:14:16.505132+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 25,
+      "items_evaluated": 2,
+      "items_skipped": 17,
+      "views_filtered": 5,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Coca-Cola plans $1 billion IPO for Indian bottling arm",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Knack Packaging IPO: 16% GMP signals strong listing potential",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Appointment of new Chairman and Managing Director at Hindustan Copper Limited",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Mines",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Approval of India's first private Point-in-Space instrument approach procedure for helicopter operations",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Air Marshal P.V. Shivanand assumes charge of South Western Air Command",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
