@@ -14116,6 +14116,111 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-02T15:51:34.761249+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 15,
+      "items_evaluated": 3,
+      "items_skipped": 6,
+      "views_filtered": 5,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "SBI Mutual Fund IPO: What you need to know about the $1.2B launch",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Why your ITR refund might be lower than you expected",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "EPFO 2026 reforms: Faster claim settlements and real-time tracking coming",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Launch of Viksit Bharat G-Ram Ji Yojana in Andhra Pradesh",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHRC takes suo motu cognizance of warehouse collapse incident in West Bengal",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Joint press statement by Prime Minister during visit of Prime Minister of Japan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of orientation program for newly elected members of West Bengal Legislative Assembly",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Conference on making India an electric mobility hub",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Nominations invited for Pradhan Mantri Rashtriya Bal Puraskar 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government-industry consultation session on AYUSH exports",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
