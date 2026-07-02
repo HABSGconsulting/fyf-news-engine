@@ -14388,6 +14388,215 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-02T21:26:36.569099+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 6,
+      "items_seen": 9,
+      "items_evaluated": 3,
+      "items_skipped": 3,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 14,
+      "items_detail": [
+        {
+          "title": "Avoid double taxation on foreign income by filing Form 67",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "EPF Scheme 2026 is live: What changes for your retirement savings?",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "EPS 2026: Will you get a pension if you leave before 10 years?",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister reviews roadmap for Indian cycling ecosystem",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Empowered Task Force for Ganga rejuvenation holds 19th meeting",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India advances global leadership under National Green Hydrogen Mission",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Bhashini showcases multilingual AI innovations",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Naval ships arrive at Changi Naval Base, Singapore",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "TRAI assesses mobile network quality in Karimnagar",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "TRAI conducts city drive test for mobile network quality in Odisha",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "TRAI assesses mobile network quality in Hyderabad",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Conciliation efforts lead to agreement for Chhattisgarh Gramin Bank employees",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "INS Trikand thwarts piracy attempt in Gulf of Aden",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Culture invites applications for Kala Sanskriti Vikas Yojana",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "3rd Global Conclave on Plastic Recycling and Sustainability held",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President addresses MP Lead Fellows",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Joint statement between India and Japan on energy resilience",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Petroleum and Natural Gas",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Minister emphasizes AI in governance for Viksit Bharat 2047",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Railways approves Rs 135 crore flyover project at Bondamunda",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Railways approves Rs 274 crore electronic interlocking project in Malda division",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government amends Drugs Rules, 1945 for cell and gene therapy regulation",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Coal imports decline by 13% in April 2026",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Industry association conference held to strengthen government-industry partnership for youth development",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
