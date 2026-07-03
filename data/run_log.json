@@ -14667,6 +14667,64 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-03T06:47:56.501560+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 4,
+      "items_skipped": 5,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Carlsberg plans $700 million India IPO to tap beer market growth",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Bihar enters municipal bond market with \u20b9200 crore issuance",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New RBI collateral rules to squeeze proprietary trading desks",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Turn your idle gold into earnings: Government eyes new jewellery scheme",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
