@@ -14725,6 +14725,147 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-03T11:08:29.527359+05:30",
+      "status": "ok",
+      "posts_published": 9,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 9,
+      "items_skipped": 4,
+      "views_filtered": 3,
+      "more_reads": 9,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Knack Packaging IPO: Final day subscription hits 8.34x",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Vedanta shares correct: Is it time to re-evaluate your holdings?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Power equipment stocks slide 10% on policy exemption news",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Kusumgar IPO opens July 8: What you need to know",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Adani Enterprises upsizes QIP to Rs 15,000 crore amid strong demand",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "US jobs data cools, easing Fed rate hike fears",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Tata Motors in focus as JLR retail sales drop 15.3%",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "PC Jeweller eyes debt-free status after 21% revenue jump",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "HCL Tech bags $1.14 billion AI deal, shares surge 6%",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Summary of outcomes from Japan Prime Minister's visit for 16th India-Japan Annual Summit",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Joint statement on 16th India-Japan Annual Summit",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Joint statement on India-Japan cooperation in Artificial Intelligence",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Joint statement on energy resilience between India and Japan",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Petroleum and Natural Gas",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
