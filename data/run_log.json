@@ -14976,6 +14976,87 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-03T15:48:34.361392+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 12,
+      "items_evaluated": 3,
+      "items_skipped": 5,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Kusumgar IPO opens July 8: Price band set at Rs 398\u2013419",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Mandatory ITR filing: Why income below Rs 4 lakh isn't enough",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "IRDAI plans to overhaul insurance commissions to stop mis-selling",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "TRAI conducts quality of service audit for mobile networks in Sikkim districts.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "TRAI conducts quality of service audit for mobile networks in Assam districts.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CSIR-NCL inaugurates renovated skill development center.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister to visit Rajasthan and Gujarat on July 4th.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
