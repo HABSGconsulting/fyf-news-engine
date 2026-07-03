@@ -14866,6 +14866,53 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-03T12:21:50.076873+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 2,
+      "items_skipped": 4,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Maximize your retirement income: Smart tax planning guide for ITR 2026",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SGB redemption: Check if your gold bonds are eligible for exit",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "NCW launches dedicated women's helpline 14490 for grievance redressal.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
