@@ -14913,6 +14913,69 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-03T14:10:34.143634+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 2,
+      "items_skipped": 5,
+      "views_filtered": 4,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "EPF contributions above \u20b91,800 are now voluntary for salaried employees",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "EPS-2026 is here: What you need to know about your pension",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "UIDAI enables free email updates in Aadhaar via official mobile application.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "TRAI conducts quality of service assessment for mobile networks in Bharuch, Gujarat.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MSME Ministry highlights National SC-ST Hub (NSSH) scheme for entrepreneurship empowerment.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Micro, Small and Medium Enterprises",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
