@@ -15706,6 +15706,56 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-04T18:19:11.274558+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 2,
+      "items_seen": 6,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 5,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "National Action Plan for Drug Demand Reduction",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Public awareness campaign on metabolic health and diabetes",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of the next phase of UDAN scheme: 'Viksit UDAN'",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Provision of modern testing facilities for toy manufacturing clusters",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
