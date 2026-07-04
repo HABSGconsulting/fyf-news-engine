@@ -15782,6 +15782,83 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-04T22:10:44.134464+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Simplify your tax filing: A step-by-step guide to ITR-1",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister inaugurates CG Semi OSAT facility in Sanand, Gujarat",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Academic Bank of Credits and APAAR initiative updates",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Lok Sabha Speaker remarks on parliamentary conduct",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Reforms Utsav and Chintan Shivir 2026 in Mount Abu",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "APEDA facilitates first export consignment of cherries and plums from J&K to UAE",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister inaugurates CG Semi OSAT facility in Sanand, Gujarat",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
