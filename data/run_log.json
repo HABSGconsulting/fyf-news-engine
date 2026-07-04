@@ -15756,6 +15756,32 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-04T20:22:15.141431+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister inaugurates and lays foundation stone for development projects in Balotra, Rajasthan.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
