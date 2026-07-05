@@ -15929,6 +15929,71 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-05T11:18:43.393411+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 12,
+      "items_evaluated": 3,
+      "items_skipped": 0,
+      "views_filtered": 6,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "International SIPs: Only 12 funds are still accepting new investments",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Check your old PF: \u20b99,330 crore lying unclaimed in inactive accounts",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Gold loans get bigger: Average ticket size jumps 39% to \u20b91.96 lakh",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Commercial production commences at OSAT semiconductor facility in Sanand, Gujarat.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Inauguration and foundation stone laying of development projects in Balotra, Rajasthan.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
