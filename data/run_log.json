@@ -16240,6 +16240,59 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-05T18:25:03.328841+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 5,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Switch to an EV in Delhi and claim \u20b91 lakh incentive",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister of Cooperation to inaugurate initiatives at the 5th Ministry Foundation Day.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Navy ships conclude successful visit to Singapore.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government regularizes 65,000 former ordnance factory employees into government service.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
