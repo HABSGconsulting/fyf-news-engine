@@ -16958,6 +16958,59 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-06T20:16:16.432095+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 5,
+      "items_evaluated": 1,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Simplify your taxes: Understanding assisted ITR filing and authorized representatives",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Atal Innovation Mission regional dialogue on Eastern India innovation ecosystem",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "NITI Aayog",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commencement of nomination process for assembly by-elections in MP, Gujarat, and Bihar",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Election Commission of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National workshop on strengthening Tribal Research Institutes in Bhubaneswar",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
