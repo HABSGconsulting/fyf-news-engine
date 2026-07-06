@@ -16466,6 +16466,123 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-06T11:42:49.089054+05:30",
+      "status": "ok",
+      "posts_published": 9,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 9,
+      "items_skipped": 5,
+      "views_filtered": 3,
+      "more_reads": 8,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Cupid rallies 11% as company upgrades FY27 revenue outlook",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Vedanta demerged entities see mixed Q1 results; shares fall up to 8%",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Foxconn Q2 revenue jumps 40% on massive AI server demand",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Defence stocks rally as government approves Rs 52,000 crore procurement plan",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Diamond Power Infrastructure secures Rs 435 crore data center order",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Senco Gold reports 60% revenue growth in Q1 update",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Adon Agro Commodities lists at 12% premium on BSE SME",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Shakti Pumps gains 8% on securing Rs 354 crore solar order",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "HDFC Bank shares rise 2% on strong Q1 growth update",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministry of Law and Justice concludes 'Sudhar Utsav' and releases 'Sankalp Patra' for legislative reforms.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
