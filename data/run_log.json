@@ -16583,6 +16583,34 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-06T13:37:44.693951+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 18,
+      "items_evaluated": 1,
+      "items_skipped": 10,
+      "views_filtered": 4,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Avoid ITR refund delays: Fix tax credit mismatches now",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
