@@ -17659,6 +17659,109 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-07T19:24:41.556870+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 10,
+      "items_evaluated": 2,
+      "items_skipped": 3,
+      "views_filtered": 2,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Cochin Shipyard OFS: Retail bidding window opens tomorrow",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Missed ITR e-verification? ITAT ruling protects your tax refund",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister reviews Kharif sowing, monsoon, drought management, and fertilizer availability.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Speaker comments on civilizational values.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister highlights infrastructure expansion opportunities for engineers.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government releases Rs 53.06 crore for SEED scheme implementation in FY 2025-26.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government provides additional NPS investment options for Central Autonomous Body employees.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister addresses Indonesian Parliament.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian contingent to showcase sustainable jute apparel at Commonwealth Games.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry organizes third outreach workshop on Aatmanirbhar Panchayat program.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
