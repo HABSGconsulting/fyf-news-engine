@@ -17762,6 +17762,157 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-07T21:42:33.125452+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 4,
+      "items_seen": 8,
+      "items_evaluated": 2,
+      "items_skipped": 2,
+      "views_filtered": 1,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 14,
+      "policy_evaluated": 14,
+      "policy_skipped": 10,
+      "items_detail": [
+        {
+          "title": "Returning NRI? Understand the tax rules on your US startup shares",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Planning your VPF? Know the \u20b92.5 lakh tax threshold",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister of Railways meets Khatu Shyam Ji temple delegation",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister addresses Indonesian Parliament",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "States reach settlement on long-pending Narmada Award payments",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Additional OEMs join government scheme for electric vehicle replacement of old trucks and buses",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "National Youth Parliament Competition winners honored",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of TribeX digital learning platform",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Workshop on strengthening Tribal Research Institutes",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National Academic Depository status update",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Announcement of Indi Haat 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Release of PGI-S and PGI-D reports for 2025-26",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition and merger involving Sorting Hat Technologies and Upgrad Education",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Competition Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CCI approves merger of 51 Malabar Group companies into Malabar Gold and Diamonds Ltd",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Competition Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Release of UDISE+ 2025-26 report on school education",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India-Indonesia Joint Statement",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
