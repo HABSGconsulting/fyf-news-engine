@@ -17445,6 +17445,103 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-07T16:10:40.990857+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 10,
+      "items_evaluated": 3,
+      "items_skipped": 3,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Kerala state employees may see 2% DA hike for Onam",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New Form 68: Essential compliance for exempt income statements",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Digital arrest scams: Protect your savings from \u20b94,000 crore threat",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "high"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister holds formal talks with the President of Indonesia",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India to host the 3rd BRICS Transport Ministers meeting in Nagpur in July 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of 'Pragati' project to empower 20,000 agri-entrepreneurs and 2 million farmers",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM-SETU program implements Rs 1,237.58 crore ITI modernization project across Odisha, Gujarat, and Telangana",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "ECLGS 5.0 data indicates over 4.11 lakh guarantees issued totaling Rs 1.55 lakh crore",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "IIM Bangalore to establish an offshore campus in Indonesia",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
