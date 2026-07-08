@@ -17994,6 +17994,34 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-08T06:41:34.900957+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 12,
+      "items_evaluated": 1,
+      "items_skipped": 3,
+      "views_filtered": 2,
+      "more_reads": 6,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Cochin Shipyard OFS: Retail bidding opens after strong institutional demand",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
