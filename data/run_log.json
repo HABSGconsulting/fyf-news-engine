@@ -19164,6 +19164,115 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-09T21:45:39.388979+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 6,
+      "items_evaluated": 1,
+      "items_skipped": 5,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "EPF interest of 8.25% is being credited to your account now",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister addresses Border District SP Conference 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Environment Minister chairs 28th meeting of Wildlife Institute of India Society",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister invites investors to Destination Tripura Business Conclave 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications and Development of North Eastern Region",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "INS Sudarshini completes port call at New York",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CAQM inspection confirms compliance of 78 out of 79 MCD roads",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Commission for Air Quality Management",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MSME Minister urges banks to ensure easy access to institutional credit",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DPIIT amends footwear quality control orders to improve ease of doing business",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "ITADC to serve as integrated development centers for textile entrepreneurs and MSMEs",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "3rd BRICS Transport Working Group meeting commences in Nagpur",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister chairs 29th meeting of National Tiger Conservation Authority",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
