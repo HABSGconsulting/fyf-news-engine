@@ -18755,6 +18755,137 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-09T14:26:25.663285+05:30",
+      "status": "ok",
+      "posts_published": 8,
+      "policy_published": 0,
+      "items_seen": 19,
+      "items_evaluated": 8,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Alpine Texworld IPO opens July 14: What you need to know",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "TCS Q1 results today: What investors should watch for",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "EPFO 2026 overhaul: What the new rules mean for your salary",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "ITAT ruling grants Section 54 tax relief on 23 flats",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Selling gold in 2026? Check your holding period for tax efficiency",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "ITR 2026: New disclosure rule for Section 80G deductions",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Consolidate your EPF accounts easily with the new online transfer system",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Received a Section 245 notice? Here is how to handle tax refund adjustments",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Preview of government documentation",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Report on digital transparency in urban sanitation initiatives",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India-Australia partnership on cyber, critical technologies and supply chains",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Joint statement on India-Australia energy security cooperation",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
