@@ -19585,6 +19585,64 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-10T16:09:52.895910+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 9,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 11,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "ICMR high-altitude medical research center foundation ceremony postponed due to weather.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Railways approves Rs 175 crore project for additional electric locomotive homing facilities in Raipur.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Railways approves Rs 206 crore for Kavach implementation on 680 km of Northern Railway route.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President addresses seminar on Sardar Patel's vision of integration at IIAS, Shimla.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHRC conducts online hearing for 86 cases of alleged bonded labor in Haryana brick kilns.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
