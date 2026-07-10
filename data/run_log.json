@@ -19507,6 +19507,84 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-10T14:22:44.512605+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 6,
+      "policy_published": 0,
+      "items_seen": 16,
+      "items_evaluated": 6,
+      "items_skipped": 7,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Indian Bank Q1 profit jumps 10%; stock surges 10% post-earnings",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Costco shares dip 4% despite 10.6% sales growth; momentum slows",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Bharti Airtel dividend: Buy by July 23 to claim Rs 24/share",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Dr Reddy's shares dip: What the supply delay means for you",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Vedanta group stocks rally: What the post-demerger surge means",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Foreign investments to appear in your AIS: What you must know",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
