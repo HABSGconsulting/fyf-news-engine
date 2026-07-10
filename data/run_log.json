@@ -19364,6 +19364,84 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-10T11:18:18.717374+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 6,
+      "items_skipped": 7,
+      "views_filtered": 8,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Don't panic: Goldiam International's 24% drop is just bonus math",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Kalyan Jewellers surges 9% on strong Q1 revenue growth",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "IT stocks rally as TCS Q1 results boost sector optimism",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "TCS Q1 results: Shares rise 3.5% as brokerages weigh AI growth",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Laser Power & Infra IPO: GMP signals 11% potential listing gain",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Apollo Micro Systems to acquire 41% stake in Premier Explosives",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
