@@ -19748,6 +19748,32 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-10T19:15:50.452719+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 0,
+      "items_skipped": 4,
+      "views_filtered": 1,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "National pledge against drug abuse to be taken on August 18, 2026, marking the 6th anniversary of Nasha Mukt Bharat Abhiyaan.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
