@@ -20197,6 +20197,67 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-11T16:15:59.884565+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 5,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Lower your capital gains tax by including home loan interest costs",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister calls for BRICS cooperation on sustainable and resilient transport systems.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President inaugurates orientation-cum-training program for Bihar Legislative Assembly members.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Navy commissions domestically built stealth frigate INS Mahendragiri.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India-New Zealand joint statement on bilateral cooperation.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
