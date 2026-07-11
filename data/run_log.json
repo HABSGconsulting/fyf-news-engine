@@ -20258,6 +20258,56 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-11T18:10:50.599981+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "National conference held on integrating regional languages into legal education.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Routine administrative notification regarding direct recruitment for various government positions.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Personnel and Training",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister addresses Indian diaspora in New Zealand.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PMFME scheme achieves milestone of over two lakh credit-linked beneficiaries.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Food Processing Industries",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
