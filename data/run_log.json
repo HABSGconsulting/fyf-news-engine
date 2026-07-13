@@ -21438,6 +21438,43 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-13T23:05:38.696638+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "ITR-5 and ITR-7 Excel utilities are now live for tax filing",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministry of Jal Shakti organizes All India Water Secretaries Conference in New Delhi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
