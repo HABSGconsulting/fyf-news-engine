@@ -21285,6 +21285,159 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-13T21:42:38.030256+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 3,
+      "items_seen": 9,
+      "items_evaluated": 3,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 13,
+      "policy_evaluated": 13,
+      "policy_skipped": 10,
+      "items_detail": [
+        {
+          "title": "Millworks Tech secures Rs 44 crore from anchor investors ahead of IPO",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Delhi Lakshmi Yojana: Get Rs 2,500 monthly; check your eligibility now",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "EPFO automates PF transfers: Consolidate your old accounts easily",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "CSIR honors women researchers in STEM under ASPIRE-SHAKTI",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CBN busts high-tech MD manufacturing lab in Pune",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Central Bureau of Narcotics",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministerial speech on linguistic unity",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CCI imposes penalties on HP India and resellers for anti-competitive supply practices",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Competition Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CCI imposes penalties on HP India and resellers for anti-competitive supply practices",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Competition Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI busts wildlife trafficking networks",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "AI Digital Governance Champions Summit",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MoHUA intensifies Catch the Rain campaign",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MeitY and Drone Federation of India launch NIDAR 2.0",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Progress of Kharif sowing area as of July 10, 2026",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Master Trainers program on water budgeting for Gram Panchayats",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NSFDC concessional loan schemes for SC entrepreneurs",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial statement on AI-based administrative reforms",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
