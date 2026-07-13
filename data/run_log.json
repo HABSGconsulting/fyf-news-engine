@@ -21185,6 +21185,56 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-13T17:53:31.664372+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 0,
+      "items_skipped": 3,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Resolution of industrial disputes in Dhanbad via Chief Labour Commissioner mediation.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Briefing provided to Vice President on National Cadet Corps and Sainik Schools.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "8th India-Japan Defence Policy Dialogue held in Tokyo.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Feature article on maritime border security.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
