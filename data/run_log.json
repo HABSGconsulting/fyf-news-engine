@@ -20928,6 +20928,105 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-13T10:53:00.139464+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 4,
+      "items_skipped": 3,
+      "views_filtered": 4,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Avantel shares surge 10% on strong Q1 earnings growth",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Just Dial shares jump 14% following robust Q1 results",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "US SEC tightens disclosure rules for activist investors",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Global markets dip: Why Korea's 8% crash shouldn't rattle your portfolio",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister shares Sanskrit subhashitam on inclusive development.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MY Bharat launches registration for district-level competitions under anti-drug campaign.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government reiterates commitment to governance transparency and technology adoption.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of 84,000 cubic meter RCC reservoir at IISCO Steel Plant.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Steel",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Lok Sabha Speaker emphasizes equitable healthcare access.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
