@@ -21606,6 +21606,63 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-14T11:26:35.794356+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "views_filtered": 1,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Caliber Mining & Logistics IPO opens July 17: Key details inside",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Nuvoco Vistas shares jump 14% on record Q1 earnings",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "IRCTC website upgrade: Faster bookings and new features from July 15",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministry of Ayush launches five-day editorial workshop on WHO-ICHI framework for Ayurveda, Siddha, and Unani systems.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
