@@ -21921,6 +21921,131 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-14T20:41:45.398573+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 3,
+      "items_seen": 16,
+      "items_evaluated": 1,
+      "items_skipped": 11,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 12,
+      "policy_evaluated": 12,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "ITAT ruling: You can claim tax exemptions on multiple property sales",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "India to host 12th Labour and Employment Ministers meeting in Hyderabad",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President releases book on judicial perspectives",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of Canteen Stores Department operations at 80th BOCCS meeting",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India strengthens role in global food standards at Codex Alimentarius Commission",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Panchayati Raj Ministry promotes financial self-reliance for Panchayats",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Mines to launch eighth tranche of critical and strategic mineral block auctions",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Mines",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Railways announces eight structural reforms under 'Reform Express' for freight operations",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister emphasizes dignity of labor in governance",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NESAC space-based applications strengthening border management and development",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Development of North Eastern Region",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "15th BRICS Trade Union Forum summit inaugurated in Hyderabad",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India-Australia civil nuclear cooperation update",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "First sub-sectoral trial series of Service Production Index (SPI) released",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
