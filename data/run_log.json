@@ -22046,6 +22046,59 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-14T22:20:08.228417+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 1,
+      "items_skipped": 3,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Switching jobs? EPFO now automates your PF transfer process",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister inaugurates Bharat Tex 2026 event",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CapaCITIES program legacy event held in New Delhi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India Post reports record quarterly revenue growth of 22% YoY",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
