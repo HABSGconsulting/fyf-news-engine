@@ -21708,6 +21708,40 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-14T15:00:33.781751+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 14,
+      "items_evaluated": 0,
+      "items_skipped": 9,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Ministry of Defence flags off motorcycle rally for Kargil Vijay Diwas 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Release of provisional WPI, Output PPI, and Input PPI estimates for June 2026 and final estimates for April 2026.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
