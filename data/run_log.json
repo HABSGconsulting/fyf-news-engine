@@ -22521,6 +22521,34 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-15T18:30:40.184631+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 3,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "HDB Financial reports 38% profit jump; strong credit growth continues",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
