@@ -22331,6 +22331,44 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-15T13:02:55.166441+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 12,
+      "items_evaluated": 2,
+      "items_skipped": 7,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Groww reports 94% profit jump in Q1 earnings",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Madras HC clarifies GST fraud notice norms",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
