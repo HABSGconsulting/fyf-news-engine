@@ -22246,6 +22246,91 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-15T11:28:35.962294+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 1,
+      "items_seen": 25,
+      "items_evaluated": 5,
+      "items_skipped": 12,
+      "views_filtered": 5,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Ashish Kacholia trims chemical stock holdings after 114% rally",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Fairfax set for Rs 53,000 crore IDBI Bank stake acquisition",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Last chance: Buy Fredun Pharma today for 2:1 bonus shares",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Tax demands based on third-party documents face legal hurdle",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Avoid these crypto tax filing mistakes to prevent IT scrutiny",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "UPSC announces Combined Geo-Scientist Examination, 2025",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Union Public Service Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Release of Service Production Index for assessment of service sector economy",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
