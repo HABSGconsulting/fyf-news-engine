@@ -22549,6 +22549,125 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-15T20:42:03.553542+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 2,
+      "items_seen": 16,
+      "items_evaluated": 2,
+      "items_skipped": 12,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "Update your EPFO profile photo to avoid PF claim delays",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Gifting stocks? Know the tax rules for family and friends",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "IRCTC beta website launch",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Panch Sammelan in Varanasi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition of 100% shareholding in STT GDC Pte. Ltd. by Opal Bidco Pte. Ltd.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Competition Commission of India",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister's visit to Haryana, Chandigarh, and Punjab",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "IICA conducts certification for defense officers in corporate governance",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Rural Development Ministry showcases women-led rural enterprises at Bharat Tex 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Elderline 14567 national helpline for senior citizens",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President addresses Vidhayi Gaurav Yatra",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Vice President's Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Bhashini and PNB sign MoU for multilingual AI in banking",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Minister Shivraj Singh Chouhan participates in CSR Conclave",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
