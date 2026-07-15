@@ -22668,6 +22668,75 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-15T22:25:20.907506+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 9,
+      "items_evaluated": 1,
+      "items_skipped": 4,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Why your property registry isn't enough to prove legal ownership",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministerial engagement in Brussels to strengthen EU-India industrial and technology cooperation.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Coal opens registration process for coal exchanges in India.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial address on World Youth Skills Day regarding future-ready workforce development.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India and Poland discuss potential cooperation opportunities in the MSME sector.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministerial participation in 12th BRICS Labour and Employment Ministers' meeting.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
