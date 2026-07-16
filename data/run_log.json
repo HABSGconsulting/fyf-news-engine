@@ -22802,6 +22802,95 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-16T10:15:25.292613+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 2,
+      "items_seen": 25,
+      "items_evaluated": 3,
+      "items_skipped": 18,
+      "views_filtered": 4,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Last chance to secure dividends from 68 stocks including HCL Tech",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Alpine Texworld IPO closes today: What you need to know",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SBI Funds Management IPO: Final day to bid for the AMC giant",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "BRIC-THSTI celebrates 17th Foundation Day",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Biotechnology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministerial bilateral meetings held with BRICS counterparts on labor and digital infrastructure",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of 8th tranche of auction for 20 critical and strategic mineral blocks",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Mines",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Bharat Tex 2026 event highlights state opportunities and global trade partnerships",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India-UK Social Security Agreement enters into force",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
