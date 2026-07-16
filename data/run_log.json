@@ -23060,6 +23060,64 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-16T15:20:49.423027+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 17,
+      "items_evaluated": 0,
+      "items_skipped": 10,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Indian Navy to host Operation Southern Readiness 26-2 at Southern Naval Command, Kochi.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PDUNASS conducts training program on recovery management for Regional Labour Commissioners.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "ICAR technology portfolio for Corporate Social Responsibility (CSR) Conclave 2026.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India's first hydrogen fuel cell train deployment for sustainable rail transport.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
