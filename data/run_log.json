@@ -23755,6 +23755,117 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-17T18:19:24.589957+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 2,
+      "items_seen": 13,
+      "items_evaluated": 2,
+      "items_skipped": 6,
+      "views_filtered": 2,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "8th Pay Commission: What central government employees can expect next",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "NPS delayed? You are now entitled to compensatory interest",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister's speech regarding development projects in Chandigarh",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Maharashtra Legislative Assembly moves toward implementation of NEVA (National e-Vidhan Application)",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Lakhpati Didis showcase rural enterprise and market potential at Bharat Tex 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Office of Economic Adviser to revise Index of Industrial Production (IIP) with 2022-23 base year",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MSDE expands special program under PM-NAPS to increase apprenticeship opportunities in the Northeast",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Bharat Tex 2026 records significant business success and footfall",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Magnetic tree concept helps researchers uncover solar atmospheric flows",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM lays foundation stone for development projects worth Rs 14,700 crore in Jind, Haryana",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "IICA hosts 4th edition of National Conference on Responsible Business Conduct (NCRBC) 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
