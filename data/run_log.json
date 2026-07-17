@@ -23549,6 +23549,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-17T11:34:21.029299+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 0,
+      "items_skipped": 4,
+      "views_filtered": 1,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
