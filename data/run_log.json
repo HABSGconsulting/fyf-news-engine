@@ -23566,6 +23566,113 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-17T15:02:15.431952+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 3,
+      "items_seen": 25,
+      "items_evaluated": 4,
+      "items_skipped": 10,
+      "views_filtered": 4,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "ECB holds rates steady; what it means for global market liquidity",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Warning: Leveraged ETFs in AI chips are seeing extreme volatility",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Caliber Mining IPO: 61% subscribed on Day 1; what should you do?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Selling property? Check if you can still claim indexation benefits",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Indian Forest Service trainee officers met the President of India",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government revises Regional Connectivity Scheme (UDAN) to strengthen regional aviation network",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "EPFO launches 'Vishwas, 2026' initiative for amicable settlement of damages and disputes",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government strengthens anti-doping framework by enacting National Anti-Doping Act 2022 and 2025 Amendment",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Minister flags off first flight from Daman's Nani Daman Airport",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister inaugurates White Rabbit Technology based network performance in Bengaluru",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
