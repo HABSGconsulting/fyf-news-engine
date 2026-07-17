@@ -23673,6 +23673,88 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-17T16:40:38.429953+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 0,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister addresses development project inauguration in Jind, Haryana",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Self-enumeration phase for Census 2027 commences in Tamil Nadu and Tripura",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Development of ultra-fast organic anodes for next-generation rechargeable batteries",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "UPSC recruitment results announced for June 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Union Public Service Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Central Chief Labour Commissioner intervenes in contract labour dispute at Baga cement facility",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister emphasizes dedication and effort in goal achievement",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of two-day national awareness program on POSH Act",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National workshop on pension litigation scheduled for July 18, 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
