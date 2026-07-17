@@ -23866,6 +23866,167 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-17T20:33:17.911136+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 2,
+      "items_seen": 16,
+      "items_evaluated": 3,
+      "items_skipped": 9,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 14,
+      "policy_evaluated": 14,
+      "policy_skipped": 12,
+      "items_detail": [
+        {
+          "title": "Protect your business: SEBI warns against rising 'Boss Scam' cyber fraud",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Withdrawing your EPF? Know the tax rules to avoid penalties",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New to EPFO? Activate your UAN using the Umang app now",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Vice President releases book on RSS history.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commerce Minister meets Finnish industrial companies to discuss bilateral partnerships.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares highlights of development projects in Chandigarh.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CCPA imposes penalty on airline for use of dark patterns in booking platforms.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Central Consumer Protection Authority",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM shares highlights of development projects in Jind, Haryana.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Status report on Adarsh Gram Yojana implementation.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NITI Aayog releases report on Investment Friendliness Index.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "NITI Aayog",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Maharashtra CM discusses collaboration for Waves event.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHRC takes cognizance of worker death during sewage cleaning.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM inaugurates medical centers at PGIMER Chandigarh.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commission releases diploma curriculum for Medical Laboratory Technology.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "National Commission for Allied and Healthcare Professions",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "PM inaugurates development projects worth Rs 4,700 crore in Chandigarh.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Awareness session on Samadhan Portal 2.0 for trade unions.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National Youth Volunteer Conference held in Lucknow.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
