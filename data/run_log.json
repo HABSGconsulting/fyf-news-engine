@@ -24265,6 +24265,69 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-18T14:41:56.586066+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 8,
+      "items_evaluated": 2,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "AMFI updates stock categories: Check if your portfolio holdings shifted",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Easier mutual fund transmission: New rules simplify inheritance for your family",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Department of Land Resources explores coordination with RBI Innovation Hub for digital public infrastructure in land and credit.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Department of Posts launches mascot design competition on Innovate India MyGov platform.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Posts",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vikram-1: Outline of India's space future.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Space",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
