@@ -24446,6 +24446,80 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-18T20:08:52.130107+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Appointment of Director (Commercial) at NMDC",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Steel",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Foundation stone laying for dairy production plant in Kolkata",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of border security technologies at Siliguri border outpost",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Update on My Bharat youth leadership initiative",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Statement on space sector reforms and mission success",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Space",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Ramnagar-Dehradun Express train service",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Aadhaar app crosses 40 million download milestone",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
