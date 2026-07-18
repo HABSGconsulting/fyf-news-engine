@@ -24105,6 +24105,15 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-18T06:35:40.573517+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
