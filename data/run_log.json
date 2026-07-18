@@ -24114,6 +24114,63 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-07-18T10:05:04.518167+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 15,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Large merchants may soon face new UPI transaction fees",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "regulatory_draft",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Avoid these common ITR filing mistakes to save your taxes",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SGB 2019-20 Series II redemption price set at \u20b914,199",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "AIIA concludes three-day international seminar 'Sausrutam 2026'",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
