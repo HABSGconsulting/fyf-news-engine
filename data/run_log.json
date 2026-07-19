@@ -24770,6 +24770,32 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-19T13:19:31.937405+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 4,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister pays tribute to revolutionary Mangal Pandey",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
