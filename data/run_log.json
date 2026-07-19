@@ -24691,6 +24691,85 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-19T11:45:28.050684+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 9,
+      "items_evaluated": 2,
+      "items_skipped": 6,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Four new public issues opening this week: What you should know",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New EPF Scheme 2026: Why you must retain 25% of your balance",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister addresses India-Estonia Business Forum on trade and technology partnership",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes contraband and illicit goods in nationwide enforcement operation",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Department of Revenue Intelligence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI intensifies crackdown on precious metal smuggling nationwide",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Department of Revenue Intelligence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister dedicates 75 Amrit Bharat stations to the nation",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Fourth edition of National Conference on Responsible Business Conduct concludes",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
