@@ -24796,6 +24796,85 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-19T15:02:16.698963+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 2,
+      "items_skipped": 2,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "88 stocks going ex-date: Check your portfolio for dividends and splits",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Filing ITR? Don't forget to list all your active bank accounts",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister shares article on economic potential of traditional Indian craftsmanship.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Air Force participation in Exercise Pitch Black 2026 in Darwin, Australia.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Retrospective recognition of TDB-DST National Technology Startup Award 2022 impact.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Meeting between Prime Minister and industry leader.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Condolence message on the passing of Smt. Chennamma Ji.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
