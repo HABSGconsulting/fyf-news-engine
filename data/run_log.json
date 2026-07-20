@@ -25665,6 +25665,34 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-20T19:01:40.255207+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 9,
+      "items_evaluated": 1,
+      "items_skipped": 5,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 11,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Aastha Spintex eyes bonus issue and dividend post-IPO",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
