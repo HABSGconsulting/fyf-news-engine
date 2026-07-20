@@ -25443,6 +25443,93 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-20T16:00:35.492191+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 2,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Why your Balanced Advantage Fund might be riskier than you think",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Mastering your EPS: A guide to retirement pension rules",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "BRICS Prosecutor General Meeting held under India's presidency.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Oath taking ceremony for newly elected Rajya Sabha members.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rajya Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inaugural speech by the Chairman of Rajya Sabha.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rajya Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Tribute messages delivered in the Rajya Sabha.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rajya Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "APEDA facilitates first export of 24 MT frozen french fries from Uttarakhand to Iraq.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "White Gold: India's Cotton Story promotional feature.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
