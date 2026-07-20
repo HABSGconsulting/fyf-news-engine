@@ -25530,6 +25530,141 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-20T17:34:27.736003+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 11,
+      "items_evaluated": 2,
+      "items_skipped": 8,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 12,
+      "policy_evaluated": 12,
+      "policy_skipped": 11,
+      "items_detail": [
+        {
+          "title": "Rupee hits two-month low: What it means for your portfolio",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New Aadhaar app hits 4 crore downloads: Simplify your financial KYC",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President of India visits Moldova for bilateral discussions.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Status update on strengthening the skill development ecosystem.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Alignment of skill development programs with industrial requirements.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Update on PM SETU and ITI infrastructure upgrades.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Apprenticeship training status under NAPS.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Overview of Skill India Mission progress.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Status report on PM SETU infrastructure upgrades.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Status update on national pumped storage project pipeline.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Power",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Status of coal supply logistics for thermal power plants.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "TRAI assessment of mobile network quality in Tamil Nadu districts.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Monitoring status of national infrastructure projects.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Framework updates for national statistical indices.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
