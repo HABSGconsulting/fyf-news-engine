@@ -26176,6 +26176,189 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-21T17:00:21.561862+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 6,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 18,
+      "policy_evaluated": 18,
+      "policy_skipped": 17,
+      "items_detail": [
+        {
+          "title": "Adani Total Gas Q1: Profit dips 14% despite revenue growth",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "8th Pay Commission: What central government employees should expect",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President of India visits North Macedonia for bilateral discussions.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Release of 257th Report of the Committee on Subordinate Legislation.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Parliament",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Promotion of medicinal plants under NMPB.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Integration of Ayush into national health systems.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Progress report on digital initiatives.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Digital market access and quality assurance for Ayush products.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM Formalisation of Micro food processing Enterprises (PMFME) scheme update.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Food Processing Industries",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Statistics on registered fisher families.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Statistics on fish production.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Market access initiative for PM Vishwakarma artisans at airports.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Measures to strengthen primary healthcare services.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National preparedness against emerging infectious diseases.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Update on vaccination programs and pandemic preparedness.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Status update on API manufacturing unit in Telangana.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Report on under-utilization of allocated funds.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Update on availability of cancer care centers.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Coal Ministry to launch AAROH and sign India-Germany implementation agreement.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Tourism approves 117 projects worth Rs 5,756.62 crore for infrastructure development.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
     }
   ]
 }
