@@ -25927,6 +25927,61 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-21T11:46:26.028690+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 18,
+      "items_evaluated": 2,
+      "items_skipped": 3,
+      "views_filtered": 4,
+      "more_reads": 9,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Eligible government staff can now switch to Old Pension Scheme",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "No tax relief for FPIs: 12.5% LTCG tax remains unchanged",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "UPSC releases schedule for Combined Geo-Scientist (Main) Examination, 2026.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Union Public Service Commission",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CDSCO approves India's first indigenous dengue vaccine for clinical use.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
     }
   ]
 }
