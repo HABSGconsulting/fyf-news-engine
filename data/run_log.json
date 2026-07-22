@@ -27500,6 +27500,125 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-22T20:53:14.479273+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 8,
+      "items_evaluated": 2,
+      "items_skipped": 3,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "RBI intervenes with $6B sale to stabilize the falling rupee",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "8th Pay Commission: Demand for HRA revision gains momentum",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government promotes re-employment opportunities for senior citizens via National Career Service portal",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister chairs high-level review meeting on rural development, agriculture, and social welfare progress",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India hosts BRICS Network University conference and International Governing Board meeting",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Senior officials meeting held under BRICS health ministerial framework in Chandigarh",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "President of India unveils Mahatma Gandhi bust in Skopje, North Macedonia",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Bharat 6G Alliance and Spectrum Roadmap for 6G in India",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Communications",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Urban rejuvenation of Bhandewadi",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Record increase in scholarship distribution for Scheduled Caste students",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "ICMR-NIN led group releases policy priorities for healthy diets for children and adolescents",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Branch of Bharatiya Beej Sahakari Samiti Limited in Bihar",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
