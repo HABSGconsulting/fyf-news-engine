@@ -27250,6 +27250,239 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-22T17:01:41.364382+05:30",
+      "status": "ok",
+      "posts_published": 7,
+      "policy_published": 1,
+      "items_seen": 18,
+      "items_evaluated": 7,
+      "items_skipped": 4,
+      "views_filtered": 4,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 18,
+      "policy_evaluated": 18,
+      "policy_skipped": 17,
+      "items_detail": [
+        {
+          "title": "Indo-MIM IPO opens tomorrow: Should you apply for the 37% premium?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "HFCL turns profitable: Net profit hits Rs 246 crore in Q1",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Bharat Coking Coal shares slide 8% after reporting Q1 loss",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "BPCL reports Q1 loss; revenue grows 23% despite rising costs",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Demat vs SOA: How SEBI's new rule impacts your mutual fund investments",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Talliki Vandanam 2026: Check your Rs 13,000 payment status today",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Silver investments: Know the tax impact before you buy",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Digital transformation of Panchayati Raj Institutions",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Finance Commission grants to Panchayati Raj Institutions",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Meeting between Chief Minister of Andhra Pradesh and Prime Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government blocks 50 OTT platforms for obscene content and IT Act violations",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government expands educational opportunities for OBC, EBC, and DNT students under PM YASASVI scheme",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Statistics and Programme Implementation updates",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Publication of India Energy Statistics",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NEVA service centers established in 22 legislative assemblies",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Parliamentary Affairs organizes Special Campaign 3.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Question: Earthquake risk in Kangra-Chamba-Dharamshala belt",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Question: Implementation of Mission Mausam",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Question: Implementation of Mission Mausam",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Question: Heatwave forecasting and early warning systems at district level",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Question: Rainfall deficiency",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Question: India Forecast System",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Welfare of shrimp farmers",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Development of cold water fisheries",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Fisheries, reservoirs, and Amrit Sarovar",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
