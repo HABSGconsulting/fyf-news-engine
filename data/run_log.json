@@ -27036,6 +27036,73 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-22T13:29:15.263907+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 4,
+      "items_skipped": 6,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Cube Highways InvIT IPO: Anchor investors commit Rs 1,687 crore",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Anant Raj to demerge data centre arm: What shareholders need to know",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Mistake in ITR? Discard it before verification to file fresh",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Don't let your ITR lapse: 5 ways to e-verify today",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister of Ayush requests expansion of Ayush treatment services in military and field hospitals.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
