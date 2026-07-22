@@ -27619,6 +27619,69 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-23T04:12:48.693383+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 2,
+      "items_skipped": 7,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Check your CGAS account: Don't miss the 3-year tax exemption deadline",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Filing your ITR? Here is a simple guide to do it yourself",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "NBA releases Rs 6.67 crore for biodiversity conservation and livelihood support in 11 cotton-producing states.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "National Biodiversity Authority",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministerial address regarding collaborative education systems for Viksit Bharat 2047.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Successful export of 12.5 tonnes of mangoes to Dubai under ICAR-CISH-APEDA sea route protocol.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "APEDA",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
