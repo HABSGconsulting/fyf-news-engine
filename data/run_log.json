@@ -28021,6 +28021,79 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-23T15:35:31.176658+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 10,
+      "items_evaluated": 3,
+      "items_skipped": 5,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "US Clarity Act: What new crypto regulations mean for your portfolio",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Save tax under Section 44ADA: How professionals can claim 50% deduction",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "ITR deadline alert: File by 31 July to avoid penalties",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Rajya Sabha Chairman expresses condolences for victims of natural disasters.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rajya Sabha",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Implementation of Mission Mausam to enhance atmospheric observation and forecasting capabilities.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of 36th basic course on legislative drafting for uniform and effective law-making.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
