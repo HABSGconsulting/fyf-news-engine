@@ -29096,6 +29096,207 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-24T18:37:07.465961+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 4,
+      "items_seen": 12,
+      "items_evaluated": 3,
+      "items_skipped": 7,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 19,
+      "policy_skipped": 15,
+      "items_detail": [
+        {
+          "title": "ITR portal stability: Don't wait for deadlines, file your taxes early",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Received gifts? Know your ITR reporting requirements to stay compliant",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Odisha state employees: 5% DA hike announced, effective January 2026",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Launch of Weather Information Network and Data System",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Assessment of AI integration in agricultural practices",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Progress update on National Natural Farming Mission",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of climate risk and crop insurance frameworks",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Progress on Digital Farmer Identification cards",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Fund allocation under VBG-Ram-Ji scheme",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary reference on Kargil Vijay Diwas",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Clarification on 'Naksha' pilot project for land records in Goa",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Establishment of environmental and housekeeping management departments in railway zones",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation of AI-based stain detection in railway laundry facilities",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Reiteration of legal obligations for OTT and social media under IT Rules 2021",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves 'Bhavya Rasayan' chemical park scheme",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "CCEA",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves 'Bhavya Rasayan' chemical park scheme",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "CCEA",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves multi-tracking railway project in Karnataka and Andhra Pradesh",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "CCEA",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves multi-tracking railway project in Karnataka and Andhra Pradesh",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "CCEA",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Compliance update on local language content requirements for FM radio channels",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Status update on One District One Product (ODOP) initiative",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India's service exports reach $421.3 billion in FY 2025-26",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Update on Ayushman Bharat Digital Mission (ABDM)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
