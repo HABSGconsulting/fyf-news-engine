@@ -29003,6 +29003,99 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-24T16:55:24.204403+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 11,
+      "items_evaluated": 1,
+      "items_skipped": 9,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Monsoon health check: Does your insurance cover seasonal respiratory infections?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "India and Israel conclude second round of talks for proposed Free Trade Agreement",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Pending Parliament",
+          "material": false
+        },
+        {
+          "title": "Television Rating Policy 2026 to strengthen transparency and accountability in TV audience measurement",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "New technology developed for electrically rechargeable zinc-air batteries",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Cotton production statistics",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Service package for beneficiaries under Mission Saksham Anganwadi and Poshan 2.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of Mission Saksham Anganwadi and Poshan 2.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Poshan Tracker digital application for real-time monitoring",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "High-precision medical devices development",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
