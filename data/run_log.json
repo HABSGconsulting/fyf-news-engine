@@ -28801,6 +28801,43 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-24T11:44:44.539743+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 14,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Switched jobs? Check if your EPF balance transferred automatically",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Successful development of 350 kg thrust class indigenous expendable turbo jet engine",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
     }
   ]
 }
