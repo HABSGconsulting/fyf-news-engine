@@ -28896,6 +28896,113 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-24T15:30:45.330636+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 1,
+      "items_seen": 9,
+      "items_evaluated": 4,
+      "items_skipped": 3,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Hindustan Zinc profits soar 145%: What this means for your portfolio",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Silverstorm Parks IPO is now open: Key details for your bid",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Filing ITR? Don't forget to report your NSC and KVP interest",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Allahabad HC: Tax notices issued after death are legally invalid",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President of India addresses India-Romania Business Forum",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves upgradation of 2 lakh Anganwadi centers to Saksham Anganwadi centers",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Steel sector maintains growth momentum in Q1 FY27",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Steel",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Status report on availability of medicines at Jan Aushadhi Kendras",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Operational status and expansion of Jan Aushadhi Kendras",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Uniform Code for Pharmaceutical Marketing Practices (UCPMP) implementation update",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
