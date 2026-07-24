@@ -29297,6 +29297,185 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-24T20:45:48.173370+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 16,
+      "items_evaluated": 4,
+      "items_skipped": 8,
+      "views_filtered": 1,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 15,
+      "policy_skipped": 15,
+      "items_detail": [
+        {
+          "title": "SEBI cracks down on front-running: 7-year ban for former Axis MF dealer",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "How families can claim EPF savings after a member's death",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Forgot your UAN? Here is how to retrieve it quickly",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Check your old EPF accounts: \u20b99,330 crore remains unclaimed",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "BRICS Science Academies Forum 2026 concludes at IIT Hyderabad",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of five senior citizen homes across five states",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Direct recruitment notification for various government positions",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Government of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Engineering Services (Main) Examination 2026 schedule",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "UPSC",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Drinking Water and Sanitation organizes 9th edition of Sujal Gram Samvad",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister highlights importance of mine closure in circular economy transition",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Mines",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Status update on scholarship scheme beneficiaries in Chikkaballapura district",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of modernized Jan Seva Connect Post Offices in Guntur",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Conclusion of Ayushman Arogya health camps in New Delhi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHRC takes cognizance of alleged harassment incident in Punjab",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "NHRC",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Orientation program for newly elected and nominated Rajya Sabha members",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rajya Sabha Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Progress report on DDU-GKY skill development scheme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Implementation status of Pradhan Mantri Gram Sadak Yojana (PMGSY)",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Financial assistance status under PMAY-G",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Status of Self Help Group (SHG) formation under DAY-NRLM",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
