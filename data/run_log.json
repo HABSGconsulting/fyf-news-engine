@@ -29476,6 +29476,59 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-24T22:41:20.990106+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Expect smoother tax filings as government targets evaders, not honest taxpayers",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "SAIL reports Q1 FY27 financial results.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Steel",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Generic press release with no actionable policy content.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Government of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DoT activates Intra-Circle Roaming (ICR) in flood-affected districts of Nagaland, Gujarat, and D&NH and D&D.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
