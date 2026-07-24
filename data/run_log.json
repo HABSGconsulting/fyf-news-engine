@@ -28688,6 +28688,119 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-24T10:30:25.113656+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 25,
+      "items_evaluated": 3,
+      "items_skipped": 5,
+      "views_filtered": 4,
+      "more_reads": 10,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Dividend Alert: Last chance to buy Wipro and others for payouts",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Banking liquidity tightens: What it means for your borrowing costs",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Milky Mist IPO: India's largest dairy offering coming in August",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister shares thoughts on speech and conduct",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister wishes for good health of citizen",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet to decide on stricter measures against examination paper leaks",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "CCEA",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NRDC and NCISM sign MoU for innovation and commercialization in Indian medical systems",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "NIELIT and SCL Mohali partner to provide indigenous 1.2 micron process design kits",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "India concludes its 8th Trade Policy Review at the WTO",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Review of AMRUT 2.0 Shallow Aquifer Management program",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CSIR-NIScPR releases technical report on human-centric AI",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
