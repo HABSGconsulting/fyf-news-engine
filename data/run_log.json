@@ -29650,6 +29650,77 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-25T13:06:42.634703+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Verify your foreign assets on the Income Tax e-Filing portal now",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Attendance rules don't define employment, ITAT rules in TDS case",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Lok Sabha Speaker pays floral tribute to Shri Somnath Chatterjee",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister extends greetings on Ashadhi Ekadashi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister to interact with participants of Vibrant Village Program",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Start-up Village Entrepreneurship Programme (SVEP) implementation details",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
