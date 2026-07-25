@@ -29906,6 +29906,56 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-25T20:19:42.880984+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 2,
+      "items_seen": 4,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "President of India addresses Indian diaspora in Romania",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ancient Buddhist site of Sarnath included in UNESCO World Heritage list",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Kanpur-Kabrai highway project aimed at improving logistics and agricultural supply chains",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "New underground tunnel project for enhanced connectivity in the national capital",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
