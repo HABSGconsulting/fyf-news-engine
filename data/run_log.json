@@ -29956,6 +29956,48 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-25T22:02:32.221861+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Launch of Bharat Taxi service in Jaipur",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Government of Rajasthan",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Routine government press release",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Sarnath included in UNESCO World Heritage list",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
