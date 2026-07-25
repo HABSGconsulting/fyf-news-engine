@@ -29555,6 +29555,75 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-07-25T10:21:39.499145+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 17,
+      "items_evaluated": 1,
+      "items_skipped": 8,
+      "views_filtered": 2,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "No universal pension scheme: Plan your own retirement corpus now",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President of India receives honorary doctorate from Bucharest University of Economic Studies.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Environment Minister reviews air pollution action plan with Haryana Chief Minister.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Finance Minister outlines 5R framework for accountable tax administration to reduce litigation.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Development of inland waterways and associated infrastructure projects.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Weaves of India festival showcases handloom heritage.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
