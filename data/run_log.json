@@ -30350,6 +30350,69 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-26T16:39:21.379534+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Gifting money to your spouse? Know the tax implications first",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "EPF withdrawal tax rules: When is your corpus taxable?",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister acknowledges historical achievement in 2026 World Junior Squash Championship.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Union Minister Pralhad Joshi assumes charge of the Ministry of Education.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Rajnandgaon prepares for rainwater harvesting during monsoon season.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
