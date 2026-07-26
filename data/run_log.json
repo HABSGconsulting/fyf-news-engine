@@ -30450,6 +30450,75 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-26T20:21:22.329408+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 1,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "EPFO mandates 20-day claim settlement; here is your recourse for delays",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister addresses Vibrant Village Program 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Rajya Sabha Deputy Chairman addresses orientation workshop for newly elected members",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rajya Sabha Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government constitutes high-level task force for examination reforms",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Commerce reviews market status of FCV tobacco in Andhra Pradesh",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Gati Shakti University and DPE conclude third India CPSE consultation conference",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
