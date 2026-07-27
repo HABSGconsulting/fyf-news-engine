@@ -31242,6 +31242,125 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-27T19:30:32.277702+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 4,
+      "items_seen": 6,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Tata Chemicals profit drops 81%: What it means for your portfolio",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "EPFO delays UPI-linked PF claims: What you need to know",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Nutritional standards under PM POSHAN scheme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Construction of hostels in Navodaya Vidyalayas",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial statement on tourism partnership",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Grid stability and energy storage framework",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Power",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Schools under PM SHRI scheme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation of PMAY-U 2.0 for urban housing",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Tree felling and wood transit framework",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Decline in coal imports",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Public consultation on policy-making",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "IndiaAI Mission safety and trust framework",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
