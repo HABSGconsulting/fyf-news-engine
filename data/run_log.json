@@ -31039,6 +31039,209 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-27T18:16:14.668363+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 1,
+      "items_seen": 10,
+      "items_evaluated": 4,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 18,
+      "policy_evaluated": 18,
+      "policy_skipped": 17,
+      "items_detail": [
+        {
+          "title": "Coal India reports steady Q1 profit; announces Rs 5.5 interim dividend",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Tata Power Q1 profit grows 11% YoY to Rs 1,176 crore",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "BEL reports 9% YoY profit growth, but sequential earnings decline sharply",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Are your mutual funds truly diversified? Check for portfolio overlap",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Agriculture Minister announces Rs 335 crore support for Maharashtra farmers",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Promotion of coal gasification and clean coal technologies",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Coal",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Expansion of ESIC health infrastructure",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Special drive for settlement of long-pending labor cases",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Atal Beemit Vyakti Kalyan Yojana operational details",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Museums and memorials based on Indian freedom movement",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Gyan Bharatam Mission and manuscript digitization",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Manuscript clusters and partner institutions under Gyan Bharatam",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Award ceremony for Commonwealth Games athlete",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHAI wins arbitration case protecting public funds",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Digital skill development platform launch",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Key features of NAPS-2 apprenticeship scheme",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Skill development for space and geospatial sectors",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Artificial intelligence and Skill India initiative integration",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Skill development promotion in maritime sector",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "33 states sign MoUs for National e-Vidhan Application implementation",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National e-Vidhan Application improves legislative efficiency",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "New yoga wellness instructor certification course in Leh",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
