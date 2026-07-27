@@ -31361,6 +31361,136 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-27T21:34:00.692795+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 3,
+      "items_seen": 7,
+      "items_evaluated": 0,
+      "items_skipped": 3,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 14,
+      "policy_evaluated": 14,
+      "policy_skipped": 11,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Congratulatory message for sports achievement",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Youth experiential learning program update",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Quality assessment of school education",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Central University infrastructure status",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation status of PM-ONOS scheme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Introduction of Public Examination (Prevention of Unfair Means) Amendment Bill, 2026",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Pending Parliament",
+          "material": false
+        },
+        {
+          "title": "Operationalization of PM-VidyaLakshmi portal for higher education loans",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "AI workshop for legislative governance",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "University township and education-to-employment initiative",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Verification of sanitation workers and PPE distribution",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Jal Jeevan Mission expansion update",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of Aatmanirbhar Panchayat program and Samarth portal",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Scientific discovery of a new star",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Status update on PM SVANidhi scheme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
