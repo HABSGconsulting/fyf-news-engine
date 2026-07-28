@@ -31610,6 +31610,40 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-28T10:19:36.171456+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 7,
+      "more_reads": 14,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister congratulates weightlifter Bindyarani Devi Sorokhaibam on winning a bronze medal at the 2026 Commonwealth Games.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit subhashit highlighting the importance of nature conservation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
