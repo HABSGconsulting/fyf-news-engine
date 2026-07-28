@@ -32130,6 +32130,139 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-28T21:24:53.862183+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 3,
+      "items_seen": 18,
+      "items_evaluated": 5,
+      "items_skipped": 5,
+      "views_filtered": 1,
+      "more_reads": 7,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 8,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "New closing auction session for F&O stocks starts August 3",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Got married? Your old EPF nomination is now invalid",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Why investors are flocking to multi-asset allocation funds",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Delhi Lakshmi Yojana: Get \u20b92,500 monthly assistance for your household",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Working remotely for a US firm? Your global income is taxable in India",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Inauguration of Cooperative Building in Jamnagar",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial meeting on agriculture and rural development",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Good Governance Webinar Series",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Administrative Reforms and Public Grievances",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Strengthening welfare and social security measures for senior citizens under Atal Vayo Abhyuday Yojana",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CCI approves merger of Go Digit Infoworks Services into Go Digit General Insurance",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government proposes continuation of PM-AJAY with increased financial outlay for 2026-31",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition of Oaktree Capital units by Brookfield Asset Management",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government facilitates NCC expansion in SC-majority and PM-AJAY areas",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
