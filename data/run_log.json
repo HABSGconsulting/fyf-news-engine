@@ -33158,6 +33158,80 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-29T22:26:15.507320+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 6,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 6,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "NIPUN Bharat Mission implementation status update",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Status report on vacancies in central educational institutions",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation status of PM SHRI scheme",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Update on alignment of education with employment opportunities",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MoU signed for establishment of Telecom Manufacturing Zone in Gwalior",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Pre-bid conference held for 10 GWh Advanced Chemistry Cell PLI scheme",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Administrative updates from Ministry of Social Justice and Empowerment",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
