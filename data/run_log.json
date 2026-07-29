@@ -32800,6 +32800,96 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-29T17:20:45.859692+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 3,
+      "items_seen": 10,
+      "items_evaluated": 0,
+      "items_skipped": 6,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 9,
+      "policy_skipped": 6,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Status of Multi-State Cooperative Societies in West Bengal",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Export promotion initiatives by National Cooperative Export Limited (NCEL)",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Progress and milestones of the World's Largest Grain Storage Plan in the cooperative sector",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Registration status of cooperative societies in Jharkhand and Gujarat",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Operational status of cooperative sugar mills in Tarn Taran",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Driver participation and status under Bharat Taxi cooperative initiative",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Implementation framework for White Revolution 2.0",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Digital automation framework for Primary Agricultural Credit Societies (PACS)",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "General status report on cooperative societies in India",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
