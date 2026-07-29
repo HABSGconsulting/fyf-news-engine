@@ -32461,6 +32461,71 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-29T11:48:45.408708+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 3,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "H.R. Hygiene Products IPO: Should you subscribe to this SME issue?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SEBI's new proposal: Access customized portfolios with just \u20b925 lakh",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Received a gift? Know the tax rules to avoid unexpected liability",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister extends greetings on International Tiger Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commission for Air Quality Management reviews dust control operations in Delhi municipal zones.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Commission for Air Quality Management",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
