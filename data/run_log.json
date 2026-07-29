@@ -32526,6 +32526,125 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-29T13:41:03.240076+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 0,
+      "items_seen": 18,
+      "items_evaluated": 6,
+      "items_skipped": 6,
+      "views_filtered": 2,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "CarTrade Tech shares drop 7% despite strong Q1 profit growth",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Thangamayil Jewellery stock tanks 10% despite 86% profit surge",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Coforge shares rally 5% following strong Q1 earnings report",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Your pension remains secure under the new EPS 2026 scheme",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Inherited Indian assets? A guide for NRIs to claim them",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "How to legally avoid tax on gifts over \u20b950,000",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "DARPG releases 50th monthly report on CPGRAMS performance for central ministries.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Administrative Reforms and Public Grievances",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DARPG releases 47th monthly report on CPGRAMS performance for States and UTs.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Administrative Reforms and Public Grievances",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Research projects in Jammu and Kashmir.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHRC takes suo motu cognizance of industrial accident in Assam.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHRC takes suo motu cognizance of residential society accident in Noida.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
