@@ -32645,6 +32645,161 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-29T15:49:11.475623+05:30",
+      "status": "ok",
+      "posts_published": 8,
+      "policy_published": 1,
+      "items_seen": 15,
+      "items_evaluated": 8,
+      "items_skipped": 2,
+      "views_filtered": 0,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Adani Enterprises reports Q1 loss despite 50% revenue surge",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "KPIT Tech shares rally 10% despite 32% profit decline",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Devyani International Q1 profit jumps to Rs 17 crore",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Adani Group plans $4 billion raise; check your portfolio exposure",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Don't wait for extensions: File your ITR before July 31",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "5 steps to ensure your income tax refund arrives on time",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Maximize your savings: Small finance banks now offer up to 8.10% FD rates",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Don't wait for July 31: Why filing your ITR early is crucial",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Launch of drug-free youth campaign for Viksit Bharat",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Department of Military Medicine at Command Hospital Lucknow",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Removal of encroachments on national highways to restore safety",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Report on growth of tiger population and reserves over 12 years",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Release of 50th monthly report on CPGRAMS performance",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Administrative Reforms and Public Grievances",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Expansion of ocean observation network",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "NCCR study on microplastic pollution",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
