@@ -33630,6 +33630,173 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-30T17:04:23.155700+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 11,
+      "items_evaluated": 2,
+      "items_skipped": 5,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 16,
+      "policy_skipped": 15,
+      "items_detail": [
+        {
+          "title": "EPFO portal errors could stall your next job offer",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Received an ITR notice? Here is what you need to know",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Promotion of digital technologies in water resource management",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Progress report on Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation and impact assessment of Atal Bhujal Yojana",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prevention of Insults to National Honour (Amendment) Bill, 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of flood situation in Arunachal Pradesh and Nagaland",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation of E20 ethanol-blended petrol following stakeholder consultation",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Petroleum and Natural Gas",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Assessment of transmission and distribution infrastructure adequacy",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Margao urban mapping pilot project for property rights protection",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Impact of El Nino on Indian Monsoon",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Brahmaputra flood forecasting and climate adaptation mission",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ocean observation network and forecasting status",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Climate change impact on Changpa tribal community in Ladakh",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Status report on PM-JANMAN implementation",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Benefits provided to Scheduled Tribes in Union Territories",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation of Dharti Aaba Janjatiya Gram Utkarsh Abhiyan",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Status of Eklavya Model Residential Schools",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
