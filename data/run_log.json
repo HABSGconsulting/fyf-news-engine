@@ -33882,6 +33882,207 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-30T21:05:34.607142+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 3,
+      "items_seen": 10,
+      "items_evaluated": 3,
+      "items_skipped": 6,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 19,
+      "policy_skipped": 16,
+      "items_detail": [
+        {
+          "title": "Waiting for your EPF claim? Here is how to track your status",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Secure your family's future with a single financial master sheet",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Filing ITR? Don't miss these two critical reporting mistakes",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "APEDA facilitates first sea-consignment of value-added makhana from Bihar to Canada",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister chairs meeting on Mahanadi water dispute resolution",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Cabinet Committee on Security reviews West Asia conflict situation",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Cabinet Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet Committee on Security reviews West Asia conflict situation",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Cabinet Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Home Minister interacts with Bastar social tradition winners",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Data release on SC/ST Act case registrations and convictions for 2023-24",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Status update on implementation of RERA 2016",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Smart Public Transport Mission",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Approval for Rs 220 crore electric traction upgrade on Wadi-Raichur section",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Approval for Rs 299 crore redevelopment of Visakhapatnam coaching yard",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "MSME Ministry reports progress on PMEGP, PM Vishwakarma and ODOP schemes",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government encourages AI and digital technology adoption for MSME productivity",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM Vishwakarma scheme empowers over 24 lakh artisans",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Tourism signs MoU with Indigo for global promotion",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DFS launches insurance products under India Maritime Insurance Pool (BMIP)",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Department of Financial Services",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "National Advisory Board roadmap for genetic resource management",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary update on industrial compliance",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Parliamentary update on environmental clearances in protected areas",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHAI initiates development of world-class public toilets at toll plazas",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "NHAI",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
