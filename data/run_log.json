@@ -33489,6 +33489,147 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-30T15:34:36.508663+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 0,
+      "items_seen": 17,
+      "items_evaluated": 5,
+      "items_skipped": 4,
+      "views_filtered": 5,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "RBI steps in to stabilize Rupee as currency nears record lows",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Claiming tax exemptions? Know the rules for Section 10(14)(i) allowances",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Are you filing the right ITR form? Avoid common taxpayer mistakes",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Received an Income Tax notice? Here is how to respond correctly",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Avoid 200% penalty: Don't misuse Section 10 tax exemptions",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Installation of Doppler Weather Radars in Lahaul-Spiti and Kinnaur regions.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Strengthening of climate monitoring and weather forecasting systems.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "C-DOT signs MoU with IISc Bengaluru for establishing a Centre of Excellence.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "SAIL reports quarterly financial performance results.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Steel",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MOIL Limited reports quarterly financial performance results.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Mines",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministerial statement submitted to the House.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Defence Minister felicitates crew of IASV Tarini.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India improves global ranking in structural and pro-competitive reforms.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Expansion of Jan Aushadhi nutraceuticals availability.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
