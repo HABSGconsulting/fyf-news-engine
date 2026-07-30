@@ -33797,6 +33797,91 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-30T18:47:15.653759+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 14,
+      "items_evaluated": 1,
+      "items_skipped": 9,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 14,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Don't wait for the deadline: File your ITR early to avoid stress",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Delegation from Bastar division meets the President of India",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Schedule for Jeevan Pramaan camps for telecom pensioners in Delhi NCR",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary response regarding expenditure on Research and Development",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary response regarding Biotechnology and AI-based research initiatives",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary response regarding TDB funding under RDI scheme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial greetings on International Tiger Day",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Outcomes of BRICS Culture Working Group meetings",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
