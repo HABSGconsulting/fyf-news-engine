@@ -34111,6 +34111,51 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-07-31T04:18:06.450404+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 1,
+      "items_skipped": 7,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Avoid tax notices: How to report capital gains in your ITR",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "PIB clarification on ethanol-blended petrol facts and misconceptions.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Petroleum and Natural Gas",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Report on central scholarship scheme beneficiaries for SC students in Tamil Nadu.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
