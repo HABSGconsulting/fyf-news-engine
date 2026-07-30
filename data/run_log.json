@@ -34083,6 +34083,34 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-30T22:37:56.584993+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 1,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Fusion Klassroom SME IPO opens Friday: Rs 39 crore issue details",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
