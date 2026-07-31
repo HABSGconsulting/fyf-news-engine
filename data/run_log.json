@@ -34303,6 +34303,51 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-31T12:04:24.610986+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 1,
+      "items_skipped": 6,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "File your ITR today to avoid late fees and interest penalties",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministry of MSME reaffirms commitment to Swachhata Pakhwada 2026 initiatives.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Micro, Small and Medium Enterprises",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Second indigenous Diving Support Vessel 'Nipun' delivered to the Indian Navy.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
