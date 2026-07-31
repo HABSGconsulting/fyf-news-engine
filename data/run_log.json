@@ -34348,6 +34348,72 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-07-31T13:51:56.688837+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 13,
+      "items_evaluated": 0,
+      "items_skipped": 7,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Chief Minister of Chhattisgarh meets Prime Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "APEDA facilitates first-ever air shipment of Neelam and Totapuri mangoes from Karnataka to Maldives",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "APEDA",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government implements stringent anti-paper leak legislation to secure examination processes",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Ministry urges citizens to download Mission Shakti app for emergency helpline access",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "TDB issues clarification on selection process and conflict of interest policy for RDI scheme",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Technology Development Board",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister to visit Andhra Pradesh and Karnataka on August 1st",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
