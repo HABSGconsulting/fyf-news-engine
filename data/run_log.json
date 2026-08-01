@@ -34930,6 +34930,15 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-01T06:44:21.584660+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
