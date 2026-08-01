@@ -34939,6 +34939,231 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-08-01T10:31:41.442965+05:30",
+      "status": "ok",
+      "posts_published": 15,
+      "policy_published": 1,
+      "items_seen": 24,
+      "items_evaluated": 15,
+      "items_skipped": 0,
+      "views_filtered": 3,
+      "more_reads": 6,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Apple shares dip: What the $500 billion valuation drop means for you",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Amazon surges as cloud growth proves AI investments are paying off",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Bajaj Finserv Q1 profit jumps 18% on strong consumer finance demand",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "IRDAI tightens insurance ownership rules: What you need to know",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SEBI bans Zee leadership: Impact on your stock holdings",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "high"
+        },
+        {
+          "title": "ITC profit dips 27%: Is your long-term thesis intact?",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Maruti Suzuki Q1 profit dips 11% despite record car sales",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Bloomberg delays India bond index entry: What it means for you",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SEBI clarifies IDBI Bank's unlisted share sales rules",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SEBI closes case against Religare, clearing regulatory uncertainty",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Banks hike FD rates; time to lock in higher yields",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Brace for higher grocery bills as consumer giants hike prices",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Driving an EV? Standard insurance may leave your battery unprotected",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "India's first REIT index fund arrives: Is it right for you?",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "August financial checklist: 5 key changes and deadlines to track",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister calls for youth engagement in national development initiatives.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Congratulatory message for sports achievement.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Congratulatory message for sports achievement.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Commerce conducts workshop on trade and sustainable development policy landscape.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Release of publication on rural governance success stories.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Appointment of new Director General for Geological Survey of India.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Mines",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves revised policy for land and waterfront allocation to Port-Dependent Industries (PDI) at major ports.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "CCEA",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
     }
   ]
 }
