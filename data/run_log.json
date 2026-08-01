@@ -35326,6 +35326,104 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-01T18:11:12.446662+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 2,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Home Ministry approves Rs 2,117.85 crore advance central assistance under SDRF for flood-affected states.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares highlights of speech on development projects in Andhra Pradesh.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National Security Advisor awarded Lokmanya Tilak National Award.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of 'Nasha Mukt Bharat' campaign.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Air Marshal Tejpal Singh assumes charge as Deputy Chief of Air Staff.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Railways recommends premature retirement for five Group 'A' officers.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM inaugurates development projects worth over Rs 17,900 crore in Andhra Pradesh.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Alka Nangia Arora assumes charge as Controller General of Defence Accounts.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister reviews progress of waste disposal at Bhalswa dumpsite.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Text of PM's address at the launch of development projects in Andhra Pradesh.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
