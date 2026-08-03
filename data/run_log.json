@@ -36407,6 +36407,147 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-08-03T14:22:43.862147+05:30",
+      "status": "ok",
+      "posts_published": 9,
+      "policy_published": 1,
+      "items_seen": 21,
+      "items_evaluated": 9,
+      "items_skipped": 3,
+      "views_filtered": 5,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "KKR-backed LEAP India IPO opens August 7; price band Rs 151-159",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Fed pause triggers US bond market volatility; yields hit 19-year high",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New Closing Auction Session rules for F&O traders on NSE and BSE",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Tata Motors CV sales jump 37%; long-term recovery story in focus",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Nifty Q1 earnings beat expectations with 11% growth",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Muthoot Finance shares fall 10% on Q1 margin concerns",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "MobiKwik turns profitable: What this means for your fintech holdings",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Jio Financial Services sets dividend record date: Check your eligibility",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Link Aadhaar to your bank account to receive government benefits",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Jharkhand Governor meets Prime Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister praises performance of Indian women athletes at Commonwealth Games 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Coal production and dispatch from captive and commercial mines continues to grow in July 2026",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister participates in fair organized by women entrepreneurs in Dhamnod",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
