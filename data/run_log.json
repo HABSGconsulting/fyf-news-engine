@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-13T04:53:43.411902+00:00",
-      "status": "ok",
-      "posts_published": 2,
-      "items_seen": 9,
-      "item_hashes": [
-        "f99e069b711fef2ca30db08ea1017041",
-        "c490d1dea88d9667505e9e67841a8179",
-        "34feb63fb35c1c128961f6a63571fa99",
-        "a7b2a81d4993903edaf0de8027f0611b",
-        "d43c76aec5f054fa988b37a088350736",
-        "3fedb5d89ede7685fbe703e2d570db44",
-        "1ed1d01ea4be32ecb37cfe4be030a297",
-        "f2885391436ad1099f6a4918b5760f39",
-        "aab1dc4d56d2fac7af27b1191f4ca36e"
-      ]
-    },
-    {
       "run_id": "2026-06-13T07:37:33.943485+00:00",
       "status": "ok",
       "posts_published": 2,
@@ -37116,6 +37099,34 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-08-04T04:12:38.969459+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 5,
+      "items_evaluated": 1,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "UPI payments might soon carry a fee: What you need to know",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "regulatory_draft",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
