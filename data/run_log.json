@@ -36868,6 +36868,135 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-08-03T19:33:07.185022+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 10,
+      "items_evaluated": 3,
+      "items_skipped": 5,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "New closing auction session changes how your stock prices settle",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Reporting F&O income in ITR: Key rules for AY 2026-27",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Taxing foreign shares: How to compute capital gains correctly",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President of India inaugurates Jagadguru Kripalu University in Cuttack",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Evaluation of measurable outcomes from SCM",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Investor meeting for telecom manufacturing in Gwalior",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Swachhata Pakhwada 2026 observed across the country",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Modernization of power sector and reliable power supply",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Parliamentary response on Green Credit Programme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Third-party evaluation of Kisan Credit Card interest subvention scheme",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Universal banking coverage achieved with 99.92% village penetration",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Gyan Bharatam Mission and preservation of manuscript heritage",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Operational efficiency benchmarks at Sonpur Bazari OCM",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
