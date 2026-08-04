@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-14T08:05:43.365509+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "items_seen": 100,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-06-14T08:38:21.465693+05:30",
       "status": "skipped",
       "posts_published": 0,
@@ -37193,6 +37184,54 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-08-04T11:44:54.550640+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 3,
+      "items_skipped": 7,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Dabur shares dip as FSSAI restricts '100% natural' product claims",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New FD rules for Small Finance Banks starting October: What you need",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Lost old PF accounts? New EPFO portal helps you link them easily",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
