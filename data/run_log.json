@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-14T10:41:17.132316+05:30",
-      "status": "no_qualifying_posts",
-      "posts_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "more_reads": 1
-    },
-    {
       "run_id": "2026-06-14T13:36:03.242490+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -37411,6 +37402,189 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-04T17:19:17.702777+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 5,
+      "items_seen": 8,
+      "items_evaluated": 2,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 18,
+      "policy_evaluated": 18,
+      "policy_skipped": 13,
+      "items_detail": [
+        {
+          "title": "Upcoming 31 August ITR deadline: Are you required to file?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "New Taxation Bill: Potential impact on UPI charges and tax rules",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Implementation status of National Social Assistance Programme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Saras Mela event details",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Operational status of SHE-LEAPS initiative",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Employment status under VB-G scheme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Progress update on SVAMITVA scheme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Socio-economic empowerment of rural women",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Panchayat Development Index status",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Utilization of conditional grants under 15th Finance Commission",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial meeting with farmer organizations",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Diplomatic relations with Uzbekistan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Private investment and expansion of National Waterways",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Development and modernization of ports in Maharashtra",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Quarterly update on actions against Unsolicited Commercial Communication (UCC)",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of reforms in Central Administrative Tribunal",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Status of Bulk Drug Park in Himachal Pradesh",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Applications invited for Government Approved Test Centers (GATCs)",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Department of Consumer Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Assistance to Pharmaceutical MSME clusters in Himachal Pradesh under SPI",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Production Linked Incentive (PLI) scheme for textiles",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Textiles",
           "horizon": "Structural (3-5Y+)",
           "material": false
         }
