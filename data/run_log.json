@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-14T15:59:59.668986+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "items_seen": 3,
-      "items_evaluated": 3,
-      "items_skipped": 2,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-06-14T17:18:36.687148+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -37771,6 +37762,121 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-04T21:32:51.941318+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 2,
+      "items_seen": 21,
+      "items_evaluated": 4,
+      "items_skipped": 11,
+      "views_filtered": 5,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 7,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "SEBI eyes global capital for Indian REITs and InvITs",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Facing EPFO issues? Here is how to resolve them online",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Unified Pension Scheme: What you need to know about your retirement",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Access social security: 31 crore workers now on e-Shram portal",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Successful auction of six coal blocks under the 15th round and 13th round (second attempt) of commercial coal mining.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Coal",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "CAQM intensifies dust control enforcement and empowers local bodies to prosecute construction and demolition (C&D) site violations.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Commission for Air Quality Management (CAQM)",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Online registration for the seventh phase of Yuva Sangam to begin on August 4, 2026.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "BRICS-TCA symposium and JMC meeting held under the guidance of the Ministry of Skill Development and Entrepreneurship.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Case study on cold storage impact on rural agricultural productivity.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Progress report on educational benefits under PM-AJAY scheme.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government strengthens Post-Matric Scholarship scheme for SC students.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
