@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-14T17:18:36.687148+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "items_seen": 3,
-      "items_evaluated": 3,
-      "items_skipped": 2,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-06-14T19:34:30.440565+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -37877,6 +37868,43 @@
           "score": 5,
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-04T22:48:18.762402+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 1,
+      "items_skipped": 4,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Franklin Templeton launches new short-term debt fund NFO on August 5",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister reviews DDU-GKY 2.0 progress, calls for time-bound implementation and digital reforms.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
