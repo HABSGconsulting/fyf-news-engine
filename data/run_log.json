@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-14T10:31:52.848680+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "items_seen": 8,
-      "items_evaluated": 8,
-      "items_skipped": 7,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-06-14T10:41:17.132316+05:30",
       "status": "no_qualifying_posts",
       "posts_published": 0,
@@ -37310,6 +37301,117 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Defence",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-04T15:49:58.851789+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 2,
+      "items_seen": 19,
+      "items_evaluated": 2,
+      "items_skipped": 7,
+      "views_filtered": 4,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Avoid fraud: SEBI's guide to safe unlisted share investing",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Faster AIF launches: SEBI's new GARUDA framework explained",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "PM Surya Ghar: Muft Bijli Yojana achieves milestone of 5 million rooftop solar installations",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "BRICS Anti-Corruption Working Group meeting commences in Hyderabad",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Financial assistance provided to handloom weavers",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Grant-in-aid for startups in the technical textiles sector",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Bharat Tex 2026 announcement",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Extradition of 274 fugitive criminals from 36 countries since 2019",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government initiatives to strengthen dairy development and livestock infrastructure",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Operational efficiency and sustainable mining at Dipka OC",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Conservation Action Plan for Clouded Leopard",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Structural (3-5Y+)",
           "material": false
         }
       ]
