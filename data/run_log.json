@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-15T06:26:16.763503+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "items_seen": 13,
-      "items_evaluated": 13,
-      "items_skipped": 8,
-      "more_reads": 2
-    },
-    {
       "run_id": "2026-06-15T08:43:27.292967+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 5,
@@ -37958,6 +37949,56 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-05T10:19:55.825427+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 0,
+      "items_skipped": 15,
+      "views_filtered": 7,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Government initiates promotional strategy for India's first Telecom Manufacturing Zone (TMZ).",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial meeting held regarding ethanol policy support for farmers.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Incident report regarding airline safety event.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Venture Capital Fund for Scheduled Castes supports individual dairy processing enterprise.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
