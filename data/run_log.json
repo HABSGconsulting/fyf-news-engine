@@ -1,204 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-15T18:54:01.391405+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 3,
-      "items_seen": 56,
-      "items_evaluated": 3,
-      "items_skipped": 0,
-      "more_reads": 1,
-      "policy_seen": 20,
-      "policy_evaluated": 20,
-      "policy_skipped": 17,
-      "items_detail": [
-        {
-          "title": "(no headline)",
-          "score": 4,
-          "gate": "More Reads",
-          "persona": null,
-          "category": null
-        },
-        {
-          "title": "RBI warns against sharing bank accounts to prevent money mule fraud",
-          "score": 5,
-          "gate": "Impact post",
-          "persona": "retail_borrower",
-          "category": "regulatory"
-        },
-        {
-          "title": "Received your Form 16? Verify these details before filing your ITR",
-          "score": 5,
-          "gate": "Impact post",
-          "persona": "salaried_taxpayer",
-          "category": "taxation"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister pays tribute at the Tomb of the Unknown Soldier",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister meets the Prime Minister of the Slovak Republic",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Foundation stone laid for Technology Centre in Gaya",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of MSME",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Outcomes of Prime Minister's visit to Slovakia",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Statement by Prime Minister during joint press briefing with Slovak PM",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Launch of India Innovates 2026 in Nice",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India's total exports (goods and services) estimated at USD 162.69 billion for April-May 2026-27",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ease of living: India's journey of inclusive progress",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Global call for Yoga for healthy aging",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister extends wishes for Raja Parba",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Workshop on pre-retirement counseling and banker awareness program in Srinagar",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "TRAI assesses mobile network quality in Delhi Metro corridors",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "TRAI",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of stray dog attack incident in Punjab",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "NHRC",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of social boycott case in Odisha",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "NHRC",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Indian Railways approves Rs 201 crore Kavach project for Ambala division",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Railways",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Railways approves Rs 140 crore Kavach project for Ahmedabad division",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Railways",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Lok Sabha Speaker to inaugurate Viksit Bharat Youth Parliament 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Initiative to strengthen preservation of India's Ayurveda heritage",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister welcomes consensus between US and Iran on West Asia conflict",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister highlights government efforts to improve ease of living for the middle class",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-15T21:04:22.365833+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -37099,6 +36901,109 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-05T21:22:02.856514+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 13,
+      "items_evaluated": 2,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 7,
+      "learn_links_matched": 0,
+      "policy_seen": 17,
+      "policy_evaluated": 8,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Policybazaar parent PB Fintech reports 92% jump in quarterly profit",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Compare latest FD rates across top banks to maximize your returns",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Container train operators permitted to operate on all routes with a single All-India license.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Repco Bank dividend payment to Ministry of Cooperation.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministerial address on agricultural training and income growth.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Research update on light-activated nanobots for breast cancer treatment.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Department of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Ministerial congratulatory message for cycling expedition.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Clarification on EWS reservation eligibility criteria.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Advisory regarding misleading EdTech platforms and fake universities.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Status report on Vidyanjali community participation in schools.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
