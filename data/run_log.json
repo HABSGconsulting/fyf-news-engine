@@ -1,113 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-15T08:43:27.292967+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 5,
-      "policy_published": 0,
-      "items_seen": 13,
-      "items_evaluated": 13,
-      "items_skipped": 8,
-      "more_reads": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "(no headline)",
-          "score": 0,
-          "gate": "Skip entirely",
-          "persona": null,
-          "category": null
-        },
-        {
-          "title": "(no headline)",
-          "score": 1,
-          "gate": "Skip entirely",
-          "persona": null,
-          "category": null
-        },
-        {
-          "title": "Crude oil prices drop 4% \u2014 what this means for your wallet",
-          "score": 5,
-          "gate": "Impact post",
-          "persona": "long_term_investor",
-          "category": "macro"
-        },
-        {
-          "title": "Four new Vedanta Group stocks list on exchanges today",
-          "score": 5,
-          "gate": "Impact post",
-          "persona": "long_term_investor",
-          "category": "performance"
-        },
-        {
-          "title": "(no headline)",
-          "score": 0,
-          "gate": "Skip entirely",
-          "persona": null,
-          "category": null
-        },
-        {
-          "title": "(no headline)",
-          "score": 1,
-          "gate": "Skip entirely",
-          "persona": null,
-          "category": null
-        },
-        {
-          "title": "Gold prices surge 2% following US-Iran peace deal",
-          "score": 5,
-          "gate": "Impact post",
-          "persona": "long_term_investor",
-          "category": "sectoral"
-        },
-        {
-          "title": "(no headline)",
-          "score": 1,
-          "gate": "Skip entirely",
-          "persona": null,
-          "category": null
-        },
-        {
-          "title": "(no headline)",
-          "score": 1,
-          "gate": "Skip entirely",
-          "persona": null,
-          "category": null
-        },
-        {
-          "title": "New investment rules for foreign individuals in Indian stocks",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "persona": "long_term_investor",
-          "category": "regulatory"
-        },
-        {
-          "title": "(no headline)",
-          "score": 0,
-          "gate": "Skip entirely",
-          "persona": null,
-          "category": null
-        },
-        {
-          "title": "(no headline)",
-          "score": 0,
-          "gate": "Skip entirely",
-          "persona": null,
-          "category": null
-        },
-        {
-          "title": "June 15 tax deadline: Complete your advance tax and compliance today",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "persona": "salaried_taxpayer",
-          "category": "taxation"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-15T09:47:45.431571+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 0,
@@ -37995,6 +37888,63 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-05T11:42:50.885204+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 3,
+      "items_skipped": 3,
+      "views_filtered": 2,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "US-China tech tensions rise: What it means for your global portfolio",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Waiting for your ITR refund? Here is why it might be delayed",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Missed the ITR deadline? Here is how to file a belated return",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Department of Posts Delhi Circle establishes special counters for Rakhi mail booking at 34 locations.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
