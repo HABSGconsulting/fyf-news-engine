@@ -1,183 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-17T02:54:07.596975+05:30",
-      "status": "gemini_failed",
-      "posts_published": 0,
-      "policy_published": 6,
-      "items_seen": 25,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 20,
-      "policy_skipped": 14,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Prime Minister's address at G7 Summit on international cooperation",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Review meeting on slum rehabilitation in New Delhi",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Commemoration of Maharana Pratap",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Lok Sabha",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inauguration of advanced eye surgery center in Jharkhand",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inter-state consensus reached on Kishau Multi-Purpose Dam Project",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "High-level meeting on sustainable crop residue management",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Yuva Sangam delegation visit to Puducherry",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Approval for Rs 755 crore Champa-Korba third rail line project",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Railways",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "CSIR technologies licensed to industry and DRDO technology transfer",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Overview of bridge infrastructure development",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Parliamentary Standing Committee report on Education and Youth",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Parliament",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Collaboration between Department of Land Resources and World Bank on land governance",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Parliamentary Standing Committee report on Education and Youth",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Parliament",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Parliamentary Standing Committee report on Education and Youth",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Parliament",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CCI approves acquisition of PGIM India Asset Management by TVS Emerald and TVS Venu",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Competition Commission of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CCI approves subscription of equity shares in Axis Finance by Kedaara Capital",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Competition Commission of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CCI approves acquisition of shares in Romsons Group by Jongsong Investments",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Competition Commission of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Film festival session on screenplay writing",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Speaker's address to youth on constitutional values",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Lok Sabha",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Announcement of national level data hackathon",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-17T10:09:17.957358+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35871,6 +35694,101 @@
           "gate": "Skip entirely",
           "ministry": "PMO",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-06T17:22:33.159116+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 2,
+      "items_seen": 6,
+      "items_evaluated": 2,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 7,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Bank held liable for scam loss: What this means for your account",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Nominee vs. Legal Heir: Why your portfolio needs a Will",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Implementation of Jal Jeevan Mission",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Rainwater harvesting and water conservation initiatives",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Projects under Namami Gange mission",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ceremonial tribute to Dr. G.S. Dhillon",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government prioritizes rapid expansion of data center capacity for digital and AI infrastructure",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "DFS Insurance Division ranked third in GRAI index for June 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Financial Services",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Strategic contribution of BioE3 policy to biotechnology sector",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
