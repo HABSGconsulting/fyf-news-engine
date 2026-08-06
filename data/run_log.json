@@ -1,47 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-16T17:48:14.828656+05:30",
-      "status": "gemini_failed",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 64,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "National launch of VB-G RAM-G initiative scheduled for July 1st in Andhra Pradesh.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry to observe 'Nasha Mukt Bharat Week' from June 17-26, 2026.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "TRAI conducts mobile network quality audit in Gorakhpur and Lucknow-Gorakhpur rail route.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "TRAI",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-17T02:54:07.596975+05:30",
       "status": "gemini_failed",
       "posts_published": 0,
@@ -35722,6 +35681,195 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-06T15:49:18.028002+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 1,
+      "items_seen": 24,
+      "items_evaluated": 5,
+      "items_skipped": 10,
+      "views_filtered": 5,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 15,
+      "policy_skipped": 14,
+      "items_detail": [
+        {
+          "title": "Could Tata Sons go public? RBI norms may force a change",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Trent reports 21% profit jump; retail expansion continues",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Deccan Gold Mines rallies 13% on maiden gold production",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Avoid penalties: Your essential guide to AY 2026-27 tax deadlines",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "EPS pensioners: Get your life certificate at home via India Post",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Historical review of railway reservation systems",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Health Ministry notifies stricter drug regulations to disqualify applicants submitting fake or fabricated data",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Handloom Day 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHRC takes cognizance of incident in Madhya Pradesh",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "NHRC",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHRC takes cognizance of health incident in Haryana",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "NHRC",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Academic performance report of EMRS",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Development schemes for Scheduled Tribes in Alipurduar",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Meeting of Parliamentary Consultative Committee on Territorial Army",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Implementation agencies for training programs",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Tribal land rights and project consent frameworks",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Direct Benefit Transfer in tribal scholarship schemes",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Growth trends in the steel sector (April-July 2026)",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Steel",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Special initiatives under tribal development programs",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Seasonal migration patterns of Van Gujjar community",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Meeting between Prime Minister and industry representative",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "PMO",
           "horizon": "Immediate",
           "material": false
         }
