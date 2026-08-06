@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-17T10:09:17.957358+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 0,
-      "items_skipped": 15,
-      "views_filtered": 7,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 5,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Prime Minister shares cultural sentiment on respect and appreciation.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister meets UAE President on the sidelines of G7 Summit.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister meets UK Prime Minister on the sidelines of G7 Summit.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister meets Canadian Prime Minister on the sidelines of G7 Summit.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister addresses G7 session on international partnerships and solidarity.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-17T10:47:38.835312+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35789,6 +35731,91 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Science and Technology",
           "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-06T18:52:11.814234+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 8,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 2,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 14,
+      "policy_evaluated": 7,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "LIC reports 23% profit jump; strong Q1 performance for shareholders",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Parliamentary Standing Committee on Commerce releases 200th report on departmental oversight.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Success story of PM-YASASVI scholarship beneficiary.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Labour Commissioner intervention secures Rs 26.81 crore in financial benefits for cement plant workers.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Office of Controller of Communication Accounts organizes pension grievance redressal court.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CGPDTM announces schedule for Patent and Trademark Agent Examination 2027.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "President to confer National Handloom Awards 2025 on National Handloom Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government strengthens regulatory framework to address AI-generated deepfakes.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
