@@ -1,163 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-17T21:37:00.441081+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 8,
-      "items_evaluated": 1,
-      "items_skipped": 5,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 16,
-      "policy_evaluated": 16,
-      "policy_skipped": 15,
-      "items_detail": [
-        {
-          "title": "SEBI's new ETF rules aim to make your trades smoother",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "PM statement on AI rollout at G7 Summit",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "President's visit to Madhya Pradesh and Odisha",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "President's Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister's message on cleanliness drive in Patna",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Review of National Cyber Crime Helpline 1930",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "IIIDEM celebrates 15th foundation day",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Election Commission of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Release of booklet on Yoga and diabetes prevention",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Launch of Green Hydrogen Certification Portal",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of New and Renewable Energy",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "MIFF 2026 film festival updates",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "MIFF 2026 workshop on cinematography",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Yoga Sangam portal registration update",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PMAY-U 2.0 7th CSMC meeting held",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Lecture on technology in social change at AMU",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "MIFF 2026 discussion on documentary filmmaking",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Progress report on Kharif crop sowing acreage",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "MIFF 2026 focus on inclusive cinema",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Launch of Nasha Mukt Bharat Week and digital dashboard",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-17T22:53:04.844822+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -35769,6 +35612,103 @@
           "gate": "Skip entirely",
           "ministry": "National Human Rights Commission",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-07T16:03:52.905854+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 11,
+      "items_evaluated": 3,
+      "items_skipped": 3,
+      "views_filtered": 0,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "NRIs: Avoid these compliance traps when buying or selling Indian property",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Paying rent in cash? Here is how to protect your HRA benefit",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "NPS for NRIs: A guide to building your retirement corpus in India",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Jan Aushadhi Kendra medicine sales performance update",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares article on handloom sector significance",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Environment Minister attends 77th Van Mahotsav in Manesar",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister urges adoption of Indian handloom products",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Speech text on 84th anniversary of Quit India Movement",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Parliament of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "I4C issues advisory on 'Boss Scam' targeting financial professionals",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
           "material": false
         }
       ]
