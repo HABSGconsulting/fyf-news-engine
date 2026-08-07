@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-17T22:53:04.844822+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "NSE files for mega IPO; India's largest exchange prepares to list",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "ITR filing deadlines for AY 2026-27: Check your specific due date",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-18T00:07:08.711588+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35709,6 +35671,275 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Home Affairs",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-07T20:09:44.052632+05:30",
+      "status": "ok",
+      "posts_published": 9,
+      "policy_published": 2,
+      "items_seen": 25,
+      "items_evaluated": 9,
+      "items_skipped": 0,
+      "views_filtered": 2,
+      "more_reads": 12,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 18,
+      "items_detail": [
+        {
+          "title": "SEBI eases compliance burden for market intermediaries with risk-based inspections",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SBI Q1 profit jumps 10% as loan growth remains robust",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Hitachi Energy India profit doubles on strong order book",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "SEBI eases compliance burden for market intermediaries with new inspection framework",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Track your real estate investments better with new BSE REITs Index",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Ola Electric Q1 results: Losses narrow as deliveries pick up pace",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Vikram Solar profit drops 85% amid expansion push",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Premier Energies profit jumps 53% on strong demand",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "JK Tyre profit falls 73% as input costs rise",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Parliamentary Standing Committee reports on Home Affairs released",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of new NUCFDC office in Mumbai",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Standing Committee reports on Law and Justice released",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Standing Committee reports on Law and Justice released",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Standing Committee reports on Science and Technology released",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Standing Committee reports on Science and Technology released",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Standing Committee reports on Health and Family Welfare released",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Combined Defence Services Examination (II), 2025 announcement",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Standing Committee report on Commerce released",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Report on agricultural yield loss due to human-induced land degradation",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation status of AgriStack and Digital Agriculture Mission",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Status report on formation of Farmer Producer Organizations (FPOs)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation of National Mission on Edible Oils (Oilseeds)",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Measures to increase production of oilseeds and pulses",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation of National Beekeeping and Honey Mission (NBHM)",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Progress report on AYUSH health services for women",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "12th session of India-Russia Working Group on Modernization and Industrial Cooperation",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Tribal textile heritage showcase at National Handloom Day",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister visits National Crafts Museum on National Handloom Day",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Standardization of 27 locations in Arunachal Pradesh on official maps",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
