@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-17T10:47:38.835312+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 0,
-      "items_skipped": 3,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-17T12:59:50.386913+05:30",
       "status": "ok",
       "posts_published": 7,
@@ -35814,6 +35797,119 @@
           "title": "Government strengthens regulatory framework to address AI-generated deepfakes.",
           "score": 7,
           "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-07T06:38:30.743828+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 2,
+      "items_seen": 25,
+      "items_evaluated": 3,
+      "items_skipped": 14,
+      "views_filtered": 2,
+      "more_reads": 6,
+      "learn_links_matched": 0,
+      "policy_seen": 17,
+      "policy_evaluated": 8,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Digital gold to get safer with new government regulations next year",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "RBI proposes tighter rules for NBFC credit offerings",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "regulatory_draft",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Options trading volumes drop 51% as SEBI rules curb speculation",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government strengthens anti-drug infrastructure and coordination in Jammu & Kashmir",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Nasha Mukt Bharat Abhiyaan reaches over 29.05 crore people nationwide",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India hosts 10th BRICS Industry Ministers' meeting in Jaipur",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Policy framework for electrification of transport and other sectors",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Power",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Modernization and efficiency upgrade program for thermal power plants",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Power",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Successful flight test of Agni-4 ballistic missile",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Diplomatic telephonic communication between heads of state",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "IndiaAI Mission conducts university engagement program for AI talent development",
+          "score": 3,
+          "gate": "Skip entirely",
           "ministry": "Ministry of Electronics and Information Technology",
           "horizon": "Near-term (0-12M)",
           "material": false
