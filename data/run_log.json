@@ -1,40 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-19T22:10:36.558039+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Lok Sabha Speaker highlights historical civilizational ties between India and Republic of Korea.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Lok Sabha Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NFRA and ICAI conduct workshop on financial reporting ecosystem in Pune.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Corporate Affairs",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-19T23:40:17.014126+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -35445,6 +35411,85 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of New and Renewable Energy",
           "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-09T19:48:59.114770+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 2,
+      "items_seen": 2,
+      "items_evaluated": 2,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Submit your Jeevan Praaman Patra online using Aadhaar face ID",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ITR-5 utilities for AY 2026-27 are now live",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Incident report regarding Cessna C172 training aircraft runway excursion in Baramati",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian and US Navy to conduct Explosive Ordnance Disposal exercise in Kochi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CCI hosts meeting of heads of BRICS competition authorities",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PMAY-U achieves milestone of 1.25 crore sanctioned houses and 1 crore completed units",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government strengthens monitoring of funds allocated for SC welfare under DAPSC",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
