@@ -1,107 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-19T21:14:07.058862+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 9,
-      "policy_evaluated": 9,
-      "policy_skipped": 9,
-      "items_detail": [
-        {
-          "title": "Bandhan Bank raises FCNR deposit rates to 7.1% for NRI investors",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister's address during the distribution of incentives under the Viksit Bharat Rozgar Yojana.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Conclusion of national-level hackathon 'Statathon'.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and IT",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "ITRA Jamnagar completes 100-day yoga campaign.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Commerce Secretary co-chairs 14th session of India-Uzbekistan Inter-Governmental Commission.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "High-level review meeting on TB-free India campaign.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministerial statement on welfare scheme distribution.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "MIFF 2026 masterclass event summary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Foundation stone laying for National Test House infrastructure expansion in Mumbai.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "MIFF 2026 film screening event summary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-19T22:10:36.558039+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35473,6 +35372,79 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Culture",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-09T17:34:20.771650+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 6,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "28 International Funds Halt SIPs: What This Means for Your Portfolio",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "8th Pay Commission: What a Potential Salary Hike Means for You",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Moving Abroad? Know the Rules for Your PPF Account",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister leads Fit India Sunday on Cycle event for Nasha Mukt Bharat campaign.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister highlights India's strategic role in future industrial revolution driven by biotechnology and AI.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India achieves 300 GW of non-fossil fuel-based power generation capacity.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Structural (3-5Y+)",
           "material": false
         }
       ]
