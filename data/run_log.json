@@ -1,32 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-19T16:27:43.768842+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 20,
-      "items_evaluated": 0,
-      "items_skipped": 9,
-      "views_filtered": 2,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Prime Minister highlights India's growing global engagement and investment",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-19T17:47:50.170401+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -35579,6 +35553,53 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Personnel, Public Grievances and Pensions",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-09T11:59:18.088409+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 2,
+      "items_skipped": 4,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Dividend alert: 90 stocks going ex-dividend this week",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Tax relief: ITAT ruling highlights importance of reassessment timelines",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister pays tribute to freedom fighters of the Quit India Movement.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
