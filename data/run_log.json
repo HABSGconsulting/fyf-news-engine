@@ -1,75 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-20T17:39:03.839672+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 1,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Lower your tax bill: Key deductions for pensioners in ITR 2026",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Ministerial address at public event in Kolhapur, Maharashtra.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Transcript of Prime Minister's address regarding state government anniversary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Announcement of International Yoga Day event at JLN Stadium.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Announcement of International Yoga Day event venue.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Public invitation for nationwide International Yoga Day celebrations.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-20T20:02:04.751997+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -35495,6 +35426,95 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Environment, Forest and Climate Change",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-10T16:22:21.905385+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 13,
+      "items_evaluated": 3,
+      "items_skipped": 7,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "US Senate advances Crypto Clarity Act: What it means for markets",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Closing your credit card? Don't ignore your outstanding EMIs",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Delhi HC: Father cannot withdraw daughter's PPF funds for personal use",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister shares article on rising Asiatic lion population in India.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Minority Affairs promotes Jiyo Parsi scheme for medical, childcare, and elderly care.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Minority Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Minority Affairs implements welfare schemes for minority communities in hilly regions.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Minority Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Minority Affairs conducts leadership and capacity-building programs for minority women in Odisha.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Minority Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DGFT removes requirement for physical fee payment challans for export obligation discharge certificate applications.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Directorate General of Foreign Trade",
+          "horizon": "Immediate",
           "material": false
         }
       ]
