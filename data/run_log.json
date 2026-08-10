@@ -1,88 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-20T21:26:00.665978+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 2,
-      "items_seen": 3,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 8,
-      "policy_skipped": 6,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Prime Minister visits school in Pahadpur village",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "CAQM conducts 199 inspections in NCR to monitor compliance status",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Commission for Air Quality Management",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Defence Minister emphasizes technological agility and institutional innovation",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "EAC-PM launches quarterly newsletter on economic security",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "EAC-PM",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Beneficiaries receive Rs 145 crore under India's Access and Benefit Sharing (ABS) framework",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Expert discussion on AI in film production at Mumbai International Film Festival",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM expresses grief over wall collapse incident in Parbhani, Maharashtra",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "APEDA facilitates first export of dried egg powder from Odisha to Austria",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-20T23:20:19.017626+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35464,6 +35382,74 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-08-10T20:13:41.422113+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 5,
+      "policy_published": 0,
+      "items_seen": 18,
+      "items_evaluated": 5,
+      "items_skipped": 10,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "SEBI proposes easing debt issuance limits to boost market liquidity",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "regulatory_draft",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Indel Money launches 5 billion rupee public debt offering",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Why your home loan EMI might change despite stable repo rates",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Higher post-tax returns for REIT and InvIT investors",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Received an income tax notice? Authenticate it online first",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
