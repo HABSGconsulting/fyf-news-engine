@@ -1,131 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-20T12:13:12.928771+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 3,
-      "items_seen": 5,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 12,
-      "policy_evaluated": 12,
-      "policy_skipped": 9,
-      "items_detail": [
-        {
-          "title": "EPF interest rate set at 8.25%; easier withdrawals via UPI coming",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government highlights development focus on North-East region",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister extends birthday greetings to President",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister extends greetings on West Bengal Day",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Registration update for International Day of Yoga 2026",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares highlights on employment scheme incentives",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India to assume Vice-Presidency of Financial Action Task Force",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Finance",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Private sector participation in government vehicle scrappage incentive scheme",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Review of power sector performance in Madhya Pradesh",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Power",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government reaffirms renewable energy policy ecosystem strength",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of New and Renewable Energy",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "BRICS MSME Forum 2026 calls for enhanced cooperation and integration",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of MSME",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NIXI celebrates 23rd foundation day",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and IT",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government distributes Rs 2,400 crore under Pradhan Mantri Viksit Bharat Rozgar Yojana",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-20T13:29:41.740668+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35480,6 +35355,63 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-08-10T09:01:14.790679+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 3,
+      "items_skipped": 14,
+      "views_filtered": 6,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Dhoot Transmission IPO opens: Should you bet on the 30% GMP?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "FPIs return to IT stocks: Is the sector set for a rebound?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Builder delayed your flat? Court sets 24% interest penalty precedent",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister welcomes Commonwealth Games 2026 medal winners.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
