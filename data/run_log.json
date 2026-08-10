@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-21T01:27:36.534264+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-06-21T07:22:28.148422+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35428,6 +35419,187 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-11T03:51:23.487486+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 2,
+      "items_seen": 8,
+      "items_evaluated": 1,
+      "items_skipped": 6,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 19,
+      "policy_skipped": 17,
+      "items_detail": [
+        {
+          "title": "Small-cap funds take longer to liquidate; check your portfolio liquidity risk",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "ICAR scholarship disbursements via National Scholarship Portal",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of National Scholarship Portal for agricultural students",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Public Sector Bank leadership conference scheduled for August 17-18",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Ports Association provides flood relief aid to Assam",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NABL launches India's first accreditation scheme for mobile food testing laboratories",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Consumer Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Handloom Designer Conference 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MoSPI signs MoUs with IDEAS and ISI Kolkata for research studies",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of PM-Yashasvi scholarship implementation in Maharashtra",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Rehabilitation of children under SMILE scheme",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Individual scholarship success story report",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Individual scholarship success story report",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Individual scholarship success story report",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Removal of invasive species from reserved forests",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Restoration of degraded forest land",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Performance report of PM SVANidhi scheme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Modernization of GIS-based urban planning and master plans",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "APEDA facilitates first export of mustard honey from Tripura to Dubai",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "New Secretary appointed for Ministry of Earth Sciences",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Independence Day 2026 celebration planning",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
