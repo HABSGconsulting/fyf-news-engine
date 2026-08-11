@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-22T07:41:12.210613+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 18,
-      "items_evaluated": 2,
-      "items_skipped": 12,
-      "views_filtered": 4,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "New RBI rules protect you from mis-sold financial products by 2027",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "EPFO 3.0: Get your PF money faster via UPI withdrawals",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-22T12:36:57.493881+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -35797,6 +35759,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-08-12T03:57:36.427718+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 0,
+      "items_skipped": 5,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
