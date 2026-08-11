@@ -1,91 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-21T18:57:29.889383+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 2,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Save capital gains tax by investing in under-construction property",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister congratulates Indian Women's Hockey Team on winning FIH Hockey Women's Nations Cup.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Department of Fisheries and Department of Animal Husbandry and Dairying celebrate International Yoga Day 2026.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Tourism celebrates 12th International Yoga Day across the country.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tourism",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Khadi and Village Industries Commission celebrates 12th International Yoga Day.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of MSME",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India to host 11th BRICS Energy Ministers meeting in Gurugram.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Power",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CCPA imposes penalties on food companies for misleading '100 percent' claims.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Central Consumer Protection Authority",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister commissions three frontline Indian Navy vessels.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-21T21:01:28.900310+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -35426,6 +35341,119 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-11T16:11:15.611110+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 2,
+      "items_seen": 19,
+      "items_evaluated": 3,
+      "items_skipped": 9,
+      "views_filtered": 5,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 8,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "US Senate moves closer to clear rules for crypto assets",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Check your credit card autopay: Are you paying only minimum due?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Allahabad High Court clarifies inheritance rights for adopted children",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government approves establishment of Bulk Drug Park in Odisha",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "National Green Hydrogen Mission mandates adoption targets for petroleum and refining sectors",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Jan Aushadhi Kendra awareness update",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Gram Sabha participation review",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "E-Gram Swaraj digital audit update",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government e-Marketplace (GeM) operational review",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "ICMR health research outreach program",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Startup funding allocation update",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
           "horizon": "Immediate",
           "material": false
         }
