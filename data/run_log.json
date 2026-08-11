@@ -1,51 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-22T04:20:47.859764+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Retiree wins tax battle: Full exemption on \u20b919 lakh leave encashment",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "19th Mumbai International Film Festival (MIFF 2026) concludes",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Team India to participate in Global Skills Challenge 2026",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-22T07:41:12.210613+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -35658,6 +35613,187 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
           "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-11T22:03:57.374934+05:30",
+      "status": "ok",
+      "posts_published": 9,
+      "policy_published": 1,
+      "items_seen": 13,
+      "items_evaluated": 9,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "Behari Lal Engineering IPO: Anchor investors commit Rs 90.5 crore",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SEBI proposes stricter vault rules for all physical bullion trades",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Skytech Infinite IPO: Rs 22.68 crore SME issue opens August 14",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Manappuram Finance profit surges four-fold; dividend declared",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Bata India profit jumps 23% on operational efficiency",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Dish TV losses widen to Rs 286 crore",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "JSW Dulux reports profit dip; board proposes 1:10 stock split",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "EPFO issues 1.49 lakh pension orders: Check your claim status now",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "New EPF withdrawal rules 2026: What you need to know",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Fourth session of India-Namibia Joint Trade Committee held in New Delhi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Rail Coach Factory Kapurthala prepares first rake of coaches for export to Bangladesh",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government approves Rs 334.89 crore flyover at Visakhapatnam Port to facilitate cargo movement",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Health Minister reviews TB-free India campaign efforts with MPs from Karnataka and Kerala",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Press release on the 392nd report of the Parliamentary Standing Committee on Transport, Tourism and Culture",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Investigation into Air India flight AI 2379 (Phuket\u2013Delhi) dated 04.08.2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government strengthens access to National Overseas Scholarship Scheme for SC students",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government strengthens rehabilitation framework for individuals engaged in begging under SMILE scheme",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "GeM empowers participation of MSMEs, startups, women entrepreneurs, and SHGs",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
