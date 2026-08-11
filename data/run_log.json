@@ -1,149 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-21T16:26:48.722231+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 5,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 13,
-      "policy_evaluated": 13,
-      "policy_skipped": 12,
-      "items_detail": [
-        {
-          "title": "Avoid these 5 ITR filing mistakes to prevent tax notices",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Can presumptive taxpayers switch tax regimes annually? Know the rules",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "President of India attends convocation ceremony at Rani Durgavati University",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "President's Secretariat",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Overview of India's space journey",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Department of Space",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "International Yoga Day celebrations at ITRA Jamnagar",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "All India Institute of Ayurveda celebrates International Yoga Day",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Panchayati Raj institutions organize Yoga Day events",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Panchayati Raj",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "International Yoga Day observed at 40 locations in Delhi",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President attends International Yoga Day in Leh",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Vice President's Secretariat",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "World premiere of animated film at Mumbai International Film Festival",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister leads nationwide International Yoga Day celebrations",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of three indigenously designed and built naval vessels",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Defence",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "International Yoga Day celebrated at Kartavya Bhawan",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares article on Yoga and healthy aging",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Controller of Communication Accounts office celebrates Yoga Day",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-21T17:32:25.121632+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35420,6 +35277,131 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-11T12:05:56.944734+05:30",
+      "status": "ok",
+      "posts_published": 9,
+      "policy_published": 1,
+      "items_seen": 19,
+      "items_evaluated": 9,
+      "items_skipped": 5,
+      "views_filtered": 5,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Jubilant Pharmova shares dip 6% as Q1 profits drop 45%",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "PC Jeweller surges 6% on strong Q1 profit growth",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Vedanta group stocks to see $160M inflows in Nifty rejig",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Info Edge profit surges 43%; brokerages maintain bullish outlook",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Gland Pharma rallies 12% on strong Q1; brokerage downgrades stock",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "BSE to join Nifty 50; expected $695 million inflow ahead",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Settle pending EPF damage cases at reduced rates via EPFO Vishwas 2026",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Buying a new car? Expect higher upfront costs for insurance",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Healthcare costs are now the top financial worry for employees",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government initiates container manufacturing support scheme to enhance maritime logistics capacity.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit subhashitam on personal character development.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
