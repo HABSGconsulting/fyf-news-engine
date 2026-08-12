@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-23T07:05:56.048265+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 14,
-      "items_evaluated": 1,
-      "items_skipped": 2,
-      "views_filtered": 5,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Binance updates India rules: New data requirements for your crypto transfers",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-23T11:24:26.900976+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -35938,6 +35910,34 @@
           "category": "product",
           "actionability": 2,
           "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-13T03:57:07.738956+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 9,
+      "items_evaluated": 1,
+      "items_skipped": 5,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Lower your TDS burden: Understanding the new Child Certificate under Tax Act 2025",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
         }
       ],
       "policy_detail": []
