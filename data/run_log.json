@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-23T04:37:29.356051+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-23T07:05:56.048265+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35894,6 +35877,64 @@
           "gate": "Impact post + Premium + Blog",
           "content_type": "news",
           "persona": "business_owner",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-12T22:08:00.461237+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 4,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 18,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Indel Money launches Rs 500 crore NCD issue for investors",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Apollo Hospitals reports 38% profit jump in Q1 results",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Selling jointly owned property? Mind the capital gains tax trap",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Over 6,000 students receive agriculture scholarships via DBT",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
           "category": "product",
           "actionability": 2,
           "behavioral_risk": "low"
