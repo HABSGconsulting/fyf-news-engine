@@ -1,88 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-22T16:52:31.195617+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 3,
-      "items_seen": 25,
-      "items_evaluated": 0,
-      "items_skipped": 25,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 8,
-      "policy_skipped": 5,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "International Yoga Day 2026 theme announced",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHAI mandates development of repair and puncture facilities on National Highways and Expressways",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Aadhaar app download statistics update",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Approval for Kavach implementation on 631 route kilometers of East Coast Railway",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Railways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Special drive initiated for disposal of long-pending labour cases",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM shares article on governance and public trust",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM shares article on strengthening judicial access",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Approval of DISHA 2.0 scheme for innovative legal solutions",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-22T18:49:44.056445+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -35613,6 +35531,61 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-12T10:48:59.834727+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 18,
+      "items_evaluated": 2,
+      "items_skipped": 8,
+      "views_filtered": 1,
+      "more_reads": 7,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "MCX outlook brightens as SEBI eyes wider commodity market access",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Godrej Consumer shares drop 10% following sudden CEO resignation",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "high"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister shares Sanskrit subhashit on the power of winning hearts through vision and action.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of Next Generation Offshore Patrol Vessel (Yard 3037, Shruti) at GRSE, Kolkata.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
