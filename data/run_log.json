@@ -1,48 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-22T21:49:09.258193+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Marshal of the Air Force Arjan Singh Memorial Hockey Tournament 2026",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India achieves milestone of 5 lakh organ donation pledges",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Haj Policy 2027 announced; applications invited for pilgrims",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Minority Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-22T23:37:11.569877+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35607,6 +35565,145 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Rajya Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-12T16:15:05.651228+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 1,
+      "items_seen": 19,
+      "items_evaluated": 4,
+      "items_skipped": 8,
+      "views_filtered": 6,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "NDR InvIT Trust files for Rs 750 crore IPO",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Ardee Industries slips 7% post-listing: How to manage your position",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Sensex drops 188 points: Why markets are under pressure today",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Milky Mist Dairy IPO fully subscribed: Should you apply?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "16th Finance Commission recommends grants for Rural Local Bodies",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Atmanirbhar Panchayat Program implementation details",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation of Rashtriya Gram Swaraj Abhiyan in West Bengal",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Strengthening digital governance in Panchayats via e-GramSwaraj",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM shares highlights from speech at former President's autobiography launch",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Expansion of digital public service delivery via UMANG and DigiLocker",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MeitY's SAMRIDH program disburses funds to 5 startups",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government promotes sustainable data center development via energy-efficient measures",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "CyberShakti program strengthens cyber security capacity for women officers",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM highlights national elephant conservation efforts on World Elephant Day",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
