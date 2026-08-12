@@ -1,72 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-22T20:40:43.571265+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 0,
-      "items_skipped": 4,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 6,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Fertilizer shipment transit through Strait of Hormuz successfully completed.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Chemicals and Fertilizers",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Government commits to tourism sector reforms for global competitiveness.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tourism",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister expresses condolences on Lucknow fire incident.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Shri Neeraj Dangi takes oath as Rajya Sabha member.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Rajya Sabha Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "National workshop on environmental trade measures and free trade agreements held.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India achieves status as global leader in ship recycling for 2025.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ports, Shipping and Waterways",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-22T21:49:09.258193+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35531,6 +35465,149 @@
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-12T14:22:50.332882+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 0,
+      "items_seen": 15,
+      "items_evaluated": 6,
+      "items_skipped": 7,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 8,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "Retail traders plan 'No Trade Day' protest on August 12",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SEBI clears air on CAS: No manipulation found in closing prices",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Technocraft Ventures IPO: Allotment status expected today",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Dhoot Transmission IPO: Final day to bid with 29% GMP signal",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Behari Lal Engineering IPO: Should you apply for this Rs 302-crore issue?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "EPFO portal error: Check your service history to protect your pension",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Tree plantation drive by Vriksh Mitra Parivar",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Tree plantation drive by Vriksh Mitra Parivar",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Development of tribal communities under PMJUGA",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Development of tribal communities under PMJUGA",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DBT Tribal Portal and scholarship disbursement",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Tribal programs in Tamil Nadu",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Tribal programs in Tamil Nadu",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Chairman's remarks on parliamentary conduct",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rajya Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
