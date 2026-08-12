@@ -1,3 +1,3 @@
-2026-08-12T18:03:16.707779+05:30
-status: ok
-posts: 2
+2026-08-12T20:14:18.471458+05:30
+status: gemini_policy_failed
+posts: 4
