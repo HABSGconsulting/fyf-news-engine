@@ -1,71 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-23T16:20:12.428339+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 8,
-      "items_evaluated": 3,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Beyond CIBIL: Why your credit score isn't the only loan factor",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Spent over \u20b92 lakh on foreign travel? You must file ITR",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "How to trace and claim assets of a deceased investor",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Inauguration of the 7th edition of Marshal of the Air Force Arjan Singh Memorial Hockey Tournament 2026",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister interacts with 2024 batch IAS officer trainees appointed as Assistant Secretaries",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-23T17:56:02.957275+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36004,6 +35939,109 @@
           "score": 4,
           "gate": "Skip entirely",
           "ministry": "National Biodiversity Authority",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-13T14:25:51.195415+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 0,
+      "items_seen": 15,
+      "items_evaluated": 6,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Corporate India shows resilience with 22% revenue growth in Q1",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Thyrocare shares drop 8% following promoter stake sale",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Munjal Auto shares hit 52-week high after turning profitable",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "KRN Heat Exchanger shares rally as Q1 profit doubles",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Are your NRE, NRO, and FCNR interest earnings taxable?",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Filed ITR? Why you might still get an Income Tax notice",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministerial speech regarding semiconductor and AI sector development",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministerial speech regarding youth empowerment and national development",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministerial speech regarding general economic development and growth",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
           "horizon": "Immediate",
           "material": false
         }
