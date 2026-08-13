@@ -1,40 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-23T14:24:38.854557+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 13,
-      "items_evaluated": 0,
-      "items_skipped": 4,
-      "views_filtered": 6,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Government invites applications for Chairperson and two member positions in the National Sports Board.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Government announces call for nominations for Pradhan Mantri Rashtriya Bal Puraskar.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Women and Child Development",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-23T16:20:12.428339+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -35953,6 +35919,91 @@
           "score": 6,
           "gate": "Policy Desk",
           "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-13T12:33:13.149374+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 5,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Paytm faces SEBI notice: What it means for your holdings",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Gaja Alternative Asset Management IPO opens August 19",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Credent Connect N Care IPO: Anchor investors show strong support",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Stamp duty vs. market price: How to defend your property tax assessment",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Loan recovery rules tightened: Your rights against harassment",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister of State for Defence releases magazine edition",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National Biodiversity Authority disburses Rs 15.52 crore in Access and Benefit Sharing (ABS) funds",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "National Biodiversity Authority",
           "horizon": "Immediate",
           "material": false
         }
