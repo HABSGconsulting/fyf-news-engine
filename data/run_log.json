@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-24T04:23:31.924741+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Failing to report foreign assets could cost you \u20b910 lakh penalty",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-24T07:03:28.423736+05:30",
       "status": "ok",
       "posts_published": 7,
@@ -36155,6 +36127,81 @@
           "score": 6,
           "gate": "Policy Desk",
           "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-14T03:56:07.207019+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 4,
+      "items_skipped": 2,
+      "views_filtered": 4,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "IPO anchor lock-in ends? Expect volatility from FPI selling",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Higher EPS pension: Govt announces 4 steps to clear pending claims",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "YouTube creators: How to correctly report dollar income in your ITR",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ICICI Prudential launches women-centric insurance with 15% premium discount",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President to address the nation on the eve of 80th Independence Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rashtrapati Bhavan",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of revamped India Code Portal by Legislative Department.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
           "horizon": "Immediate",
           "material": false
         }
