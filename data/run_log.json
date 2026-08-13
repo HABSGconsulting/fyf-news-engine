@@ -1,79 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-23T11:24:26.900976+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 3,
-      "items_skipped": 7,
-      "views_filtered": 10,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Mega IPOs like Jio and NSE could boost your portfolio in 2026",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "SEBI simplifies rules: What this means for your market experience",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "regulatory_draft",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Vedanta shares dip 6% following a massive Rs 2,149 crore block deal",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister shares key highlights of address at Republic Summit 2026",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister addresses Republic Summit 2026",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Release of Indian Telecom Services Performance Indicator Report for Q4 FY26",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-23T12:36:26.423422+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -35938,6 +35865,34 @@
           "category": "taxation",
           "actionability": 2,
           "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-13T06:14:59.992400+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Karnataka bandh: Are banks open in Bengaluru today?",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
         }
       ],
       "policy_detail": []
