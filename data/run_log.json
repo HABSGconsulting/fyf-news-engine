@@ -1,115 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-23T17:56:02.957275+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 2,
-      "items_seen": 9,
-      "items_evaluated": 1,
-      "items_skipped": 4,
-      "views_filtered": 4,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 10,
-      "policy_evaluated": 10,
-      "policy_skipped": 8,
-      "items_detail": [
-        {
-          "title": "Save big on taxes: Claim up to \u20b910 crore exemption on asset sales",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "NAFED launches e-auction portal NAFEX.in for agricultural commodities",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Successful auction of 56 critical mineral blocks and 11 exploration licenses",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Mines",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "My Bharat to organize Vande Mataram camps nationwide",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "International Yoga Day 2026 participation review",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Indian Naval ships visit Ho Chi Minh City, Vietnam",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Progress report on Swachh Bharat Mission-Urban 2.0",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "15th meeting of Defence IT Advisory Committee",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Tribute paid to Dr. Syama Prasad Mookerjee",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Pharmaceuticals invites comments on proposed amendments to global tender exemption list for medical devices",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Department of Pharmaceuticals",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NHAI signs MoU with NCAER to establish Centre for Economics of Transportation, Mobility and Logistics",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-23T19:37:25.216675+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36043,6 +35934,155 @@
           "gate": "Skip entirely",
           "ministry": "Press Information Bureau",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-13T16:15:47.870783+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 1,
+      "items_skipped": 8,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 15,
+      "policy_skipped": 15,
+      "items_detail": [
+        {
+          "title": "EPS-95 pension hike: Government maintains current \u20b91,000 minimum payout",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Monsoon session of Parliament adjourned sine die; 12 bills passed.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Parliament of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Approval of RKVY and KY funds for Rajasthan and Telangana.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "President of India confers Sangeet Natak Akademi awards.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Recovery of stolen antiquities.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Mission Mausam implementation framework.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Climate change resilience and forecasting capability enhancement.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Valedictory speech at the conclusion of the 271st session of Rajya Sabha.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rajya Sabha",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Science Tech 2026 initiative update.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Environmental impact assessment of Bio-E3 policy.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Private sector participation in the space sector.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Department of Space",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Applications of space technology.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Department of Space",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Support mechanisms for space start-ups.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Department of Space",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Performance report on CPGRAMS.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "iGOT Mission Karmayogi implementation in West Bengal.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Dispute-free pension resolution system.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
