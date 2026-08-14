@@ -1,51 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-24T14:13:59.137932+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 4,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Resolving your NPS complaints just got easier with Pension Sahayak",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "DMRC commences construction work at Central Secretariat metro station for Central Vista corridor.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Six youth-led startups win Youth Co:Lab National Innovation Challenge 2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "NITI Aayog",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-24T16:06:58.334617+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -36118,6 +36073,79 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-14T12:29:10.527968+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 16,
+      "items_evaluated": 3,
+      "items_skipped": 10,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Easier risk tracking: SEBI proposes colour-coded meters for debt securities",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "regulatory_draft",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Japan's rate hike path: Why global markets are watching the Yen",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "EPFO live session on August 18: Get your pension queries answered",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "PM Vishwakarma scheme beneficiaries invited as special guests to 80th Independence Day ceremony.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Commemoration of Partition Horrors Remembrance Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Handloom Haat: The Handloom Experience Centre at Janpath.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
