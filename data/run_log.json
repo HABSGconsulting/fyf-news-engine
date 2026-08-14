@@ -1,85 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-24T19:25:44.762830+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 12,
-      "items_evaluated": 2,
-      "items_skipped": 4,
-      "views_filtered": 6,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Bond yields hit 3-month low as RBI signals rate stability",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "New HRA rules: Higher tax savings for Bengaluru, Pune, Hyderabad residents",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "SAIL supplies defense-grade steel for naval vessels INS Dunagiri, Agray, and Sanshodhak.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister of Commerce to visit UK for trade discussions regarding CETA and DCC.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President releases book on VIP culture in India.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Parliamentary Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Indian Naval ships depart from Ho Chi Minh City, Vietnam.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Release of FAQs on Service Production Index with base year 2024-25.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-24T21:31:46.945904+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -36219,6 +36140,145 @@
           "gate": "Skip entirely",
           "ministry": "National Human Rights Commission",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-14T18:00:31.125711+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 2,
+      "items_seen": 14,
+      "items_evaluated": 4,
+      "items_skipped": 7,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "Kerala HC clarifies: Your child's PPF is not a separate tax limit",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "ITAT ruling: Undisclosed foreign assets face strict Black Money Act penalties",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Tracking your EPFO higher pension claim? Here is how to check status",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "FD maturity payment delayed? Here is how to recover your money",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Indian Air Force honorary rank list announcement for Independence Day 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President visit schedule to Tamil Nadu.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Vice President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Minister interacts with Commonwealth Games 2026 medal-winning Army contingent.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DFS highlights grievance redressal mechanisms for insurance policyholders.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Department of Financial Services",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CCRAS-NIIMH signs MoU for digitization of medical manuscripts.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "TRAI assessment of mobile network quality in Himachal Pradesh.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Chips to Startup (C2S) program strengthens semiconductor design talent ecosystem.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "NHRC takes cognizance of industrial safety incident in Faridabad.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "NHRC",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHRC takes cognizance of hostel safety incident in Gadchiroli.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "NHRC",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Release of Wholesale Price Index (WPI) and related producer price indices for July 2026.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
