@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-25T04:24:24.810539+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-25T07:29:01.079071+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36329,6 +36312,85 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-15T03:32:50.333988+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 2,
+      "items_seen": 6,
+      "items_evaluated": 2,
+      "items_skipped": 4,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 11,
+      "policy_evaluated": 5,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "SEBI proposes faster settlement route for small cases up to \u20b910 lakh",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "West Bengal to launch Ayushman Bharat health scheme on August 16",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President's address on the eve of 80th Independence Day",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government removes 12-minute advertising time limit for television channels",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Gallantry awards for Indian Navy personnel",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Defence signs Rs 1,577 crore contract for Loiter Munition Systems",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "President confers medals for distinguished and meritorious service",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
