@@ -1,32 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-25T23:04:19.395475+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 0,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "DPIIT issues 'Transition Facilitation (Quality Control) Order, 2026' to streamline compliance and strengthen supply chain resilience.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-26T04:33:26.411073+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36296,6 +36270,91 @@
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-15T21:24:50.850729+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Court orders insurer to pay \u20b91 crore claim after initial rejection",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Cultural events held across India to commemorate Independence Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister interacts with volunteers during Independence Day celebrations.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cultural institutions celebrate Independence Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM highlights expansion of social security coverage over the last decade.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM acknowledges Independence Day greetings from global leaders.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares article on freedom fighters and Viksit Bharat 2047 vision.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Global relay event concludes across 40 countries.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
           "material": false
         }
       ]
