@@ -1,101 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-25T14:09:19.369351+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 13,
-      "items_evaluated": 2,
-      "items_skipped": 6,
-      "views_filtered": 3,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "Fix tax payment errors online with new 2026 challan correction rules",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Prefer offline? You can now pay your ITR taxes at bank counters",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Launch of Air Suvidha 2.0 portal for health screening of international passengers.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Civil Aviation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of Air Suvidha 2.0 portal for health screening of international passengers.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Civil Aviation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "MoSPI signs MoU for fellowship program.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister reviews quality and maintenance of national highway projects.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Condolence message issued by the Prime Minister.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Condolence message issued by the Prime Minister.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Commemorative tribute issued by the Prime Minister.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-25T15:59:55.882291+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36296,6 +36201,183 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-15T11:31:08.255941+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 2,
+      "items_seen": 20,
+      "items_evaluated": 3,
+      "items_skipped": 9,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 16,
+      "policy_skipped": 14,
+      "items_detail": [
+        {
+          "title": "RBI advances FCNR(B) swap deadline to August 31",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SEBI proposes digital KYC for NRIs to simplify Indian investments",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Know the limits: Cash deposits in savings accounts and tax scrutiny",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministerial speech regarding women's achievements",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM greetings on Parsi New Year",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM tribute to Mahatma Gandhi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM tribute to Sri Aurobindo",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM Independence Day greetings",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Handloom Experience Center",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Interaction with PM Internship Scheme trainees",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PMIS Industry Awards ceremony",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Har Ghar Tiranga campaign celebration",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commitment to inclusive development for marginalized communities",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Har Ghar Tiranga kiosk",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Clarification on regulatory status of homoeopathic practitioners practicing other systems",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "National Commission for Homoeopathy",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MMDR Amendment to ensure long-term stability in the critical mineral sector",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Mines",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Review meeting of National Council for Senior Citizens",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Har Ghar Tiranga campaign celebration",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "First drone delivery of national flag by India Post",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
