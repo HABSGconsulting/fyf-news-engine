@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-26T17:32:27.966521+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 4,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "NCORD meeting releases Vision Document for drug control (2026-2029)",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DRI seizes 15kg of smuggled gold in multi-location operation",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister leads anti-drug awareness program in Haridwar",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Employment generation initiative for job seekers",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government implements Jan Vishwas Act reforms for health sector minor offenses",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-26T19:20:46.370295+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36353,6 +36295,87 @@
           "gate": "Skip entirely",
           "ministry": "Department of Atomic Energy",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-16T15:30:53.246680+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 7,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "West Bengal launches Ayushman Bharat: Secure your family's healthcare coverage today",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Received a defective ITR notice? Here is how to respond quickly",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Avoid pension disruption: Submit your life certificate to continue EPS payments",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "NIELIT launches Cyber Wrestling 2026 hackathon focusing on AI and cybersecurity decision-making.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister pays tribute to former PM Atal Bihari Vajpayee at Sadaiv Atal.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DRI uncovers large-scale misuse of SAFTA agreement for betel nut imports.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DHR-ICMR commemorates 80th Independence Day with focus on medical innovation.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
           "material": false
         }
       ]
