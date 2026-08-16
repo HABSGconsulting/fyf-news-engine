@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-26T22:52:25.365491+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Zerodha launches India's first life cycle funds for automated goal planning",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "New RBI rules: Get up to \u20b925,000 compensation for digital fraud",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-27T04:22:37.349768+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36388,6 +36350,59 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Mines",
           "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-16T21:25:56.167613+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 4,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Ladli Behna Yojana: Expect your \u20b91500 installment by late August",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Home Minister inaugurates and lays foundation for development projects worth Rs 6,453 crore in Rajasthan",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister emphasizes early disease detection and reduction of unnecessary medical tests",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister calls for prioritizing diabetes prevention in rural India",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
