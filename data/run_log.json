@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-27T12:13:56.145443+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 3,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-27T13:46:59.969955+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36426,6 +36409,23 @@
           "behavioral_risk": "low"
         }
       ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-17T09:55:23.309299+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 0,
+      "items_skipped": 17,
+      "views_filtered": 4,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
       "policy_detail": []
     }
   ]
