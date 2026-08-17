@@ -1,72 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-27T22:14:38.132404+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 6,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Chardham helicopter operations 2026 phase one concludes",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Civil Aviation",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Vice President pays tribute on 517th birth anniversary of Nadaprabhu Kempegowda",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Commemoration of brave soldiers",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Kaushal Mahotsav Warangal 2026 job placement report",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Digital India completes 11 years with focus on AI, semiconductors, and DPI",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Minister highlights future of precision medicine on Doctor's Day",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-28T04:14:20.693490+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36543,6 +36477,111 @@
         {
           "title": "Case study on Swachhata Udyami Yojana impact on economic empowerment",
           "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-17T21:28:38.286194+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 2,
+      "items_seen": 11,
+      "items_evaluated": 3,
+      "items_skipped": 6,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Stop following social media 'gurus' for live trading tips, warns SEBI",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Foreign Asset Disclosure 2026: How to value your overseas holdings correctly",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Fake gold scheme alert: Don't fall for viral '1-tola gold' videos",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government approves 2.89 lakh rural housing units under PMAY-G with an outlay of Rs 3,473 crore.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government approves 2.89 lakh rural housing units under PMAY-G with an outlay of Rs 3,473 crore.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Central Information Commission launches new portal for second appeals and complaints.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Central Information Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MSDE organizes regional 'Kaushal Manthan' conference in Kolkata.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government reviews progress of SMILE scheme for social inclusion.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India launches guidance on grasslands at UNCCD COP-17 in Ulaanbaatar.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Human interest story regarding inter-caste marriage incentive scheme.",
+          "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
           "horizon": "Immediate",
