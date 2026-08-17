@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-27T11:12:33.582970+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 14,
-      "items_evaluated": 1,
-      "items_skipped": 8,
-      "views_filtered": 5,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Bank branches closed today: Plan your financial tasks accordingly",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-27T12:13:56.145443+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36417,6 +36389,44 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-08-17T08:18:37.220244+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 23,
+      "items_evaluated": 2,
+      "items_skipped": 9,
+      "views_filtered": 6,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Rising global interest rates may pressure your bond portfolio returns",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SGB 2021-22 Series V: Your investment sees a 223% gain",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
