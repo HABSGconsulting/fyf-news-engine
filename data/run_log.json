@@ -1,53 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-27T20:34:35.781716+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "SpaceX joins Nasdaq 100: What this means for your portfolio",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Section 80C tax planning: Which small savings schemes qualify?",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Clarification regarding misrepresentation of Defence Minister's parliamentary address on July 28, 2025.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-27T22:14:38.132404+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36506,6 +36459,93 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Defence",
           "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-17T19:35:08.480534+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 8,
+      "items_evaluated": 2,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Puravankara Q1 results: Revenue jumps 63% as profits turn positive",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Bond yields rise as RBI unexpectedly closes FX swap facility",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Vice President attends university jubilee ceremony",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DFS hosts PSB Confluence 2026 focusing on deposit mobilization and investment cycles",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Financial Services",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Estates Service trainees meet Defence Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Technology-based pension services improve efficiency and resource management",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Periodic Labour Force Survey (PLFS) monthly bulletin released",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Case study on Swachhata Udyami Yojana impact on economic empowerment",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
           "material": false
         }
       ]
