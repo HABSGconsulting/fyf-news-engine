@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-28T16:55:30.576253+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-06-28T18:35:26.967203+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36668,6 +36659,67 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Electronics and Information Technology",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-18T15:34:19.079248+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 3,
+      "more_reads": 6,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Missed declaring foreign assets? Act before December 31 to avoid penalties",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Vice President visit to Uttarakhand",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "12th BRICS Environment Ministers Meeting",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Defense Minister flags off NCC girls high-altitude expedition",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Announcement of National Sports Awards 2025",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
           "material": false
         }
       ]
