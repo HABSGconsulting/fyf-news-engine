@@ -1,81 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-29T15:43:55.594236+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 4,
-      "items_skipped": 0,
-      "views_filtered": 3,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Blue Star margins dip 2% as input costs rise this summer",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Housing sales drop 6% in top cities; caution advised for realty",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "HAL announces Rs 10 dividend; record date set for August 14",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Filing ITR for a deceased spouse: A guide for legal heirs",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Rajasthan and Haryana governments sign MoU for Yamuna water project implementation.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Rajya Sabha Chairman administers oath to newly elected and re-elected members.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Rajya Sabha Secretariat",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-29T17:48:37.625066+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -36725,6 +36650,53 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-19T09:50:50.822345+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 2,
+      "items_skipped": 15,
+      "views_filtered": 7,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Symbiotec Pharmalab IPO opens August 24; price band set at \u20b9938-988",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Rupee faces pressure from rising oil prices; RBI intervention expected",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Department of Commerce conducts awareness session on EU Carbon Border Adjustment Mechanism (CBAM) for exporters.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
