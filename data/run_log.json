@@ -1,112 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-29T19:26:22.792783+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 2,
-      "items_seen": 10,
-      "items_evaluated": 0,
-      "items_skipped": 6,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 11,
-      "policy_evaluated": 11,
-      "policy_skipped": 9,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "President of India visit to Andhra Pradesh",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "President's Secretariat",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister honors winners of VB-G RAM G Youth Digital Campaign",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Operational guidelines released for Anemia Mukt Bharat campaign",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of Aarogya Setu 2.0 and digital health initiatives",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of eSushrut@Clinic for small clinics",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of Ayushman Sarathi WhatsApp chatbot",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of Drug Registry for standardized pharmaceutical information",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of Aarogya Setu 2.0 national health app",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of Unified Health Interface (UHI)",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Industrial Production Index (IIP) growth recorded at 5.1 percent in May 2026",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Delegation of financial powers to DRDO for strategic R&D projects",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Defence",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-29T20:35:33.644941+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36669,6 +36563,105 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-19T13:46:54.868454+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 20,
+      "items_evaluated": 4,
+      "items_skipped": 8,
+      "views_filtered": 7,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "SEBI is reviewing IPO and delisting rules for smaller companies",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "City gas stocks rally as government boosts domestic PNG connections",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "HG Infra Engineering shares jump 8% on new REC order win",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ITAT rules in favor of taxpayer over missing TDS credit",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "NHRC takes suo motu cognizance of alleged assault on two individuals in Delhi.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister of Commerce and Industry attends India-Singapore Ministerial and Business Roundtables.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam on philanthropy.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition of 23% equity stake in TM International Logistics.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition of equity stake in Bharti Life Insurance by Prudential Corporation Holdings.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
