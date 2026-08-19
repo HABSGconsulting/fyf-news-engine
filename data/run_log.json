@@ -1,67 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-29T22:18:10.913884+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 7,
-      "items_evaluated": 1,
-      "items_skipped": 3,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 9,
-      "policy_evaluated": 4,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "I-T Department flags 20,000 ITRs for incorrect tax exemption claims",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "President of India confers Distinguished Service Awards at Defence Investiture Ceremony-II.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India inaugurates India Pavilion at Summer Fancy Food Show 2026 in North America.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Law launches online application module for appointment of Notaries.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Additional OEMs join government vehicle scrappage incentive scheme for heavy commercial vehicles.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-29T23:30:29.222752+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36633,6 +36572,87 @@
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-19T17:35:49.640171+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 2,
+      "items_seen": 12,
+      "items_evaluated": 3,
+      "items_skipped": 7,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 4,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Sending money abroad? Understand when you need Form 146 certification",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Social media creator? Here is your tax and GST filing checklist",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SEBI simplifies AMC entry: What this means for your mutual fund investments",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Probationary officers of Indian Information Service and Indian Statistical Service met the President.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India-Malaysia second joint working group meeting on public administration and governance reforms held.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves 4-laning of Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22 with Rs 3590.73 crore outlay.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "CCEA",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves 4-laning of Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22 with Rs 3590.73 crore outlay.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "CCEA",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
