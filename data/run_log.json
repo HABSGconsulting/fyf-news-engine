@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-30T11:27:45.071655+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 4,
-      "items_skipped": 6,
-      "views_filtered": 8,
-      "more_reads": 7,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "China's central bank injects 600 billion yuan to stabilize markets",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Aastha Spintex IPO: Should you apply as subscription nears full?",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Monsoon concerns: Why El Ni\u00f1o could impact your portfolio",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "HDFC Bank appoints new Chairman to strengthen leadership and governance",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 0,
-          "behavioral_risk": null
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-06-30T13:09:22.126396+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 2,
@@ -36822,6 +36764,15 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-20T05:36:34.990280+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
