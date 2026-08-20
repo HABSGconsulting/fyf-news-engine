@@ -1,101 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-06-30T16:15:30.218919+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 15,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 6,
-      "more_reads": 6,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "Changing jobs? Fix these EPF errors before you resign",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Traveling to Greece? You can now use UPI for payments",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Minister addresses 10th convocation of Institute of Liver and Biliary Sciences.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "General Dheeraj Seth assumes charge as Army Chief.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Retrospective review of GST implementation and taxation simplification.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Overview of Academic Bank of Credits and APAAR framework.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Indian Coast Guard rescue operation near Mangaluru coast.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "General Upendra Dwivedi retires as Army Chief.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "AIM and STPI organize GCC Innovation Conference 2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "NITI Aayog",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-06-30T17:31:06.586035+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36816,6 +36721,63 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Science and Technology",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-20T11:33:28.055383+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 15,
+      "items_evaluated": 3,
+      "items_skipped": 8,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "RBI signals potential rate hikes; expect volatility in your bond portfolio",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "US Treasury intervenes to stabilize bond yields; global markets find relief",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Investing in India made easier: SEBI proposes remote KYC for NRIs",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government launches Pradhan Mantri Janjatiya Unnat Gram Abhiyan for tribal development.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
