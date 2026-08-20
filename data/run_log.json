@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-01T07:27:09.858840+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 13,
-      "items_evaluated": 3,
-      "items_skipped": 7,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "SEBI proposes stricter consent rules for your AIF investments",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Kotak Mahindra Bank to acquire Deutsche Bank's India retail business",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "house",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "8th Pay Commission: What central government employees should expect in 2026",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-01T11:42:59.668564+05:30",
       "status": "ok",
       "posts_published": 7,
@@ -37033,6 +36985,103 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Earth Sciences",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-21T03:34:50.538156+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 14,
+      "items_evaluated": 3,
+      "items_skipped": 6,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Augmont Enterprises raises Rs 246 crore; IPO opens August 21",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Gold stolen from bank? Court ruling clarifies your compensation rights",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Received an ITR notice? Here is how to handle tax department alerts",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister congratulates President Hakainde Hichilema on re-election",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Chief Minister of Assam meets the Prime Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares article on India's BRICS presidency and sustainable development",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves establishment of a permanent bench of the High Court for Jammu & Kashmir and Ladakh in Ladakh",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "IndiaAI Mission conducts workshop on AI-Kosh to strengthen AI-ready data ecosystem",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of Global Digital Capacity Building Alliance for government capacity",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Immediate",
           "material": false
         }
       ]
