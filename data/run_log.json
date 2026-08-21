@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-02T04:24:38.073085+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 1,
-      "items_skipped": 2,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "US Fed holds firm on 2% inflation target, signaling no rate cuts",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-02T07:20:25.032322+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -36742,6 +36714,54 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-08-21T21:35:07.318651+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 3,
+      "items_skipped": 1,
+      "views_filtered": 3,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Symbiotec Pharmalab IPO: Anchor investors commit Rs 526 crore",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Skyways Air Services IPO: Marquee investors join Rs 174 crore anchor book",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Axis Bank credit card users: New charges and reward rules apply soon",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
