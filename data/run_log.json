@@ -1,89 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-01T17:53:36.989469+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 4,
-      "items_skipped": 2,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "SEBI eyes performance-linked fees for mutual funds: What it means for you",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "mutual_fund_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "ITR filing 2026: 6 critical mistakes to avoid before the July deadline",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Earning \u20b920 LPA? Here is how to save over \u20b91 lakh in taxes",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "NRIs: Save on capital gains tax with Section 215 exemptions",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Study of 100 years of solar imagery using AI to detect bright solar regions from Kodaikanal Solar Observatory.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Conclusion of Vande Mataram camp at Brainware University, Kolkata.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Lieutenant General Mohit Malhotra assumes charge of South Western Command in Jaipur.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-01T19:26:01.998799+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36834,6 +36751,48 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-21T13:52:04.802589+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 22,
+      "items_evaluated": 0,
+      "items_skipped": 10,
+      "views_filtered": 7,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Territorial Army initiates 'Terrier Cyber Quest 2026' cyber security exercise.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam on selfless service.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves extension of Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM-AASHA) until 2025-26.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
