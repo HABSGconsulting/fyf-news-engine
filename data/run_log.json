@@ -1,59 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-02T22:47:13.782392+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Icra downgrades Utkarsh Small Finance Bank debt ratings due to asset stress",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister addresses India-Japan Business Forum",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NITI Aayog releases strategic roadmap for globalizing Ayurveda",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "NITI Aayog",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Digital platforms streamline student transfer process between schools and higher education institutions",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-03T04:18:04.446443+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36539,6 +36486,71 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-22T19:27:26.320330+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 4,
+      "items_evaluated": 3,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "SEBI plans stricter rules for online bond platform advertisements",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Pay your India Post RPLI premiums via any scheduled bank account",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New disclosure window for dormant foreign bank accounts open until 2026",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministerial statement on transitioning India from 'Pharmacy of the World' to 'Laboratory of the World' via AI integration.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National workshop on 'Mission Zero' to eliminate fatalities in sanitation operations.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
           "horizon": "Immediate",
           "material": false
         }
