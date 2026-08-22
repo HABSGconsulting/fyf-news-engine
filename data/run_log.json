@@ -1,53 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-02T14:03:46.066659+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 2,
-      "items_skipped": 2,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Avoid tax notices: Reconcile your stock market transactions in AIS today",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "EPFO services delayed again: Online PF access remains unavailable until July 3",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "MPEDA concludes second National Skill Olympiad on seafood value addition during Seafood Expo India 2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-02T15:51:34.761249+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -36685,6 +36638,74 @@
           "gate": "Impact post",
           "content_type": "news",
           "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-22T09:50:22.842257+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 5,
+      "policy_published": 0,
+      "items_seen": 12,
+      "items_evaluated": 5,
+      "items_skipped": 1,
+      "views_filtered": 6,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 12,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "US bond market volatility: What the surprise buyback means for you",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Struggling with EMIs? Proactive communication can save your credit score",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Planning to exit SGBs? RBI releases redemption calendar for 2026-27",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Tax filing deadline alert: Complete your ITR by August 31",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "ITAT relief: Taxpayer cleared of \u20b93.41 crore tax on fake land sale",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
           "category": "regulatory",
           "actionability": 1,
           "behavioral_risk": "low"
