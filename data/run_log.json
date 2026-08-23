@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-04T06:46:18.279895+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-07-04T11:00:48.408121+05:30",
       "status": "ok",
       "posts_published": 6,
@@ -36234,6 +36225,32 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-24T03:28:43.805377+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Union Home Minister meets with the national disabled men's cricket team.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
