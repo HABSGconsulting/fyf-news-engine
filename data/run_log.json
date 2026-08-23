@@ -1,91 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-03T17:26:24.123773+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 8,
-      "items_evaluated": 1,
-      "items_skipped": 6,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Avoid claim rejection: Top reasons your EPF withdrawal might be denied",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Formation of expert committee to address Totapuri mango farmers' issues",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Lok Sabha Speaker addresses West Bengal legislators on democratic traditions",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Lok Sabha Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Review meeting on Kharif sowing, monsoon, and fertilizer availability",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares greetings for Amarnath Yatra",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister writes to Amarnath Yatra pilgrims",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Steel to hold open forum on steel import issues",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Appointment of three Additional Judges to Andhra Pradesh High Court",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-03T18:55:11.397682+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -36345,6 +36260,99 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Science and Technology",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-23T13:31:56.042840+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 5,
+      "items_skipped": 3,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Protect your bank account: 3 ways to spot fake SMS scams",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Defence pensioners: Manage your pension and benefits on SPARSH portal easily",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Wrong bank charges? Here is how to escalate your complaint to RBI",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Build a \u20b928 lakh corpus for your daughter with Sukanya Samriddhi Yojana",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Sending money to parents in India? Avoid tax notices with these steps",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister of Commerce and Industry leads trade delegation to Japan.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister interacts with space startup CEOs.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister extends greetings on National Space Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
           "material": false
         }
       ]
