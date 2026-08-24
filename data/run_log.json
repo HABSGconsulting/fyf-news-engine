@@ -1,40 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-04T16:41:45.527644+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Prime Minister addresses development project launch in Balotra, Rajasthan.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Defence Minister remarks on national development progress over the last 12 years.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-04T18:19:11.274558+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36243,6 +36209,109 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-24T15:52:36.375369+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 9,
+      "items_evaluated": 2,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "IHCL to absorb Oriental Hotels: What the share swap means for you",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Filing ITR? Don't forget Form 10-IEA to claim the new tax regime",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Release of first non-GMO high-quality popcorn maize hybrid seed in Andhra Pradesh",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Award ceremony for the 58th Youth Parliament Competition 2025-26",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister of State for Commerce and Industry visits Morocco",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India calls for predictable international financing for land restoration at UNCCD COP 17",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of Genesis Entrepreneur-in-Residence (EIR) Cohort-3",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Railways launches special campaign for cleaning and sanitizing water tanks",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Talabira coal mines record production milestone for FY 2025-26",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Central Bureau of Narcotics busts interstate heroin syndicate in Operation Black Hawk",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
