@@ -1,96 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-05T22:11:39.941844+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 2,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 9,
-      "policy_evaluated": 9,
-      "policy_skipped": 7,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Ministry of Law and Justice concludes 'Sudhar Utsav and Chintan Shivir 2026' in Mount Abu.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "High-level review meeting held on illegal coal mining and theft prevention.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "DRI seizes over 1 lakh bottles of codeine-based cough syrup in anti-smuggling operations.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "INS Sudarshini arrives in New York for Sail4th 250 event.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Culture to host commemorative event for Dr. Syama Prasad Mookerjee's 125th birth anniversary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry extends registration deadline for Navachar Mantra to July 15, 2026.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Successful transit of 15 vessels through Hormuz secures domestic fertilizer inventory.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Chemicals and Fertilizers",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Successful transit of 15 vessels through Hormuz secures domestic fertilizer inventory.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Chemicals and Fertilizers",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Senior officials to visit Karnataka to review rural development programs.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-06T04:12:11.543209+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36524,6 +36434,54 @@
           "content_type": "news",
           "persona": "active_trader",
           "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-25T21:49:18.102184+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 3,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Check your ITR eligibility: Why ITR-4 might not work this year",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Investing from abroad? SEBI proposes fully digital KYC for NRIs",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "NPS 100% equity option: Is it right for your retirement?",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
           "actionability": 1,
           "behavioral_risk": "medium"
         }
