@@ -1,43 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-05T15:26:50.563354+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Check your ITR: Foreign assets like 401(k) may require ITR-2 filing",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "India to chair the 9th session of the UNCTAD Intergovernmental Group of Experts on Consumer Protection.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-05T16:50:14.522885+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -36311,6 +36274,165 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-25T13:53:41.462989+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 3,
+      "items_seen": 22,
+      "items_evaluated": 6,
+      "items_skipped": 9,
+      "views_filtered": 7,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "IIFL Home Finance faces Rs 963 crore tax demand; shares dip",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Ratnamani Metals rallies 21% on massive Rs 2,700 crore export order",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "US market access gets easier: PPFAS GIFT lowers minimum to $500",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Moving abroad? Understand your EPF status before you leave India",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ITAT relief: Tribunal rules in favor of taxpayer in foreign asset case",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Breaking your FD early? Know the hidden costs before you withdraw",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministry of Defence approves transfer of DRDO-developed missile technology to domestic private industry.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "PM invites citizens to share UPI experience on its 10th anniversary.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares Sanskrit Subhashitam on wise counsel.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commerce Minister invites increased institutional capital investment from Japan.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Hyderabad MSME facilitation council resolves 65 delayed payment cases worth Rs 8.29 crore.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CSIR-CRRI organizes workshop on road asset management.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Union Home Minister inaugurates 9th National Security Strategy Conference.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Central Bureau of Narcotics and Pharmexcil sign MoU to streamline pharmaceutical exports.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National conference on tribal languages and museums held in Mysuru.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PMFME market exhibition inaugurated to showcase micro food enterprises.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Food Processing Industries",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
