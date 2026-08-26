@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-06T13:37:44.693951+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 18,
-      "items_evaluated": 1,
-      "items_skipped": 10,
-      "views_filtered": 4,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Avoid ITR refund delays: Fix tax credit mismatches now",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-06T15:13:24.765040+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36425,6 +36397,104 @@
           "category": "taxation",
           "actionability": 2,
           "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-26T09:54:02.827330+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 8,
+      "policy_published": 0,
+      "items_seen": 23,
+      "items_evaluated": 8,
+      "items_skipped": 12,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "HEG demerger: Record date fixed for September 7",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Groww shares dip 3% following Rs 1,914 crore block deal",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Annu Projects IPO: Day 2 subscription at 34%",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Hindustan Copper OFS: Retail bidding opens at Rs 514 floor price",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Gold surges 15% in a month: Should you add more to your portfolio?",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Home loan insurance: Why hiding medical history can lead to claim rejection",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Is your stock trading income business profit or capital gains?",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Delhi Lakshmi Yojana: \u20b92,500 monthly aid starts from September 1",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
         }
       ],
       "policy_detail": []
