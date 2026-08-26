@@ -1,131 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-06T17:21:39.076902+05:30",
-      "status": "ok",
-      "posts_published": 5,
-      "policy_published": 0,
-      "items_seen": 14,
-      "items_evaluated": 5,
-      "items_skipped": 6,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "More stocks for shorting: SEBI plans to boost market liquidity",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "8th Pay Commission: Consultations underway for government employee salary revisions",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Stop relying on brochures: Use NL-47 data to pick the right health insurance",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "No DA merger: Finance Ministry clarifies on salary structure demands",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "New \u20b91,800 EPF cap: Boost your take-home or save for retirement?",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Scientific research report on black hole activity in nearby galaxies",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Amendment to Legal Metrology Rules for verification of high-capacity weighing instruments",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Diplomatic credential presentation by ambassadors",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Release of Expert Committee report on Energy Statistics",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Review of NHLML project progress and multimodal infrastructure timelines",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of medical infrastructure deficiency in Haryana hospitals",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "BRICS Women's Working Group meeting commences in Kochi",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Women and Child Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-06T19:00:53.962271+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36486,6 +36361,119 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-26T13:54:38.419679+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 17,
+      "items_evaluated": 3,
+      "items_skipped": 5,
+      "views_filtered": 4,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "Welspun Corp shares dip as promoter and CEO sell stake",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Are you chasing small-cap returns without considering the risk?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "ITAT provides relief in Rs 2.25 crore Black Money Act case",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Process initiated for heritage preservation and legacy continuation",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Coast Guard and Vietnam Coast Guard hold seventh high-level meeting in Chennai",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister to address youth at Khelo India Dialogue",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam on listening and mutual learning",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister extends greetings on Milad-un-Nabi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister extends greetings on Onam",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India and Seychelles hold high-level bilateral meeting on fisheries and blue economy cooperation",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India calls for community-led restoration of pastures at UNCCD COP17",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
