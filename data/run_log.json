@@ -1,59 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-06T20:16:16.432095+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 1,
-      "items_skipped": 3,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Simplify your taxes: Understanding assisted ITR filing and authorized representatives",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Atal Innovation Mission regional dialogue on Eastern India innovation ecosystem",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "NITI Aayog",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Commencement of nomination process for assembly by-elections in MP, Gujarat, and Bihar",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Election Commission of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "National workshop on strengthening Tribal Research Institutes in Bhubaneswar",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tribal Affairs",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-06T22:14:59.976318+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36443,6 +36390,107 @@
           "gate": "Policy Desk",
           "ministry": "Small Industries Development Bank of India (SIDBI)",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-26T17:36:47.340747+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 1,
+      "items_seen": 11,
+      "items_evaluated": 5,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Prudential to sell 2% stake in ICICI Prudential AMC",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Zerodha signals slower growth and warns on margin trading risks",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Compare top FD rates across 16 banks to maximize your returns",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Disclosing foreign assets: FAST-DS vs. Updated ITR explained",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Avoid these 7 ITR filing mistakes before the August 31 deadline",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "EPFO releases August 2026 pension payments in advance for Kerala region ahead of Onam.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "ICAT issues first compliance certificate for 15-meter multi-axle sleeper bus.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister expresses condolences on the loss of lives in Suryapet, Telangana accident.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Celebration of grassroots innovation in the micro food processing market.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Food Processing Industries",
+          "horizon": "Immediate",
           "material": false
         }
       ]
