@@ -1,123 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-07T17:48:05.453973+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 6,
-      "items_evaluated": 1,
-      "items_skipped": 3,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 11,
-      "policy_evaluated": 11,
-      "policy_skipped": 10,
-      "items_detail": [
-        {
-          "title": "HDFC Bank updates MCLR: Is your home loan EMI changing?",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Meeting between Union Minister and Rajasthan Chief Minister",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "UPSC recruitment results for May 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "UPSC",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of tree plantation drive and inauguration of Delhi government projects",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NHRC to hear 86 cases of alleged bonded labor in Haryana brick kilns",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Researchers demonstrate programmable nanophotonic devices using metal optical properties",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Publication of Technical Advisory Committee report on Index of Service Production (Base Year 2024-25)",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Briefing on Cotton Productivity Mission (Kapas Kranti)",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister awarded Indonesia's highest civilian honor",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "High-level meeting on strengthening TB-free India campaign",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Review of health program implementation in Kerala",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "APEDA facilitates commercial export of Amrapali mangoes from Jharkhand to Dubai",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-07T19:24:41.556870+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36566,6 +36449,104 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-28T01:31:49.042066+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 2,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Minister attends PharmaInnova Award ceremony",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister addresses convocation ceremony",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Chief Election Commissioner addresses students",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Election Commission of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "President's message on Raksha Bandhan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister visits NSG training academy",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister announces swimming pool construction",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government initiates market interventions to ensure onion availability",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Success story of research scholar",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "First indigenous multi-purpose vessel delivered to Indian Navy",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Success story of sanitation entrepreneur under NAMASTE scheme",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
