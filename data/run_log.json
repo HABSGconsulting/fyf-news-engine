@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-08T06:41:34.900957+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 12,
-      "items_evaluated": 1,
-      "items_skipped": 3,
-      "views_filtered": 2,
-      "more_reads": 6,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Cochin Shipyard OFS: Retail bidding opens after strong institutional demand",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-08T10:23:35.288414+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36345,6 +36317,77 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Youth Affairs and Sports",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-28T12:35:21.379333+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Closing auction volatility: Why your options trades could swing 4,000%",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Planning for \u20b950,000 monthly income? Here is the FD corpus you need",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister of Home Affairs extends greetings on World Sanskrit Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister of Home Affairs pays tribute to Sree Narayana Guru on his birth anniversary.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes 76 kg of methamphetamine pills in two operations at the North-East border.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Central Board of Indirect Taxes and Customs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Health Minister reviews progress of key health sector projects announced in Union Budget 2026-27.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
