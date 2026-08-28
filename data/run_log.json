@@ -1,69 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-08T11:46:04.232808+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 18,
-      "items_evaluated": 2,
-      "items_skipped": 4,
-      "views_filtered": 3,
-      "more_reads": 9,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "EPS Pension 2026: Estimating your monthly retirement income",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "NPS Update: More equity options for central autonomous body employees",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister shares Sanskrit Subhashitam on the power of courage and resilience.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India and Costa Rica hold first Joint Economic and Trade Committee (JETCO) meeting.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India and Rwanda agree to expand bilateral defense partnership during second JDCC meeting.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-08T13:29:02.325099+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -36462,6 +36399,136 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-28T21:10:41.675565+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 8,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 4,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 14,
+      "policy_evaluated": 14,
+      "policy_skipped": 13,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Progress update on Parivartan scheme registration in Delhi-NCR",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of progress towards 2030 malaria elimination target",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Individual beneficiary success story under NBCFDC scheme",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Individual beneficiary success story under NAMASTE-SUY scheme",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Sanchar Saathi portal performance milestone update",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of sovereign AI stack 'Gyani Arth'",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Appointment of judges to Calcutta High Court",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commemoration of 12 years of Pradhan Mantri Jan-Dhan Yojana",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Request for student participation in Jal Jeevan Mission 2.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial statement on corporate governance importance",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "President celebrates Raksha Bandhan with school students",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHRC to hold open hearing in Gandhinagar",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Condolence message on passing of King Harald V of Norway",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DoT and C-DOT sign agreement for end-to-end optical network testbed",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
