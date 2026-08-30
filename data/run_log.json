@@ -1,111 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-10T17:46:04.893425+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 1,
-      "items_seen": 8,
-      "items_evaluated": 3,
-      "items_skipped": 3,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Milky Mist plans $213 million IPO to boost dairy expansion",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Waterways Leisure announces 1:10 stock split post-listing",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Gold ETF inflows rebound to \u20b93,443 crore in June",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Department of Commerce reviews marketing season for flue-cured Virginia tobacco in Andhra Pradesh.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "TRAI issues operational clarifications for 1600 and 140 series numbering.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "TRAI",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Vice President visit to Bihar.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Government of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Review meeting of Ayushman Bharat Digital Mission steering group.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Review of Catch the Rain campaign implementation in Balod, Chhattisgarh.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Review of National CAMPA governing body performance.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Q&A on Ethanol Blended Petrol (EBP) program.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Petroleum and Natural Gas",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-10T19:15:50.452719+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35900,6 +35795,127 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Defence",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-30T18:48:13.920576+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "SEBI probe sought into recent Sensex closing auction volatility",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Tax-saving strategies when selling inherited agricultural land",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Struggling with Jeevan Pramaan? 4 alternatives for NRI pensioners",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister receives Uzbekistan's highest state honor.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister concludes official talks during Uzbekistan state visit.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Summary of outcomes from Prime Minister's state visit to Uzbekistan.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister's press statement during joint address with Uzbekistan President.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President inaugurates cultural event in Kerala.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Overview of iFMS digital fertilizer subsidy management system.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Overview of iFMS digital fertilizer subsidy management system.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister discusses service and promotion issues with Armed Forces Headquarters Association.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President attends 115th anniversary of Kerala Kaumudi.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
