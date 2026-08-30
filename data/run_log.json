@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-10T22:55:43.231504+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-11T04:13:13.734245+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35881,6 +35864,51 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-30T23:16:08.384378+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Last chance: Apply for 8th Pay Commission consultant roles by tomorrow",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "National Biodiversity Authority releases Rs 5.68 crore for Access and Benefit Sharing fund.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister reviews progress of Swachh Bharat Mission in Chandigarh.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
