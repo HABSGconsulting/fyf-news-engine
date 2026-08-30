@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-11T06:38:03.162260+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-07-11T10:18:54.802320+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -35913,6 +35904,15 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-08-31T05:25:47.908754+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
