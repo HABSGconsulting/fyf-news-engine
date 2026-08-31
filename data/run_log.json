@@ -1,56 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-11T18:10:50.599981+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "National conference held on integrating regional languages into legal education.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Routine administrative notification regarding direct recruitment for various government positions.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Personnel and Training",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister addresses Indian diaspora in New Zealand.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "PMFME scheme achieves milestone of over two lakh credit-linked beneficiaries.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Food Processing Industries",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-11T20:09:22.326132+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36129,6 +36079,111 @@
           "score": 5,
           "gate": "Skip entirely",
           "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-31T22:44:27.921712+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 9,
+      "items_evaluated": 3,
+      "items_skipped": 4,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Deepa Jewellers IPO: Anchor investors pour in Rs 138 crore",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Aadhaar DOB update: Can you change it more than once?",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "EPFO: One-time window to enrol uncovered workers ends October 31",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister expresses condolences on Kaushambi firecracker factory accident.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister holds bilateral meeting with President of Russia.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister reviews WDC-PMKSY progress, emphasizes accelerating watershed development for drought-free India.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DoT issues public advisory against IMEI tampering and misuse of telecom identifiers.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NCSC recommends action and report within five days regarding Tarn Taran case.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Commission for Scheduled Castes",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CM Uttar Pradesh and Railway Minister pay tribute to Nepal flood victims.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister launches fisheries infrastructure projects worth Rs 36.49 crore.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
