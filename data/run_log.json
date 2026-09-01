@@ -1,59 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-12T22:03:18.337227+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Filing ITR as a senior citizen? Key updates for AY27 explained",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Lok Sabha Speaker emphasizes healthcare access for the last person in society.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "BRICS Transport Ministers adopt ministerial declaration at the third meeting in Nagpur.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India wins at the 56th International Physics Olympiad 2026 in Bucaramanga, Colombia.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-13T04:02:35.719947+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36450,6 +36397,111 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Earth Sciences",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-01T22:57:13.568349+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 8,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Pensioners in Kerala: Check your monthly pension credit status today",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Audit vs. Non-audit: Understanding your ITR filing deadline requirements",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "31 October ITR deadline: Essential compliance steps for audit-eligible taxpayers",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "CCI approves acquisition of equity stake in Apollo Fertility and Apollo Speciality Hospitals by Kids Clinic India Limited.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Conference of State and UT Food Secretaries held to discuss administrative issues.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Earth Sciences launches online national quiz via MyGov.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India Post Payments Bank launches new digital platforms and merchant sound boxes.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of rehabilitation and development works in Belgaria and Karmatand townships.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NLMC to facilitate e-auction of 459 land parcels of RINL in Visakhapatnam.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Steel",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Success story of NFSC scholarship beneficiary.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
           "material": false
         }
       ]
