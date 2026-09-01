@@ -1,77 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-12T16:30:43.287286+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 2,
-      "items_skipped": 2,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "EPFO moves to a single portal: What this means for your PF",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Is your gift tax-free? Know the rules before filing your ITR",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Inauguration of APMC Amrit Mahotsav and new vegetable sub-yard in Dahegam, Gujarat.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministerial call for environmental conservation and tree plantation movement.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Unveiling of statue and inauguration of memorial pavilion in New Delhi.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Preparation for nationwide coastal cleanliness campaign 'Swachh Sagar, Surakshit Sagar'.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-12T18:09:55.057460+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36282,6 +36211,160 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Defence",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-01T18:15:56.603734+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 3,
+      "items_seen": 8,
+      "items_evaluated": 0,
+      "items_skipped": 4,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 17,
+      "policy_evaluated": 17,
+      "policy_skipped": 14,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "AIIA launches Ayurvarta digital dialogue series",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Swachhata Pakhwada-2026 initiated in Department of Fertilizers",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Swachhata Pakhwada-2026 initiated in Department of Fertilizers",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government releases Rs 1,283 crore as second mother sanction for agricultural development across 5 states",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Hindi Pakhwada initiated in Department of Fertilizers",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Hindi Pakhwada initiated in Department of Fertilizers",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Meeting of Hindi Advisory Committee held",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHAI receives strong bidder interest for coastal corridor construction from Rameshwar to Paradip",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Minister emphasizes expansion of natural farming",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Army organizes PNG transition webinar",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President to visit Chhattisgarh",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Vice President Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Secretary discusses role of Indian Information Service",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CAQM reviews enforcement actions and compliance status in NCR",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Commission for Air Quality Management",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Advisor to PM reviews BCCL projects",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister calls for strengthening environmental cooperation at India-German forum",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government highlights GDP performance",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government expands targeted supply of onion buffer stock via rail and road",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
