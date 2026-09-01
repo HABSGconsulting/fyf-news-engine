@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-13T04:02:35.719947+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Save tax on your child's school fees: A guide to exemptions",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-13T06:44:59.629818+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36501,6 +36473,32 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-02T00:20:21.138832+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "CCI approves acquisition of Aseem Infrastructure Finance Limited by TPG Nicobar SG Private Limited",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "CCI",
           "horizon": "Immediate",
           "material": false
         }
