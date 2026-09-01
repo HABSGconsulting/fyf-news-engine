@@ -1,77 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-12T15:00:50.184739+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 6,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Struggling with ITR forms? Use the Income Tax portal's guided tool",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "International fund options shrink as 11 schemes pause fresh SIPs",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Minister inaugurates local municipal tree plantation and infrastructure development projects in Ahmedabad.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Government highlights sustainability initiatives in the Indian textile industry.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "All India Conference of Secretaries of Water Resources Departments to be held in New Delhi.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "EPFO invites applications from exempted Provident Fund Trusts for Amnesty Scheme.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-12T16:30:43.287286+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36291,6 +36220,67 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-01T15:57:46.164306+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 6,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Bank can surrender your pledged life insurance policy without consent: NCDRC",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Indian Railways approves Rs 125 crore project for redevelopment of Bhavnagar Para yard in Gujarat.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government reduces sugar stock holding limit for traders to 2,000 quintals effective September 15.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India and Denmark strengthen bilateral cooperation in MSME development, innovation, and intellectual property.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Micro, Small and Medium Enterprises",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Surgeon Vice Admiral Manish Honwad assumes charge as Director and Commandant of Armed Forces Medical College, Pune.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
           "horizon": "Immediate",
           "material": false
         }
