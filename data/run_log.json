@@ -1,40 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-12T13:20:05.569991+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Inauguration of seven ESIC health service projects across India",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Condolence message on the passing of a public figure",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-12T15:00:50.184739+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36198,6 +36164,133 @@
           "score": 4,
           "gate": "Skip entirely",
           "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-01T14:25:03.752660+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 1,
+      "items_seen": 17,
+      "items_evaluated": 6,
+      "items_skipped": 3,
+      "views_filtered": 4,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "HDFC Bank bonds dip following CEO's surprise exit",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "TBZ shares hit 20% upper circuit on GRT open offer",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Religare Enterprises jumps 5% as Ashish Dhawan buys stake",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Auto-parts maker Victura Technologies eyes $300 million India IPO",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Central government employees may see DA reach 64% by January 2027",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Adding family to property title? Know the tax and legal risks",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister's statement during 26th SCO Summit",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DGFT enables automated issuance of Free Sale and Commerce Certificates to enhance ease of doing business",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister acknowledges 7.8 percent GDP growth",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Railways approves Rs 233 crore for electronic interlocking at 21 stations in Samastipur division",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Railways approves Rs 272 crore bypass line between Adra and Joychandipahar to enhance freight capacity",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Progressive report on Kharif crop sowing area as of August 28, 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
           "horizon": "Immediate",
           "material": false
         }
