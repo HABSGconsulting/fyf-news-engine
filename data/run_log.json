@@ -1,56 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-13T19:21:28.358625+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 12,
-      "items_evaluated": 0,
-      "items_skipped": 6,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 3,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Ministry invites proposals for industry-led challenges under 'Create in India Challenge' Season-2",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Finance Minister reviews FCNR(B), ECB, and OFCB swap initiatives with bank leadership",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Cumulative exports (merchandise and services) estimated at $232.73 billion for Q1 FY27",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Consumer Price Index release for June 2026 with base year 2024=100",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-13T21:42:38.030256+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -36465,6 +36415,109 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Commerce and Industry",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-02T17:48:32.743356+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 0,
+      "items_seen": 15,
+      "items_evaluated": 6,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "ARCIL IPO opens September 9: What you need to know",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Pranav Constructions IPO: Price band set at Rs 118-124",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "BSE seeks to fix closing auction liquidity issues",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "EPFO Amnesty Scheme: Regularise your PF trust status by December 2026",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "FCNR(B) deposit rates drop: What this means for your foreign currency savings",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Post Office Time Deposit: How to extend your investment after maturity",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Announcement of Tenzing Norgay National Adventure Awards 2024",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Meeting between Assam Legislative Assembly Speaker and Union Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Digital India Bhashini Division and Kathmandu University explore AI collaboration",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
