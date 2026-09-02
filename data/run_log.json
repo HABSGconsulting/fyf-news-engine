@@ -1,147 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-13T16:13:23.351655+05:30",
-      "status": "ok",
-      "posts_published": 5,
-      "policy_published": 1,
-      "items_seen": 25,
-      "items_evaluated": 5,
-      "items_skipped": 9,
-      "views_filtered": 4,
-      "more_reads": 7,
-      "learn_links_matched": 0,
-      "policy_seen": 9,
-      "policy_evaluated": 9,
-      "policy_skipped": 8,
-      "items_detail": [
-        {
-          "title": "SEBI strengthens ethics rules to boost market transparency",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "SBI Funds IPO size reduced to Rs 9,812 crore",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": null
-        },
-        {
-          "title": "Swiggy shares dip as FSSAI issues food safety notices",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": null
-        },
-        {
-          "title": "Goodluck India announces 2:1 bonus; dividend payout adjusted to Re 1",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Changed jobs? Here is how your PF transfer happens automatically now",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Ministerial visit to West Bengal for administrative review",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "MeitY releases Digital Risk Report 2025-26 for BFSI sector",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministerial visit to West Bengal for administrative review",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of industrial safety incident in Ujjain",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of industrial explosion in Raipur",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of school safety incident in Jharkhand",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM congratulates Indian team for Physics Olympiad success",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Observance of Namaste Diwas across urban local bodies",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "INS Sudarshini participates in Boston Grand Parade of Sails",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-13T17:53:31.664372+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36508,6 +36367,91 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-02T13:39:02.255265+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 0,
+      "items_seen": 14,
+      "items_evaluated": 5,
+      "items_skipped": 4,
+      "views_filtered": 4,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "TBZ stock rallies: Why market price is ignoring the acquisition offer",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Own gold? Why documentation matters more than the quantity you hold",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Don't miss out: Why checking your family pension status is vital",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "India Post Payments Bank now offers mutual funds and insurance",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "How your final 60 months of salary impacts your EPS pension",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "District as Export Hubs initiative implementation status",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Social and cultural communication by the Prime Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
           "material": false
         }
       ]
