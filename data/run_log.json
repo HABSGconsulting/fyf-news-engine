@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-15T04:11:27.809971+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 1,
-      "items_skipped": 3,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Avoid jail: Don't claim fake tax deductions in your ITR",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-15T06:30:53.028036+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36542,6 +36514,117 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-03T22:42:14.068877+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 2,
+      "items_seen": 6,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "SEBI to review derivatives settlement rules after expiry day volatility",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Gland Pharma promoter to sell 5% stake via Rs 2,279 crore block deal",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "CISF Assistant Commandant Limited Departmental Competitive Examination 2026 notification released.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CSIR-SERC and CMC commence Hindi Fortnight 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "GeM and Textile Committee sign MoU to promote procurement of recycled and upcycled textiles.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CARA strengthens regional cooperation for adoption of children with special needs.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Success story of individual rehabilitation under Nasha Mukt Bharat Abhiyaan.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry mandates rapid transition of ports to green fuel infrastructure for zero-emission shipping corridors.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Heavy Industries concludes Swachhata Pakhwada 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National pledge against drug abuse on 6th anniversary of Nasha Mukt Bharat Abhiyaan.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NFDC-NFAI and FTII to organize workshop on film preservation and digitization.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
           "horizon": "Immediate",
           "material": false
         }
