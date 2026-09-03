@@ -1,56 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-14T16:43:07.163763+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Vice President to attend the closing session of 'Vidhayi Gaurav Yatra' in Jaipur",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares Sanskrit Subhashitam on interdependence",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "TRAI conducts quality of service assessment for mobile networks on NH-70 in Rajasthan",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "TRAI",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "MSME Ministry highlights role of Udyam Registration and Udyam Assist Platform in formalizing the sector",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of MSME",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-14T18:23:57.500792+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -36514,6 +36464,111 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-03T15:35:49.658338+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 3,
+      "items_skipped": 3,
+      "views_filtered": 5,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Check your health insurance: Deductibles vs co-pay impact your costs",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "PPF vs SIP: Choosing the right path for your long-term wealth",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "8th Pay Commission: How a 7% increment could boost your wealth",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Vice President visit to Chandigarh",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Joint press statement with Prime Minister of Belgium",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of disaster preparedness for GLOF and avalanches in Himalayan states",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Release of 'Raksha' strategic roadmap for global defence diplomacy",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Bilateral talks between Defence Ministers of India and Belgium",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "APEDA facilitates export of 18 metric tons of traditional rice to Austria and Netherlands",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Assessment of GDP estimates for Q1 FY 2026-27",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
