@@ -1,51 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-14T12:58:29.879515+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 15,
-      "items_evaluated": 1,
-      "items_skipped": 10,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Baal Aadhaar Update: Mandatory biometric rules for your child in 2026",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Ministerial visit to Spain to discuss bilateral economic partnerships.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministerial congratulatory message for sports achievement.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Women and Child Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-14T15:00:33.781751+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36431,6 +36386,79 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-03T12:02:10.684426+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 25,
+      "items_evaluated": 3,
+      "items_skipped": 11,
+      "views_filtered": 6,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Banking sector liquidity boost: What $127 billion inflows mean for you",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Rupee strengthens as RBI secures $136 billion in capital inflows",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Arcil IPO: Price band set at Rs 132-139; opens September 9",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister pays tribute to actor Uttam Kumar on birth centenary.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit shloka on the importance of environment and guidance for talent development.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Legal Metrology (Indian Standard Time) Rules, 2026 notified to standardize national timekeeping.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
