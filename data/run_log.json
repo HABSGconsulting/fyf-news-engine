@@ -1,40 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-14T15:00:33.781751+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 14,
-      "items_evaluated": 0,
-      "items_skipped": 9,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Ministry of Defence flags off motorcycle rally for Kargil Vijay Diwas 2026.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Release of provisional WPI, Output PPI, and Input PPI estimates for June 2026 and final estimates for April 2026.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-14T16:43:07.163763+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36456,6 +36422,99 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
           "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-03T13:48:18.545361+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 1,
+      "items_seen": 15,
+      "items_evaluated": 5,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Titan Biotech announces 1:4 bonus issue for shareholders",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Prasol Chemicals IPO opens September 8; price band Rs 643-676",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Is your mutual fund portfolio overlapping? Here is how to check",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Higher salary doesn't mean a better credit score",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SCSS investment limits: What retirees need to know",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister expresses condolences on the passing of Gujarati musician Shri Gaurang Vyas.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Decentralized Grain Storage Plan in the Cooperative Sector",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "NIELIT and Intel India launch Agentic AI skill training programs for the national workforce.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
