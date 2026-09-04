@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-15T18:30:40.184631+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 8,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 3,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 19,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "HDB Financial reports 38% profit jump; strong credit growth continues",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-15T20:42:03.553542+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36543,6 +36515,61 @@
           "gate": "Skip entirely",
           "ministry": "Press Information Bureau",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-04T20:38:42.970011+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 2,
+      "items_skipped": 3,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Rejoining a job? Here is how to reactivate your EPFO account",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Uttarakhand pension update: \u20b9147 crore released to 9.91 lakh beneficiaries",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": null
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister inaugurates World Archery Para Series via video conference.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister holds virtual meeting with French counterpart regarding space summit participation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
           "material": false
         }
       ]
