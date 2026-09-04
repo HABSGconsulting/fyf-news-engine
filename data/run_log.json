@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-15T13:02:55.166441+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 12,
-      "items_evaluated": 2,
-      "items_skipped": 7,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Groww reports 94% profit jump in Q1 earnings",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "performance",
-          "actionability": 0,
-          "behavioral_risk": null
-        },
-        {
-          "title": "Madras HC clarifies GST fraud notice norms",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-15T15:04:29.787947+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36507,6 +36469,103 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-04T12:04:24.699332+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 3,
+      "items_skipped": 17,
+      "views_filtered": 4,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "SEBI to review derivative settlement rules; broker stocks rally",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "UltraTech enters cable business; Polycab and KEI shares face pressure",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Gland Pharma shares dip following large block deals",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister extends greetings on Janmashtami",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Distribution of Namaste cards and Ayushman cards to waste pickers in Najafgarh zone",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Tribal Affairs reviews PM-JANMAN progress and announces initiatives for tribal development",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National workshop held on SUMAN Roadmap 2030 for maternal and newborn care",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister of Commerce calls for deep localization and export expansion in the automotive sector",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "NHRC concludes two-day public hearing and camp meeting in Gandhinagar",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
