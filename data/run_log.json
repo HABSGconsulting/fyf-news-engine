@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-16T20:50:49.005287+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-16T22:23:37.675027+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36352,6 +36335,77 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Personnel, Public Grievances and Pensions",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-05T21:45:23.295284+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 3,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Need to withdraw from your PF? Understand the latest EPFO rules",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Is your Aadhaar linked to unknown SIMs? Check your status immediately",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister addresses SRCC centenary celebrations",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NCSC seeks time-bound response on reservation benefit denial in lecturer recruitment",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "National Commission for Scheduled Castes",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President releases commemorative postage stamp for Dinamalar",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National Biodiversity Authority crosses Rs 200 crore disbursement milestone for benefit-sharing",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
