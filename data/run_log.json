@@ -1,95 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-16T10:15:25.292613+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 2,
-      "items_seen": 25,
-      "items_evaluated": 3,
-      "items_skipped": 18,
-      "views_filtered": 4,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Last chance to secure dividends from 68 stocks including HCL Tech",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Alpine Texworld IPO closes today: What you need to know",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "SBI Funds Management IPO: Final day to bid for the AMC giant",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "BRIC-THSTI celebrates 17th Foundation Day",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Department of Biotechnology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministerial bilateral meetings held with BRICS counterparts on labor and digital infrastructure",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Launch of 8th tranche of auction for 20 critical and strategic mineral blocks",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Mines",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Bharat Tex 2026 event highlights state opportunities and global trade partnerships",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India-UK Social Security Agreement enters into force",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-16T11:34:13.671975+05:30",
       "status": "ok",
       "posts_published": 6,
@@ -36421,6 +36332,139 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-09-05T11:50:51.000494+05:30",
+      "status": "ok",
+      "posts_published": 9,
+      "policy_published": 1,
+      "items_seen": 25,
+      "items_evaluated": 9,
+      "items_skipped": 2,
+      "views_filtered": 8,
+      "more_reads": 6,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Rentomojo IPO to launch September 9 at \u20b94,246 crore valuation",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SEBI signals CAS fix; capital market stocks rally 1%",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ITAT: Genuine F&O profits cannot be labeled bogus without evidence",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Your SGB 2021-22 Series VI investment has grown over 227%",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Can you lose tax credit if your tenant fails to pay TDS?",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Supreme Court warns against AI-generated legal citations in business cases",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Quitting your job at 40? Your EPF balance keeps earning interest",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Large bank deposits? Keep property sale proof to avoid tax trouble",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Bank branches open today: Plan your visits accordingly",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government extends Emergency Credit Line Guarantee Scheme (ECLGS) 5.0 to support MSME liquidity.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister attends North East Students Fest in New Delhi.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Development of North Eastern Region",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Public Sector Steel Enterprise reports production and sales growth data for August 2026.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Steel",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
