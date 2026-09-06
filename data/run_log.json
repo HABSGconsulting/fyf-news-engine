@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-18T06:35:40.573517+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-07-18T10:05:04.518167+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -36104,6 +36095,34 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-09-06T23:11:24.314407+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Waiting for your tax refund? Here is how to track it online",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
