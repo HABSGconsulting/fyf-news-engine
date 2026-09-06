@@ -1,79 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-17T10:19:29.360211+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 3,
-      "items_skipped": 14,
-      "views_filtered": 5,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Tech Mahindra shares surge as Q1 profit jumps 28%",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Jio Financial Services profit jumps 155% in Q1",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Sky Gold subsidiary loses Rs 11 crore in deepfake scam",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Dr. Srinivas Kumar Tummala appointed as Secretary of the Ministry of Earth Sciences",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Earth Sciences",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Centre for Trade and Investment Law releases guidebook for MSME global market expansion",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Nasha Mukt Bharat Abhiyaan reaches over 29.32 crore citizens via awareness campaigns",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-17T11:34:21.029299+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36283,6 +36210,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-09-06T06:50:24.269997+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
