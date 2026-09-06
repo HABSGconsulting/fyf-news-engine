@@ -1,56 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-17T22:15:18.495677+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 5,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 3,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "ECI hosts first All India Media Conference",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Election Commission of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "12th meeting of the National Committee on Dam Safety held in New Delhi",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Identification of science, technology and innovation requirements for sustainable development of Kargil",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NHA national review meeting outlines roadmap for next phase of Ayushman Bharat PM-JAY and ABDM",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "National Health Authority",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-18T04:04:11.213110+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36040,6 +35990,75 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-06T19:55:26.031442+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Delhi Lakshmi Yojana: Check your RD maturity and credit details",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister addresses press conference on narcotics control in Goa.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister calls for new industry-R&D partnership models.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Defence Minister to visit Sri Lanka for three days.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Central government enables coal supply from captive mines for Punjab power plants.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister highlights focus on Tier-2 and Tier-3 startup ecosystems.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
           "horizon": "Immediate",
           "material": false
         }
