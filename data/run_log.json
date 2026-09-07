@@ -1,69 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-18T14:41:56.586066+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 8,
-      "items_evaluated": 2,
-      "items_skipped": 4,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "AMFI updates stock categories: Check if your portfolio holdings shifted",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Easier mutual fund transmission: New rules simplify inheritance for your family",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Department of Land Resources explores coordination with RBI Innovation Hub for digital public infrastructure in land and credit.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Department of Posts launches mascot design competition on Innovate India MyGov platform.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Department of Posts",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Vikram-1: Outline of India's space future.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Space",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-18T16:19:27.703687+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36095,6 +36032,101 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-07T14:08:14.605321+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 15,
+      "items_evaluated": 2,
+      "items_skipped": 7,
+      "views_filtered": 3,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "New SEBI ETF rules are live: What you need to know",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ITAT relief: Consultant's tax filing error doesn't have to cost you",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Launch of 9th National Nutrition Month 2026 in Varanasi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NIXI hosts APNIC 62 global internet community event in Mumbai",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Power sector rake loading reaches 444 rakes on September 6, 2026",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister addresses BAPS Swaminarayan Hindu Temple inauguration in Paris",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Text of Prime Minister's address at Swaminarayan Hindu Temple in Paris",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister emphasizes building robust and globally integrated healthcare supply chains",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
