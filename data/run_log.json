@@ -1,103 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-18T22:05:03.178194+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 1,
-      "items_seen": 5,
-      "items_evaluated": 3,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "FD interest is taxable: How to report it in your ITR",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Avoid ITR penalties: File your returns before the 31 August deadline",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Received salary arrears? File Form 10E before your ITR",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government extends ALMM relief period for select solar projects until December 2026",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of New and Renewable Energy",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Announcement of 72nd National Film Awards for 2024",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister expresses condolences on loss of life in Ahmedabad accident",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "National Commission for Safai Karamcharis reviews sanitation and welfare facilities",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Commission for Safai Karamcharis",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inauguration of Indian Standard Time dissemination network based on White Rabbit technology",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Review of 'MY Bharat' platform progress",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-19T04:03:30.398667+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36089,6 +35992,104 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-07T22:19:36.489417+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 2,
+      "items_seen": 6,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Foundation stone laying for regional infrastructure projects exceeding Rs 1,000 crore in Meghalaya.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Development of North Eastern Region",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Awarding of President's Colour to Goa Police.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Call for public participation in air pollution mitigation in NCR.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Workshop on DDU-GKY 1.0 project implementation.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of PACT initiative for zero-emission freight under e-FAST India.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "NITI Aayog",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Case study on social rehabilitation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Completion of Indian Naval Ship Sudarshini's Barcelona visit.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Establishment of Agra center as innovation hub for potato and sweet potato research.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of PACT and ZET marketplace for strategic electrification of freight.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "NITI Aayog",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Schedule for by-elections in five assembly seats and one parliamentary seat.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Election Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
