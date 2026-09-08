@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-19T16:30:59.113983+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-19T18:07:44.901028+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36082,6 +36065,79 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-08T15:35:49.784830+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 9,
+      "items_evaluated": 3,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "IDBI Bank shares drop 11% as acquisition offer price disappoints",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Over 1.32 crore taxpayers updated their ITRs, boosting compliance",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Mumbai entrepreneur wins tax case despite cash credit card payments",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Review of coal sector performance and operational milestones since 2014.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National Steering Committee approves Rs 735.70 crore for industry-oriented ITI transformation.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares article on strengthening nutrition initiatives and Anganwadi systems.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
           "horizon": "Immediate",
           "material": false
         }
