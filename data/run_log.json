@@ -1,99 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-19T22:03:35.494838+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 3,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 8,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "Update your EPFO KYC online to avoid claim settlement delays",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Foundation stone laid for Amul Bengal Dairy project yogurt plant in Kolkata.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Government reiterates commitment to NAMASTE scheme for sanitation worker welfare.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates athlete on tournament victory.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates students on Biology Olympiad performance.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates students on Chemistry Olympiad performance.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "CCPA initiates enforcement action against 41 restaurants for mandatory service charge practices.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Central Consumer Protection Authority",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Indian team wins medals at 37th International Biology Olympiad.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Indian students win gold medals at 58th International Chemistry Olympiad.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-20T04:06:29.019054+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36212,6 +36119,149 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Home Affairs",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-08T20:51:00.964364+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 14,
+      "items_evaluated": 2,
+      "items_skipped": 6,
+      "views_filtered": 4,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 13,
+      "policy_evaluated": 13,
+      "policy_skipped": 13,
+      "items_detail": [
+        {
+          "title": "Update your EPFO KYC today to ensure seamless fund access",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Check your annual bonus eligibility under the new Code on Wages",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister addresses Global Fintech Fest 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CRCS-Sahara Refund Portal reopened for claims settlement",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Success story of individual entrepreneurship under government schemes",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Farewell ceremony for Indian contingent for Asian Games 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NCSC issues notice to Punjab government regarding individual case",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Commission for Scheduled Castes",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Appointment of judges in Chhattisgarh and Gauhati High Courts",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Award announcement for NCSC Chairperson",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "National Commission for Scheduled Castes",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "STPI organizes Electropreneur Summit 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Partnership expansion for Nasha Mukt Bharat Abhiyaan",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Anniversary event for Nasha Mukt Bharat Abhiyaan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Chief of Naval Staff on official visit to Australia and New Zealand",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Technology Centre in Devanahalli, Bengaluru",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ninth National Nutrition Month initiative",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Immediate",
           "material": false
         }
       ]
