@@ -1,71 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-20T13:59:02.700034+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 14,
-      "items_evaluated": 3,
-      "items_skipped": 5,
-      "views_filtered": 5,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Indo MIM IPO opens July 23: Price band set at Rs 461-485",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Paytm to announce first-ever bonus issue today alongside Q1 results",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Switching jobs? Avoid tax surprises by submitting Form 12B",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister's statement on the first day of the 2026 Monsoon Session",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares Sanskrit Subhashitam regarding youth resilience",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-20T16:00:35.492191+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -36205,6 +36140,54 @@
           "category": "sectoral",
           "actionability": 1,
           "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-09T12:27:46.126234+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 3,
+      "items_skipped": 16,
+      "views_filtered": 4,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "IT stocks tumble: Rs 55,000 crore wiped out amid US visa concerns",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Prasol Chemicals IPO: Day 2 update and subscription status",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Glass Wall Systems IPO: Strong demand on Day 2",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
         }
       ],
       "policy_detail": []
