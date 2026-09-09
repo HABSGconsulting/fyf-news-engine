@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-21T06:39:09.761598+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 9,
-      "items_evaluated": 0,
-      "items_skipped": 5,
-      "views_filtered": 1,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-21T10:23:36.039896+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -36366,6 +36349,54 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-09-10T00:22:11.268875+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 3,
+      "items_skipped": 0,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "ICICI Prudential AMC gains RBI nod to increase bank stock holdings",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ITAT ruling brings tax relief for F&O traders on loss classification",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Tax-free employer gift limit tripled to \u20b915,000",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
