@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-21T04:16:22.616472+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-21T06:39:09.761598+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -36309,6 +36292,77 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-09T22:47:22.160513+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 7,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Returning to India? Understand your US IRA tax liabilities now",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Parag Parikh Flexi Cap: August portfolio changes you should know",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Department of Land Resources announces Rs 565.50 crore for DILRMP 3.0 digital land record reforms.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Land Resources",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Ministerial speech regarding farmers' contribution to energy sector.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister releases commemorative book on India Innovates 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Defence Minister meets Sri Lankan Prime Minister in Colombo.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
           "material": false
         }
       ]
