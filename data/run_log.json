@@ -1,141 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-20T17:34:27.736003+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 11,
-      "items_evaluated": 2,
-      "items_skipped": 8,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 12,
-      "policy_evaluated": 12,
-      "policy_skipped": 11,
-      "items_detail": [
-        {
-          "title": "Rupee hits two-month low: What it means for your portfolio",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "New Aadhaar app hits 4 crore downloads: Simplify your financial KYC",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "President of India visits Moldova for bilateral discussions.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Status update on strengthening the skill development ecosystem.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Alignment of skill development programs with industrial requirements.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Update on PM SETU and ITI infrastructure upgrades.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Apprenticeship training status under NAPS.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Overview of Skill India Mission progress.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Status report on PM SETU infrastructure upgrades.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Status update on national pumped storage project pipeline.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Power",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Status of coal supply logistics for thermal power plants.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Coal",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "TRAI assessment of mobile network quality in Tamil Nadu districts.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "TRAI",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Monitoring status of national infrastructure projects.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Framework updates for national statistical indices.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-20T19:01:40.255207+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 1,
@@ -36182,6 +36047,88 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-09T15:40:33.826441+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 2,
+      "items_seen": 10,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 6,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 8,
+      "policy_skipped": 6,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Launch of ORV Sagar Manthan for indigenous ocean research",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India to participate in 11 new skill categories at WorldSkills Shanghai 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National BOCW Conference scheduled for September 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CAQM initiates review of non-compliance by HSPCB regarding air quality directives",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Commission for Air Quality Management",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister emphasizes accessible and quality Ayush services",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "ITRA Jamnagar and Heartfulness Institute sign MoU for wellness and sustainability",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "TDB-DST provides financial assistance for commercialization of 3D-printed bone grafts",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Science and Technology",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Award ceremony for 27th National Youth Parliament Competition",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
