@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-22T04:08:28.933018+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-22T06:37:07.451567+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -36043,6 +36026,93 @@
           "score": 5,
           "gate": "Skip entirely",
           "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-10T22:42:37.473785+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 2,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 12,
+      "policy_evaluated": 6,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Is your retirement corpus ready if you live past 90?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "5 essential money habits to secure your financial future",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Meeting between Home Minister and Prince Rahim Aga Khan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Meeting between President and Prince Rahim Aga Khan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Visit to NICDC pavilion at Innoprom India 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Consultation on proposed Seed Bill with farmer organizations",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Pending Parliament",
+          "material": false
+        },
+        {
+          "title": "Award ceremony for National Youth Parliament Competition",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Technology Centre in Devanahalli, Karnataka",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
           "horizon": "Immediate",
           "material": false
         }
