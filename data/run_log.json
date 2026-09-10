@@ -1,61 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-21T11:46:26.028690+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 18,
-      "items_evaluated": 2,
-      "items_skipped": 3,
-      "views_filtered": 4,
-      "more_reads": 9,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Eligible government staff can now switch to Old Pension Scheme",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "No tax relief for FPIs: 12.5% LTCG tax remains unchanged",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "UPSC releases schedule for Combined Geo-Scientist (Main) Examination, 2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Union Public Service Commission",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CDSCO approves India's first indigenous dengue vaccine for clinical use.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-21T13:34:35.717749+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -36348,6 +36293,54 @@
       "policy_evaluated": 0,
       "policy_skipped": 0,
       "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-10T06:58:33.691172+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 12,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "NSE updates IPO plans: What you need to know",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Market update: Key stocks and sectors to watch today",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SEBI proposes easier rules for MII director appointments",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
       "policy_detail": []
     }
   ]
