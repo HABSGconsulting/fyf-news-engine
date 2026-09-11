@@ -1,125 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-22T20:53:14.479273+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 8,
-      "items_evaluated": 2,
-      "items_skipped": 3,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 10,
-      "policy_skipped": 9,
-      "items_detail": [
-        {
-          "title": "RBI intervenes with $6B sale to stabilize the falling rupee",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "8th Pay Commission: Demand for HRA revision gains momentum",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government promotes re-employment opportunities for senior citizens via National Career Service portal",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister chairs high-level review meeting on rural development, agriculture, and social welfare progress",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India hosts BRICS Network University conference and International Governing Board meeting",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Senior officials meeting held under BRICS health ministerial framework in Chandigarh",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "President of India unveils Mahatma Gandhi bust in Skopje, North Macedonia",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Bharat 6G Alliance and Spectrum Roadmap for 6G in India",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Communications",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Urban rejuvenation of Bhandewadi",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Record increase in scholarship distribution for Scheduled Caste students",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "ICMR-NIN led group releases policy priorities for healthy diets for children and adolescents",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Branch of Bharatiya Beej Sahakari Samiti Limited in Bihar",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-23T04:12:48.693383+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -35886,6 +35767,181 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-11T19:20:47.953118+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 1,
+      "items_seen": 16,
+      "items_evaluated": 6,
+      "items_skipped": 9,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 12,
+      "policy_evaluated": 12,
+      "policy_skipped": 11,
+      "items_detail": [
+        {
+          "title": "RBI pulls 1 trillion rupees from system to control inflation",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SEBI plans tighter cybersecurity rules for market infrastructure subsidiaries",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Mann Fleet Partners gets SEBI nod for upcoming IPO",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Buying a home? Don't skip these 7 critical verification checks",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "8th Pay Commission: What a potential fitment factor hike means for you",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "High Court strikes down Section 147A: What taxpayers need to know",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister addresses BRICS Business Forum 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NSKFDC promotes socio-economic empowerment of sanitation workers through concessional finance and skill development",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister meets Russian President during BRICS Summit",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Success story of individual recovery from substance abuse",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Success story of entrepreneur under NAMASTE-SUY scheme",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Pharmacopoeia Commission hosts national conference on biosimilar quality and safety",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Land Resources outlines new approach for dry-land development",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister emphasizes strategic importance of critical minerals for energy and national security",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Minister outlines integrated development vision for coastal regions",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Bankers' Books Evidence Act, 2026 to come into effect from October 1, 2026",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India achieves milestone of 8 million HPV vaccine doses administered",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Senior officials to visit Manipur for monitoring rural development schemes",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
