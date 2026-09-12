@@ -1,40 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-23T22:34:14.436780+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 0,
-      "items_skipped": 3,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Ministerial statement on progress of National Education Policy 2020 implementation.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NHAI extends 'Clean Toilet Picture Challenge' timeline until June 30, 2027.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-24T04:09:19.452173+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35501,6 +35467,51 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-12T18:40:06.157866+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 4,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Missing PM Kisan payment? Check your status and file a complaint",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministerial outreach event for Lakhpati Didis and PMAY-G beneficiaries",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National conference on construction worker welfare and skill development",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
           "horizon": "Immediate",
           "material": false
         }
