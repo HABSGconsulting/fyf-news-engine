@@ -1,185 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-24T20:45:48.173370+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 16,
-      "items_evaluated": 4,
-      "items_skipped": 8,
-      "views_filtered": 1,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 15,
-      "policy_evaluated": 15,
-      "policy_skipped": 15,
-      "items_detail": [
-        {
-          "title": "SEBI cracks down on front-running: 7-year ban for former Axis MF dealer",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "How families can claim EPF savings after a member's death",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Forgot your UAN? Here is how to retrieve it quickly",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Check your old EPF accounts: \u20b99,330 crore remains unclaimed",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "BRICS Science Academies Forum 2026 concludes at IIT Hyderabad",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inauguration of five senior citizen homes across five states",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Direct recruitment notification for various government positions",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Government of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Engineering Services (Main) Examination 2026 schedule",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "UPSC",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Drinking Water and Sanitation organizes 9th edition of Sujal Gram Samvad",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister highlights importance of mine closure in circular economy transition",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Mines",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Status update on scholarship scheme beneficiaries in Chikkaballapura district",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inauguration of modernized Jan Seva Connect Post Offices in Guntur",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Conclusion of Ayushman Arogya health camps in New Delhi",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of alleged harassment incident in Punjab",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "NHRC",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Orientation program for newly elected and nominated Rajya Sabha members",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Rajya Sabha Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Progress report on DDU-GKY skill development scheme",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Implementation status of Pradhan Mantri Gram Sadak Yojana (PMGSY)",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Financial assistance status under PMAY-G",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Status of Self Help Group (SHG) formation under DAY-NRLM",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-24T22:41:20.990106+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35213,6 +35034,143 @@
           "score": 6,
           "gate": "Policy Desk",
           "ministry": "Ministry of Petroleum and Natural Gas",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-13T18:21:36.530602+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 3,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 11,
+      "policy_evaluated": 11,
+      "policy_skipped": 11,
+      "items_detail": [
+        {
+          "title": "Check if your state announced a Dearness Allowance hike for employees",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Can you pay zero tax on capital gains under the new regime?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Open your NPS account instantly using the BHIM app",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Home Minister inaugurates cultural exhibition in Mumbai",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister holds bilateral meeting with Vice President of Uganda",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister holds bilateral meeting with President of Kazakhstan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "President issues greetings for Ganesh Chaturthi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister holds bilateral meeting with President of Kazakhstan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Integrated Defence Staff to host security seminar",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister highlights India's global vaccine manufacturing status",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India to host World Circular Economy Forum 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "BRICS nations support expert group on traditional medicine",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Secretary meets Vietnamese counterpart",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CAZRI develops drought-resistant moth bean varieties",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
