@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-25T06:39:45.314187+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-07-25T10:21:39.499145+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35206,6 +35197,83 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-13T22:34:10.888398+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Wrong ITR form choice? ITAT ruling protects you from double taxation",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister congratulates Indian Junior Men's Hockey Team on Asia Cup victory.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates Indian Junior Women's Hockey Team on Asia Cup victory.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Environment Minister reviews MISHTI scheme progress and mangrove conservation initiatives.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DAHD Secretary reviews poultry infrastructure and biosecurity protocols at CPDO Western Region.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Animal Husbandry and Dairying",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Naval Ship Sudarshini departs from Livorno, Italy for Lokayan 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister of State visits FCI Silo plant in Kayavarohan, Vadodara.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
           "horizon": "Immediate",
           "material": false
         }
