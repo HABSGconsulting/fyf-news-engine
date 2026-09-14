@@ -1,56 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-25T20:19:42.880984+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 2,
-      "items_seen": 4,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "President of India addresses Indian diaspora in Romania",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ancient Buddhist site of Sarnath included in UNESCO World Heritage list",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Kanpur-Kabrai highway project aimed at improving logistics and agricultural supply chains",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "New underground tunnel project for enhanced connectivity in the national capital",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-25T22:02:32.221861+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35218,6 +35168,127 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Commerce and Industry",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-14T19:56:10.972960+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 11,
+      "items_evaluated": 3,
+      "items_skipped": 5,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 18,
+      "policy_evaluated": 9,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "8th Pay Commission: How a potential salary hike impacts your finances",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Retail inflation hits 4.82%: How to protect your household budget",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Check your PF balance on WhatsApp: A quick guide for members",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Department of Financial Services receives Rajbhasha Kirti Award for Hindi implementation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Press Note release.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Government of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Initiation of negotiations for the expansion of the India-MERCOSUR Preferential Trade Agreement.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Defence receives Rajbhasha Kirti Award.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Chief Election Commissioner on three-day visit to Bhutan.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Election Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial statement on Hindi language and national identity.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHAI to upgrade 1033 national highway helpline with new technology.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Kerala Ecosense scholarships for waste management students.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Home Minister addresses Hindi Diwas and All India Official Language Conference.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
