@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-26T04:09:04.644703+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Is your nominee still active? Update your details to avoid future delays",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "behavioral",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-26T06:44:43.098361+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35345,6 +35317,44 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-09-14T22:33:48.654713+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 4,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "US crypto bill update: What the new Clarity Act means for you",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Unreported overseas crypto? Check if you qualify for FAST-DS 2026",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
