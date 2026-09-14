@@ -1,48 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-25T22:02:32.221861+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Launch of Bharat Taxi service in Jaipur",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Government of Rajasthan",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Routine government press release",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Sarnath included in UNESCO World Heritage list",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-26T04:09:04.644703+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35289,6 +35247,101 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Home Affairs",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-14T21:33:27.303203+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "US Bond Yields Hit 5%: What This Means for Your Portfolio",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Delhi Health Scheme: New Benefits for Construction Workers Announced",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Indian Air Force Dronathon 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHRC launches two-week online short-term internship program for September 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister of Women and Child Development meets Minister of Women Affairs of Nigeria",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Social Justice strengthens educational empowerment via digital reforms",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NMBA outreach statistics update",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Scientific breakthrough in heat-to-energy conversion in crystalline solids",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Department of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Ayurveda and Global Health: Tradition and Evidence",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Immediate",
           "material": false
         }
       ]
