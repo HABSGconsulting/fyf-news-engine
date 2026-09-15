@@ -1,43 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-26T18:15:43.422473+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "EPF interest credit: Why your account balance might take time to update",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Indian Naval Ship Sudarshini departs from Boston, USA as part of Lokayan 26",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-26T20:21:22.329408+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35288,6 +35251,79 @@
           "score": 6,
           "gate": "Policy Desk",
           "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-15T15:58:09.881298+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Moving abroad? Here is how to manage your PPF and NPS",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Why a will isn't enough for your family's financial future",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Have two health insurance policies? Use both for one hospital bill",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Astronomy enthusiasts participate in the 4th HDSR Star Party",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of dedicated web-portal for Special Campaign 6.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Coal India Limited initiates technology transformation from traditional to smart mining",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
