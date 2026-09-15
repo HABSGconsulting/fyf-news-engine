@@ -1,71 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-27T12:22:13.139189+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 9,
-      "items_evaluated": 3,
-      "items_skipped": 5,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Laurus Labs surges 4% as Q1 profits double on CDMO growth",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Returning to India? Know the tax status of your FCNR deposits",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "ITR filing: FM allows correction of genuine mistakes for honest taxpayers",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister shares Sanskrit subhashitam on character and leadership.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister acknowledges participants of Vibrant Village Program 2026.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-27T14:32:38.332419+05:30",
       "status": "ok",
       "posts_published": 6,
@@ -35206,6 +35141,104 @@
         },
         {
           "title": "Release of commemorative postage stamp in memory of Saint Malukdas",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NDSA reviews dam safety preparedness and implementation of Dam Safety Act in Jharkhand",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-16T05:15:17.990085+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 9,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Release of 'Jal Sanchay Jan Bhagidari \u2013 Catch the Rain' anthem",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President addresses event on service traditions",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Office of the Vice President",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister addresses Hindi Advisory Committee meeting",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHRC takes suo motu cognizance of incident in Banswara, Rajasthan",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Higher Education completes review of files under Special Campaign 5.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Secretary inaugurates new training programs at Institute of Archaeology",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commissioning of four Gati Shakti Cargo Terminals",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian youth contingent departs for WorldSkills Shanghai 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Release of commemorative postage stamp",
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Communications",
