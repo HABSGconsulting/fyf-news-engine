@@ -1,69 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-27T22:51:21.564061+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "New CBDT crypto reporting rules: Keep your digital asset records ready",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Filing ITR? Calculate your tax liability under old vs new regime",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Expansion of digital education, research, and creative technical initiatives.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Expansion of welfare initiatives for senior citizens and persons with disabilities in North-Eastern states.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Strengthening implementation of SC/ST (Prevention of Atrocities) Act through financial assistance to States/UTs.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-28T04:13:31.222697+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35165,6 +35102,88 @@
           "score": 7,
           "gate": "Policy Desk",
           "ministry": "Ministry of Coal",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-16T21:06:55.889820+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 2,
+      "items_seen": 7,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 6,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Government reviewing use of ship-recycling steel to boost domestic manufacturing and global leadership.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Steel",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Hyderabad Liberation Day event to be held at Secunderabad Parade Ground.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MHA designates Shahzad Bhatti network as a terrorist organization under UAPA.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry to participate in Special Campaign 6.0 from October 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry conducts nationwide cleanliness drive under Special Campaign 6.0.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "World Circular Economy Forum 2026 concludes in Gandhinagar.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "CAQM inspects industries in Hapur; 12 units issued show-cause notices for non-compliance.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Commission for Air Quality Management (CAQM)",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DPE organizes workshop for CPSEs on credit rating and global debt market access.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Public Enterprises",
           "horizon": "Cyclical (1-3Y)",
           "material": false
         }
