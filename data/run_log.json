@@ -1,209 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-27T18:16:14.668363+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 1,
-      "items_seen": 10,
-      "items_evaluated": 4,
-      "items_skipped": 3,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 18,
-      "policy_evaluated": 18,
-      "policy_skipped": 17,
-      "items_detail": [
-        {
-          "title": "Coal India reports steady Q1 profit; announces Rs 5.5 interim dividend",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Tata Power Q1 profit grows 11% YoY to Rs 1,176 crore",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "BEL reports 9% YoY profit growth, but sequential earnings decline sharply",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Are your mutual funds truly diversified? Check for portfolio overlap",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "performance",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Agriculture Minister announces Rs 335 crore support for Maharashtra farmers",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Promotion of coal gasification and clean coal technologies",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Coal",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Expansion of ESIC health infrastructure",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Special drive for settlement of long-pending labor cases",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Atal Beemit Vyakti Kalyan Yojana operational details",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Museums and memorials based on Indian freedom movement",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Gyan Bharatam Mission and manuscript digitization",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Manuscript clusters and partner institutions under Gyan Bharatam",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Award ceremony for Commonwealth Games athlete",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHAI wins arbitration case protecting public funds",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Digital skill development platform launch",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Key features of NAPS-2 apprenticeship scheme",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Skill development for space and geospatial sectors",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Artificial intelligence and Skill India initiative integration",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Skill development promotion in maritime sector",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "33 states sign MoUs for National e-Vidhan Application implementation",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Parliamentary Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "National e-Vidhan Application improves legislative efficiency",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Parliamentary Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "New yoga wellness instructor certification course in Leh",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-27T19:30:32.277702+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -35211,6 +35008,147 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Commerce and Industry",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-16T15:50:11.947523+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 0,
+      "items_seen": 20,
+      "items_evaluated": 5,
+      "items_skipped": 10,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "UPI transaction fees: What the new merchant charges mean for you",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Debt funds vs FD: How to choose when tax treatment is equal",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Will new UPI charges impact your SIPs? Here is the truth",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Gold jewellery hallmarking fee rises to \u20b975: What buyers should know",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "UPI payments remain free: NPCI clarifies new MDR rules",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Department of Drinking Water and Sanitation launches Swachh Seva Assessment for Swachh Bharat Mission (Grameen)",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Progress update on Pradhan Mantri Awas Yojana-Urban",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam on courage and intelligence",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM Vishwakarma scheme reaches 3 million artisan registrations",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Animal Husbandry and Dairying to participate in Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister participates in G20 Energy Efficiency Ministerial meeting",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of implementation program on labour laws and social security compliance",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister to inaugurate Semicon India 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NCC women cadets complete high-altitude trek",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
           "material": false
         }
       ]
