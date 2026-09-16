@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-28T04:13:31.222697+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "SEBI proposes new MF-only PMS with \u20b925 lakh entry threshold",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "mutual_fund_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-28T06:33:15.488452+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35185,6 +35157,77 @@
           "gate": "Policy Desk",
           "ministry": "Department of Public Enterprises",
           "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-16T23:14:52.378612+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 2,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "New UPI rules: What you need to know about merchant transaction fees",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Annapurna Yojana: \u20b93,000 payout arriving on September 17",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Preparations for Swachhata Hi Seva 2026 campaign",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Preparations for Swachhata Hi Seva 2026 campaign",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry to organize Seva Diwas event",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister chairs semiconductor industry roundtable with global CEOs",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
