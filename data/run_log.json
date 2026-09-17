@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-28T17:17:10.391470+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 9,
-      "items_evaluated": 3,
-      "items_skipped": 4,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 13,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Paytm Payments Bank winding up: Secure your funds and UPI now",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "high"
-        },
-        {
-          "title": "FY26 Tax Planning: Choosing between old and new tax regimes",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "No Form 16? File your ITR before the July 31 deadline",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-28T18:51:20.080464+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -35201,6 +35153,185 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-17T15:56:38.366521+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 5,
+      "items_seen": 10,
+      "items_evaluated": 4,
+      "items_skipped": 5,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 15,
+      "policy_skipped": 10,
+      "items_detail": [
+        {
+          "title": "Emami announces Rs 282 crore share buyback at 29% premium",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Tata Sons IPO plans gain momentum as leadership tenure extended",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "RBI withdraws Rs 50,000 crore liquidity via bond sales",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Get your PF updates directly on WhatsApp via new official channel",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister shares article on India's deep-tech capabilities",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister addresses gathering during installment release under Annapurna scheme",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Transcript of Prime Minister's address on Annapurna scheme",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Transcript of Prime Minister's address at Semicon India 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares article on governance model focused on technology and trust",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Labour takes steps to strengthen administrative efficiency",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Electronics Components Manufacturing Scheme",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Farmers benefit from first-ever carbon credit payments for regenerative farming",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India demands secure and affordable energy at G20 Ministerial meeting",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister expresses gratitude for wishes",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister extends wishes on Vishwakarma Jayanti",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of digital platform for waste management in cities",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Office of the Principal Scientific Adviser",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Proposed amendment to Drugs Rules, 1945 to strengthen surveillance of Schedule H, H1, and X drugs",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Health issues advisory on regulation of stem cell therapy",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Earth Sciences reports progress under SCDPM 5.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
