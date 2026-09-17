@@ -1,159 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-28T15:46:29.330363+05:30",
-      "status": "ok",
-      "posts_published": 7,
-      "policy_published": 3,
-      "items_seen": 20,
-      "items_evaluated": 7,
-      "items_skipped": 3,
-      "views_filtered": 3,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 8,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Suzlon Energy shares drop 10% after Q1 margin pressure",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "MV Electrosystems IPO opens July 30; price band Rs 400-425",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Ambuja Cement Q1 profit drops 34% as revenue slips",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Adani Energy raises Rs 3,500 crore via QIP; institutional demand surges",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Suzlon Energy shares dip 7% as Q1 profit misses expectations",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Varun Beverages shares fall 5% on margin pressure post-acquisition",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Reporting REIT and InvIT income in your ITR: A quick guide",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "National Technical Textiles Mission implementation update",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister reviews flood situation with Assam MPs",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates athlete on Commonwealth Games medal",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates athlete on Commonwealth Games medal",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates athlete on Commonwealth Games medal",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Railways approves Rs 163 crore project for electric traction upgrade in Nanded division",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Railways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Defence Minister announces policy reforms for ICG personnel",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Civil Aviation Ministry launches hub-and-spoke international flight operations from Amritsar",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Civil Aviation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-28T17:17:10.391470+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 3,
@@ -35276,6 +35123,84 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-09-17T14:25:03.421885+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 6,
+      "items_skipped": 11,
+      "views_filtered": 5,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Tax audit deadline nearing: Don't wait for an extension",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SGB 2019-20 Series IV redemption: Your gold investment returns revealed",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Procedural error saves taxpayer from \u20b91.24 crore tax demand",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ITR filing error? Delhi ITAT ruling offers relief for regime selection",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "EPFO wage ceiling hiked to \u20b925,000; your insurance cover set to rise",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Penalty cancelled: Why honest disclosure during tax scrutiny matters",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
