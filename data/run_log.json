@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-28T13:36:23.364966+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 8,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 4,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-28T15:46:29.330363+05:30",
       "status": "ok",
       "posts_published": 7,
@@ -35194,6 +35177,105 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-17T12:14:42.038280+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 4,
+      "items_skipped": 8,
+      "views_filtered": 5,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "A-One Steels IPO opens September 24: Price band set at Rs 385-405",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Bond yields rise as RBI faces pressure to hike rates",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "NSE IPO: Is the world's most expensive exchange worth the premium?",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Gold and silver prices drop as US Fed raises interest rates",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministry of Coal urges Uttar Pradesh to accelerate development of captive coal blocks.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Progress update on Special Campaign 5.0 for administrative efficiency.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department organizes national webinar on solid and e-waste management.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of School Education and Literacy",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry extends MoU with The Art of Living for social awareness campaign.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "APEDA signs MoU with Gulfood organizer to strengthen global food trade opportunities.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "APEDA",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
