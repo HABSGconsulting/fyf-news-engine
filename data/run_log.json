@@ -1,195 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-28T18:51:20.080464+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 1,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 20,
-      "policy_skipped": 20,
-      "items_detail": [
-        {
-          "title": "Recover your forgotten PF savings using the new EPFO portal",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Status update on National Family Benefit Scheme",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Data on beneficiaries under RSETI",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Mapping of Self Help Groups on digital platforms",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Action plan under Lakhpati Didi initiative",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Budget allocation under DDU-GKY",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Status of Developed Gram Panchayat scheme",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Panchayati Raj",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Targeted and sanctioned houses under PMAY-G",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Connectivity via all-weather roads under PMGSY",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of VB-G RAM-JI scheme",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tribal Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Status of Pesticide Management Bill",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Strengthening of agricultural marketing",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Assistance to farmers under MIDH",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Discrepancies in fertilizer quality testing",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Promotion of traditional agricultural produce and seeds",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Delay in permitting multi-state cooperative societies",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Promotion of agricultural cooperatives in hilly regions",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Registration status of cooperatives in West Bengal",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Status of cooperative sugar mills",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Number of PACS in Ujjain",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Proposal for insurance company",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-28T21:24:53.862183+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -35329,6 +35140,193 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Earth Sciences",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-17T18:23:21.151486+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 2,
+      "items_seen": 15,
+      "items_evaluated": 4,
+      "items_skipped": 8,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 16,
+      "policy_skipped": 14,
+      "items_detail": [
+        {
+          "title": "SEBI warns: 88% of individual F&O traders still report losses",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Emami announces Rs 282 crore share buyback at 29% premium",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "LIC strengthens stake in NSE ahead of major IPO",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Why your credit score might drop despite perfect EMI payments",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministry of Finance to host conference for State Finance Ministers and Secretaries on financing India's growth journey.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President visit to Maharashtra.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Vice President Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President pays tribute at Hyderabad Liberation Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Vice President Secretariat",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministerial tree plantation and workshop address.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Defence intensifies workplace cleanliness initiatives.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Human interest story on educational progress.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "HAL to deliver indigenous trainer aircraft and helicopters to Indian Air Force and PHL.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Community-based science initiative for TB control in Rajasthan.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Defence Engineering Service celebrates 77th Foundation Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares article on center-state relations.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares article on India's maritime growth.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares article on India as an engine of growth.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares article on India's coalition building approach.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares article on enabling Indian aspirations.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister inaugurates Semicon India 2026.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Department of Social Justice organizes 'Swachhata Hi Seva' 2026.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice",
+          "horizon": "Immediate",
           "material": false
         }
       ]
