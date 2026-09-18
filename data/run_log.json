@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-30T04:11:25.470661+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "ITR filing: Why 31 July isn't the universal deadline for everyone",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-30T06:31:46.982499+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35157,6 +35129,87 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Earth Sciences",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-18T22:44:46.701182+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "New UPI fees: What changes for your fuel and railway payments",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Investing in G-Secs via UPI? Check for new MDR charges",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Waiting for your tax refund? 5 reasons it might be stuck",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Joint Operational Review and Evaluation (CORE) Program 2026 concluded in New Delhi.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "17th Kathakali Festival inaugurated at Kalakshetra Foundation, Chennai.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of health sector progress in Madhya Pradesh with focus on PPP model expansion.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Fifth ITEC executive capacity-building program on human rights for Global South concluded.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
           "horizon": "Immediate",
           "material": false
         }
