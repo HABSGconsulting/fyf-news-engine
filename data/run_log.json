@@ -1,112 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-29T18:56:33.990572+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 2,
-      "items_seen": 17,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 10,
-      "learn_links_matched": 0,
-      "policy_seen": 11,
-      "policy_evaluated": 11,
-      "policy_skipped": 9,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Public Examinations (Prevention of Unfair Means) Amendment Bill, 2026 passed in Lok Sabha",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of seventh anti-submarine shallow water craft",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "First meeting of the reconstituted Hindi Advisory Committee held",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ports, Shipping and Waterways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Research findings on Harappan civilization decline",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Parliamentary response on science and technology activities",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Policy update on human-centric skill development",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Employment outcomes report for PMKVY",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Performance-based payment metrics for skill training",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Implementation status of PMKVY 4.0",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Launch of PM-SETU scheme for ITI infrastructure upgrade",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of school incident in Varanasi",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-29T21:04:39.411058+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -35247,6 +35141,111 @@
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-18T17:53:34.301346+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 3,
+      "items_skipped": 6,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "ITAT ruling: Tax penalty reduced from 200% to 50% for NRI",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Apple Pay set to launch in India with Axis Bank support",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "8th Pay Commission: What central pensioners expect for Dearness Relief",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Agriculture Department to launch Special Campaign 6.0 from October 2 to 31.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President addresses platinum jubilee celebration of Yoga and Cultural Synthesis college.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Government of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister holds telephonic conversation with President of UAE.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Workshop on FMD-free zone development focuses on state action plans and PPP strengthening.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Sixth Special Campaign scheduled from October 2 to 31, 2026.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Administrative Reforms and Public Grievances",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Justice conducts cleanliness pledge under Swachhata Hi Seva campaign.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Minister speaks on India's progress toward Viksit Bharat@2047.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
