@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-30T06:31:46.982499+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-07-30T10:12:06.850801+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -35210,6 +35193,32 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "National Human Rights Commission",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-19T00:08:29.240487+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 4,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Ministerial statement regarding India's semiconductor ecosystem attractiveness.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
           "horizon": "Immediate",
           "material": false
         }
