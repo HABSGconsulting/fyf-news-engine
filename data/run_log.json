@@ -1,72 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-07-31T13:51:56.688837+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 13,
-      "items_evaluated": 0,
-      "items_skipped": 7,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 5,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Chief Minister of Chhattisgarh meets Prime Minister",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "APEDA facilitates first-ever air shipment of Neelam and Totapuri mangoes from Karnataka to Maldives",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "APEDA",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government implements stringent anti-paper leak legislation to secure examination processes",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Ministry urges citizens to download Mission Shakti app for emergency helpline access",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Women and Child Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "TDB issues clarification on selection process and conflict of interest policy for RDI scheme",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Technology Development Board",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister to visit Andhra Pradesh and Karnataka on August 1st",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-07-31T15:47:30.972392+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -34785,6 +34719,141 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-20T12:34:45.675146+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 0,
+      "items_seen": 17,
+      "items_evaluated": 6,
+      "items_skipped": 1,
+      "views_filtered": 5,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Busy IPO week: 19 new issues opening for subscription",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Check your portfolio: 150+ stocks announce dividends and splits",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Missed a small credit card payment? The interest cost is massive",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Digital gold to get safer: New RBI and SEBI oversight proposed",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "NPS Swasthya rules are out: Withdraw 25% for healthcare needs",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "EPF wage ceiling hiked to \u20b925,000: How your salary changes",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Review of Swachh Bharat Mission outcomes",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Overview of rural development initiatives",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Summary of Semicon India 2026 event outcomes",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Strategic focus areas for semiconductor development",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Completion of Indora-Dighori flyover project",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Conference on financing India's development journey",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of PM-AJAY social-economic development scheme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
