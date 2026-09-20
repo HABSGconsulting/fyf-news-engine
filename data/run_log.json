@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-01T06:44:21.584660+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-08-01T10:31:41.442965+05:30",
       "status": "ok",
       "posts_published": 15,
@@ -34653,6 +34644,34 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-09-20T23:49:29.591306+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "UPI Credit Lines: Use pre-sanctioned loans for your daily payments",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
