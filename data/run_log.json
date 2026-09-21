@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-01T11:47:46.277441+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "GSM Foils stock hits 20% lower circuit after management crisis",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Missed the ITR deadline? Here is how to file belatedly",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-01T13:22:45.150200+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 2,
@@ -34457,6 +34419,23 @@
       "items_evaluated": 0,
       "items_skipped": 2,
       "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-21T07:12:29.381175+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 9,
+      "items_evaluated": 0,
+      "items_skipped": 6,
+      "views_filtered": 1,
       "more_reads": 0,
       "learn_links_matched": 0,
       "policy_seen": 0,
