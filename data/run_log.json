@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-01T13:22:45.150200+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 3,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Jio Financial Services announces dividend: Check your record date status",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Resigning soon? Know the new rules for your EPF withdrawal",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-01T15:07:05.238890+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 3,
@@ -34443,6 +34405,105 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-21T12:45:12.662775+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 4,
+      "items_skipped": 13,
+      "views_filtered": 7,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "IT stocks under pressure: Why your tech portfolio is dipping today",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Bond market update: Why your debt funds are holding steady",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Jindal Supreme IPO: Check your allotment status today",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Lenskart shares dip 3% following large-scale block deal",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Indian Naval ships Sahyadri and Klish arrive at Subic Bay, Philippines for ADMM-Plus JCA.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam on virtues of religion, knowledge and non-violence.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Resolution Ceremony held across 1,000 locations with 4 lakh youth participation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "IICA organizes session on IBC: Evolving law through amendments.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "IICA 'Meet the Legend' program discusses PMLA-IBC interlinkages.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
