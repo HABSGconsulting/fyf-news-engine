@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-01T15:07:05.238890+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 3,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 12,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Dhaval Packaging IPO opens July 30: What you need to know",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Delhi Lakshmi Yojana: How to secure your monthly \u20b92,500 assistance",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "PF withdrawals now faster: Claims to settle within 48 hours",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-01T16:36:50.342090+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 2,
@@ -34500,6 +34452,89 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-21T14:48:53.663444+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 1,
+      "items_seen": 14,
+      "items_evaluated": 4,
+      "items_skipped": 5,
+      "views_filtered": 4,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "US tariff concerns trigger sell-off in Indian textile stocks",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Bank strike alert: Plan your transactions before September 28",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Check your SIM connections now to avoid massive fines",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Is your mutual fund portfolio drifting away from your original goals?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "CSIR organizes 'CSIR SciQuiz' on My Bharat portal",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Council of Scientific and Industrial Research",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Union Home Minister to inaugurate 3rd National Conference of ANTF Heads",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DoT issues advisory against fraudulent SIM issuance and IMEI tampering",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Telecommunications",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
