@@ -1,85 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-02T18:13:00.128828+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 3,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "Delhi Lakshmi Yojana: Apply now for \u20b92,500 monthly cash support",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "RBI updates FD rules: How bulk deposit changes affect your savings",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government reports zero manual scavengers identified in recent survey under MS Act, 2013.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Fourth edition of tri-service future warfare course to commence in New Delhi.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Commercial coal mining policy framework to accelerate domestic production capacity.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Coal",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "GI and Beyond 2.0 Summit scheduled for August 5 in New Delhi.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Textile exhibition 'World within the Cloth' to commence at National Crafts Museum.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-02T20:19:32.251892+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -34476,6 +34397,159 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-22T18:20:51.516222+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 20,
+      "items_evaluated": 3,
+      "items_skipped": 11,
+      "views_filtered": 3,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 13,
+      "policy_evaluated": 13,
+      "policy_skipped": 12,
+      "items_detail": [
+        {
+          "title": "Avoid ETF traps: Why Motilal Oswal Nasdaq Q50 crashed after premium surge",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "high"
+        },
+        {
+          "title": "No employer cover? Essential health insurance guide for freelancers and entrepreneurs",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Trading F&O? Master the 2025 tax rules for loss set-offs",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "National conference of ANTF heads on narcotics enforcement.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Fertilizers participates in Swachhata Hi Seva campaign.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Fertilizers participates in Swachhata Hi Seva campaign.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NSFDC and WBSCDC collaboration for livelihood development.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "World Rhino Day commemoration.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHAI signs MoU with Sardar Sarovar Narmada Nigam for infrastructure project approval process.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "9th Molecular Virology meeting on research and preparedness.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Biotechnology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "EU delegation meets with Minister to discuss trade and technology cooperation.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Health camp organized at National Media Centre.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Social rehabilitation case study in Jammu and Kashmir.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Joint air exercise Veer Guardian 26 concludes.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "7th High-level meeting of OPEC-India energy dialogue.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Petroleum and Natural Gas",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Food and Public Distribution launches Swachhata Hi Seva campaign.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
