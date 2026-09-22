@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-03T04:10:24.079404+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-03T06:45:41.343379+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -34511,6 +34494,48 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Culture",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-22T23:21:01.679617+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 9,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "President of India confers 72nd National Film Awards",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "President of India confers 72nd National Film Awards in Ekta Nagar, Gujarat",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Mahanadi Coalfields Limited initiates Special Campaign 6.0 for cleanliness drive",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Immediate",
           "material": false
         }
       ]
