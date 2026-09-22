@@ -1,69 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-02T22:06:17.192662+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Calculating capital gains on your NPS Tier II withdrawals",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Tax-free reimbursements: Documents you must keep for your ITR",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "PM addresses launch of 'Drug-Free Youth for Developed India' campaign",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "PM pays tribute to freedom fighter Pingali Venkayya on 150th birth anniversary",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "PM launches 'Drug-Free Youth for Developed India' campaign",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-03T04:10:24.079404+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -34523,6 +34460,56 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-22T21:16:53.531740+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Ministerial delegation meeting with European Parliament ITRE committee",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Announcement of 11th Ayurveda Day celebration",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of 9th India International Water Week 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM memento e-auction 2026 featuring cultural artifacts",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
