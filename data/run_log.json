@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-04T04:12:38.969459+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 1,
-      "items_skipped": 3,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "UPI payments might soon carry a fee: What you need to know",
-          "score": 10,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "regulatory_draft",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-04T06:36:22.648348+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -34151,6 +34123,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-09-24T00:43:51.490986+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
