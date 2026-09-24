@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-04T11:44:54.550640+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 11,
-      "items_evaluated": 3,
-      "items_skipped": 7,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Dabur shares dip as FSSAI restricts '100% natural' product claims",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "New FD rules for Small Finance Banks starting October: What you need",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Lost old PF accounts? New EPFO portal helps you link them easily",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-04T13:39:26.666544+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -34063,6 +34015,152 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-24T12:18:41.284948+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 0,
+      "items_skipped": 7,
+      "views_filtered": 6,
+      "more_reads": 9,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 16,
+      "policy_skipped": 16,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana 2.0",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PB Word",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM congratulates athletes on medal win",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM shares Sanskrit Subhashitam",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India Water Week 2026 proceedings",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DRI seizes 21kg of smuggled gold worth Rs 32 crore",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DRI seizes 12kg of smuggled gold worth Rs 17 crore",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition of Onesto Labs by L'Oreal India",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition of equity stake in IIFL Capital Services by FIH Mauritius",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Conclusion of 11th Ayurveda Day celebrations",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "11th Ayurveda Day celebrated in New Delhi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "11th Ayurveda Day celebrated in Mandi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Finance Minister inaugurates BRICS Tax Authorities meeting",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Elderline 14567 helpline overview",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NLMC conducts investor meeting for RINL land e-auction",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM memorabilia exhibition highlights",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
