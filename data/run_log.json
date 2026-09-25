@@ -1,56 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-05T10:19:55.825427+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 0,
-      "items_skipped": 15,
-      "views_filtered": 7,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Government initiates promotional strategy for India's first Telecom Manufacturing Zone (TMZ).",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministerial meeting held regarding ethanol policy support for farmers.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Incident report regarding airline safety event.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Civil Aviation",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Venture Capital Fund for Scheduled Castes supports individual dairy processing enterprise.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-05T11:42:50.885204+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -33770,6 +33720,177 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-25T12:11:37.864493+05:30",
+      "status": "ok",
+      "posts_published": 8,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 8,
+      "items_skipped": 9,
+      "views_filtered": 5,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "OFSS shares drop 5% on Oracle project delay concerns",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Ola Electric shares slide 9% as market weighs funding needs",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Half of Nifty 500 stocks down in 2026; time to pivot?",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "PB Fintech shares crash 36% on proposed insurance commission changes",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "ArMee Infotech IPO: Final day to bid, subscribed 1.17x",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Swastika Infra IPO: Final day bidding, issue subscribed 1.6x",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "PB Fintech shares tumble: Understanding the impact of new IRDAI rules",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "German Green Steel IPO: Is the 20% premium worth the risk?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "DDU-GKY 2.0 to provide skill training to 70,000 rural youth starting October 2026.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister pays tribute to Pandit Deendayal Upadhyaya on his birth anniversary.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Conclusion of the 65th edition of the Subroto Cup International Football Tournament.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India Water Week 2026 focuses on climate resilience, water financing, and innovation.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ayush institutions organize awareness activities for 11th Ayurveda Day 2026.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Legislative Department organizes expert lecture on 'Swachhata Se Samriddhi'.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister discusses India's global economic participation and integration into global value chains.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Minister flags off 'Youth Safety and Smart Mobility Expedition 2026'.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India-Africa Roundtable held during the 9th India International Water Week 2026.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
