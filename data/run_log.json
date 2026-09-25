@@ -1,191 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-05T15:46:37.229082+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 1,
-      "items_seen": 20,
-      "items_evaluated": 3,
-      "items_skipped": 7,
-      "views_filtered": 5,
-      "more_reads": 5,
-      "learn_links_matched": 0,
-      "policy_seen": 17,
-      "policy_evaluated": 17,
-      "policy_skipped": 16,
-      "items_detail": [
-        {
-          "title": "Your home loan EMIs remain stable as RBI holds repo rate",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Missed the ITR deadline? Here is how to file a belated return",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "F&O traders: Turnover is not trade value for your ITR",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "TRAI releases consultation paper on amendments to Quality of Service standards for wireline and wireless broadband services.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "TRAI",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Swamitva Scheme and rural property ownership rights update.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Panchayati Raj",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Commemoration of the repeal of Article 370 and 35(A).",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Government of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Routine administrative update on coal sector reforms.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Coal",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Parliamentary response regarding El Nino preparedness.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Earth Sciences",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Parliamentary response on strengthening monsoon and climate research.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Earth Sciences",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Status update on Forest Rights Act implementation.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tribal Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Tribal women participation in Van Dhan Vikas Kendras.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tribal Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Socio-economic development and welfare of Scheduled Tribes.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tribal Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Livelihood opportunities for Irula tribal community.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tribal Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Income generation for tribal producers in Tripura.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tribal Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Status of pending scholarships under ST schemes.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tribal Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Implementation of PM JANMAN in West Bengal.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tribal Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Implementation of PM JANMAN in Odisha.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tribal Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares Sanskrit Subhashitam on spiritual development.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "PMO",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Parliamentary consultative committee meeting on environment.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "DRI seizes restricted imported goods.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Department of Revenue Intelligence",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-05T17:16:42.425197+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -33924,6 +33739,54 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-09-25T18:32:35.880977+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 16,
+      "items_evaluated": 3,
+      "items_skipped": 8,
+      "views_filtered": 5,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 18,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "UPI fee breakdown: How the 0.4% MDR is distributed",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "October 2026 tax deadlines: Don't miss these dates",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Bank strike alert: SBI waives ATM fees from Sept 28-30",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
