@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-05T04:16:14.569654+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 1,
-      "items_skipped": 4,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "New stock market closing mechanism: Better pricing for your index funds",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-05T06:35:44.759568+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -33781,6 +33753,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-09-25T05:31:52.007727+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
