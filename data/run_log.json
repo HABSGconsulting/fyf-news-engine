@@ -1,109 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-05T21:22:02.856514+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 13,
-      "items_evaluated": 2,
-      "items_skipped": 3,
-      "views_filtered": 1,
-      "more_reads": 7,
-      "learn_links_matched": 0,
-      "policy_seen": 17,
-      "policy_evaluated": 8,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "Policybazaar parent PB Fintech reports 92% jump in quarterly profit",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Compare latest FD rates across top banks to maximize your returns",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Container train operators permitted to operate on all routes with a single All-India license.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Railways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Repco Bank dividend payment to Ministry of Cooperation.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministerial address on agricultural training and income growth.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Research update on light-activated nanobots for breast cancer treatment.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Department of Science and Technology",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Ministerial congratulatory message for cycling expedition.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Women and Child Development",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Clarification on EWS reservation eligibility criteria.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Advisory regarding misleading EdTech platforms and fake universities.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Status report on Vidyanjali community participation in schools.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-05T22:39:09.142718+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -33697,6 +33594,23 @@
       "items_skipped": 3,
       "views_filtered": 2,
       "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-25T23:37:22.013995+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 0,
       "learn_links_matched": 0,
       "policy_seen": 20,
       "policy_evaluated": 0,
