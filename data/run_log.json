@@ -1,101 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-06T17:22:33.159116+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 2,
-      "items_seen": 6,
-      "items_evaluated": 2,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 15,
-      "policy_evaluated": 7,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Bank held liable for scam loss: What this means for your account",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Nominee vs. Legal Heir: Why your portfolio needs a Will",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "behavioral",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Implementation of Jal Jeevan Mission",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Rainwater harvesting and water conservation initiatives",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Projects under Namami Gange mission",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ceremonial tribute to Dr. G.S. Dhillon",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Lok Sabha Secretariat",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government prioritizes rapid expansion of data center capacity for digital and AI infrastructure",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "DFS Insurance Division ranked third in GRAI index for June 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Financial Services",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Strategic contribution of BioE3 policy to biotechnology sector",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-06T18:52:11.814234+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -33535,6 +33440,48 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-26T19:23:56.109565+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Launch of women empowerment and cooperative initiatives in Kollam, Kerala.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President's scheduled visit to Kerala on September 27.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Office of the Vice President",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "E-auction of Prime Minister's mementos featuring Maharashtra's heritage and art.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
           "horizon": "Immediate",
           "material": false
         }
