@@ -1,71 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-06T13:37:26.686347+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 20,
-      "items_evaluated": 3,
-      "items_skipped": 3,
-      "views_filtered": 7,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Madhusudan Kela trims stake in Rashi Peripherals after 200% rally",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "LIC shares dip following successful Rs 31,552 crore OFS",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "LEAP India IPO opens tomorrow: Check price band and key details",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Coal Ministry advisory committee reviews commercial coal mining reforms and private sector participation strategies.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Coal",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares cultural Sanskrit verse regarding environmental stewardship.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-06T15:49:18.028002+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -33693,6 +33628,40 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Chemicals and Fertilizers",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-26T15:47:03.717369+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 0,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "ICAR-CIRB organizes Swachhata Samvad to promote cleanliness and public participation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "World Tourism Day 2026 observance announcement.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
