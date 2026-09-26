@@ -1,53 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-06T11:45:06.654312+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 14,
-      "items_evaluated": 2,
-      "items_skipped": 7,
-      "views_filtered": 4,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Inheriting property? New 2025 rules on probate explained for heirs",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Missed the ITR deadline? You can still claim your tax refund",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "CCI approves proposed combination involving acquisition of shares and merger of certain entities into InterGlobe Hotels.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Competition Commission of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-06T13:37:26.686347+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -33693,6 +33646,53 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Cooperation",
           "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-26T14:25:32.098659+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 15,
+      "items_evaluated": 2,
+      "items_skipped": 5,
+      "views_filtered": 4,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Oracle layoffs: 5 steps to secure your finances today",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Tax-free bonds: ITAT ruling helps senior citizen recover \u20b99.91 lakh",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Department of Chemicals and Petro-Chemicals initiates Special Campaign 6.0 for workplace efficiency and waste disposal.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
           "material": false
         }
       ]
