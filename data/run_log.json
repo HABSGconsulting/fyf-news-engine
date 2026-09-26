@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-06T06:35:09.025389+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Switching your health insurance? Avoid these common claim rejection traps",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-06T10:21:13.699713+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -33558,6 +33530,23 @@
       "items_evaluated": 0,
       "items_skipped": 1,
       "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-26T07:31:35.051777+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 1,
       "more_reads": 0,
       "learn_links_matched": 0,
       "policy_seen": 20,
