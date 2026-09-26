@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-06T04:14:02.029193+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Returning to India? Understand how your US-listed shares are taxed",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-06T06:35:09.025389+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -33575,6 +33547,23 @@
           "behavioral_risk": "medium"
         }
       ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-26T05:42:41.267831+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
       "policy_detail": []
     }
   ]
