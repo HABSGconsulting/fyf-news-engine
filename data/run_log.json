@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-07T07:23:12.328691+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 1,
-      "items_skipped": 3,
-      "views_filtered": 0,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Secure your retirement: Avoid interest loss on your inoperative EPF account",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-07T09:45:46.542321+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -33450,6 +33422,34 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-09-27T00:13:55.189856+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Tax audit deadline approaching: 5 steps to ensure timely compliance",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
