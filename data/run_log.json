@@ -1,83 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-06T10:21:13.699713+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 25,
-      "items_evaluated": 1,
-      "items_skipped": 16,
-      "views_filtered": 5,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Last chance: Buy these 38 stocks today to claim dividends",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Ministry of Tourism partners with Netflix for promotional content.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tourism",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Civil Aviation issues Letters of Intent for 11 new Flying Training Organizations.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Civil Aviation",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "NITI Aayog releases report on caregiving strategies for Viksit Bharat@2047.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "NITI Aayog",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Culture and Tourism partner with Netflix for cultural promotion.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Pawan Hans signs MoU with Norway's Noemi Aerospace.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Civil Aviation",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Government releases Rs 747.17 crore to Uttar Pradesh for SC/ST Act implementation.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-06T11:45:06.654312+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -33554,6 +33477,225 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-26T12:11:17.876154+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 2,
+      "items_seen": 25,
+      "items_evaluated": 4,
+      "items_skipped": 1,
+      "views_filtered": 4,
+      "more_reads": 13,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 18,
+      "items_detail": [
+        {
+          "title": "Bank branches closed today: Plan your weekend banking tasks accordingly",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "UPI payments over \u20b92,000: FM clarifies merchant MDR charges",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "ITAT cancels \u20b92.21 lakh penalty: Why your ITR verification matters",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Banks to stay open this Sunday: Plan your transactions to avoid delays",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government departments initiate preparatory phase for Special Campaign 6.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister pays tribute to former Prime Minister Dr. Manmohan Singh.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Health Secretary reiterates India's commitment to global pandemic preparedness.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Direct recruitment for various positions in Government of India.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NSS organizes health awareness activities under Nasha Mukt Bharat Abhiyaan.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates Asian Games medalists.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates Asian Games medalists.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates Asian Games medalists.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NLMC concludes investor outreach for RINL land e-auction.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Steel",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Heavy Industries prepares for Special Campaign 6.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PSA reviews RUETAG 2.0 projects at IIT Roorkee.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Office of the Principal Scientific Adviser",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "9th India International Water Week 2026 concludes.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Tree plantation drive conducted under Swachhata Hi Seva.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department organizes session on sanitation and civilization.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "ICAT initiates dialogue on PM e-Drive and launches agricultural machinery testing facility.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Indian Coast Guard to strengthen maritime cooperation via Quad-at-Sea mission.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Success story of beneficiary under government welfare schemes.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "40th webinar in National Good Governance series held.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Administrative Reforms and Public Grievances",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "New member appointed to the Board for Development of DNT communities.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National-level consultation held for National Cooperative Training Framework (NCTF) 2026.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
