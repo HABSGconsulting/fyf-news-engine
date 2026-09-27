@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-08T03:50:56.463250+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Book FDs directly on PhonePe: Compare rates across banks and NBFCs",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-08T05:36:32.489553+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 0,
@@ -33020,6 +32992,80 @@
         },
         {
           "title": "Announcement of Tarang Shakti-2026 military exercise.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-27T21:20:11.248431+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister congratulates Anahat Singh on winning silver medal in women's singles squash at Asian Games.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates Abhay Singh on winning silver medal in men's singles squash at Asian Games.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Union Minister for Tourism and Culture emphasizes tourism development for local community opportunities.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Zoological Park organizes Sunday Bird Walk and Butterfly/Dragonfly walk.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Lalit Kala Akademi announces 20 awards at the 65th National Exhibition of Art.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President attends 15th Graduation Day of SUT Academy of Medical Sciences.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Vice President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Naval Ships Sahyadri and Kiltan complete participation in ADMM-Plus maritime security exercise.",
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Defence",
