@@ -1,79 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-07T12:23:46.810152+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 13,
-      "items_evaluated": 3,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Indraprastha Medical shares jump 9% on strong Q1 profit growth",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Tata stocks rally as RBI classifies Tata Sons as upper-layer NBFC",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Hero MotoCorp shares jump 3% after Q1 profit beats estimates",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister shares Sanskrit subhashitam on selfless service",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister to address 57th convocation of IIT Delhi",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "GOBARdhan scheme impact on clean energy and rural development",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-07T14:09:45.496002+05:30",
       "status": "ok",
       "posts_published": 6,
@@ -33310,6 +33237,107 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-27T12:43:27.723943+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 1,
+      "items_seen": 20,
+      "items_evaluated": 5,
+      "items_skipped": 7,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Check your portfolio: 10 stocks turning ex-dividend or bonus this week",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Busiest IPO week: 20 new issues open for subscription",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Withdrawing full EPF? Know the impact on your future retirement savings",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Buying property from an NRI? TDS compliance just got simpler",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Tax audit deadline approaching: 5 critical checks to avoid penalties",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government of India extends the Indian Marine Insurance Pool for strategic maritime coverage.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Transcript of Prime Minister's Mann Ki Baat address.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National Conference on Rabi Campaign 2026 scheduled in New Delhi.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates athlete on Asian Games medal win.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
