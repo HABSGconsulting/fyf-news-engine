@@ -1,103 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-07T16:03:52.905854+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 1,
-      "items_seen": 11,
-      "items_evaluated": 3,
-      "items_skipped": 3,
-      "views_filtered": 0,
-      "more_reads": 5,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "NRIs: Avoid these compliance traps when buying or selling Indian property",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Paying rent in cash? Here is how to protect your HRA benefit",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "NPS for NRIs: A guide to building your retirement corpus in India",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Jan Aushadhi Kendra medicine sales performance update",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Chemicals and Fertilizers",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM shares article on handloom sector significance",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Environment Minister attends 77th Van Mahotsav in Manesar",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister urges adoption of Indian handloom products",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Speech text on 84th anniversary of Quit India Movement",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Parliament of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "I4C issues advisory on 'Boss Scam' targeting financial professionals",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-07T20:09:44.052632+05:30",
       "status": "ok",
       "posts_published": 9,
@@ -33283,6 +33186,61 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-27T16:15:38.319986+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 2,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Irdai proposes commission caps to make your insurance cheaper",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Supreme Court to hear plea against UPI merchant charges",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Inauguration of Rs 1,472 crore development works at Sabarmati Railway Station and launch of LNG-powered train.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial address on global trade and investment opportunities in Uttar Pradesh.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
