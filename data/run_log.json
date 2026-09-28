@@ -1,43 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-08T13:51:57.632562+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 8,
-      "items_evaluated": 1,
-      "items_skipped": 5,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Molbio Diagnostics secures Rs 281 crore from anchor investors ahead of IPO",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "CSIR Integrated Skill Initiative Phase-III (2025-30) monitoring committee meeting held.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-08T15:43:50.704350+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -33101,6 +33064,139 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-28T13:12:24.445410+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 1,
+      "items_seen": 25,
+      "items_evaluated": 5,
+      "items_skipped": 13,
+      "views_filtered": 4,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Check your IPO allotment status for Elevate, Swastika, and ArMee today",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Insurance stocks slide 38%: IRDAI reforms spark market concern",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Bernstein sees 91% upside for PB Fintech despite regulatory pressure",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Gold and silver prices drop sharply; should you adjust your portfolio?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "RBI rate hike expectations: What it means for your EMI",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Pradhan Mantri Anusuchit Jaati Abhyuday Yojana (PM-AJAY) implementation update",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Tribute to Ashok Singhal",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cultural and health awareness message",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Tribute to Lata Mangeshkar",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Tribute to Bhagat Singh",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Congratulatory message for sports achievement",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Health awareness campaign under Viksit Bharat Abhiyan",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "World Skills Competition performance report",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
