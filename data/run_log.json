@@ -1,32 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-08T17:34:32.915552+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 4,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "BRICS Culture Ministers meeting concludes in Bhopal with adoption of Bhopal Declaration",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-08T19:47:15.098620+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -33260,6 +33234,61 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Personnel, Public Grievances and Pensions",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-28T17:30:06.949681+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 12,
+      "items_evaluated": 2,
+      "items_skipped": 3,
+      "views_filtered": 5,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "RBI to shift government borrowing to shorter-tenure bonds",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "CBDT extends ITR and tax audit deadlines for eligible taxpayers",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Directorate of Revenue Intelligence busts nationwide gold smuggling network with 6.6kg seizure.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Consumer Affairs organizes Swachhata Hi Seva 2026 and Special Campaign 6.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Consumer Affairs",
+          "horizon": "Immediate",
           "material": false
         }
       ]
