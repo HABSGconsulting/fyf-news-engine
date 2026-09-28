@@ -1,69 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-08T11:55:36.016483+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 9,
-      "items_evaluated": 2,
-      "items_skipped": 2,
-      "views_filtered": 1,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Dhoot Transmission secures Rs 918 crore from anchor investors before IPO",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Foreign investors shift focus to consumption stocks over capital expenditure",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Supreme Court issues guidelines regarding judicial proceedings in sexual offense cases.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Update on progress of legislative reforms.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "16th BRICS Trade Ministers meeting concludes in Jaipur.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-08T13:51:57.632562+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -33136,6 +33073,34 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-09-28T07:31:25.964307+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 1,
+      "items_skipped": 5,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Tax audit deadline is September 30: Avoid penalties by filing now",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
