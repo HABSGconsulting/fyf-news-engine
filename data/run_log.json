@@ -1,48 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-09T13:54:14.226190+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "President's Colours awarded to Puducherry Police",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "National Biodiversity Authority distributes Rs 3.79 crore to 33 states and national institutions under Access and Benefit Sharing mechanism",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister receives telephone call from US Vice President",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-09T15:46:22.400842+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -33242,6 +33200,113 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-29T13:05:45.236870+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 1,
+      "items_seen": 25,
+      "items_evaluated": 4,
+      "items_skipped": 12,
+      "views_filtered": 6,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Nifty index rejig: How passive inflows may impact your portfolio stocks",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Tesla investors on edge as regulatory scrutiny intensifies",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "PB Fintech shares crash: Is the 42% drop a buying opportunity?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Tata stocks dip as Tata Sons listing plans face uncertainty",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "CBI arrests two officials for bribery in FCRA registration process",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government awareness campaign on universal literacy",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of first Indian Forest and Wood Certification scheme certificates",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares cultural wisdom on success",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of Livestock Insurance Portal for simplified claim processing",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Rashtriya Raksha University commences second batch of Masters in Financial and Economic Security",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
