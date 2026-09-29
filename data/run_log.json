@@ -1,79 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-09T17:34:20.771650+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 1,
-      "items_seen": 6,
-      "items_evaluated": 3,
-      "items_skipped": 2,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "28 International Funds Halt SIPs: What This Means for Your Portfolio",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "8th Pay Commission: What a Potential Salary Hike Means for You",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Moving Abroad? Know the Rules for Your PPF Account",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Minister leads Fit India Sunday on Cycle event for Nasha Mukt Bharat campaign.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister highlights India's strategic role in future industrial revolution driven by biotechnology and AI.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India achieves 300 GW of non-fossil fuel-based power generation capacity.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of New and Renewable Energy",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-09T19:48:59.114770+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -33276,6 +33203,64 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Tourism",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-29T17:05:34.748011+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 12,
+      "items_evaluated": 0,
+      "items_skipped": 7,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Minister of Agriculture holds press conference on Rabi campaign strategy.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Railways approves two new MEMU services connecting Meerut to Khurja and Saharanpur.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government announces Special Campaign 6.0 for cleanliness and pendency reduction.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Controller of Communication Accounts releases schedule for telecom pensioner life certificate camps.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MSME and MOSPI sign MoU to develop and strengthen the Statistical Business Register.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of MSME",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
