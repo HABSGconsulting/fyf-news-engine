@@ -1,95 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-10T16:22:21.905385+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 1,
-      "items_seen": 13,
-      "items_evaluated": 3,
-      "items_skipped": 7,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "US Senate advances Crypto Clarity Act: What it means for markets",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "regulatory_draft",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Closing your credit card? Don't ignore your outstanding EMIs",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Delhi HC: Father cannot withdraw daughter's PPF funds for personal use",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister shares article on rising Asiatic lion population in India.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Minority Affairs promotes Jiyo Parsi scheme for medical, childcare, and elderly care.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Minority Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Minority Affairs implements welfare schemes for minority communities in hilly regions.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Minority Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Minority Affairs conducts leadership and capacity-building programs for minority women in Odisha.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Minority Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DGFT removes requirement for physical fee payment challans for export obligation discharge certificate applications.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Directorate General of Foreign Trade",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-10T18:03:45.049737+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -33384,6 +33295,95 @@
           "gate": "Skip entirely",
           "ministry": "Press Information Bureau",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-30T15:38:19.428944+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 20,
+      "items_evaluated": 3,
+      "items_skipped": 10,
+      "views_filtered": 1,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 11,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Hospital stocks dip as Supreme Court questions medicine mark-ups",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "MRPL shares fall 5% following explosion at Mangaluru plant",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Six essential questions to ask before your next investment",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister to attend UPSC centenary celebrations at Bharat Mandapam",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates athletes on Asian Games achievement",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Awareness campaign regarding sanitation workers",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves Rs 5,547.99 crore procurement for Kharif 2026-27",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Accounts Department to celebrate 279th annual day",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
