@@ -1,97 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-10T14:32:01.361824+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 16,
-      "items_evaluated": 4,
-      "items_skipped": 6,
-      "views_filtered": 5,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "Bank of Japan signals rate hike; watch for global market ripples",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Court rules: Parents cannot withdraw from child's PPF for personal use",
-          "score": 10,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Studying in the US? Know the tax rules before investing",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Using mutual fund SWPs to pay home loans: Tax and audit tips",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Ministry of Parliamentary Affairs launches upgraded web portal for National Youth Parliament Scheme (NYPS 2.0).",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Parliamentary Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Transcript of Prime Minister's interaction with CWG medal winners.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "President of India pays floral tribute to V.V. Giri on his birth anniversary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "President's Secretariat",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government reports increase in Asiatic lion population from 523 in 2015 to 891 in 2025.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-10T16:22:21.905385+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -33383,6 +33292,101 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-09-30T13:01:31.284005+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 2,
+      "items_skipped": 16,
+      "views_filtered": 2,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Inox Clean Energy files for massive Rs 10,000 crore IPO",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "US Fed signals more rate hikes; expect market volatility ahead",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "PIB release on wastewater resource management",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "UPSC administrative update",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Legal Affairs e-waste awareness workshop",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Culture award ceremony",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India-Korea Joint Committee meeting on defense industry cooperation",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "UIDAI launches five new initiatives at Aadhaar Samvad Kolkata",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Land Resources statement on watershed development",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
