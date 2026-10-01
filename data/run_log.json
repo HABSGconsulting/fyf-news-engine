@@ -1,131 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-11T12:05:56.944734+05:30",
-      "status": "ok",
-      "posts_published": 9,
-      "policy_published": 1,
-      "items_seen": 19,
-      "items_evaluated": 9,
-      "items_skipped": 5,
-      "views_filtered": 5,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Jubilant Pharmova shares dip 6% as Q1 profits drop 45%",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "PC Jeweller surges 6% on strong Q1 profit growth",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Vedanta group stocks to see $160M inflows in Nifty rejig",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Info Edge profit surges 43%; brokerages maintain bullish outlook",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Gland Pharma rallies 12% on strong Q1; brokerage downgrades stock",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "BSE to join Nifty 50; expected $695 million inflow ahead",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Settle pending EPF damage cases at reduced rates via EPFO Vishwas 2026",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Buying a new car? Expect higher upfront costs for insurance",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Healthcare costs are now the top financial worry for employees",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government initiates container manufacturing support scheme to enhance maritime logistics capacity.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Ports, Shipping and Waterways",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares Sanskrit subhashitam on personal character development.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-11T14:07:59.438633+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -33054,6 +32929,23 @@
       "items_skipped": 1,
       "views_filtered": 1,
       "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-01T08:03:40.609621+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 12,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
       "learn_links_matched": 0,
       "policy_seen": 20,
       "policy_evaluated": 0,
