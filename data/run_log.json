@@ -1,53 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-12T09:22:51.141065+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 24,
-      "items_evaluated": 2,
-      "items_skipped": 16,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Tax liability for ITR-7 filers triples to \u20b91,043 crore",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "5 major EPFO updates in 2026 for salaried employees",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "MoHUA hosts national conference on affordable housing reforms.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-12T10:48:59.834727+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32913,6 +32866,23 @@
           "behavioral_risk": "low"
         }
       ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-02T02:01:09.189366+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
       "policy_detail": []
     }
   ]
