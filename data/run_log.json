@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-12T03:57:36.427718+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 0,
-      "items_skipped": 5,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-12T06:12:51.567631+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32914,6 +32897,40 @@
           "gate": "Skip entirely",
           "ministry": "Department of Pharmaceuticals",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-01T23:00:30.260082+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Awareness program conducted by District Opium Office, Mandsaur under Mission Yuva Raksha.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister of Commerce and Industry attends G20 Trade Ministers meeting in Milwaukee.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
