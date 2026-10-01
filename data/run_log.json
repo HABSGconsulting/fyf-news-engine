@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-11T10:23:50.689176+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 3,
-      "items_skipped": 8,
-      "views_filtered": 4,
-      "more_reads": 7,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Shankesh Jewellers IPO opens August 18; price band set at Rs 88-93",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "BSE to join Nifty 50: What this index shift means for your portfolio",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Vodafone Idea Q1 loss narrows; ARPU jumps 10% to Rs 195",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-11T12:05:56.944734+05:30",
       "status": "ok",
       "posts_published": 9,
@@ -33085,6 +33037,23 @@
       "items_skipped": 3,
       "views_filtered": 0,
       "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-01T06:23:53.789525+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 5,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 3,
       "learn_links_matched": 0,
       "policy_seen": 20,
       "policy_evaluated": 0,
