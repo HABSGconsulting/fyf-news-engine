@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-12T22:08:00.461237+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 11,
-      "items_evaluated": 4,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 18,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Indel Money launches Rs 500 crore NCD issue for investors",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Apollo Hospitals reports 38% profit jump in Q1 results",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Selling jointly owned property? Mind the capital gains tax trap",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Over 6,000 students receive agriculture scholarships via DBT",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-13T03:57:07.738956+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 1,
@@ -32715,6 +32657,152 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-02T21:31:00.856036+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 5,
+      "items_evaluated": 0,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 16,
+      "policy_skipped": 15,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Department of Telecommunications concludes Swachhata Hi Seva 2026 campaign.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CEO of Bhashini speaks at MNS Centenary Scientific Conference.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Home Minister acknowledges international appreciation of Prime Minister's peace efforts.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President attends 11th Sant Ishwar Samman-2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CAQM conducts 197 inspections in NCR to monitor regulatory compliance.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry conducts 'Shram Samvad' outreach campaign in industrial clusters.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates women's hockey team on Asian Games gold medal.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India and Netherlands discuss strengthening agricultural cooperation.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry expresses condolences on the passing of senior officials.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Naval Ship 'Trishul' arrives in Valencia, Spain.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates athlete on Asian Games gold medal.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates boxer on Asian Games gold medal.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Jammu and Kashmir initiates mining development with successful auction of two mineral blocks.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Mines",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of 'Special Swachhata Campaign 6.0' across multiple ministries.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister highlights the future role of robotics in medical fields.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister leads tree plantation drive at Babu Jagjivan Ram National Foundation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
           "horizon": "Immediate",
           "material": false
         }
