@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-13T03:57:07.738956+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 9,
-      "items_evaluated": 1,
-      "items_skipped": 5,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 19,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Lower your TDS burden: Understanding the new Child Certificate under Tax Act 2025",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-13T06:14:59.992400+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 1,
@@ -32801,6 +32773,91 @@
         {
           "title": "Minister leads tree plantation drive at Babu Jagjivan Ram National Foundation.",
           "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-02T22:21:52.031832+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "International mutual funds: Check your SIP status before investing",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister attends prayer meeting at Gandhi Smriti.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cultural exchange delegation visit between Madhya Pradesh and Karnataka.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Nationwide Gram Sabhas held for grassroots discussion on public initiatives.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Telecommunications initiates implementation phase of Special Campaign 6.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Overview of Prime Minister's Employment Generation Programme impact.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Khadi and Village Industries Commission announces nationwide product discounts.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Distribution of assistive devices under Rashtriya Vayoshri Yojana in Delhi-NCR.",
+          "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
           "horizon": "Immediate",
