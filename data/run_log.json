@@ -1,63 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-12T12:28:44.668855+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 13,
-      "items_evaluated": 3,
-      "items_skipped": 3,
-      "views_filtered": 2,
-      "more_reads": 5,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "LEAP India IPO: Check your allotment status today for potential gains",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Tata stocks slide: What N Chandrasekaran's resignation means for your portfolio",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Forgotten bank money? How to claim your funds via RBI's UDGAM portal",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "behavioral",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister addresses the book launch of former President Ram Nath Kovind's autobiography.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-12T14:22:50.332882+05:30",
       "status": "ok",
       "posts_published": 6,
@@ -32838,6 +32781,44 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-10-02T08:05:22.356826+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 2,
+      "items_skipped": 5,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Stock markets closed today for Gandhi Jayanti; trading resumes next week",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "NPS Tatkal: New instant pension account facility to simplify retirement planning",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
