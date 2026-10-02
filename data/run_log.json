@@ -1,61 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-12T10:48:59.834727+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 18,
-      "items_evaluated": 2,
-      "items_skipped": 8,
-      "views_filtered": 1,
-      "more_reads": 7,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "MCX outlook brightens as SEBI eyes wider commodity market access",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "regulatory_draft",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Godrej Consumer shares drop 10% following sudden CEO resignation",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "high"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister shares Sanskrit subhashit on the power of winning hearts through vision and action.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of Next Generation Offshore Patrol Vessel (Yard 3037, Shruti) at GRSE, Kolkata.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-12T12:28:44.668855+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32884,6 +32829,15 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-02T06:35:33.215566+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
