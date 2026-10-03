@@ -1,155 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-13T16:15:47.870783+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 11,
-      "items_evaluated": 1,
-      "items_skipped": 8,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 15,
-      "policy_evaluated": 15,
-      "policy_skipped": 15,
-      "items_detail": [
-        {
-          "title": "EPS-95 pension hike: Government maintains current \u20b91,000 minimum payout",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Monsoon session of Parliament adjourned sine die; 12 bills passed.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Parliament of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Approval of RKVY and KY funds for Rajasthan and Telangana.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "President of India confers Sangeet Natak Akademi awards.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Recovery of stolen antiquities.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Mission Mausam implementation framework.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Earth Sciences",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Climate change resilience and forecasting capability enhancement.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Earth Sciences",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Valedictory speech at the conclusion of the 271st session of Rajya Sabha.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Rajya Sabha",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Science Tech 2026 initiative update.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Environmental impact assessment of Bio-E3 policy.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Private sector participation in the space sector.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Department of Space",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Applications of space technology.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Department of Space",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Support mechanisms for space start-ups.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Department of Space",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Performance report on CPGRAMS.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "iGOT Mission Karmayogi implementation in West Bengal.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Dispute-free pension resolution system.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-13T18:04:00.829104+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -32639,6 +32490,103 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-03T12:40:43.941827+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 21,
+      "items_evaluated": 3,
+      "items_skipped": 7,
+      "views_filtered": 5,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Check your debt fund purchase date for potential tax savings",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Bank branches are open today: Plan your visits accordingly",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Protect your savings: How to spot and avoid modern financial scams",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Extradition of narcotics trafficker from Turkey",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI enforcement action against illegal wildlife trafficking",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Directorate of Revenue Intelligence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Jawahar Dweep terminal achieves plastic-free status",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial statement on Shipping Corporation of India's strategic role",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Awareness program for Nasha Mukt Bharat Abhiyaan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Youth Sangam delegation visit",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
