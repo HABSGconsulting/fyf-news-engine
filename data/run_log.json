@@ -1,131 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-13T18:04:00.829104+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 14,
-      "items_evaluated": 1,
-      "items_skipped": 6,
-      "views_filtered": 5,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 12,
-      "policy_evaluated": 12,
-      "policy_skipped": 12,
-      "items_detail": [
-        {
-          "title": "SEBI proposes Rs 5 crore asset threshold for accredited investor status",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Minister hoists flag under Har Ghar Tiranga campaign",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "National workshop on Anemia Mukt Bharat campaign held",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Clarification on CIC case disposal reporting",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Overview of innovation ecosystem",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Parliamentary response regarding status of nuclear energy projects",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Department of Atomic Energy",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "World Elephant Day 2026 celebrations and awards",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Status report on conservation of monuments",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Initiatives for digital access to cultural heritage",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister flags off Tiranga rally",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Civil Aviation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Application of AI and geospatial technologies for weather forecasting",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Earth Sciences",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Upgradation of long-range weather forecasting capacity",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Earth Sciences",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Status of displacement of scheduled tribes in tiger reserves",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-13T20:16:28.398830+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32584,6 +32459,59 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Education",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-03T14:56:00.384681+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 1,
+      "items_skipped": 3,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "SEBI to overhaul Closing Auction Session; new framework expected soon",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Indian Parliamentary delegation attends 153rd IPU Assembly in Tanzania",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President addresses the 5th Kautilya Economic Conclave",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DRI busts gold and diamond smuggling syndicate at Mumbai Airport",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
           "material": false
         }
       ]
