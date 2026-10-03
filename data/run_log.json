@@ -1,81 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-14T03:56:07.207019+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 4,
-      "items_skipped": 2,
-      "views_filtered": 4,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "IPO anchor lock-in ends? Expect volatility from FPI selling",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Higher EPS pension: Govt announces 4 steps to clear pending claims",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "YouTube creators: How to correctly report dollar income in your ITR",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "ICICI Prudential launches women-centric insurance with 15% premium discount",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "President to address the nation on the eve of 80th Independence Day.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Rashtrapati Bhavan",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Launch of revamped India Code Portal by Legislative Department.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-14T06:13:11.859121+05:30",
       "status": "skipped",
       "posts_published": 0,
@@ -32363,6 +32288,96 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Jal Shakti",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-03T19:55:53.222966+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Ministerial address at Gaupalak Sammelan and exhibition on new legal codes.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Education approves five Centres of Excellence for Classical Languages.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates Indian cricket team on Asian Games performance.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates athlete on Asian Games gold medal.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates athlete on Asian Games gold medal.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Naval ships complete participation in AIME-2026.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Jal Arpan program conducted across 1,850 gram panchayats under Jal Jeevan Mission 2.0.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Demonstration of India's first 5.56 km free-space quantum distribution link.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "DARE/ICAR launches Special Campaign 6 for cleanliness and sanitation worker recognition.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Immediate",
           "material": false
         }
       ]
