@@ -1,161 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-14T20:08:47.342269+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 2,
-      "items_seen": 10,
-      "items_evaluated": 4,
-      "items_skipped": 3,
-      "views_filtered": 0,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 12,
-      "policy_evaluated": 12,
-      "policy_skipped": 10,
-      "items_detail": [
-        {
-          "title": "Cochin Shipyard Q1 profit dips 19%; margins under pressure",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "SEBI eases InvIT debt rules for road maintenance projects",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Awfis Q1 profit doubles; occupancy reaches 76%",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Ladki Bahin Yojana: Expect \u20b93,000 payment before Raksha Bandhan",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Presidential address on the eve of 80th Independence Day",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "President of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Lok Sabha Speaker greetings on Independence Day",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Lok Sabha",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Chemicals and Petrochemicals celebrates Har Ghar Tiranga",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Chemicals and Fertilizers",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Review of passenger holding area progress at Anand Vihar and Udhna stations",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Railways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Presidential greetings on Parsi New Year",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "President of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Rail Minister leads Tiranga rally at Rail Bhawan",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Railways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC concludes online short-term internship program",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "NHRC",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Steel to hold open house on steel import issues",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Defence Minister emphasizes military modernization as top priority",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "MSDE convenes stakeholder meeting between India and Japan on skill development",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "MSDE",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NITI Aayog releases report on regulatory landscape for business services",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "NITI Aayog",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "NHAI opens enrollment for winter and term internship programs",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "NHAI",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-14T22:00:25.605493+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -32013,6 +31858,51 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-04T16:48:21.123832+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "New UPI merchant fee rules: What you need to know",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Vice President addresses Kshamapana ceremony in New Delhi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President addresses 58th Foundation Day of ICSI at Bharat Mandapam",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
