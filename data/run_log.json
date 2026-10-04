@@ -1,175 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-14T16:11:04.275577+05:30",
-      "status": "ok",
-      "posts_published": 7,
-      "policy_published": 2,
-      "items_seen": 14,
-      "items_evaluated": 7,
-      "items_skipped": 4,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 10,
-      "policy_evaluated": 10,
-      "policy_skipped": 8,
-      "items_detail": [
-        {
-          "title": "Natco Pharma profits drop 57% as drug sales slow",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Bank of Japan may hike rates; watch for global market volatility",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "IDFC FIRST Bank gets investment-grade rating from S&P",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Bharat Dynamics reports 6x profit jump; is your portfolio ready?",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Is your dormant bank account at risk of being frozen?",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Builder delaying your flat possession? Know your legal rights",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Employer delayed your PF deposit? Here is how your interest is impacted",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "President inaugurates Amrit Udyan summer festival 2026",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Launch of CBDC-based Direct Benefit Transfer (DBT) for PDS in Chandigarh",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Cultural heritage promotion initiative",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Naval ship Sudarshini reaches Portugal",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "APEDA and Tripura government organize international organic buyer-seller meet",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Logistics Data Bank tracks 100 million EXIM containers",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Electronics Hardware Technology Parks (EHTP) strengthen export-oriented manufacturing",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Government strengthens cybersecurity preparedness for digital platforms and citizen services",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of CRPF personnel deaths",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of industrial accident in Faridabad",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-14T18:00:31.125711+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -32201,6 +32032,85 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-04T12:55:57.873224+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 10,
+      "items_evaluated": 2,
+      "items_skipped": 0,
+      "views_filtered": 4,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Check your portfolio: 10 stocks hitting ex-record dates this week",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Payday loans: Why you should think twice before borrowing",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister congratulates Asian Games golf medalists.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates Asian Games wrestling medalist.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister pays tribute to Shyamji Krishna Varma.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Central Bureau of Narcotics conducts awareness programs.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet Secretary calls for risk-based and light-touch regulatory frameworks.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Cabinet Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
