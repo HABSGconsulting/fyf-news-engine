@@ -1,48 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-15T17:27:58.038762+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 0,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Design Linked Incentive (DLI) supported startup achieves first-stage silicon tape-out for indigenous broadband chip",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister emphasizes defense manufacturing as a key pillar for national economic development",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Telecommunications to host BRICS ICT track in Pune",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Telecommunications",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-15T19:27:47.181312+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31760,6 +31718,88 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Rural Development",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-05T16:24:17.806480+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 22,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 7,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "ITRA study reports results on yoga and ayurveda for nocturnal enuresis management",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Union Minister participates in PMGSY national brainstorming session",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Outcome list of the state visit of the President of the Swiss Confederation to India",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cheetah population update in Kuno National Park",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister's press statement during the visit of the Swiss President",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister inaugurates Chintan Shivir 2026 for future highway infrastructure agenda",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Swachhata Hi Seva-2026 campaign at Department of Science and Technology",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "TDB-DST signs agreement for Rs 130 crore RDI support for indigenous AI Vision SoC development",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Science and Technology",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
