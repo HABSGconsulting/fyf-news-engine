@@ -1,40 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-16T11:32:15.876262+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "India to host BRICS Environment Working Group meetings in New Delhi.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister pays tribute to former PM Atal Bihari Vajpayee on his death anniversary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-16T13:30:21.934606+05:30",
       "status": "ok",
       "posts_published": 7,
@@ -31845,6 +31811,23 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-10-06T07:30:07.722754+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 0,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
