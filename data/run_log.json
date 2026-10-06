@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-17T05:25:59.859784+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-08-17T08:18:37.220244+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -31900,6 +31891,43 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-06T22:57:12.657814+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Salaried taxpayers: Essential checks for your 2026 ITR filing",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "ECI clarifies protocol for meetings with political delegations.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Election Commission of India",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
