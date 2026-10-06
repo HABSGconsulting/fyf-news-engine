@@ -1,59 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-16T21:25:56.167613+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Ladli Behna Yojana: Expect your \u20b91500 installment by late August",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Home Minister inaugurates and lays foundation for development projects worth Rs 6,453 crore in Rajasthan",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister emphasizes early disease detection and reduction of unnecessary medical tests",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister calls for prioritizing diabetes prevention in rural India",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-17T03:27:44.717488+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31772,6 +31719,104 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-06T20:03:31.435143+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 19,
+      "items_evaluated": 0,
+      "items_skipped": 8,
+      "views_filtered": 5,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 9,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Chintan Shivir 2026 concludes with focus on road infrastructure knowledge sharing.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister of State for Defence to inaugurate SAREX-2026 at Paradip coast.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Promotion of Sikkim's cultural heritage through PM mementos.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Asian Games 2026 preparations.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Army Chief welcomes joint India-Argentina mountaineering expedition.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DFS Secretary reviews progress of financial inclusion schemes with public and private sector banks.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Department of Financial Services",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CAQM mandates installation of PTZ cameras in industrial units for real-time monitoring of fuel compliance.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Commission for Air Quality Management",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Viksit Bharat Young Leaders Dialogue 2027 nationwide quiz participation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Postal Week 2026 to be observed from October 9-15.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President addresses convocation at Lal Bahadur Shastri National Sanskrit University.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
