@@ -1,87 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-16T17:28:37.597984+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 9,
-      "items_evaluated": 3,
-      "items_skipped": 0,
-      "views_filtered": 5,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "Celebrity-backed Purple Style Labs IPO: What you need to know",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Avoid unexpected health insurance claim deductions: 6 key reasons",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Sikkim government employees: 2% DA hike announced",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Foundation stone laying and inauguration of 944 development projects worth Rs 5,755 crore in Rajasthan",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President attends convocation ceremony at SRM Institute of Science and Technology",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Army Chief departs for official visit to Nepal",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Incident report regarding accidental firearm discharge at Varanasi Airport",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Civil Aviation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-16T19:28:11.847370+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31849,6 +31768,54 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-10-06T16:18:16.182943+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 21,
+      "items_evaluated": 3,
+      "items_skipped": 11,
+      "views_filtered": 5,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 11,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Reliance Jio eyes Rs 11 lakh crore valuation for upcoming IPO",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Check your credit report without fear: It won't hurt your score",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New UPI MDR charges coming: What businesses need to know",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
