@@ -1,85 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-18T03:31:24.237462+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 9,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 3,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "Freelancing for US firms? Master your tax and GST compliance",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Transferring money to spouse's account? Keep your documentation ready",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Finance Minister reviews progress of NICDIT projects under the National Industrial Corridor Development Programme.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of MSME participates in national awareness campaign.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of MSME",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government reports progress on SEED scheme for welfare of nomadic communities.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Chief Election Commissioner calls for academic participation in democratic processes.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Election Commission of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Electronics manufacturing capacity expands with 38 plants operational under ECMS framework.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-18T05:27:50.609894+05:30",
       "status": "skipped",
       "posts_published": 0,
@@ -31762,6 +31683,155 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Science and Technology",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-07T23:34:59.495147+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 2,
+      "items_seen": 14,
+      "items_evaluated": 1,
+      "items_skipped": 8,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 15,
+      "policy_skipped": 13,
+      "items_detail": [
+        {
+          "title": "EPFO testing UPI for faster provident fund withdrawals",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister acknowledges greetings from President of Philippines",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister acknowledges greetings from Prime Minister of Belgium",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister acknowledges greetings from Prime Minister of Dominica",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister acknowledges greetings from Vice President",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister acknowledges greetings from President",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CCI approves internal restructuring of JSW Group",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition of stake in Prestige Hospitality Ventures by CPP Investment Board",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition of sole control over Omega-Meyer and Meyer Organics",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CZA and IIFM conduct training program for zoo keepers",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NCSC mandates reporting of SC beneficiaries under major financial schemes",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "National Commission for Scheduled Castes",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM calls for rules-based maritime order at Sagarmanthan dialogue",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DDWS conducts regional review meeting for Jal Jeevan Mission 2.0",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government highlights economic support and self-reliance initiatives",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NCAHP notifies regulations for autonomous boards and central assessment committee",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "MoS Defence inaugurates SAREX-2026 and reviews maritime search and rescue",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
           "material": false
         }
       ]
