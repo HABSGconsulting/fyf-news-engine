@@ -1,121 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-18T19:47:16.637046+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 1,
-      "items_seen": 17,
-      "items_evaluated": 4,
-      "items_skipped": 9,
-      "views_filtered": 4,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Augmont Enterprises IPO: Price band set at Rs 750-788",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Bond yields rise as market sentiment shifts post-RBI policy",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Tax implications of gifting savings to a father's HUF",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "8th Pay Commission: Potential salary hike with 2.57 fitment factor explained",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Ministerial statement on departmental alignment with national agricultural development goals.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministerial statement on departmental alignment with national agricultural development goals.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Regional rail connectivity enhancement in Gwalior-Chambal region.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Railways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "ICAR annual meeting discusses roadmap for agricultural sector reforms.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Implementation of BharatNet program in Chhattisgarh via Digital Bharat Nidhi.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Department of Telecommunications",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Expansion of digital FASTag local pass facility across 121 toll plazas.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Regional Rural Banks report growth in credit disbursement for FY 2025-26.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-18T21:33:16.745604+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31891,6 +31776,189 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Education",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-08T20:28:32.031691+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 14,
+      "items_evaluated": 2,
+      "items_skipped": 8,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 18,
+      "policy_evaluated": 18,
+      "policy_skipped": 17,
+      "items_detail": [
+        {
+          "title": "Bond yields hit 2023 highs: What this means for your debt portfolio",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Proposed 10% health insurance co-pay: How it impacts your medical cover",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "regulatory_draft",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Review workshop on 'Sahakar se Samriddhi' implementation strategy",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial meeting on global digital connectivity collaboration",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Meeting between Chief Minister and Prime Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Article shared on India's Blue Economy",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Article shared on Uttarakhand development",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Article shared on India's space sector capabilities",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Cultural heritage initiative",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Release of World Bank report on Artificial Intelligence",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Special campaign for administrative disposal and cleanliness",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Air Force Day celebration",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "High-level roundtable on digital connectivity expansion",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of silkworm seed infrastructure in Assam",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Statement on private sector participation in space",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Space",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Social welfare initiative",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of India Mobile Congress 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Departmental summit on women and child development",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National maritime search and rescue exercise",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Roadmap for 100 GW wind energy capacity by 2030",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Structural (3-5Y+)",
           "material": false
         }
       ]
