@@ -1,95 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-18T21:33:16.745604+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 9,
-      "items_evaluated": 3,
-      "items_skipped": 3,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Secure your family: How to claim up to \u20b97 lakh via EDLI",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Delhi Lakshmi Yojana: New spending rules for \u20b92,500 monthly aid",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Advance Tax 2025: Key deadlines and how to calculate your liability",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Skill development event held in Balurghat, West Bengal.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President emphasizes data accuracy for governance.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Office of the Vice President",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "7th BRICS ICT Working Group meeting held in Pune.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CCI approves acquisition of additional stake in Echo Technology and Services by General Atlantic Singapore.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Competition Commission of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Guwahati-Tezpur highway corridor development to boost regional trade.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-19T03:33:16.986607+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -31959,6 +31870,117 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of New and Renewable Energy",
           "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-08T22:31:16.804524+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 5,
+      "items_evaluated": 2,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "UPI merchant fees delayed: What this means for your business costs",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Taxing your child's investments: What parents must report in ITR",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Inauguration of new facilities at ICAR-IIAB, Ranchi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial statement on global partnerships and inclusivity in maritime sector",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Acknowledgment of greetings from Grenada PM",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Acknowledgment of greetings from Ethiopia PM",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Completion of Swachhata Hi Seva campaign",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Acknowledgment of greetings from Zambia President",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Acknowledgment of greetings from Kazakhstan President",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHAI issues guidelines for wildlife protection measures on national highways",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Regional review meeting scheduled in Diu",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
