@@ -1,97 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-18T17:32:33.608450+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 11,
-      "items_evaluated": 4,
-      "items_skipped": 0,
-      "views_filtered": 3,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "Defence stocks rally as government pushes for domestic manufacturing",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Annapurna Yojana payments begin: Check your eligibility and portal details",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Gifting crypto? Know the tax rules before you file your ITR",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Income Tax Dept begins nationwide scrutiny of suspicious foreign remittances",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "India to host major semiconductor conference in New Delhi from September 17-19, 2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India calls for people-centric environmental action at 12th BRICS Environment Ministers meeting.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Raichur district completes 22-acre land restoration via Miyawaki forest conversion.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "UIDAI completes over two crore mandatory biometric updates for school children under special campaign.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Unique Identification Authority of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-18T19:47:16.637046+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -31900,6 +31809,88 @@
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-08T17:44:57.595147+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 4,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Ministerial speech regarding youth participation in 2047 development goals",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHRC takes suo motu cognizance of alleged police misconduct in Delhi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NHRC takes cognizance of infrastructure failure in a Bihar government school",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Biotechnology initiates e-waste management and workplace cleanliness drive",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Biotechnology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MoSPI signs MoU with India Foundation for statistical research collaboration",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministerial remarks on global trade policy and connectivity",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of the 10th India Mobile Congress",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Nationwide screening of inclusive education awareness modules via PRASHAST portal",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
           "material": false
         }
       ]
