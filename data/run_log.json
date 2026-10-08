@@ -1,83 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-18T09:51:51.186769+05:30",
-      "status": "ok",
-      "posts_published": 5,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 5,
-      "items_skipped": 2,
-      "views_filtered": 5,
-      "more_reads": 13,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Paytm shares in focus as founder-linked firm sells Rs 2,949 crore stake",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Sunshine Pictures IPO: Subscription opens today with 20% grey market premium",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Horizon Industrial Parks IPO: Day 2 subscription status and key details",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Lalithaa Jewellery Mart IPO: 69% subscribed with 15% potential listing gains",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "ITAT relief: Penalty deleted for taxpayer who missed ITR filing",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Weekly progress report on Kharif crop area coverage as of August 14, 2026",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-18T11:31:38.667746+05:30",
       "status": "gemini_failed",
       "posts_published": 0,
@@ -31810,6 +31733,44 @@
       "policy_evaluated": 0,
       "policy_skipped": 0,
       "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-08T06:54:55.577079+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 5,
+      "items_evaluated": 2,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Markets dip as RBI hikes repo rate; key stocks in focus",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "RBI hikes repo rate to 5.5%; expect higher EMIs soon",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
       "policy_detail": []
     }
   ]
