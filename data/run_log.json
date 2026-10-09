@@ -1,105 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-19T13:46:54.868454+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 20,
-      "items_evaluated": 4,
-      "items_skipped": 8,
-      "views_filtered": 7,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "SEBI is reviewing IPO and delisting rules for smaller companies",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "City gas stocks rally as government boosts domestic PNG connections",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "HG Infra Engineering shares jump 8% on new REC order win",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "ITAT rules in favor of taxpayer over missing TDS credit",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "NHRC takes suo motu cognizance of alleged assault on two individuals in Delhi.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister of Commerce and Industry attends India-Singapore Ministerial and Business Roundtables.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares Sanskrit Subhashitam on philanthropy.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CCI approves acquisition of 23% equity stake in TM International Logistics.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Competition Commission of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CCI approves acquisition of equity stake in Bharti Life Insurance by Prudential Corporation Holdings.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Competition Commission of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-19T15:35:11.493646+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31909,6 +31810,94 @@
           "category": "taxation",
           "actionability": 2,
           "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-09T13:38:14.187017+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 7,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 7,
+      "items_skipped": 11,
+      "views_filtered": 3,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Hospital stocks rise despite new price caps on cancer drugs",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Hexaware shares jump 11% following Anthropic AI partnership",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "NCC shares rise 5% on new Rs 1,286 crore road order",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 0,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Foreign investors pull back: Key sectors see major selloff in September",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Fusion CX IPO opens October 14: Check price band and key dates",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "TCS Q2 results: Profit rises 15%, interim dividend declared",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "US labor market stays resilient as jobless claims drop to 197,000",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 0,
+          "behavioral_risk": null
         }
       ],
       "policy_detail": []
