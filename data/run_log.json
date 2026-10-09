@@ -1,107 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-19T19:48:38.339957+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 15,
-      "items_evaluated": 1,
-      "items_skipped": 10,
-      "views_filtered": 4,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 9,
-      "policy_evaluated": 9,
-      "policy_skipped": 9,
-      "items_detail": [
-        {
-          "title": "Are you an investor or trader? Know your tax filing requirements",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "DRI intercepts 56kg of methamphetamine smuggled via maize consignment.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Directorate of Revenue Intelligence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Human interest story on digital entrepreneurship.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Testimonial on National Fellowship Scheme.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Speech on development and conservation.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Vice President's Secretariat",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Approval of Rs 275.52 crore for agricultural projects in Gujarat and Sikkim.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Workshop on leprosy control measures.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Migration of Nasha Mukt Bharat Abhiyaan portal.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of Viksit Bharat Young Leaders Dialogue 2027.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "TDB-DST supports commercialization of advanced biological wound dressing technology.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Department of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-19T21:32:58.709812+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -31922,6 +31821,129 @@
           "score": 6,
           "gate": "Policy Desk",
           "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-09T20:12:05.764401+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 2,
+      "items_seen": 15,
+      "items_evaluated": 4,
+      "items_skipped": 7,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 17,
+      "policy_evaluated": 8,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Bond yields are rising: What this means for your debt portfolio",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "No fees on your personal UPI transfers: Government clarifies",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "GST registration cancellation made easier: New rules explained",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "8th Pay Commission: What central government employees should expect by 2027",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "DST and MOST launch multilingual citizen-centric websites for improved accessibility.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Revenue conducts Special Campaign 6.0 for administrative cleanliness.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister highlights potential of traditional medicine in global preventive healthcare.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "TRAI conducts quality of service audit for mobile networks in Bilaspur and Janjgir-Champa.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian parliamentary delegation participates in the 153rd IPU Assembly in Tanzania.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Parliament of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Parliamentary Standing Committee releases 382nd report on strengthening the National Testing Agency.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India supports ITU joint trial proposal to combat cross-border telecom fraud.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of I&B launches nationwide Special Campaign 6.0 for administrative efficiency.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
