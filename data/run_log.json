@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-20T03:32:06.408372+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Selling your home? How to claim Section 54 tax exemption correctly",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "SBI cuts bulk FD rates: What it means for your business treasury",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-20T05:36:34.990280+05:30",
       "status": "skipped",
       "posts_published": 0,
@@ -31981,6 +31943,48 @@
           "gate": "Skip entirely",
           "ministry": "TRAI",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-09T23:04:52.680960+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister chairs closing session of National Departmental Summit on Women and Child Development",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Declaration of written examination results for National Defence Academy and Naval Academy Examination (II), 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Union Public Service Commission",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Departmental campaign launched to reduce pendency and improve administrative efficiency",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Empowerment of Persons with Disabilities",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
