@@ -1,145 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-19T21:32:58.709812+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 1,
-      "items_seen": 12,
-      "items_evaluated": 4,
-      "items_skipped": 4,
-      "views_filtered": 1,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 10,
-      "policy_evaluated": 10,
-      "policy_skipped": 9,
-      "items_detail": [
-        {
-          "title": "SEBI cracks down on manipulative trading during Sensex closing auction",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Ladli Behna Scheme: Check your bank account for the latest installment",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "SBI updates BSBD account rules: New withdrawal fees start October 1",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "JioBlackRock regular plans: Is professional guidance worth the extra cost?",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Hindi Advisory Committee meeting held at Ministry of Rural Development",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "BRICS Youth Council meeting and summit concluded in Gandhinagar",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "BRICS Youth Council meeting and summit concluded in Gandhinagar",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CAQM mandates phased transition to clean light commercial vehicles and stricter dust control in stone crushing units in Delhi-NCR",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Commission for Air Quality Management (CAQM)",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Announcement regarding BRICS Youth Summit 2026",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Inauguration of 65th Subroto Cup International Football Tournament",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Research update on smart cancer drug development",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Extension of registration deadline for Yuva Sangam Phase VII",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Second BRICS 2026 Tourism Working Group meeting held in Jaipur",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tourism",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government strengthens residential education and hostel facilities for SC and ST students",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-20T03:32:06.408372+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -31945,6 +31806,181 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Information and Broadcasting",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-09T22:08:51.565749+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 1,
+      "items_seen": 13,
+      "items_evaluated": 6,
+      "items_skipped": 5,
+      "views_filtered": 0,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 12,
+      "policy_evaluated": 12,
+      "policy_skipped": 11,
+      "items_detail": [
+        {
+          "title": "Shriram Finance hikes FD rates to 7.85% \u2014 check your returns",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "CBDT updates Form 161: New rules for penalty waiver applications",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Irdai reforms: Why you must understand your insurance policy better",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Avoid tax penalties: Why your property payment records matter",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Missed your insurance premium? Here is how to revive your policy",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "NPS to get more flexible: What the PFRDA chief says",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister expresses condolences for Kutch accident victims",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India 6G Alliance strengthens global partnerships at 3rd International India 6G Symposium 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Defence Minister presents SIDM Champion Awards 2026 and calls for increased private sector participation in defence R&D",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Health to observe World Mental Health Day 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "DEPwD calls for holistic government approach to Accessible India",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Indian Navy to commission indigenous anti-submarine warfare ship 'Mangrol'",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "IMD conducts training workshop on cyclone and marine weather warning services",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Posts and Blue Dart Express sign agreement for parcel services",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister inaugurates workshop on 5G Use Case Labs at IMC 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister inaugurates 'AI for Good Lab' workshop at India Mobile Congress 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister highlights potential in food processing sector",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Food Processing Industries",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "TRAI assesses mobile network quality on Kathgodam-Dehradun railway route",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Immediate",
           "material": false
         }
       ]
