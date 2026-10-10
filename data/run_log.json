@@ -1,152 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-20T19:49:27.960316+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 5,
-      "items_seen": 13,
-      "items_evaluated": 0,
-      "items_skipped": 10,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 16,
-      "policy_evaluated": 16,
-      "policy_skipped": 11,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Cabinet approves establishment of a High Court bench in Ladakh.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "ICF, RCF, and MCF to manufacture 238 AC EMU rakes for Mumbai suburban rail.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Railways",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "National Commission for Minorities reviews welfare measures.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Minority Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "31st meeting of the Southern Zonal Council held in Mahabalipuram.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DFS conducts workshop on reservation policy implementation in financial institutions.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Financial Services",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government strengthens Post-Matric Scholarship for SC students via Aadhaar-linked DBT.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Success story of NFSC scholarship recipient.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "National workshop on capacity building for Jal Jeevan Mission 2.0.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Drinking Water and Sanitation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DPIIT signs MoUs with PhonePe and Shell India for startup ecosystem.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "DPIIT",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Commerce Minister strengthens India-Singapore economic partnership.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Jal Shakti releases policy for data sharing and interoperability under Sujalam DPI.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Provisional estimates for Index of Core Industries for July 2026.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "ESIC commitment to healthcare and medical education.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister highlights India's digital transformation.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Fisheries Department outlines export-oriented cluster development for Tilapia farming in Chhattisgarh.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Department of Fisheries",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "TDB-DST supports commercialization of indigenous agentic AI technology.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Department of Science and Technology",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-20T21:34:35.029320+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31832,6 +31686,75 @@
           "gate": "Skip entirely",
           "ministry": "Press Information Bureau",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-10T19:28:48.233444+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 5,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "TCS senior staff face variable pay cuts; juniors remain unaffected",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "My Bharat-NSS concludes first month of anti-drug youth campaign.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister inaugurates 3rd National Conference on Corporate Social Responsibility.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal and Mines",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Secretary to visit Cyprus and Greece for bilateral engagement.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister calls for industry collaboration to accelerate commercialization of Indian innovations.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Minister addresses participants at Exercise Tarang Shakti 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
