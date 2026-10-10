@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-21T05:29:51.705071+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-08-21T08:22:53.735922+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -31682,6 +31673,40 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-10T23:30:31.420480+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "National Biodiversity Authority distributes Rs 2.02 crore under Access and Benefit Sharing fund.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "National Biodiversity Authority",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Corporate Affairs concludes 3rd National Conference on Corporate Social Responsibility.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Corporate Affairs",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
