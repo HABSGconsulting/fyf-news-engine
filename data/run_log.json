@@ -1,69 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-20T15:36:28.323708+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 17,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 4,
-      "more_reads": 10,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Selling gold jewellery? Don't assume reinvestment automatically saves you tax",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Claiming Section 54F tax exemption? Here is how to navigate two-house rules",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "BRICS Communications Ministers' 12th meeting scheduled for August 21, 2026.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government invites applications for Government Approved Test Centres (GATC) until August 31, 2026.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Secretary of Tribal Affairs reviews status of last-mile delivery of tribal welfare schemes in Madhya Pradesh.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tribal Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-20T17:34:10.520155+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31862,6 +31799,79 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Communications",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-10T15:38:06.284374+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 3,
+      "items_skipped": 8,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "RBI to absorb liquidity via Rs 25,000 crore bond sale",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "RBI tightens liquidity: Expect pressure on your loan EMIs",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "UPI payments remain free for you starting October 15",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Indian Parliamentary delegation participates in the 153rd Assembly of the Inter-Parliamentary Union in Tanzania.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Parliament of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister scheduled to visit Chennai on October 11.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Regional review conference on the implementation of the Forest Rights Act held in Kolkata.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
