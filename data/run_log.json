@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-22T08:12:00.062818+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "SEBI plans to make buying bonds as easy as mutual funds",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Update your child's Aadhaar biometrics for free before 30 September",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-22T09:50:22.842257+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 5,
@@ -31661,6 +31623,34 @@
           "content_type": "news",
           "persona": "business_owner",
           "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-12T01:12:57.522171+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Students get 10% off on Air India domestic base fares",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
           "actionability": 1,
           "behavioral_risk": "low"
         }
