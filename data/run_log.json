@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-21T21:35:07.318651+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 3,
-      "items_skipped": 1,
-      "views_filtered": 3,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Symbiotec Pharmalab IPO: Anchor investors commit Rs 526 crore",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Skyways Air Services IPO: Marquee investors join Rs 174 crore anchor book",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Axis Bank credit card users: New charges and reward rules apply soon",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-22T03:32:51.012907+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 1,
@@ -31647,6 +31599,48 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Earth Sciences",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-11T21:28:30.678031+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Minister of DoNER to lead development-focused programs in Mizoram.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Development of North Eastern Region",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister attends golden jubilee celebration of a school in Chennai.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister inaugurates and lays foundation for development projects worth over Rs 13,000 crore in Chennai.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
