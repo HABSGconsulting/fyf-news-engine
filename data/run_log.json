@@ -1,71 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-21T15:38:42.276488+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 11,
-      "items_evaluated": 3,
-      "items_skipped": 5,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Support your child's career pivot without compromising your long-term financial goals",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Fix credit report errors now to avoid loan rejection later",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "High-value RTGS transaction frozen? Court ruling offers protection for business owners",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "DGGI uncovers illegal pan masala and tobacco production network in Uttar Pradesh with Rs 185 crore tax evasion detected.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "BRICS Youth Affairs and Sports Ministers meeting scheduled for August 2026 in Visakhapatnam.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-21T17:35:39.520596+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31713,6 +31648,89 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Agriculture and Farmers Welfare",
           "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-11T15:49:34.341784+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 4,
+      "items_skipped": 2,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Is your 'no-cost' EMI actually free? Check the hidden costs first",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Inherited an FD? Here is how to handle the tax liability",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SBI warns of 'jumped deposit' UPI scam: Protect your bank balance",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "high"
+        },
+        {
+          "title": "Blocked your debit card? Your subscriptions might still be active",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "INS Trishul arrives in Plymouth, UK for Exercise Konkan-2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes 5.75 kg of crystal meth from train passenger",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Youth innovators showcase talent at Robotics for Good Youth Challenge India 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
