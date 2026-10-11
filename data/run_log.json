@@ -1,48 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-21T13:52:04.802589+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 22,
-      "items_evaluated": 0,
-      "items_skipped": 10,
-      "views_filtered": 7,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 3,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Territorial Army initiates 'Terrier Cyber Quest 2026' cyber security exercise.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares Sanskrit Subhashitam on selfless service.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Cabinet approves extension of Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM-AASHA) until 2025-26.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-21T15:38:42.276488+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31539,6 +31497,225 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-11T13:22:08.326071+05:30",
+      "status": "ok",
+      "posts_published": 12,
+      "policy_published": 1,
+      "items_seen": 22,
+      "items_evaluated": 12,
+      "items_skipped": 3,
+      "views_filtered": 6,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "Earnings week: 129 companies including HDFC Bank to report Q2 results",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Corporate actions: 14 stocks including TCS and Vedanta turn ex-date",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "IPO alert: 5 new issues to raise Rs 1,600 crore next week",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Buying a \u20b91 crore home? Calculate your required monthly income first",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Renewing your health insurance? Review these 5 critical numbers first",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Planning a car loan? Compare rates starting at 7.35% across lenders",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Retirement savings are not monthly income, Delhi High Court rules",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Returning to India? Manage your US assets and 401(k) carefully",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "ITAT: CBDT gold limits are not absolute caps for family holdings",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Boost your yield: Corporate FD rates now touch 8.95%",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Start your retirement fund: NPS now available on PhonePe and BHIM",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Company delisting? Here is how to recover your investment",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Indian Railways announces 3,548 graduate-level NTPC vacancies.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister pays tribute to Maharaja Agrasen.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes 7.8kg of smuggled gold in Eastern region.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister pays tribute to Nanaji Deshmukh.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister pays tribute to Jayaprakash Narayan.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister observes Navratri.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Odisha delegation meets President of India under Yuva Sangam.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "5th Kautilya Economic Conclave concludes in New Delhi.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "4th Conference of S&T Clusters held in Chandigarh.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Office of the Principal Scientific Adviser",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Pradhan Mantri Dhan-Dhanya Krishi Yojana (PMDDKY) details.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
     }
   ]
 }
