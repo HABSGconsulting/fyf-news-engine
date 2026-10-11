@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-21T11:41:49.406901+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 19,
-      "items_evaluated": 4,
-      "items_skipped": 5,
-      "views_filtered": 2,
-      "more_reads": 5,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Bitcoin's latest rally: Why macro liquidity matters more than crypto hype",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "macro",
-          "actionability": 0,
-          "behavioral_risk": null
-        },
-        {
-          "title": "BSE stock under pressure: Should you hold or exit?",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Sugar stocks tumble: Govt allows duty-free imports",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Selling old assets? Understand your tax liability on personal effects",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-21T13:52:04.802589+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31580,6 +31522,23 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-10-11T07:42:24.049219+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
