@@ -1,72 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-21T17:35:39.520596+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 2,
-      "items_seen": 10,
-      "items_evaluated": 0,
-      "items_skipped": 8,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 4,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Ken-Betwa Link Project implementation status update",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Health Minister reviews H1N1 preparedness",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "National Seminar on Electrical and Electronics Metrology held at CSIR-NPL",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister interacts with space startup CEOs",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister delivers inaugural address at BRICS Science Ministerial",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India and ADB sign $230 million loan for Chennai water infrastructure modernization",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Finance",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-21T19:50:49.596243+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -31731,6 +31665,72 @@
           "gate": "Skip entirely",
           "ministry": "Department of Telecommunications",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-11T17:06:55.823194+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister's speech during inauguration of development projects in Chennai.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "INS Sahyadri arrives in Vladivostok for bilateral exercise Indra-2026 with Russia.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Foundation stone laying for ICMR High Altitude Medical Research Centre in Keylong.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister leads youth in fitness activities and anti-drug rally.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Uttarakhand delegation meets West Bengal Governor during Yuva Sangam Phase VII.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India's self-reliance mission in pulses production.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Structural (3-5Y+)",
           "material": false
         }
       ]
