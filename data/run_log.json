@@ -1,71 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-22T13:30:50.944753+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 9,
-      "items_evaluated": 3,
-      "items_skipped": 5,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "8th Pay Commission: Defence employees propose \u20b972,000 minimum monthly salary",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "PPF for minors: Essential rules parents must follow to avoid legal disputes",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "HSBC reopens 3 international mutual funds for fresh SIP investments",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "India and UK hold 25th meeting of Defence Consultative Group",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President inaugurates 'Malhar 2026' cultural event",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-22T15:32:54.964975+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31551,6 +31486,84 @@
           "content_type": "news",
           "persona": "long_term_investor",
           "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-12T13:38:17.388774+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 6,
+      "items_skipped": 0,
+      "views_filtered": 3,
+      "more_reads": 10,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Jio IPO: A potential Rs 11 lakh crore digital giant is coming",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "RBI may ease rupee-defence rules: What businesses need to know",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Bonfiglioli Transmissions IPO: Price band set at Rs 558-586",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Aeroflex Industries rallies 13% ahead of key expansion board meeting",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Swan Defence hits 52-week high on Rs 1,897 crore tanker order",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Mirae Asset Life Cycle Fund: Automating your retirement asset allocation",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
           "actionability": 1,
           "behavioral_risk": "low"
         }
