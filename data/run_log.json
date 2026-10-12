@@ -1,71 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-22T19:27:26.320330+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 3,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "SEBI plans stricter rules for online bond platform advertisements",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Pay your India Post RPLI premiums via any scheduled bank account",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "New disclosure window for dormant foreign bank accounts open until 2026",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Ministerial statement on transitioning India from 'Pharmacy of the World' to 'Laboratory of the World' via AI integration.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Chemicals and Fertilizers",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "National workshop on 'Mission Zero' to eliminate fatalities in sanitation operations.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-22T21:25:22.892814+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31902,6 +31837,237 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Fisheries",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-12T22:33:37.286514+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 2,
+      "items_seen": 15,
+      "items_evaluated": 6,
+      "items_skipped": 3,
+      "views_filtered": 4,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 19,
+      "policy_skipped": 17,
+      "items_detail": [
+        {
+          "title": "Polycab India: F&O exit deadline set; insolvency order stayed",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Jubilant Pharmova: Quant MF sells stake as company plans fundraising",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Rupee rebounds 1% after RBI curbs speculative currency trades",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Buying gold this festive season? Know the tax and PAN rules",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Nominee vs Legal Heir: Who really inherits your investments?",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Retirement math: How much do you really need to save?",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government announces formation of high-level committee for sugarcane farmers",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Conclusion of Swachhata Hi Seva 2026 campaign",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Navy commissions indigenous anti-submarine warfare vessel INS Mangrol",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Shilp Samagam Mela 2026 in Mysuru",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CAQM reviews MCD preparedness for dust mitigation in Delhi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Bilateral meeting between Power Secretary and EU Commission Director General",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Saras Mela 2026 held in Vijayawada",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Release of catalog for commercialization of developed technologies",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHRC 33rd Foundation Day national conference on water rights",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "NHRC",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "All-India Rail Jan Samvad scheduled for October 22, 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National conference on Pradhan Mantri Dhan-Dhanya Krishi Yojana",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Article on academic aspirations",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Article on seasonal wage self-reliance",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHRC celebrates 33rd Foundation Day",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "NHRC",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of new office complex for International Big Cat Alliance",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Article on de-addiction",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister calls for doubling India-UK bilateral trade by 2030",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Performance indicators report for Indian telecom services for April-June 2026",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Joint statement of the 16th meeting of India-UK JETCO",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
