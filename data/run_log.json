@@ -1,43 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-23T19:28:33.746587+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Choosing between ITR-3 and ITR-4? Here is your quick checklist",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Foundation stone laying for five expansion projects of GRSE and YIL",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-23T21:26:37.101701+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -32319,6 +32282,167 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Communications",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-13T20:48:09.242519+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 13,
+      "items_evaluated": 3,
+      "items_skipped": 7,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 14,
+      "policy_evaluated": 14,
+      "policy_skipped": 13,
+      "items_detail": [
+        {
+          "title": "SEBI extends flexible IPO rules, making market entry easier for companies",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "RBI rate hike: Your home loan EMI is set to increase",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Pensioners: Submit your Jeevan Pramaan life certificate online starting October",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President of India to attend National Saras Mela in Vijayawada",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NISD concludes five-day geriatric care training program in Diu",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister reviews NCPCR operations and mandates disposal of pending files by Dec 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Joint review of stubble management by Agriculture and Environment Ministers",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India hosts first BIMSTEC Home Ministers' meeting in New Delhi",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry to conduct cleanliness drive and file disposal under Special Campaign 6.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry and CPSEs observe Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "10th National Convention of AgriVision 2026 held in New Delhi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CEA brainstorms on enabling AI in the Indian power sector",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NSDF and SAI partner with Indian Oil to strengthen boxing infrastructure",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Registration window for India Skills 2026-27 reopened until Oct 19, 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Social Justice dedicated to Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Himalayan conservation is a national responsibility: Dr. Jitendra Singh",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM GatiShakti National Master Plan completes five years of infrastructure transformation",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Structural (3-5Y+)",
           "material": false
         }
       ]
