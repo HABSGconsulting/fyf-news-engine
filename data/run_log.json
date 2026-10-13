@@ -1,43 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-23T15:30:35.407261+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Senior citizens: Earn up to 8.50% on your FD this August",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "INS Sudarshini arrives in Lisbon, Portugal for Lokayan 2026",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-23T17:28:54.603371+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -32117,6 +32080,151 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Communications",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-13T16:38:07.405211+05:30",
+      "status": "ok",
+      "posts_published": 7,
+      "policy_published": 2,
+      "items_seen": 18,
+      "items_evaluated": 7,
+      "items_skipped": 4,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 7,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Rupee strengthens as RBI steps in to stabilize foreign exchange",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Markets rally on hopes of LTCG tax review; stay the course",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Fintech stocks dip as UPI fee rollout faces delay",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Massive tax probe: 25,000 property deals under scanner for PAN misuse",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "UPI charges deferred: No MDR fees until after Diwali 2026",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Retired early? Here is how to keep your EPF account active",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "No extra charges on large UPI payments until after Diwali",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "66th National Defence College course participants meet the President",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Positive yield indicators for soybean varieties NRC 268 and NRC 270",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Development of new technology for treatment of dye-contaminated wastewater",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Amnesty Scheme 2026 for regularizing exempted status of Provident Fund (PF) trusts with retrospective effect",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Education constitutes a three-member committee to investigate student death at IIIT Ranchi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of air pollution mitigation measures in Delhi NCR",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Land Monetization Corporation auctions RINL land plots, generating Rs 366.33 crore",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Steel",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
