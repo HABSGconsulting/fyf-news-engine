@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-24T21:54:03.035422+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 0,
-      "items_skipped": 5,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-25T03:34:34.482643+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 0,
@@ -32410,6 +32393,227 @@
           "gate": "Policy Desk",
           "ministry": "Department of Science and Technology",
           "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-14T18:36:20.869868+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 5,
+      "items_seen": 14,
+      "items_evaluated": 5,
+      "items_skipped": 6,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 19,
+      "policy_skipped": 14,
+      "items_detail": [
+        {
+          "title": "Bond yields hit 18-month high; what it means for your debt funds",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SEBI plans stricter SME IPO rules: What you need to know",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Need cash? Know the new EPF partial withdrawal rules",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "EPF withdrawal simplified: New Form 121 replaces 15G/15H from 2026",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Ladli Behna Yojana: 41st installment released today for 1.25 crore women",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "High-level committee on demographic changes launches digital web portal.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition of majority stake in Tribhovandas Bhimji Zaveri Limited by GRT Jewellers.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PR Fluff: Awareness campaign on self-reliance.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Government of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PR Fluff: Health and wellness awareness campaign.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Government of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government approves India's accession to the Southern Indian Ocean Fisheries Agreement (SIOFA).",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Administrative routine: Departmental cleanliness session.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "FAQs on strategic restructuring of IDBI Bank Limited.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry mandates new audit reporting framework for multi-state cooperative societies to improve transparency.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Administrative routine: Special campaign 6.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Food Processing Industries",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Bharat TULIP initiative enhances market access for traditional artisans via digital platforms.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Administrative routine: Virtual conference on water governance and rural employment synergy.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Narcotics Control Bureau destroys illegal cannabis cultivation in Himachal Pradesh.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves 78 days of Productivity Linked Bonus (PLB) for railway employees.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves continuation of National Social Assistance Programme for five years (2026-31).",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Directorate of Revenue Intelligence busts illegal import of 7.3 million kg of rock salt.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves continuation of National Social Assistance Programme for five years (2026-31).",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves 78 days of Productivity Linked Bonus (PLB) for railway employees.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Administrative routine: Special campaign 6.0.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Minority Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "PM to inaugurate five development projects worth Rs 3,350 crore in Ladakh.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
