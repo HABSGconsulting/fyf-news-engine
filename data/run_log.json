@@ -1,84 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-24T20:04:09.807474+05:30",
-      "status": "ok",
-      "posts_published": 6,
-      "policy_published": 0,
-      "items_seen": 17,
-      "items_evaluated": 6,
-      "items_skipped": 9,
-      "views_filtered": 0,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Hindustan Copper OFS: Government offers shares at 10% discount",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "India to launch first tokenised corporate bonds this September",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Filing ITR-3 or ITR-4? Check these schedules to avoid errors",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Think twice before withdrawing from your post office savings schemes",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "ESOPs worth \u20b91 crore: How much will you actually take home?",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Why your income below \u20b912 lakh could still trigger a tax notice",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-24T21:54:03.035422+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32427,6 +32349,67 @@
           "gate": "Skip entirely",
           "ministry": "Press Information Bureau",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-14T16:07:05.402583+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 10,
+      "items_evaluated": 1,
+      "items_skipped": 3,
+      "views_filtered": 4,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "New global investment options may soon reach your mutual fund portfolio",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister participates in 10th National Convention of AgriVision in Delhi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister to meet Indian athletes participating in Asian Games 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "ICAR to organize introductory program for ESTIC-2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "TDB signs agreement for Rs 151 crore R&D support for autonomous aerial logistics vehicle development",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Science and Technology",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
