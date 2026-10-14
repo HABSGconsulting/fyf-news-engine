@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-24T13:57:15.204347+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 16,
-      "items_evaluated": 4,
-      "items_skipped": 7,
-      "views_filtered": 4,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Madhur Knit and ABH Healthcare SME IPOs: What you need to know",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Bank locker theft: Are your valuables actually protected?",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "GIFT City insurance: Is it the right choice for NRIs?",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Plan your retirement: Invest \u20b912.20 lakh in SCSS for \u20b925,000 quarterly",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-24T15:52:36.375369+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32448,6 +32390,64 @@
           "persona": "long_term_investor",
           "category": "regulatory",
           "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-14T07:40:34.137010+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 4,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Rupee strengthens as RBI tightens forex derivative rules",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SEBI plans stricter penalties for firms hiding IPO fund usage",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "RBI's six-step plan boosts rupee by 150 paise",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Check your tax audit status: CBDT sends 12,000 compliance reminders",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
           "behavioral_risk": "medium"
         }
       ],
