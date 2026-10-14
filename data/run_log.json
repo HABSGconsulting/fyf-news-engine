@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-25T08:25:19.661542+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 22,
-      "items_evaluated": 4,
-      "items_skipped": 13,
-      "views_filtered": 1,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Last chance: Buy this travel stock today to qualify for split",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Renewable energy projects get 4-month relief on execution deadlines",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "ITAT rules: Missing original ITR doesn't block your TDS refund",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Fix your credit score: How to spot and correct report errors",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-25T09:54:39.322370+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 9,
@@ -32624,6 +32566,23 @@
       "more_reads": 0,
       "learn_links_matched": 0,
       "policy_seen": 17,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-14T23:49:31.129546+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 3,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
       "policy_evaluated": 0,
       "policy_skipped": 0,
       "items_detail": [],
