@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-25T21:49:18.102184+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 3,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Check your ITR eligibility: Why ITR-4 might not work this year",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Investing from abroad? SEBI proposes fully digital KYC for NRIs",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "regulatory_draft",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "NPS 100% equity option: Is it right for your retirement?",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-26T03:40:34.811352+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -32467,6 +32419,84 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-10-15T18:23:07.773803+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 0,
+      "items_seen": 17,
+      "items_evaluated": 6,
+      "items_skipped": 1,
+      "views_filtered": 4,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Tech Mahindra announces 1:1 bonus issue and Rs 15 dividend",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Reliance Jio gears up for massive Rs 30,213 crore IPO",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Wipro Q2 results: Revenue up 9% but profit dips marginally",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New FEMA rules for foreign payments: what freelancers need to know",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Why your personal loan request can be rejected even with a 750+ credit score",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ITAT ruling: Multiple floors in redeveloped property can qualify for tax exemption",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
