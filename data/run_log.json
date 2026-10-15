@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-25T20:05:45.803523+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 20,
-      "items_evaluated": 4,
-      "items_skipped": 13,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "SEBI bans Varanium Cloud and promoter for 7 years over fraud",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "HEG demerger set for September 1; record date is September 7",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Hindustan Copper OFS: Retail bidding opens on August 26",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "SEBI data reveals 96.5% of F&O traders lose money over four years",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-25T21:49:18.102184+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 3,
@@ -32370,6 +32312,157 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Power",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-15T15:51:19.229767+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 0,
+      "items_seen": 20,
+      "items_evaluated": 6,
+      "items_skipped": 8,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "Supreme Court reverses Yes Bank AT-1 bond write-off; what it means",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Orient Electric reports strong Q2 growth; profit doubles to Rs 27 crore",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SEBI plans major IPO and SME listing reforms; what to expect",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "IDBI Bank stake sale: Is your FD and savings account safe?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Why is HDFC Small Cap Fund trailing in 2026?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Disability pension hiked: New rules for PM Samajik Sahayata Yojana",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President of India attends National Saras Mela in Vijayawada",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister addresses launch of development projects in Ladakh via video conferencing",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government initiative on rehabilitation assistance for de-addiction",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Chief Minister of Rajasthan meets Prime Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Lieutenant Governor of Delhi meets Prime Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Minister remarks on India's strategic shift in counter-terrorism operations",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Environment Minister chairs 27th meeting of GB Pant Himalayan Environment and Development Society",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review meeting held for Special Campaign 6 across 84 ministries",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Administrative Reforms and Public Grievances",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Tribal Affairs holds first meeting of working group on tribal languages",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
