@@ -1,94 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-25T11:37:00.658181+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 7,
-      "policy_published": 0,
-      "items_seen": 23,
-      "items_evaluated": 7,
-      "items_skipped": 6,
-      "views_filtered": 4,
-      "more_reads": 6,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Trading continues: BSE and NSE remain open on August 26",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Entero Healthcare rallies 15% following Prashant Jain\u2019s stake acquisition",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Fertiliser stocks surge up to 13% on supply assurance news",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "ESDS Software IPO opens August 28; price band set at Rs 408-429",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Afcons Infrastructure shares rally 4% on Rs 335.5 crore arbitration win",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "PVR Inox hits 52-week high as board considers first-ever share buyback",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Proposed US H-1B fee hike puts Indian IT stocks in focus",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-25T13:53:41.462989+05:30",
       "status": "ok",
       "posts_published": 6,
@@ -32496,6 +32408,96 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-15T05:39:39.366522+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 9,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "National Saras Mela to be held in Vijayawada",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Advanced chemicals, petrochemicals and material technologies included under RDI scheme",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "CCRAS launches SPARK 5.0 and Ayurshodh 2026 for Ayurveda research",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government integrates National Law Universities to resolve pending criminal cases in hotspot districts",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "ITRA to organize national seminar on AI in Ayurveda",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "KAUMARACON 2026 international pediatric Ayurveda conference to begin",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India and Brunei review bilateral trade and economic cooperation",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Minister calls for closer collaboration between academia and industry for indigenous tech",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "India strengthens S&T partnership with Global South through MEA-CSIR program",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
