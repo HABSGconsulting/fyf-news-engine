@@ -1,112 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-25T17:40:27.308929+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 14,
-      "items_evaluated": 0,
-      "items_skipped": 4,
-      "views_filtered": 3,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 11,
-      "policy_evaluated": 11,
-      "policy_skipped": 10,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Minister emphasizes promotion of MSMEs in hilly regions to address employment and migration.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Micro, Small and Medium Enterprises",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Success story of individual livelihood transition under NAMASTE scheme.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Indian Navy to induct second indigenously built diving support vessel Nipun.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister highlights 10-year journey of UPI as a symbol of India's digital revolution.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CSIR-NAL introduces indigenous micro and small gas turbine engines for unmanned defense capabilities.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Publications Division receives seven awards at Federation of Indian Publishers Awards 2026.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Swachhata Pakhwada award distribution ceremony.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India's steel sector continues progress during April-July 2026.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister urges citizens to report child marriage via helpline 1098.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Women and Child Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India calls for building drought resilience at UNCCD COP17 in Ulaanbaatar.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister praises 10 years of UPI, noting its role as a digital wallet for every Indian.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-25T20:05:45.803523+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -32347,6 +32241,139 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-15T14:08:19.816931+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 0,
+      "items_seen": 23,
+      "items_evaluated": 5,
+      "items_skipped": 9,
+      "views_filtered": 6,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "Jio Platforms IPO: What the massive listing means for your portfolio",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Nestle India shares dip 7% despite 36% profit jump: Should you worry?",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "IDBI Bank shares fall 7% after rally: Is the profit booking over?",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Wipro and Tech Mahindra Q2 earnings: What investors should watch today",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SGB 2019-20 Series V: Check your redemption price and new tax rules",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President pays floral tribute to Dr. APJ Abdul Kalam on his birth anniversary.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Lucknow to host third regional workshop on transformation of training institutions.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Digital India Bhashini Division and Manipur Government sign MoU for AI and language technology.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister offers prayers on the occasion of Navratri.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam on divine power.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Navy completes first command of Combined Task Force 154.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister speaks on India's civilizational journey and cultural exchange.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CEA brainstorming session on making India's power sector AI-ready.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
