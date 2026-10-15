@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-26T05:31:12.094859+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-26T08:25:19.239134+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 2,
@@ -32675,6 +32658,91 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Defence",
           "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-15T21:16:28.926440+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 5,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "EPFO extends PF filing deadline: What this means for your savings",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Empty press release notification",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cultural event announcement for Shilp Samagam Mela 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Public grievance redressal session for opium farmers",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Central Bureau of Narcotics",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Enforcement action against illegal cannabis cultivation in Maharashtra",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Directorate of Revenue Intelligence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commemoration of Women Farmers Day 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Total exports (goods and services) estimated at $476.20 billion for April-September 2026-27",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Extension of deadline for essay competition",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
           "material": false
         }
       ]
