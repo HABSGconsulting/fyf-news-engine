@@ -1,119 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-26T13:54:38.419679+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 17,
-      "items_evaluated": 3,
-      "items_skipped": 5,
-      "views_filtered": 4,
-      "more_reads": 5,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 8,
-      "policy_skipped": 8,
-      "items_detail": [
-        {
-          "title": "Welspun Corp shares dip as promoter and CEO sell stake",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Are you chasing small-cap returns without considering the risk?",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "ITAT provides relief in Rs 2.25 crore Black Money Act case",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Process initiated for heritage preservation and legacy continuation",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Indian Coast Guard and Vietnam Coast Guard hold seventh high-level meeting in Chennai",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister to address youth at Khelo India Dialogue",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares Sanskrit Subhashitam on listening and mutual learning",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister extends greetings on Milad-un-Nabi",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister extends greetings on Onam",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India and Seychelles hold high-level bilateral meeting on fisheries and blue economy cooperation",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India calls for community-led restoration of pastures at UNCCD COP17",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-26T15:49:06.633276+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32649,6 +32536,34 @@
       "policy_evaluated": 0,
       "policy_skipped": 0,
       "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-16T07:10:17.011700+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 3,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Supreme Court rules in favor of Yes Bank AT1 bondholders",
+          "score": 10,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
       "policy_detail": []
     }
   ]
