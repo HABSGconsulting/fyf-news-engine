@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-26T22:17:32.449495+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 4,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-27T07:45:15.983077+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -32534,6 +32517,184 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-16T18:17:54.351797+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 2,
+      "items_seen": 12,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 18,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Foundation stone laying for 46 rural roads",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Mines showcases sustainable development practices",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Mines",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Home Minister addresses security challenges in Punjab",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Workshop on reservation policy for PSBs and PSIs",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Financial Services",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Fisheries department participates in special campaign",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "India and Mongolia reaffirm bilateral defense partnership",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department conducts lecture on record management",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Awareness campaign on drug de-addiction",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Awareness campaign on drug de-addiction",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Research findings on monsoon history and sediment movement",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Identification of Mars-like sites in India",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "SECL strengthens digital governance",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National Steering Committee approves Rs 1,194.92 crore for five ITI clusters under PM-SETU",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Skill Development",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Success story under NAMASTE scheme",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Rescheduling of India Mining Week to February 2027",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Mines",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commissioning of indigenous multipurpose vessel INS Samarthak",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Khadi Mahotsav-2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Technology Development Board signs Rs 150 crore agreement for quantum technology research",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Science and Technology",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Eight-fold increase in patent applications for AYUSH innovations",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Bhashini and IISc Bengaluru develop text-to-speech model for Saurashtra language",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
           "horizon": "Immediate",
           "material": false
         }
