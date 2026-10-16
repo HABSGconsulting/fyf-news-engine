@@ -1,94 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-27T10:34:18.351315+05:30",
-      "status": "ok",
-      "posts_published": 7,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 7,
-      "items_skipped": 15,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Tata Power shares dip 4% following $490 million arbitration loss",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Rs 58,000 crore selloff: Why promoters and PE funds are exiting",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Deepa Jewellers IPO opens Sept 1: Price band set at Rs 168-177",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Hy-Tech Engineers IPO: Final day to bid for 83% premium",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "ICICI Prudential AMC shares dip as promoter plans 2% stake sale",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Symbiotec Pharmalab IPO: Final day to decide on 5.31x subscription",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Annu Projects IPO closes today: Check subscription and GMP status",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-27T17:34:50.998187+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32613,6 +32525,23 @@
       "more_reads": 0,
       "learn_links_matched": 0,
       "policy_seen": 10,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-16T21:10:40.977993+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 14,
       "policy_evaluated": 0,
       "policy_skipped": 0,
       "items_detail": [],
