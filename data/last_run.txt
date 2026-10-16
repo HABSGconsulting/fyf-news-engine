@@ -1,3 +1,3 @@
-2026-10-16T11:59:19.876607+05:30
-status: ok
-posts: 3
+2026-10-16T14:04:15.033378+05:30
+status: gemini_failed
+posts: 0
