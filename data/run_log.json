@@ -1,69 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-26T15:49:06.633276+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 8,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Mold-Tek Packaging announces 1:1 bonus issue and Rs 3 dividend",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "FAST-DS scheme: How to disclose foreign assets and manage tax liabilities",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Indian Naval Ship Sudarshini departs Lisbon after a three-day port call.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "IICT and Netflix announce scholarship program for Indian storytellers.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "SIDBI expands MSME co-lending facility through Regional Rural Banks (RRBs).",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Small Industries Development Bank of India (SIDBI)",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-26T17:36:47.340747+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -32565,6 +32502,95 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-16T11:59:19.876607+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 3,
+      "items_skipped": 4,
+      "views_filtered": 5,
+      "more_reads": 11,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "New SEBI rules for Closing Auction Session: What traders need to know",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Reliance Jio's all-fresh IPO: A potential game-changer for your portfolio?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "HD Fire Protect IPO: Allotment status expected today",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam regarding divine presence",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Legislative Department conducts workshop on e-waste disposal",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Finance Minister attends 114th World Bank Development Committee meeting",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National workshop held on strengthening digital data systems for DAY-NRLM",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister interacts with Indian athlete contingent for Asian Games 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
