@@ -1,104 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-28T01:31:49.042066+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 2,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 10,
-      "policy_skipped": 8,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Minister attends PharmaInnova Award ceremony",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister addresses convocation ceremony",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Chief Election Commissioner addresses students",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Election Commission of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "President's message on Raksha Bandhan",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "President's Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister visits NSG training academy",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Women and Child Development",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister announces swimming pool construction",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ports, Shipping and Waterways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Government initiates market interventions to ensure onion availability",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Success story of research scholar",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "First indigenous multi-purpose vessel delivered to Indian Navy",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Defence",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Success story of sanitation entrepreneur under NAMASTE scheme",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-28T02:49:27.112985+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32450,6 +32352,40 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-10-17T11:51:05.952257+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 19,
+      "items_evaluated": 0,
+      "items_skipped": 8,
+      "views_filtered": 3,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Infrastructure development update for Jammu and Kashmir region",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister's religious observance during Navratri",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
