@@ -1,127 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-28T18:55:43.413104+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 2,
-      "items_seen": 25,
-      "items_evaluated": 3,
-      "items_skipped": 13,
-      "views_filtered": 6,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 19,
-      "policy_evaluated": 9,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "Seven new IPOs get SEBI nod: Is your portfolio ready?",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Jio IPO gets SEBI nod: What it means for your portfolio",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Sensex flash crash: Understanding the recent closing auction volatility",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Vice President's visit to Tamil Nadu, Karnataka, Kerala and Lakshadweep",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "First meeting of India-Kuwait Joint Defence Committee held in New Delhi",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Union Home Minister celebrates Raksha Bandhan with daughters suffering from Type-1 Diabetes",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Indian Pharmacopoeia Commission organizes scientific conference on quality and innovation in pharmaceuticals",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Delhi Circle of Department of Posts to organize monthly Dak Adalat",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Posts",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "High-level task force seeks suggestions for reforms in public examinations",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India's Index of Industrial Production (IIP) records 6.7 percent growth in July 2026",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of mid-day meal irregularities in Uttar Pradesh school",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Mill-gate sugar prices decline by approximately 20 percent",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-28T21:10:41.675565+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32466,6 +32345,96 @@
           "score": 6,
           "gate": "Policy Desk",
           "ministry": "FSSAI",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-17T22:09:28.530892+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 0,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "AIIA 10th Foundation Day celebrations and academic initiatives",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Central Bureau of Narcotics awareness programs",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Biodiversity Authority distributes Rs 1.19 crore to state boards",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CAQM reviews crop residue management machinery availability in Punjab",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Shilp Samagam Mela 2026 in Mysore",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Rationalization of trade margins on 137 anti-cancer drugs",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "First Training Squadron departs from Seychelles",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "World Menopause Day 2026: Ayurveda approach",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Personal success stories of individuals in Maharashtra",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
