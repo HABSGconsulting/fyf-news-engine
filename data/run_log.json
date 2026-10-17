@@ -1,77 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-28T12:35:21.379333+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 5,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "Closing auction volatility: Why your options trades could swing 4,000%",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Planning for \u20b950,000 monthly income? Here is the FD corpus you need",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Minister of Home Affairs extends greetings on World Sanskrit Day.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister of Home Affairs pays tribute to Sree Narayana Guru on his birth anniversary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DRI seizes 76 kg of methamphetamine pills in two operations at the North-East border.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Central Board of Indirect Taxes and Customs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Health Minister reviews progress of key health sector projects announced in Union Budget 2026-27.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-28T18:55:43.413104+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32460,6 +32389,83 @@
           "score": 7,
           "gate": "Policy Desk",
           "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-17T19:56:47.221714+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 1,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Double health insurance? Avoid claim rejection traps with these tips",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Department of Commerce conducts awareness program on leveraging Free Trade Agreements in Jaipur.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CAQM reviews compliance status and enforcement actions in NCR; 124 inspections conducted.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Commission for Air Quality Management",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister addresses 'Viksit Bharat Yuva Samvad' in Gujarat regarding 2047 vision.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Supreme Court constitutes High Powered Enquiry Committee (HPEC) to investigate violence incidents.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Government projects Indian space economy to reach $40-45 billion in 7-8 years.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Department of Space",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "FSSAI proposes scientific limits for pesticide residues in tea.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "FSSAI",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
