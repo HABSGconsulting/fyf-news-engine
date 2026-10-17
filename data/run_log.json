@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-28T04:33:18.665069+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-08-28T06:06:17.574255+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32427,6 +32418,32 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-17T15:13:05.433991+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 5,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister extends greetings on the National Security Guard Raising Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
