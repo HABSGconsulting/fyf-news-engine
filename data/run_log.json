@@ -1,99 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-28T11:20:43.511071+05:30",
-      "status": "ok",
-      "posts_published": 5,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 5,
-      "items_skipped": 15,
-      "views_filtered": 3,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "New closing-auction system triggers extreme volatility in options market",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Skyways Air IPO allotment likely today; check your status now",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Two new SME IPOs open for subscription; check GMP trends",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Annu Projects IPO: Final day to decide on subscription",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Lumino Industries IPO: Strong demand signals 68% potential gains",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government provides status update on nuclear energy technology deployment in India.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Atomic Energy",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Government provides status update on nuclear energy capacity expansion.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Atomic Energy",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares highlights from Khelo India dialogue.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-28T12:35:21.379333+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32475,6 +32382,88 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-17T18:43:52.510394+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 7,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Ministry and regional offices participate in Swachhata Hi Seva campaign 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Government",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister participates in Vande Mataram 150th anniversary youth dialogue and plantation drive",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of Khet Bachao Abhiyan preparations scheduled from October 22 to November 30",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "General health and emotional wellness awareness initiative",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "IITM conducts first stakeholder consultation for Climate Services Implementation Framework",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Earth Sciences",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Official condolences expressed on the passing of a musician",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Government",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Project Seabird infrastructure by FOC-in-C (WNC)",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "FSSAI bans added sucrose and fructose in food products for infants up to six months",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
