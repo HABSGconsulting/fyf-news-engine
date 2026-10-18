@@ -1,53 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-29T09:50:48.614440+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Jio Platforms IPO approved: What you need to know",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "8th Pay Commission: Key updates for government employees and pensioners",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister's visit to Uzbekistan and Kyrgyz Republic (August 29-September 1, 2026)",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-29T13:49:58.224857+05:30",
       "status": "ok",
       "posts_published": 11,
@@ -32538,6 +32491,48 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-18T20:21:19.182203+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Indian Naval Ship Sudarshini departs from Salalah, Oman for Lokayan 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister extends best wishes to the Indian contingent for Asian Para Games 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NCRTC celebrates three years of Namo Bharat operations",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
