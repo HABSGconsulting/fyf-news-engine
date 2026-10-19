@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-29T18:52:33.815625+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 5,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Prime Minister expresses appreciation for youth engagement with Uzbekistan.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Central Bureau of Narcotics seizes 66.80 lakh psychotropic tablets under Operation Vajra 2.0.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Central Bureau of Narcotics",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DRI seizes 18kg of synthetic drugs and arrests four individuals.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Directorate of Revenue Intelligence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President emphasizes the importance of research and industry-academia collaboration.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Vice President's Secretariat",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Defence Minister addresses youth on constitutional and democratic engagement.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-08-29T20:12:13.090398+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -32379,6 +32321,54 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-10-19T07:15:46.702772+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "YES Bank shareholders face potential 26% drop in book value",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Big week for IPOs: Jio Platforms and Paras Healthcare lead the way",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Corporate India signals growth with \u20b97.8 lakh crore loan pipeline",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
