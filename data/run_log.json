@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-08-31T00:19:27.796888+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-08-31T05:25:47.908754+05:30",
       "status": "skipped",
       "posts_published": 0,
@@ -32373,6 +32356,63 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-20T18:29:40.723502+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 12,
+      "items_evaluated": 3,
+      "items_skipped": 7,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Land dispute payouts: ITAT clarifies tax treatment for property settlements",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New Form 141: TDS filing process set for major overhaul in 2026",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "DA hike expected: Central employees may see salary boost this October",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government reaffirms peaceful intent of nuclear program and role in future energy mix.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Atomic Energy",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
