@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-01T06:20:19.537384+05:30",
-      "status": "gemini_failed",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-01T07:35:08.825523+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32388,6 +32371,80 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-21T20:16:33.309926+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 12,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister congratulates athlete on medal win",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates athlete on medal win",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates athlete on medal win",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates athlete on medal win",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "President of India to visit Chhattisgarh",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India hosts Agrivoltaics World Conference 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Shilp Samagam Mela 2026 commences in Guwahati",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
