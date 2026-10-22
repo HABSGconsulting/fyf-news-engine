@@ -1,93 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-01T21:04:47.460649+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 12,
-      "policy_evaluated": 6,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Missed the ITR deadline? Here is how to file now",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Bank locker theft: Know your rights and compensation limits",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Lok Sabha Speaker pays tribute to former Speaker P.A. Sangma",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Lok Sabha Secretariat",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Air Marshal KAA Sanjeeb assumes charge as Air Officer-in-Charge Maintenance",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Coal holds preparatory meeting for Special Campaign 6.0",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Coal",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Department of Social Justice and Ramakrishna Mission sign MoU for intergenerational bonding",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Success story of individual beneficiary under NAMASTE-SUY scheme",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of 5th edition of Swachh Sagar, Surakshit Sagar 2026",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Earth Sciences",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-01T22:57:13.568349+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32207,6 +32120,53 @@
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-22T14:26:27.492515+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 11,
+      "items_evaluated": 2,
+      "items_skipped": 6,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "eMudhra shares drop 37%: What you need to know",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "New Income Tax Act: What happens to your pending refunds?",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Fact-finding report on PM-DAKSH skill development scheme implementation",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
           "material": false
         }
       ]
