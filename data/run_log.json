@@ -1,32 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-02T00:20:21.138832+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "CCI approves acquisition of Aseem Infrastructure Finance Limited by TPG Nicobar SG Private Limited",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "CCI",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-02T05:04:58.271230+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32124,6 +32098,215 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-22T18:43:15.033029+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 2,
+      "items_seen": 24,
+      "items_evaluated": 3,
+      "items_skipped": 15,
+      "views_filtered": 5,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 18,
+      "items_detail": [
+        {
+          "title": "Trade more efficiently: SEBI eases margin rules for early pay-in",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Bond yields spike as RBI hikes repo rate to 5.50%",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Consumer court rules against insurer for rejecting dengue claim",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President attends Nuakhai festival and Seva Samman Parv in Raipur",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Suvarna Raj on Asian Para Games victory",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Swati Chaudhry on Asian Para Games medal",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Agriculture Minister interacts with farmers during Khet Bachao Abhiyan",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Home Minister inaugurates Yamuna rejuvenation projects worth Rs 8,941 crore",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Indian Navy's First Training Squadron arrives in Maldives",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DARPG Secretary reviews Special Campaign 6 implementation",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHAI strengthens air pollution control measures in Delhi-NCR",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Rural Development Department organizes health check-up camp",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Drinking Water and Sanitation discusses convergence of JJM 2.0 with 16th Finance Commission grants",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Minister highlights India's role in AI-driven precision medicine",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Secretary inaugurates Hindi library at Sena Bhawan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India Post achieves over Rs 4,000 crore revenue for two consecutive quarters",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "12th BRICS Parliamentary Forum to be held on Oct 26-27, 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Science and Technology accelerates Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM to inaugurate Chinmaya Amrit Mahotsav global conference",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Tourism launches Special Campaign 6.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "SAEINDIA to host APAC 23 mobility engineering forum",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Outcomes of Polish Prime Minister's state visit to India",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India-Poland Joint Statement",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
