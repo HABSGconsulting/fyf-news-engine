@@ -1,67 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-01T15:57:46.164306+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 6,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Bank can surrender your pledged life insurance policy without consent: NCDRC",
-          "score": 10,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Indian Railways approves Rs 125 crore project for redevelopment of Bhavnagar Para yard in Gujarat.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Railways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government reduces sugar stock holding limit for traders to 2,000 quintals effective September 15.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India and Denmark strengthen bilateral cooperation in MSME development, innovation, and intellectual property.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Micro, Small and Medium Enterprises",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Surgeon Vice Admiral Manish Honwad assumes charge as Director and Commandant of Armed Forces Medical College, Pune.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-01T18:15:56.603734+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32198,6 +32137,184 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-22T05:45:58.953440+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 4,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 0,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 19,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Minister of Agriculture and Rural Development to visit Haryana on October 22",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Air Force to hold dialogue with defence industry on roadmap for unmanned and autonomous systems",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Home Secretary addresses press conference on National Unity Day 2026 preparations",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Simran on winning gold medal at Asian Para Games",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Karamjyoti on winning bronze medal at Asian Para Games",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CAQM reviews dust pollution and strengthens measures to mitigate air pollution",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NI-MSME strengthening MSMEs through capacity building and digital empowerment",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Sukhchain on winning bronze medal at Asian Para Games",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of WCD to launch nationwide campaign under Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Dilip Gavit on winning gold medal at Asian Para Games",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Intensive cleanliness drive under Special Campaign 6.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Action Plan for Drug Demand Reduction (NAPDDR)",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Preeti Pal on winning silver medal at Asian Para Games",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Kasturi Rajamani on winning silver medal at Asian Para Games",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Successful conclusion of the 9th edition of India-Brazil-South Africa Maritime Exercise (IBSAMAR-IX 2026)",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "President presents 65th National Art Exhibition and 3rd Print Biennale India Awards",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Manjeet on winning silver medal at Asian Para Games",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Bhagyashri Jadhav on winning silver medal at Asian Para Games",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes over 9kg of methamphetamine in Bhopal; one arrested",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Parveen on winning bronze medal at Asian Para Games",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
