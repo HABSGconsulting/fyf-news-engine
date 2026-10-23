@@ -1,79 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-03T12:02:10.684426+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 1,
-      "items_seen": 25,
-      "items_evaluated": 3,
-      "items_skipped": 11,
-      "views_filtered": 6,
-      "more_reads": 5,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 3,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Banking sector liquidity boost: What $127 billion inflows mean for you",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Rupee strengthens as RBI secures $136 billion in capital inflows",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Arcil IPO: Price band set at Rs 132-139; opens September 9",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister pays tribute to actor Uttam Kumar on birth centenary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares Sanskrit shloka on the importance of environment and guidance for talent development.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Legal Metrology (Indian Standard Time) Rules, 2026 notified to standardize national timekeeping.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-03T13:48:18.545361+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -32664,6 +32591,23 @@
           "behavioral_risk": "medium"
         }
       ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-23T23:34:29.336887+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 0,
+      "items_skipped": 4,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
       "policy_detail": []
     }
   ]
