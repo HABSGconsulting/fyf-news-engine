@@ -1,135 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-02T22:52:05.605316+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 2,
-      "items_seen": 7,
-      "items_evaluated": 3,
-      "items_skipped": 2,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 10,
-      "policy_skipped": 8,
-      "items_detail": [
-        {
-          "title": "Access global markets via GIFT City as domestic international funds face limits",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Cut your home loan interest burden: Strategies to save lakhs",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Understanding the \u20b910 lakh SIF minimum investment rule",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Lok Sabha Speaker reiterates India's support for peace and stability in Myanmar.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister chairs concluding session of national departmental summit on water.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "High-level committee formed to address aircraft leasing and financing payment mechanisms.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Civil Aviation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister expresses condolences for accident victims in Rewa, Madhya Pradesh.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "CEC emphasizes the role of BLOs as primary contact points between the Commission and citizens.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Election Commission of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "DFS Secretary reviews financial and business performance of Public Sector General Insurance Companies.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "PM-AJAY scheme details for integrated development of SC communities.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Success story of NAMASTE-SUY scheme beneficiary.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Success story of NFSC scholarship beneficiary.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Success story of DDAC support beneficiary.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-03T00:27:10.692701+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32425,6 +32296,107 @@
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-23T16:01:46.490776+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 2,
+      "items_seen": 13,
+      "items_evaluated": 1,
+      "items_skipped": 7,
+      "views_filtered": 4,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Get \u20b925,000 firecracker mishap cover this Diwali via PhonePe",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "CIRCOT signs MoU for transfer of protective glove technology for cotton pickers.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Commemoration of Rani Chennamma Jayanti at Parliament House complex.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Initiation of work on building a vibrant Civil Defense network across the country.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Chinmaya Amrit Mahotsav global conference.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "C-DAC and Bank of India partner to promote indigenous quantum technologies for banking applications.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Indian Navy to host Indo-Pacific Regional Dialogue 2026.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Textiles highlights achievements of Cotton Corporation of India under Special Campaign 6.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Public consultation invited on proposed changes to PLFS schedule and estimation process effective January 2027.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "NAAS showcases India's agricultural excellence at World Food Prize Symposium 2026.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
