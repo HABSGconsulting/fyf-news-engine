@@ -1,143 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-03T17:46:40.665779+05:30",
-      "status": "ok",
-      "posts_published": 7,
-      "policy_published": 1,
-      "items_seen": 18,
-      "items_evaluated": 7,
-      "items_skipped": 6,
-      "views_filtered": 4,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Arcil IPO launch brings windfall gains for SBI and Federal Bank",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Diversify globally: smallcase launches US stocks and global ETF portfolios",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Kanohar Electricals IPO opens September 8: Price band Rs 601\u2013632",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Glass Wall Systems IPO: Price band set at Rs 172-182",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "NPS access set to become easier with new PFRDA proposals",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Delayed pension? You can now approach consumer courts for relief",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Check your bank branch status before visiting tomorrow for Janmashtami",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Lok Sabha Speaker extends greetings on the eve of Janmashtami",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Lok Sabha Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Railway Minister issues directives for safety, technical, and maintenance improvements",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Railways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Law and Justice celebrates National Sports Day",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NTPC Electron Quiz 2026-27 scheduled for September 17 in Mumbai",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Power",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Vice President meets parliamentary delegation from Seychelles",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Vice President's Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Commerce Minister calls for nationwide FTA utilization campaign to boost global trade",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-03T19:25:26.280655+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32450,6 +32313,23 @@
       "items_skipped": 1,
       "views_filtered": 0,
       "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-24T07:30:27.641390+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 0,
       "learn_links_matched": 0,
       "policy_seen": 19,
       "policy_evaluated": 0,
