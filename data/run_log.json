@@ -1,83 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-03T20:43:58.247025+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 7,
-      "items_evaluated": 1,
-      "items_skipped": 3,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Joint property owners: ITAT clarifies tax rules on stamp duty gaps",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Steel sector growth trends for April-August 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Steel",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inauguration of medical diagnostic facilities at VMMC and Safdarjung Hospital",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India and Belgium discuss defense industrial cooperation",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Launch of 'Bio-Invest' to promote investment in biotechnology innovation",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Research advancement in bio-materials for healthcare",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Review of coordinated efforts to combat air pollution in NCR",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-03T22:42:14.068877+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32485,6 +32408,91 @@
           "score": 4,
           "gate": "Skip entirely",
           "ministry": "Ministry of Environment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-24T13:54:11.561612+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 6,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Know your gratuity payout: Calculate your terminal benefits after 10 years",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government achieves milestone in farmer identification through issuance of Farmer IDs to 11 crore farmers.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "General awareness and cultural outreach regarding Viksit Bharat initiative.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial engagement with German industry leaders and research institutions.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "8th All India Conference of GRP Chiefs concludes with focus on intelligence-based policing.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister extends greetings on ITBP Raising Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Telecommunications invites public consultation on network design for Broadband Public Protection and Disaster Relief (BB-PPDR) system.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Communications",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Third regional review conference on implementation of Forest Rights Act held in Srinagar.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
