@@ -1,93 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-05T16:54:26.126532+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 8,
-      "items_evaluated": 2,
-      "items_skipped": 2,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Business tax filing: Check if your ITR deadline is October 31",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Is your EPF account inoperative? Know the rules and how to act",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "President of India pays floral tribute to Dr. Sarvepalli Radhakrishnan",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "President's Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares article on the role of teachers in guiding learners",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Union Home Minister to chair 28th Western Zonal Council meeting in Panaji",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares article by President on the sanctity of teaching",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "President of India confers National Awards to Teachers",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry provides update on application process for coal/lignite gasification projects",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Coal",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-05T18:32:43.152681+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32353,6 +32266,23 @@
       "more_reads": 0,
       "learn_links_matched": 0,
       "policy_seen": 5,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-26T00:08:58.079082+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
       "policy_evaluated": 0,
       "policy_skipped": 0,
       "items_detail": [],
