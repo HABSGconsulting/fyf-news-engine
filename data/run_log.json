@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-04T22:35:04.627456+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 5,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 4,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Ministerial greeting for Janmashtami",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NFRA constitutes advisory committee on audit quality, assurance, and technology",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "National Financial Reporting Authority",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of first batch of Corporate Mitra course",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Corporate Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "106th Internal Finance Committee meeting of CCRAS held in Itanagar",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministerial statement on potential opportunities from India-EU Free Trade Agreement",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-05T00:03:27.662034+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32375,6 +32317,80 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-25T12:27:43.112758+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 16,
+      "items_evaluated": 0,
+      "items_skipped": 5,
+      "views_filtered": 1,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister's Mann Ki Baat address (139th edition)",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ramsar sites in India",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister congratulates Indian contingent on Asian Para Games 2026 performance",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Agricultural biological resources generate Rs 1.04 crore in ABS benefits for biodiversity initiatives",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Bhashini showcases multilingual AI solutions for accessible research at ETD-2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Shilp Samagam Mela 2026 - Guwahati",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Urban Conference 2026 inaugurated in Bhubaneswar, Odisha",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
