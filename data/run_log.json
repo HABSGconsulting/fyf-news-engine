@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-05T06:55:03.548122+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-09-05T11:50:51.000494+05:30",
       "status": "ok",
       "posts_published": 9,
@@ -32431,6 +32422,61 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-25T18:20:51.140263+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "Save on property tax: Use Section 54EC bonds to offset capital gains",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Employer loans: Know the tax rules on interest-free or concessional credit",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "NCB conducts coordinated raids across Assam, Mizoram, and Manipur under 'Operation Trident'.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NITI Aayog member emphasizes the need for empowered urban governance to unlock development potential.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "NITI Aayog",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
