@@ -1,139 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-05T11:50:51.000494+05:30",
-      "status": "ok",
-      "posts_published": 9,
-      "policy_published": 1,
-      "items_seen": 25,
-      "items_evaluated": 9,
-      "items_skipped": 2,
-      "views_filtered": 8,
-      "more_reads": 6,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Rentomojo IPO to launch September 9 at \u20b94,246 crore valuation",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "SEBI signals CAS fix; capital market stocks rally 1%",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "ITAT: Genuine F&O profits cannot be labeled bogus without evidence",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Your SGB 2021-22 Series VI investment has grown over 227%",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "performance",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Can you lose tax credit if your tenant fails to pay TDS?",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Supreme Court warns against AI-generated legal citations in business cases",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Quitting your job at 40? Your EPF balance keeps earning interest",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Large bank deposits? Keep property sale proof to avoid tax trouble",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Bank branches open today: Plan your visits accordingly",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government extends Emergency Credit Line Guarantee Scheme (ECLGS) 5.0 to support MSME liquidity.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister attends North East Students Fest in New Delhi.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Development of North Eastern Region",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Public Sector Steel Enterprise reports production and sales growth data for August 2026.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Steel",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-05T13:21:57.432963+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -32474,6 +32341,77 @@
           "gate": "Skip entirely",
           "ministry": "NITI Aayog",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-25T19:28:50.045455+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 3,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "NPS Vatsalya: What happens to your child's pension account at 18?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Buying gold this Dhanteras? Verify purity beyond just the hallmark",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister addresses the inauguration of key RBI facilities in Bhubaneswar.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Reserve Bank of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President C.P. Radhakrishnan to visit Andhra Pradesh on October 26-27.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CCPA intensifies action against misleading advertisements and non-compliant sale of walkie-talkies.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Consumer Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "12th BRICS Parliamentary Forum to be held at Parliament House complex.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Immediate",
           "material": false
         }
       ]
