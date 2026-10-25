@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-05T18:32:43.152681+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-05T19:31:09.416127+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32287,6 +32270,72 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-26T05:06:42.907345+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 0,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister shares highlights of Varanasi visit",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Union Minister Piyush Goyal holds trade and investment talks in the Netherlands",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NIFTEM-K organizes India's first AI x Food Tech Hackathon, 'Hack the Fork'",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Food Processing Industries",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "RBI inaugurates new Data Center and Cybersecurity Training Institute in Bhubaneswar",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Reserve Bank of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Shilp Samagam Mela 2026-Guwahati",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Urban Conference 2026 concludes with suggestions for urban governance and service delivery",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
