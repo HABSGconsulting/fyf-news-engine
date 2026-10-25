@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-05T00:03:27.662034+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-05T04:52:01.436727+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32388,6 +32371,32 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Housing and Urban Affairs",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-25T14:14:06.645464+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Ministry of New and Renewable Energy implements Special Campaign 6.0 for administrative efficiency.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Immediate",
           "material": false
         }
       ]
