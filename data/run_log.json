@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-06T06:50:24.269997+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-06T12:02:41.606915+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -32486,6 +32469,96 @@
           "gate": "Skip entirely",
           "ministry": "Department of Biotechnology",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-26T20:10:28.610302+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 16,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 9,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister to inaugurate Emerging Science, Technology and Innovation Conclave 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Road Transport and Highways amends rules to promote E85/E100 flex fuel vehicles",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Deputy Chairman of Rajya Sabha addresses 12th BRICS Parliamentary Forum",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "My Bharat engages over 2.11 lakh participants in Nasha Mukt Yuva Abhiyan",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Jaipur-Tatanagar-Santragachi Express train",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Meeting of the Executive Council of IIPA held",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Review of special cleanliness campaign at Lok Nayak Bhawan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "CBIC implements Special Campaign 6 for administrative efficiency",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Ports strengthens cleanliness campaigns under Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Immediate",
           "material": false
         }
       ]
