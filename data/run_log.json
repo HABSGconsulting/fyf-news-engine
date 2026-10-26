@@ -1,81 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-06T17:15:37.075372+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 4,
-      "items_skipped": 2,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Sensex expiry volatility: New Closing Auction Session rules explained",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Andhra Pradesh govt employees: Pending DA and pension hikes announced",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "EPFO to host live session on PM-Viksit Bharat Rozgar Yojana",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Laid off? Understand the tax impact on your severance package",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Vice President attends Golden Jubilee celebration of Geetanagar College in Guwahati.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "16th National meeting of State Biodiversity Boards held in Chandigarh.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-06T18:39:30.753211+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -32585,6 +32510,23 @@
       "items_evaluated": 0,
       "items_skipped": 2,
       "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-27T02:16:39.049200+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
       "more_reads": 1,
       "learn_links_matched": 0,
       "policy_seen": 0,
