@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-06T23:11:24.314407+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Waiting for your tax refund? Here is how to track it online",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-07T04:43:49.368892+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32535,6 +32507,179 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-27T14:51:46.215914+05:30",
+      "status": "ok",
+      "posts_published": 9,
+      "policy_published": 1,
+      "items_seen": 20,
+      "items_evaluated": 9,
+      "items_skipped": 5,
+      "views_filtered": 4,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Cipla Q2 profit drops 35%; what this means for your portfolio",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "US Fed meeting ahead: What to watch for your investments",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Mankind Pharma profit jumps 38%; stock surges 8%",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Jio's upcoming listing set to reshape India's top market cap rankings",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "ICICI Prudential BSE Power ETF NFO closing this week: Key details",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Thinking of switching your home loan? Watch out for hidden costs",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Central government employees: Expect a potential DA hike announcement soon",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Court ruling: Stopping EMIs due to builder fraud isn't a criminal offence",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Selling inherited gold? Here is how to calculate your tax liability",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Report on elderly health metrics in Faridabad",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "President pays floral tribute to K.R. Narayanan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rashtrapati Bhavan",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Observance of Vigilance Awareness Week",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Central Vigilance Commission",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Resolution of industrial disputes for Bihar Gramin Bank employees",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DPIIT promotes trust-based governance via startup support and digital single-window clearances",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "DPIIT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Carbon capture, utilization and storage policy overview",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of key initiatives in water resources and river development",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Contribution of National Handloom Development Corporation under Special Campaign 6.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
