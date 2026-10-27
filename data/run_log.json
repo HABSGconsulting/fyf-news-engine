@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-07T19:13:35.581951+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 20,
-      "items_evaluated": 4,
-      "items_skipped": 11,
-      "views_filtered": 4,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Maximizing monthly income on your \u20b930 lakh corpus",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Is your FD safe? Why you should limit exposure per bank",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "behavioral",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Tax audit alert: September 30 deadline for business owners",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Does marriage close your Sukanya Samriddhi Yojana account?",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-07T20:46:54.186679+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32649,6 +32591,88 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-28T01:44:36.611650+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 17,
+      "policy_evaluated": 8,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "President of India hosts Hereditary Prince Alois and Princess Sophie of Liechtenstein",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rashtrapati Bhavan",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Legislative Department organizes health check-up camp under Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Border Roads Organization celebrates 19th Raising Day of Project Arunank",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "High-level meeting of the Hindi Advisory Committee of the Ministry held",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Distribution of PPE kits and Ayushman cards to sanitation workers under NAMASTE scheme",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Emerging Science, Technology and Innovation Conclave 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MoU signed with Bibliotheque nationale de France for preservation of manuscript heritage",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Text of Prime Minister's address at Emerging Science, Technology and Innovation Conclave 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
