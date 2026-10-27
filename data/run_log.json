@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-07T16:15:30.864506+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 0,
-      "items_seen": 17,
-      "items_evaluated": 4,
-      "items_skipped": 4,
-      "views_filtered": 4,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Muthoot FinCorp launches NCD issue offering up to 9.25% annual yield",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Purple Style Labs lists at a discount: Should you hold or exit?",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Is inflation your biggest retirement risk? Think again",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Supreme Court protects pension for employee with invalidated caste certificate",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-07T19:13:35.581951+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 4,
@@ -32676,6 +32618,34 @@
           "category": "regulatory",
           "actionability": 2,
           "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-28T00:29:41.197372+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 10,
+      "items_evaluated": 1,
+      "items_skipped": 8,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 17,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Received a large gift? Ensure proper documentation to avoid tax trouble",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
         }
       ],
       "policy_detail": []
