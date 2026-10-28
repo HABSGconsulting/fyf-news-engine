@@ -1,89 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-08T13:53:15.726651+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 1,
-      "items_seen": 13,
-      "items_evaluated": 4,
-      "items_skipped": 3,
-      "views_filtered": 5,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Global market volatility rises as Yen carry trade unwinds",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "PVR Inox buyback opens Sept 10: Check your eligibility and price",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "SGB redemption: Your gold bond investment could have tripled",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Received a mysterious UPI payment? Don't ignore it or you risk freezing",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "behavioral",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister pays tribute to Dr. Bhupen Hazarika on his 100th birth anniversary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "First phase of coal/lignite gasification incentive scheme receives seven applications from industry and PSUs.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Coal",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Overview of the Indian jute sector and its economic significance.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-08T15:35:49.784830+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32888,6 +32805,23 @@
       "posts_published": 0,
       "policy_published": 0,
       "items_seen": 9,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-28T23:01:12.412391+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 4,
       "items_evaluated": 0,
       "items_skipped": 0,
       "views_filtered": 0,
