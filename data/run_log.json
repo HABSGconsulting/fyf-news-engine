@@ -1,119 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-08T17:48:33.433535+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 2,
-      "items_seen": 13,
-      "items_evaluated": 3,
-      "items_skipped": 3,
-      "views_filtered": 3,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 8,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "ESIC beneficiaries: Link your Aadhaar now to avoid service disruption",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "New SEBI-backed life cycle funds: Automate your path to financial goals",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Why health insurance claims get rejected: 6 things to check today",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Vice President visits INA Museum and Sainik School in Imphal",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister addresses 'Namo for Viksit Bharat' event in Vadodara",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inauguration of day-care cancer facility at Vidisha Medical College",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "IAF Dronathon 2026 announcement",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Food and Public Distribution and FCI sign MoU for FY 2026-27 to enhance efficiency in grain management",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Department of Food and Public Distribution",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "PM lays foundation stone and inaugurates development projects worth over Rs 35,000 crore in Vadodara",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Kharif crop sowing area reaches 1086.31 lakh hectares as of September 4, 2026",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Agriculture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "President to present 72nd National Film Awards on September 22",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-08T19:24:41.569292+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32868,6 +32755,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-10-29T02:03:09.868591+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
