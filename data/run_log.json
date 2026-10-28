@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-08T05:17:30.491573+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-09-08T06:54:19.146056+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -32889,6 +32880,103 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-28T17:09:34.129404+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 2,
+      "items_seen": 11,
+      "items_evaluated": 3,
+      "items_skipped": 6,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Info Edge Q2: Revenue grows 13% despite 93% profit drop",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Central government employees: 3% DA hike announced",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Diwali gift: 3% DA hike approved for government staff",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Cabinet approves Container Manufacturing Promotion Scheme to reduce logistics costs.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "CCEA",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves Dearness Allowance for central government employees and pensioners.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves Dearness Allowance for central government employees and pensioners.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves Container Manufacturing Promotion Scheme to reduce logistics costs.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "CCEA",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Defence Minister meets US Secretary of War at ADMM-Plus.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministerial meeting held to accelerate progress at Thoothukudi Mega Shipyard.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
