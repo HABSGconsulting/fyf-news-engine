@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-07T20:46:54.186679+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Your HDFC Bank loan EMI may drop as MCLR rates fall",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Tax audit vs ITR deadline: Key dates for your tax filing",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-07T22:19:36.489417+05:30",
       "status": "gemini_failed",
       "posts_published": 0,
@@ -32673,6 +32635,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-10-28T06:15:36.410562+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 4,
+      "items_evaluated": 0,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
