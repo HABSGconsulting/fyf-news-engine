@@ -1,133 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-08T23:00:13.849404+05:30",
-      "status": "ok",
-      "posts_published": 6,
-      "policy_published": 0,
-      "items_seen": 12,
-      "items_evaluated": 6,
-      "items_skipped": 3,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Karamtara Engineering IPO: Anchor investors commit Rs 262 crore",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Jio Platforms IPO: Investor outreach begins this week",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 0,
-          "behavioral_risk": null
-        },
-        {
-          "title": "Global markets dip: Trade war fears and oil prices rise",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Steamhouse India IPO gains momentum with marquee anchor investor backing",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Pending ITR refund? Here is how to resolve tax notice discrepancies",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Start your 2027 ITR prep now: A month-wise checklist for taxpayers",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister addresses Global Fintech Fest 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Personal success story of Dr. M.K. Ponselvakumari",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inspirational health recovery story of an individual",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Generic press release without specific policy content",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Coal launches sector-wide CSR framework for coal companies",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Coal",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "AI-based pilot initiative for livestock monitoring in hilly regions",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-09T00:28:31.625720+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32659,6 +32532,173 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-29T13:13:05.647671+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 2,
+      "items_seen": 25,
+      "items_evaluated": 2,
+      "items_skipped": 13,
+      "views_filtered": 5,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 16,
+      "policy_skipped": 14,
+      "items_detail": [
+        {
+          "title": "EAAA India Alternatives IPO: Check your allotment status today",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "BLS Polymers IPO: Subscription hits 42.47 times on final day",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Home Minister reviews cyclone preparedness for Andhra Pradesh, Puducherry, Odisha, and Chhattisgarh.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Textiles Committee highlights achievements under Special Campaign 6.0.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Defence Minister reaffirms commitment to regional security and counter-terrorism at ADMM-Plus.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam on the importance of faith.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "ESIC extends Amnesty Scheme 2025 deadline to December 31, 2026.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "My Bharat organizes 'Viksit Bharat Yuva Samvad' for electoral awareness.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Commerce Minister discusses export competitiveness and market diversification with Export Promotion Councils.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Defence Minister holds bilateral talks with South Korean counterpart.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MSME Ministry releases Rs 1,000 crore margin money subsidy for 11,333 new micro-enterprises under PMEGP.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Micro, Small and Medium Enterprises",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Legislative Department conducts workshop on best practices under Special Campaign 6.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister chairs 54th PRAGATI meeting.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister Gajendra Singh Shekhawat emphasizes India's cultural consciousness.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Workshop on transcription and editing of Telugu Ayurvedic manuscripts concludes at CCRAS-NIIMH.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Department of Pharmaceuticals reports outcomes of Special Campaign 6.0.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Pharmaceuticals",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Workshop on revision of base year for State-level Index of Industrial Production (IIP) scheduled.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Secretary Sudhansh Pant reviews implementation of welfare schemes in Assam.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
