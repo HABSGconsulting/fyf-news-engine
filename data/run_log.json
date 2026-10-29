@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-09T12:27:46.126234+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 3,
-      "items_skipped": 16,
-      "views_filtered": 4,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "IT stocks tumble: Rs 55,000 crore wiped out amid US visa concerns",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Prasol Chemicals IPO: Day 2 update and subscription status",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Glass Wall Systems IPO: Strong demand on Day 2",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-09T13:54:09.777654+05:30",
       "status": "ok",
       "posts_published": 6,
@@ -33021,6 +32973,72 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "National Human Rights Commission",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-29T21:59:18.635931+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 0,
+      "items_skipped": 4,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 6,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "NAMASTE scheme implementation progress report",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India Post and UTI Mutual Fund expand pan-India KYC verification services",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Department of Posts",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Conclusion of ESTIC 2026 conference",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Release of 24th installment of PM-KISAN scheme",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Fertilizers reports progress under Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Fertilizers",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Fertilizers reports progress under Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Fertilizers",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
