@@ -1,88 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-09T15:40:33.826441+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 2,
-      "items_seen": 10,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 6,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 16,
-      "policy_evaluated": 8,
-      "policy_skipped": 6,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Launch of ORV Sagar Manthan for indigenous ocean research",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Earth Sciences",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India to participate in 11 new skill categories at WorldSkills Shanghai 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "National BOCW Conference scheduled for September 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CAQM initiates review of non-compliance by HSPCB regarding air quality directives",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Commission for Air Quality Management",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister emphasizes accessible and quality Ayush services",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "ITRA Jamnagar and Heartfulness Institute sign MoU for wellness and sustainability",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "TDB-DST provides financial assistance for commercialization of 3D-printed bone grafts",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Department of Science and Technology",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Award ceremony for 27th National Youth Parliament Competition",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Parliamentary Affairs",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-09T18:02:23.398210+05:30",
       "status": "ok",
       "posts_published": 6,
@@ -32981,6 +32899,34 @@
       "policy_evaluated": 0,
       "policy_skipped": 0,
       "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-30T00:42:07.766233+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "ITAT ruling protects your business income from being clubbed with spouse's",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
       "policy_detail": []
     }
   ]
