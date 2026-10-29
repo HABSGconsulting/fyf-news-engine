@@ -1,84 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-09T13:54:09.777654+05:30",
-      "status": "ok",
-      "posts_published": 6,
-      "policy_published": 0,
-      "items_seen": 22,
-      "items_evaluated": 6,
-      "items_skipped": 2,
-      "views_filtered": 5,
-      "more_reads": 6,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Naming an NRI as nominee for PPF or NSC? Know the rules",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "5 key EPFO benefits every salaried employee should know",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Health insurance claims without hospitalization? Karnataka HC ruling brings relief",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Beware of fake Bima Bharosa website: Protect your insurance data",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "8th Pay Commission: Retirees push for pension revision terms",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Why your \u20b910 lakh health cover may not pay the full bill",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-09T15:40:33.826441+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -33043,6 +32965,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-10-29T23:03:28.739115+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
