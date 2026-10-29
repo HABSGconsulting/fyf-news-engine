@@ -1,72 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-08T19:24:41.569292+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 11,
-      "items_evaluated": 0,
-      "items_skipped": 7,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 5,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "India-Morocco Joint Defence Committee holds inaugural meeting in New Delhi.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister addresses event regarding infrastructure project launches in Vadodara.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Air defence exercise Veer Guardian-2026 conducted with Japan Air Self-Defence Force.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Development of two-layered single-piece dental implant reduces surgical complexity.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "7th meeting of India-Japan Joint Working Group on Forests held in Bengaluru.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Financial Fraud Risk Indicator blocks over Rs 5,000 crore in suspicious cyber fraud transactions.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-08T20:51:00.964364+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32771,6 +32705,74 @@
       "policy_evaluated": 0,
       "policy_skipped": 0,
       "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-29T06:46:11.669031+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 0,
+      "items_seen": 14,
+      "items_evaluated": 5,
+      "items_skipped": 0,
+      "views_filtered": 2,
+      "more_reads": 7,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Patna Municipal Corporation to launch Rs 200 crore bond issuance",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "RBI increases treasury bill yields by 20 bps amid liquidity tightening",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SEBI plans to simplify FPI compliance to align with global norms",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "US Fed keeps rates steady; global markets watch for inflation cues",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "HUL hits 14-quarter high in sales; rural demand remains a concern",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "sectoral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
       "policy_detail": []
     }
   ]
