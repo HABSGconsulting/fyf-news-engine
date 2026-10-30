@@ -1,131 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-10T12:09:56.770890+05:30",
-      "status": "ok",
-      "posts_published": 5,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 5,
-      "items_skipped": 9,
-      "views_filtered": 8,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "BOJ rate hike signals: What global shifts mean for your portfolio",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Gold prices dip: Should you worry about your precious metal holdings?",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "6 IPOs in action: Check subscription status before you apply",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Kanohar Electricals IPO: Final day to bid as subscription crosses 10x",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Four new SME IPOs open today: Check GMP and subscription details",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister shares Sanskrit subhashitam on welfare and prosperity.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India to collaborate with BRICS nations to enhance opportunities for women-led enterprises in global trade.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Steel showcases India's steel capacity at Innoprom India 2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DRI seizes wildlife contraband including leopard skins and tiger bones.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Culture organizes vendor development programs for Yuge Yugin Bharat Museum.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Foundation stone laid for Basmati and Organic Training Center in Pilibhit.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "9th ASEAN-India Ministerial Meeting on Agriculture and Forestry held in New Delhi.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-10T13:53:48.954132+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32871,6 +32746,95 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Development of North Eastern Region",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-30T21:46:18.687150+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 3,
+      "items_skipped": 5,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Reliance Q2 earnings: What investors should watch for Monday's market open",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Reliance profit jumps 41%: Key takeaways for your equity holdings",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Bank holiday in Ahmedabad on Oct 31: Plan your transactions today",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Extension of deadline for stakeholder comments on Draft Audit Manual for DRM-based Digital Addressable Systems, 2026",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Naval Ship INS Tarkash reaches Port Louis, Mauritius",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Achievements of Department of Water Resources, River Development and Ganga Rejuvenation under Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Conduct of 46 'Viksit Bharat Yuva Samvad' programs across 21 States/UTs to enhance electoral awareness",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Election Commission of India",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Standardization of occupational safety and dignity of work frameworks",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
