@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-10T06:58:33.691172+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 12,
-      "items_evaluated": 3,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 5,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "NSE updates IPO plans: What you need to know",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Market update: Key stocks and sectors to watch today",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "SEBI proposes easier rules for MII director appointments",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "regulatory_draft",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-10T12:09:56.770890+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -32821,6 +32773,104 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-30T20:06:52.958932+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 11,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 9,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "President of India to visit Maharashtra and Haryana",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Feature story on economic challenges and research aspirations",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "UPI payment facility enabled for online booking at Burj Khalifa and Resorts World Sentosa",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Posts issues commemorative stamps on breast cancer awareness",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Participation report for 'Nasha Mukt Yuva' quiz",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Clarification on MCA role in NCLT member appointment process",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Conclusion of Hindi Pakhwada 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Eastern Coalfields Limited creates warship model from scrap",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "41st National Governance Webinar Series held",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Administrative Reforms and Public Grievances",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Special Campaign 6.0 for administrative efficiency",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Development of North Eastern Region",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
