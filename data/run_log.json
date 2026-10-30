@@ -1,101 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-10T15:33:02.894890+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 12,
-      "items_evaluated": 2,
-      "items_skipped": 6,
-      "views_filtered": 4,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "Warning: Avoid buying US ETFs at massive 65% premiums",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "BSE technical glitch: Verify your F&O prices before trading",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Personal success story under NFSC scheme",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "ASEAN-India ministerial meeting reaffirms commitment to food security and resilient supply chains",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Digital India Bhashini workshop on multilingual AI for digital governance",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and IT",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NIELIT Digital University platform integration with Saylor University",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and IT",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Cabinet Secretary calls for regulatory easing in fintech sector",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India-Malaysia bilateral meeting",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NICDC showcases next-gen industrial ecosystems at INNOPROM India 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-10T17:53:55.319522+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -32810,6 +32715,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-10-31T00:21:49.379012+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
