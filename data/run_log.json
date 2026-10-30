@@ -1,61 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-10T13:53:48.954132+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 13,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 4,
-      "more_reads": 6,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Dilip Buildcon wins Rs 1,800 crore LPG project; shares jump 12%",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "PF claim delayed? Consumer commission orders interest for service deficiency",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "BRICS Summit participation and diplomatic engagement",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Government initiatives to promote Blue Economy and marine resource development",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Earth Sciences",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-10T15:33:02.894890+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32836,6 +32781,32 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Labour and Employment",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-30T22:44:41.769642+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 0,
+      "items_skipped": 6,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Speaker of Lok Sabha emphasizes the role of books in societal transformation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
           "material": false
         }
       ]
