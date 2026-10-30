@@ -1,169 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-10T17:53:55.319522+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 1,
-      "items_seen": 12,
-      "items_evaluated": 4,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 5,
-      "learn_links_matched": 0,
-      "policy_seen": 13,
-      "policy_evaluated": 13,
-      "policy_skipped": 12,
-      "items_detail": [
-        {
-          "title": "Sonaselection India IPO: Subscription opens September 17 at Rs 94-99",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Sebi to review derivative settlement methods amid market volatility",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "regulatory_draft",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Aadhaar face authentication made easier for digital onboarding",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Small and mid-caps lead August inflows as investors chase growth",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Indian Naval Ship Sudarshini reaches Livorno, Italy for diplomatic engagement.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministerial visit to Chhattisgarh for PM Awas Yojana event.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Routine government recruitment notification.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "MoU signed for implementation of BharatNet program in Jharkhand via Digital Bharat Nidhi.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Department of Telecommunications",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Temporary closure of Rashtrapati Bhavan and Amrit Udyan for public.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "National conference on construction workers scheduled in Mumbai.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Text of Prime Minister's address at International Space Summit.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "National workshop on technology in forest and tree resource assessment.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Awareness campaign regarding substance abuse recovery.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministerial statement on role of small hydro in energy transition.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of New and Renewable Energy",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "High-level meeting with Aga Khan Development Network.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "BIS enforcement action against non-hallmarked gold jewelry in Chennai.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Consumer Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Indian Naval ship deployment for Samudra Laksamana exercise in Malaysia.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-10T19:22:02.752742+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32726,6 +32563,23 @@
       "items_skipped": 0,
       "views_filtered": 0,
       "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-31T01:37:20.805538+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
       "learn_links_matched": 0,
       "policy_seen": 0,
       "policy_evaluated": 0,
