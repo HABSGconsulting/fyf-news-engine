@@ -1,104 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-09T20:49:43.690380+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 10,
-      "policy_evaluated": 10,
-      "policy_skipped": 9,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "International Literacy Day 2026 celebrations concluded with Ullas Mela.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Global Dryland Congress 2026 scheduled in New Delhi.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Appointment of new Chairman for National Commission for Safai Karamcharis.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Academic achievement profile of Dr. Panchanan Das in GeoAI.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Bilateral meeting between Commerce Minister and Deputy PM of Thailand.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "UIDAI launches Aadhaar Face Authentication SDK and Sandbox at Global Fintech Fest 2026.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "UIDAI",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Defence Minister emphasizes maritime security and freedom of navigation in Indian Ocean Region.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President visits Donyi-Polo Mission School for children with disabilities.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "National Consumer Helpline facilitates over Rs 105 crore in consumer refunds.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Consumer Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Four spiritual organizations join the national drug-free campaign via MoU.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-09T22:47:22.160513+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32724,6 +32626,23 @@
           "behavioral_risk": "medium"
         }
       ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-30T08:29:02.120440+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 18,
+      "items_evaluated": 0,
+      "items_skipped": 11,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
       "policy_detail": []
     }
   ]
