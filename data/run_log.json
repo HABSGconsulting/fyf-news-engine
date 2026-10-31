@@ -1,72 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-11T15:37:44.533682+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 13,
-      "items_evaluated": 0,
-      "items_skipped": 4,
-      "views_filtered": 5,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 5,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Prime Minister pays tribute to Acharya Vinoba Bhave on his birth anniversary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Review of captive coal mine operational resilience during monsoon season.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Coal",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Announcement of BRICS India Innovates Exposition scheduled for September 2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Clarification on auction parameters for Tara (Amended) coal block.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Coal",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Minister calls for balanced trade frameworks among BRICS nations.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Seventh Gender Samvad focuses on strengthening women's economic autonomy.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-11T17:57:48.707222+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 2,
@@ -32572,6 +32506,64 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-31T23:26:00.662198+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister's speech on National Unity Day",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Central government releases Rs 1,09,019 crore as tax devolution to state governments.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "My Bharat youth engagement campaign reaches 11,000 participants across 16 states.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National CSR conference organized for school education via Vidyanjali.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister administers National Unity Day pledge to ministry officials.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
