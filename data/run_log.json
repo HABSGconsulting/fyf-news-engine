@@ -1,93 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-10T22:42:37.473785+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 2,
-      "items_skipped": 4,
-      "views_filtered": 2,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 12,
-      "policy_evaluated": 6,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Is your retirement corpus ready if you live past 90?",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "behavioral",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "5 essential money habits to secure your financial future",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Meeting between Home Minister and Prince Rahim Aga Khan",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Meeting between President and Prince Rahim Aga Khan",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "President's Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Visit to NICDC pavilion at Innoprom India 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Consultation on proposed Seed Bill with farmer organizations",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Pending Parliament",
-          "material": false
-        },
-        {
-          "title": "Award ceremony for National Youth Parliament Competition",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Parliamentary Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inauguration of Technology Centre in Devanahalli, Karnataka",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of MSME",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-11T00:12:09.904493+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -32492,6 +32405,109 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-31T13:02:12.831271+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 25,
+      "items_evaluated": 2,
+      "items_skipped": 13,
+      "views_filtered": 4,
+      "more_reads": 6,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "8th Pay Commission: What to expect for your salary and pension",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SGB 2021-22 Series VII: Lock in your 200% gains now",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President of India pays floral tribute on Sardar Vallabhbhai Patel's birth anniversary",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rashtrapati Bhavan",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Awarding of Union Home Minister's Medal for Excellence to 490 personnel",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Status report on social security coverage in India",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Approval of new road construction projects in Mizoram under PMGSY-IV",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Government ensures continuity of telecom connectivity during Cyclone Arnab",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Helicopter crash incident in Joshimath, Uttarakhand",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister chairs Chintan Shivir on digitalization of trade",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Conclusion of 14th International Tourism Mart",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
