@@ -1,155 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-11T12:10:58.521884+05:30",
-      "status": "ok",
-      "posts_published": 9,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 9,
-      "items_skipped": 4,
-      "views_filtered": 3,
-      "more_reads": 6,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Invest in US stocks from India: New platform offers global access",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "HDFC Bank hits 52-week low: What should long-term investors do?",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Hero Motors eyes Dalal Street: What to know about the Rs 1,000cr IPO",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "SBI's massive NSE windfall: What this means for your bank stock",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "BSE shares under pressure: How the NSE IPO changes the landscape",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Global bond yields spike: What it means for your investments and loans",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "HDFC Bank's FII exodus: Should you worry about your holdings?",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Metal stocks dip 5%: Global macro headwinds hit your portfolio",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Why FIIs are ditching stocks for IPOs: A shift in strategy",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister expresses condolences on Nanded accident.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister commemorates Swami Vivekananda's historic speech in Chicago.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares Sanskrit subhashitam ahead of BRICS summit.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister to attend G20 Energy Ministerial meeting in Houston.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Power",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister calls for inclusive and trusted smart financial systems at Global Fintech Festival.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-11T13:48:16.957081+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32660,6 +32511,80 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Ayush",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-31T21:00:17.220811+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 7,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "President of India attends religious ceremony in Nashik",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Factual report regarding news published in Central Chronicle Bhopal",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President attends Sardar Patel commemoration event",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Extension of application deadline for National Means-cum-Merit Scholarship Scheme to Nov 15, 2026",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Shilp Samagam Mela 2026 to commence in New Delhi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President addresses IIPA Annual General Meeting",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inaugural BIMSTEC Maritime Security Exercise",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
