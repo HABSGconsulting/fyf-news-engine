@@ -1,95 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-10T19:22:02.752742+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 1,
-      "items_seen": 16,
-      "items_evaluated": 3,
-      "items_skipped": 8,
-      "views_filtered": 0,
-      "more_reads": 5,
-      "learn_links_matched": 0,
-      "policy_seen": 11,
-      "policy_evaluated": 5,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "SEBI pilots tokenised corporate bonds for faster, transparent settlement",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Avoid motor insurance claim rejection: 6 critical checks for your policy",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Debt fund outflows hit \u20b98,127 crore: Should you be worried?",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister notes India's readiness for BRICS 2026 summit",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prince Rahim Aga Khan meets Prime Minister",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Disbursement of Rs 12,773 crore as scholarships to over 1.44 crore SC students",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President to visit Dadra and Nagar Haveli and Daman and Diu",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Vice President's Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Union Home Minister chairs third meeting of the National Institute of Disaster Management",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-10T20:46:12.134117+05:30",
       "status": "gemini_failed",
       "posts_published": 0,
@@ -32578,6 +32489,23 @@
       "items_seen": 1,
       "items_evaluated": 0,
       "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-31T06:35:28.441475+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 0,
       "views_filtered": 0,
       "more_reads": 0,
       "learn_links_matched": 0,
