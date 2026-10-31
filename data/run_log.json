@@ -1,56 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-10T20:46:12.134117+05:30",
-      "status": "gemini_failed",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Bureau of Energy Efficiency showcases commercial electric cooking solutions for transition from LPG.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Power",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "German Chancellor holds telephonic conversation with Prime Minister.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "DEPwD, ALIMCO, and EkStep partner to create digital bridge for persons with disabilities.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "DRI seizes 41 kg of foreign-origin gold worth Rs 62 crore in nationwide anti-smuggling operation.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-10T22:42:37.473785+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32513,6 +32463,34 @@
       "policy_evaluated": 0,
       "policy_skipped": 0,
       "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-10-31T08:15:15.147969+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "PNB credit card users: New fees apply from November 1",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
       "policy_detail": []
     }
   ]
