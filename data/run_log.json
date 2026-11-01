@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-12T05:02:53.107190+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-12T07:03:55.009601+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32490,6 +32473,77 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-01T17:32:41.773964+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 3,
+      "items_evaluated": 2,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Faster GST refunds: New rules for businesses start November 1",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Expand your e-commerce business: New GST registration rules from Nov 1",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Union Home Minister attends Chandigarh Police Diamond Jubilee and President's Colour presentation ceremony.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Shri Dinesh V. Ganvir assumes charge as 55th Director General of Geological Survey of India.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Mines",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President inaugurates National Organ Transplant Games 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Coal imports decline by 5.83 percent in August 2026.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Coal",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
