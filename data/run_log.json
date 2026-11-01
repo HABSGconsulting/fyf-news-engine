@@ -1,59 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-12T15:05:10.259080+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "ITAT ruling offers relief on foreign remittances for Indian taxpayers",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister meets Crown Prince of Abu Dhabi on the sidelines of BRICS summit",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister meets Prime Minister of Vietnam on the sidelines of BRICS summit",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Successful birth of calf using OPU-IVF technology in Badri cattle breed",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-12T17:14:17.693132+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32532,6 +32479,44 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-02T00:03:07.718372+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Selling mutual funds for a home in India? Save tax with Section 54F",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Missed reporting bank interest in ITR? New ITAT ruling offers clarity",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
