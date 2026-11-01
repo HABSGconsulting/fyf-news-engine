@@ -1,40 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-11T22:43:02.673184+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 4,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Review of progress on National Maritime Heritage Complex at Lothal",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ports, Shipping and Waterways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministerial address on national labour force development",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-12T00:14:47.781267+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32304,6 +32270,151 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-01T13:44:27.688357+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 17,
+      "items_evaluated": 3,
+      "items_skipped": 3,
+      "views_filtered": 3,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 12,
+      "policy_evaluated": 12,
+      "policy_skipped": 12,
+      "items_detail": [
+        {
+          "title": "EPFO to simplify PF access with WhatsApp and automatic settlement features",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New GST rules: Online sellers get relief on state-wise registration",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "How to rebuild your credit score after a loan settlement",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministry of Coal to host star rating awards for coal and lignite mining sector.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Naval Ship Trishul makes port call at Souda Bay, Greece.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry concludes Special Campaign 6 for administrative efficiency.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "High-level team reviews paddy straw management measures in Punjab.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Commission for Air Quality Management",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department organizes Fit India Freedom Run 7.0.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Pharmaceuticals",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MY Bharat-NSS conducts nationwide cyclothon and walkathon.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister participates in National Unity Day celebrations.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Delhi records lowest average AQI for October in eight years.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Lok Sabha Speaker calls for youth contribution to national unity.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry issues factual report regarding media claims.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Incident of waterlogging reported on INS Kesari in Visakhapatnam.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Central Bureau of Narcotics seizes 2,774 kg of poppy straw in Madhya Pradesh.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Central Bureau of Narcotics",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
