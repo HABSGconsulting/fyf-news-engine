@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-13T04:55:57.267122+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Informal workers may soon open NPS accounts via mobile",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-13T06:55:22.521935+05:30",
       "status": "skipped",
       "posts_published": 0,
@@ -32554,6 +32526,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-02T19:27:57.154381+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 15,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 11,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
