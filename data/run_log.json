@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-13T06:55:22.521935+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-09-13T12:18:59.890137+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32543,6 +32534,275 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-02T23:00:43.179369+05:30",
+      "status": "ok",
+      "posts_published": 9,
+      "policy_published": 2,
+      "items_seen": 24,
+      "items_evaluated": 9,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 8,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 20,
+      "policy_skipped": 18,
+      "items_detail": [
+        {
+          "title": "SEBI eases liquidity rules for private InvITs with shorter cooling-off period",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Sri Lotus Developers OFS: Opportunity to buy shares at a discount",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SEBI opens doors for foreign capital in REITs and InvITs",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Fusion Finance turns profitable as asset quality strengthens",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ITC profit dips 18% in Q2 despite revenue growth",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "5 changing money trends from India's latest tax filing data",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SEBI proposes removing 12.5% LTCG tax for FPIs: What it means",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "DA hike to 63%: How your retirement gratuity could rise by \u20b950,000",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ITR filing deadline extended to November 21 for audit cases",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "CSIR-NIScPR organizes 3rd edition of Communication and Dissemination of Traditional Knowledge (CDTK) 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "UPSC declares final results for Combined Defence Services Examination (I), 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Union Public Service Commission",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Coal awards five-star ratings to 50 coal mines under FY 2024-25 Star Rating Program",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "My Bharat Viksit Bharat Yuva Samvad campaign engages 11,800 youth across 20 states",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MSDE empanels 19 institutions as Centers of Skill Excellence",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Heavy Industries concludes Special Campaign 6 for disposal of pending matters",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Agriculture Minister reviews sector status and directs timely support for farmers",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM inaugurates India Renewable Energy Summit and Expo 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Conference on Gender Statistics and Data held by MoSPI and UN Women",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Text of PM's address at the India Renewable Energy Summit and Expo 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Health Minister inaugurates advanced radiotherapy facility at AIIMS Rajkot",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "TRAI issues Telecommunication Consumers Grievance Redressal (Fourth Amendment) Regulations, 2026",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Telecom Regulatory Authority of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Pension and Pensioners' Welfare accelerates digital empowerment via Digital Life Certificate Campaign 5",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM-SETU to strengthen skill ecosystem in Northeast through industry-led ITI transformation",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Mines concludes 6th Special Campaign on e-waste management and governance",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Mines",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "HQ Integrated Defence Staff and CENJOWS launch seminar on Cyber-Enabled Cognitive Warfare",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "First International Maize Conference 2026 calls for high productivity and innovative breeding",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Railways observes National Unity Day and Swachhata Hi Seva 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Financial assistance for career development: Empowering NFSC research scholars",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Dr. Jitendra Singh inaugurates new seismic observatory in Kishtwar",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
