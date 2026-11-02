@@ -1,67 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-13T14:02:53.053777+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "Check your portfolio: 200+ stocks announce dividends and splits this week",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister's opening statement at the 18th BRICS Summit session on inclusive global growth.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC to conduct ITEC capacity building program on human rights for Global South officials.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Mizoram railway line completes one year of operations.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Railways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Dryland Congress 2026 concludes with the Delhi Declaration on drylands.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-13T16:07:57.784916+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32788,6 +32727,23 @@
           "behavioral_risk": "low"
         }
       ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-03T02:23:26.420315+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
       "policy_detail": []
     }
   ]
