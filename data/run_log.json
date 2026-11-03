@@ -1,83 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-13T22:34:10.888398+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Wrong ITR form choice? ITAT ruling protects you from double taxation",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister congratulates Indian Junior Men's Hockey Team on Asia Cup victory.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates Indian Junior Women's Hockey Team on Asia Cup victory.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Environment Minister reviews MISHTI scheme progress and mangrove conservation initiatives.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "DAHD Secretary reviews poultry infrastructure and biosecurity protocols at CPDO Western Region.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Animal Husbandry and Dairying",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Indian Naval Ship Sudarshini departs from Livorno, Italy for Lokayan 2026.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister of State visits FCI Silo plant in Kayavarohan, Vadodara.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-13T23:50:30.429293+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32563,6 +32486,93 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-03T14:06:56.071347+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 25,
+      "items_evaluated": 2,
+      "items_skipped": 11,
+      "views_filtered": 7,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Trade around the clock: NSE International Exchange extends hours to 23.5 hours",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Abolishing LTCG tax may be affordable for government, says SBI report",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister chairs roundtable on strengthening biopharma startup ecosystem and bioeconomy growth.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration ceremony of Tiger Triumph 2026 exercise.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry proposes expansion of authorized import gateways for drugs, medical devices, and cosmetics.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Navy rescues hijacked fishing vessel 'Ajini' from pirates near Somalia.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Workshop on e-Filing 3.0 initiative under e-Courts Mission Mode Project.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam on personal integrity and discipline.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
