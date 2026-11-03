@@ -1,69 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-14T16:29:32.900518+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 10,
-      "items_evaluated": 2,
-      "items_skipped": 2,
-      "views_filtered": 3,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Is the home loan insurance offered by your bank actually worth it?",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "RBI proposes 60-day limit on bank account freezes for cyber fraud",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "regulatory_draft",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government approves cross-border electricity export agreement with Nepal",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Power",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "INS Mysore participates in Exercise Samudra Laksmana in Malaysia",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Release of provisional Wholesale Price Index estimates for August 2026",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-14T19:56:10.972960+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32847,6 +32784,23 @@
           "behavioral_risk": "low"
         }
       ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-04T01:46:32.462726+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
       "policy_detail": []
     }
   ]
