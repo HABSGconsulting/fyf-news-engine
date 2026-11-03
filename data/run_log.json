@@ -1,127 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-14T19:56:10.972960+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 1,
-      "items_seen": 11,
-      "items_evaluated": 3,
-      "items_skipped": 5,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 18,
-      "policy_evaluated": 9,
-      "policy_skipped": 8,
-      "items_detail": [
-        {
-          "title": "8th Pay Commission: How a potential salary hike impacts your finances",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Retail inflation hits 4.82%: How to protect your household budget",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Check your PF balance on WhatsApp: A quick guide for members",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Department of Financial Services receives Rajbhasha Kirti Award for Hindi implementation.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Press Note release.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Government of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Initiation of negotiations for the expansion of the India-MERCOSUR Preferential Trade Agreement.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Defence receives Rajbhasha Kirti Award.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Chief Election Commissioner on three-day visit to Bhutan.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Election Commission of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministerial statement on Hindi language and national identity.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Women and Child Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NHAI to upgrade 1033 national highway helpline with new technology.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Kerala Ecosense scholarships for waste management students.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Home Minister addresses Hindi Diwas and All India Official Language Conference.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-14T21:33:27.303203+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32802,6 +32681,15 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-04T02:45:29.735435+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
