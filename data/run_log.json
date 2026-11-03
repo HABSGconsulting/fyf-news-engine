@@ -1,32 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-14T05:05:25.114146+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Lok Sabha Speaker extends greetings on the eve of Ganesh Chaturthi.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-14T07:12:18.173971+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32697,6 +32671,96 @@
           "score": 6,
           "gate": "Policy Desk",
           "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-03T18:30:54.591125+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 2,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 9,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "APEDA facilitates export of 1.3 metric tonnes of Sinduri pomegranate from Kullu to Dubai",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "APEDA facilitates trial export of 1.5 metric tonnes of kiwi from Arunachal Pradesh to Dubai",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Pension and Pensioners' Welfare calls for nationwide digital life certificate campaign",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Wellness Visionary Award conferred to Director of National Institute of Sowa-Rigpa",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Conclusion of Special Campaign 6 for disposal of pending matters",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Speaker of Lok Sabha emphasizes accountability in public fund utilization",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India to advance solution-oriented climate action at UNFCCC COP31",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Success story of rural farming family background to global education",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister of Commerce and Industry calls for youth leadership in Viksit Bharat 2047",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
