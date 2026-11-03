@@ -1,75 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-14T12:39:13.996361+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 25,
-      "items_evaluated": 1,
-      "items_skipped": 4,
-      "views_filtered": 13,
-      "more_reads": 7,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "SEBI may roll back closing auction reforms after market backlash",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government releases status report on Data Center infrastructure development in India",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Press Information Bureau",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Message from Home Minister on Hindi Diwas",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates women's cricket team",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares message on Ganesh Chaturthi",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Government releases Gujarat Action Plan for Great Indian Bustard conservation",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-14T14:45:38.596207+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32860,6 +32791,103 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Road Transport and Highways",
           "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-03T22:51:46.035798+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 12,
+      "items_evaluated": 3,
+      "items_skipped": 7,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Binance reports massive $6.34 billion cyberattack; security breach confirmed",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Buying silver this Dhanteras? Use these 4 simple tests to verify purity",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Gold ETFs vs Physical Gold: Which is more tax-efficient for Dhanteras?",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Government targets doubling coastal and inland waterway freight share to 12% by 2047.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Cultural event announcement regarding Shilp Samagam Mela 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Conclusion of administrative special campaign 6.0.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Conclusion of administrative special campaign 6.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of IPRD-2026 in New Delhi.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NLMC conducts pre-bid meeting for e-auction of 5.119 acres of HIL land.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
