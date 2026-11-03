@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-14T07:12:18.173971+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 11,
-      "items_evaluated": 3,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "SEBI reviews closing auction rules: What traders need to know",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "regulatory_draft",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Tata Sons listing mandate boosts SP Group bond outlook",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Rs 24,500 crore IPO rush: What you need to know this week",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-14T12:39:13.996361+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -32762,6 +32714,152 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Commerce and Industry",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-03T21:00:26.749037+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 2,
+      "items_seen": 21,
+      "items_evaluated": 0,
+      "items_skipped": 17,
+      "views_filtered": 3,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 16,
+      "policy_evaluated": 16,
+      "policy_skipped": 14,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Minister addresses Chhattisgarh statehood day event",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Overview of financial assistance for academic excellence",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Proposal to amend Drugs and Cosmetics Rules, 1945 to mandate authorized personnel for drug consignment release",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "9th High Level Meeting between Indian Coast Guard and Sri Lanka Coast Guard",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Selection of part-time members for National Dental Commission",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration of microbiology lab and launch of Chhurpi traceability initiative in Sikkim",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Seminar on cyber-enabled cognitive warfare",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister addresses WAADS QA Managers meeting on sports integrity",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Observance of Vigilance Awareness Week 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Minister emphasizes indigenous defense production at Delhi Defence Dialogue 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Launch of India S&T Scoreboard",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHRC takes cognizance of reports regarding trafficking of girls",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "National Human Rights Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Devotees pay respects to Buddha relics at Tawang Monastery",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of Vayo Samman national campaign",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister reiterates commitment to global solar cooperation",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "MoU between MoRTH and Bihar government for scientific silt extraction for highway projects",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
