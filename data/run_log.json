@@ -1,163 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-15T12:16:55.615903+05:30",
-      "status": "ok",
-      "posts_published": 9,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 9,
-      "items_skipped": 8,
-      "views_filtered": 5,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Solar Industries shares drop 9% following massive Rs 12,951 crore acquisition",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Hero Motors IPO opens tomorrow; 27% potential listing gain expected",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Global giants line up for NSE IPO; Rs 22,600 crore issue expected",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "US Fed rate hike likely: What it means for your portfolio",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Tata Sons IPO buzz: Rs 17,200 crore added to group stocks",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "NSE IPO: Will Sebi's F&O rules impact your investment?",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "PNC Infratech shares drop 20% following NHAI debarment news",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Steamhouse IPO allotment status: Check your application results today",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Gold and silver prices fluctuate ahead of US Fed policy decision",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "India's entry into the silicon semiconductor manufacturing ecosystem",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government initiatives on healthcare accessibility and digital records",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Expansion of pension outreach through 'Pension Sakhi' initiative in rural India",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CSIR-NIScPR adopts AI for scientific research dissemination",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister visits Union Minister's residence for Ganpati Darshan",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NHRC hosts ITEC capacity-building program on human rights for Global South",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-15T14:38:08.247203+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -32915,6 +32758,69 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Civil Aviation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-05T00:25:51.449620+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 2,
+      "items_skipped": 2,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Defence pensioners: Submit your digital life certificate by November 30",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Skip the bank queue: Submit your life certificate from home",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Review of preparations for Kashi Tamil Sangamam 5.0 at Banaras Hindu University",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Armed Forces Medical Services conduct medical camp and surgeries in Rairangpur",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Shilp Samagam Mela 2026 held at Dilli Haat",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
