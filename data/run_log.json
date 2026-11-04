@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-15T00:22:02.714527+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-15T01:26:05.508421+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32632,6 +32615,59 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of New and Renewable Energy",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-04T13:34:38.479825+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 25,
+      "items_evaluated": 1,
+      "items_skipped": 13,
+      "views_filtered": 6,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 2,
+      "items_detail": [
+        {
+          "title": "US election results trigger market volatility; stay focused on your goals",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 0,
+          "behavioral_risk": null
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministerial statement on public health awareness during festive season.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "IndiaAI Mission launches indigenous foundation models under the IndiaAI Innovation Centre pillar.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "NITI Aayog and TEXMiN sign MoU to strengthen India's critical mineral ecosystem.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "NITI Aayog",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
