@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-15T05:30:18.803572+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-15T07:26:08.437010+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32671,6 +32654,125 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-04T18:47:56.977207+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 2,
+      "items_seen": 6,
+      "items_evaluated": 2,
+      "items_skipped": 0,
+      "views_filtered": 3,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "Nykaa profits surge 207% as revenue climbs 28% in Q2",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Sahara refund: How to track your claim and fix errors online",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "NITI Aayog and GIZ India sign implementation agreement for NDC-TIA Phase II to accelerate road freight decarbonization.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "NITI Aayog",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Regional capacity building and awareness program on labor codes in Indore and Dhar region.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Awareness campaign on substance abuse rehabilitation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "TRAI launches 'Network Experience' platform for consumer feedback.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "TRAI",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Resolution passed at the Conference of Chairpersons of Public Accounts Committees.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves path for integration of Agniveers into defence forces.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Awareness camp for digital empowerment of pensioners in Prayagraj.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Call for development of digital audit monitoring platform for state legislatures.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Initiative for safe and dignified working conditions.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Cabinet approves continuation of Fast Track Special Courts for rape and POCSO cases for five years.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
