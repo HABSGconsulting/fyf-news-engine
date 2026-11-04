@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-15T07:26:08.437010+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 4,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-15T12:16:55.615903+05:30",
       "status": "ok",
       "posts_published": 9,
@@ -32770,6 +32753,169 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Law and Justice",
           "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-04T21:20:17.883887+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 2,
+      "items_seen": 16,
+      "items_evaluated": 4,
+      "items_skipped": 10,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 13,
+      "policy_evaluated": 13,
+      "policy_skipped": 11,
+      "items_detail": [
+        {
+          "title": "US Treasury signals potential shift in bond auction sizes",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SEBI cancels registrations of 8 investment advisers for non-compliance",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "New motor insurance rules effective December 15: What you must check",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Gold scam alert: New adulteration techniques can bypass traditional purity tests",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Launch of Vayo Samman National Campaign for inter-generational social cohesion.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition of securities in Gentari Renewables India by Sapphire US Holdco.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Competition Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CCI approves acquisition of certain business assets of Deutsche Bank AG by Kotak Mahindra Bank.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Competition Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Conclusion of Special Campaign 6 for administrative housekeeping.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Routine protocol meeting between state leadership and the Prime Minister.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Government of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Strategic emphasis on supply chain diversification and regional maritime cooperation.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of regional administrative office buildings in Jaipur.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Policy discourse on global competitiveness through indigenous R&D.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of PM-Vikas program implementation and stakeholder engagement.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Minority Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Scientific development of terahertz-capable silicon chips for 6G networks.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Development of advanced protective coatings for industrial machining processes.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Administrative efficiency targets achieved under Special Campaign 6.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Coal",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Directive on maintaining service standards in the aviation sector.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Civil Aviation",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
