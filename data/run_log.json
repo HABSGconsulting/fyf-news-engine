@@ -1,115 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-16T01:00:35.649715+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 6,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 10,
-      "policy_skipped": 9,
-      "items_detail": [
-        {
-          "title": "NPS Vatsalya: Understanding withdrawal rules for your child's pension account",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Release of 'Jal Sanchay Jan Bhagidari \u2013 Catch the Rain' anthem",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Vice President's remarks on social service traditions",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Office of the Vice President",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Meeting of the Hindi Advisory Committee of the Ministry of Youth Affairs and Sports",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes suo motu cognizance of human rights violation in Rajasthan",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Higher Education completes review of files under Special Campaign 5.0",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inauguration of new training programs at the Institute of Archaeology",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Commissioning of four Gati Shakti Cargo Terminals and foundation stone for Lynch GCT",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Railways",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Indian youth contingent departs for WorldSkills Shanghai 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Release of commemorative postage stamp in memory of Saint Malukdas",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NDSA reviews dam safety preparedness and implementation of Dam Safety Act in Jharkhand",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-16T05:15:17.990085+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -32860,6 +32751,34 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-05T19:01:25.505340+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 1,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 13,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "AI and data center stocks dip on US election regulatory fears",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
