@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-15T18:30:33.922059+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 16,
-      "items_evaluated": 2,
-      "items_skipped": 4,
-      "views_filtered": 4,
-      "more_reads": 6,
-      "learn_links_matched": 0,
-      "policy_seen": 11,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Nifty's sudden 462-point flash crash: Should you be worried?",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "New UPI charges? Committee to decide on MDR for large transactions",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "regulatory_draft",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-15T20:08:06.494551+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 0,
@@ -32679,6 +32641,23 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-11-05T07:22:31.267801+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
