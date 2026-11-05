@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-16T07:11:14.795715+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 2,
-      "items_skipped": 5,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Rupee hits 3-month low; what this means for your investments",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Bond yields rise; what it means for your debt funds and loans",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-16T12:21:20.693818+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -32787,6 +32749,67 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Coal",
           "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-05T23:10:07.561546+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Supreme Court upholds pension deduction rules for re-employed government staff",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministry of Railways concludes year-long celebrations for 150 years of Vande Mataram",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prime Minister interacts with Indian contingent for Asian Para Games 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Civil Services (Main) Examination 2026 written exam results declared",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Union Public Service Commission",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Culture signs MoU with Google Arts & Culture for digitization of cultural heritage",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
           "material": false
         }
       ]
