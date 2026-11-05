@@ -1,147 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-16T12:21:20.693818+05:30",
-      "status": "ok",
-      "posts_published": 5,
-      "policy_published": 1,
-      "items_seen": 25,
-      "items_evaluated": 5,
-      "items_skipped": 8,
-      "views_filtered": 6,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 9,
-      "policy_evaluated": 9,
-      "policy_skipped": 8,
-      "items_detail": [
-        {
-          "title": "Yes Bank shares rally: New UPI charges could boost earnings",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Saatvik Green Energy secures Rs 1,041 crore solar order",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Bank of Japan may hike rates: What it means for markets",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Paytm shares rally 7% as brokerages upgrade targets post-UPI changes",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Veegaland Developers IPO allotment expected today; check your status",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "PM Vishwakarma: Strengthening traditional artisans and craftsmen",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of MSME",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Steel launches Special Campaign 6.0 focusing on e-waste management",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Army Chief General Dheeraj Seth departs for official visit to Russia",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Department of Fisheries to hold national workshop on deep-sea fishing",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Department of Fisheries",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Department of Fisheries to hold national workshop on deep-sea fishing",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Department of Fisheries",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CGST Delhi South busts fraudulent ITC claim case of Rs 15.78 crore",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Department of Pharmaceuticals observes Swachhata Pakhwada",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Pharmaceuticals",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Indian Parliamentary delegation attends 69th Commonwealth Parliamentary Conference",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Parliamentary Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Total exports of goods and services estimated at $399.27 billion for April-August 2026-27",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-16T15:50:11.947523+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -32813,6 +32672,44 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-06T00:30:36.086389+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Unauthorized US stock sales: Check your international brokerage account immediately",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Fixing EPF record errors: A simple guide for salaried employees",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
