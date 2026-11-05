@@ -1,104 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-16T05:15:17.990085+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 10,
-      "policy_skipped": 9,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Release of 'Jal Sanchay Jan Bhagidari \u2013 Catch the Rain' anthem",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Vice President addresses event on service traditions",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Office of the Vice President",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister addresses Hindi Advisory Committee meeting",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes suo motu cognizance of incident in Banswara, Rajasthan",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Higher Education completes review of files under Special Campaign 5.0",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Secretary inaugurates new training programs at Institute of Archaeology",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Commissioning of four Gati Shakti Cargo Terminals",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Railways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Indian youth contingent departs for WorldSkills Shanghai 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Release of commemorative postage stamp",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NDSA reviews dam safety preparedness and implementation of Dam Safety Act in Jharkhand",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-16T07:11:14.795715+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32779,6 +32681,115 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-05T21:20:16.882179+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 2,
+      "items_seen": 13,
+      "items_evaluated": 1,
+      "items_skipped": 7,
+      "views_filtered": 4,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "SEBI eases currency derivative rules; trade up to USD 5 million",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Public awareness campaign regarding drug-free India initiative",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Announcement of final results for NDA and Naval Academy Examination (I), 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Union Public Service Commission",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Posts reports completion of Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Posts",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRDO conducts successful flight test of Pralay semi-ballistic missile",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of 1857 Martyrs Memorial in Ambala",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Conclusion of IPRD-2026 conference on maritime governance and technology",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Overview of NFSC fellowship program achievements",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Fisheries concludes Special Campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Awareness initiative regarding drug rehabilitation",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Call for accelerated coal sector reforms, gasification, and technology-driven mining",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Coal",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
     }
   ]
 }
