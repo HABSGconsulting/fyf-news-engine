@@ -1,91 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-16T18:21:52.352728+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 1,
-      "items_skipped": 5,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 15,
-      "policy_evaluated": 7,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "Visiting India? Your overseas salary could be taxed if you stay long",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "BIMSTEC conference on traditional medicine and intellectual property rights held in Goa.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President visit to Telangana.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Administrative cleanliness and pendency reduction drive.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Agricultural Research and Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Conclusion of VYOMA Innovation Challenge for open-source AI solutions.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Institutional Finance Committee review of research and infrastructure.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Departmental preparation for Special Campaign 6.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Department of Food and Public Distribution",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DRI busts major methamphetamine smuggling syndicate in the Northeast.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-16T19:53:22.479431+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -32586,6 +32501,15 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-06T03:03:35.045767+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
