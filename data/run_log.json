@@ -1,193 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-17T18:23:21.151486+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 2,
-      "items_seen": 15,
-      "items_evaluated": 4,
-      "items_skipped": 8,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 16,
-      "policy_evaluated": 16,
-      "policy_skipped": 14,
-      "items_detail": [
-        {
-          "title": "SEBI warns: 88% of individual F&O traders still report losses",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Emami announces Rs 282 crore share buyback at 29% premium",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "LIC strengthens stake in NSE ahead of major IPO",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Why your credit score might drop despite perfect EMI payments",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Ministry of Finance to host conference for State Finance Ministers and Secretaries on financing India's growth journey.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President visit to Maharashtra.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Vice President Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Vice President pays tribute at Hyderabad Liberation Day.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Vice President Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministerial tree plantation and workshop address.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Defence intensifies workplace cleanliness initiatives.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Human interest story on educational progress.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "HAL to deliver indigenous trainer aircraft and helicopters to Indian Air Force and PHL.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Defence",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Community-based science initiative for TB control in Rajasthan.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Indian Defence Engineering Service celebrates 77th Foundation Day.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM shares article on center-state relations.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM shares article on India's maritime growth.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM shares article on India as an engine of growth.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM shares article on India's coalition building approach.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM shares article on enabling Indian aspirations.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister inaugurates Semicon India 2026.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Electronics and IT",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Department of Social Justice organizes 'Swachhata Hi Seva' 2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-17T19:58:16.166285+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32306,6 +32119,15 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-07T02:33:06.129207+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
