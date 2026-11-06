@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-17T05:24:45.499836+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 1,
-      "items_skipped": 5,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "UPI merchant fees: What changes for your business on October 15",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-17T07:13:10.138858+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -32419,6 +32391,144 @@
           "score": 4,
           "gate": "Skip entirely",
           "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-06T18:45:05.211512+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 4,
+      "items_seen": 8,
+      "items_evaluated": 0,
+      "items_skipped": 6,
+      "views_filtered": 0,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 15,
+      "policy_skipped": 11,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Diplomatic credentials presentation by foreign envoys",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Implementation of BharatNet program in Telangana via Digital Bharat Nidhi",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister addresses state festival ceremony in Uttarakhand",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Standardization of design and infrastructure for multi-lane free flow tolling on national highways",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "National Highways Authority of India",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Governor of Tamil Nadu meets Prime Minister",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Digital Life Certificate campaign 5.0 update on face authentication adoption",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Rice sale target under OMSS (D) for 2026-27 doubled to 50 LMT",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "INS Trishul completes port call in Greece",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of Ayushman Bharat-PMJAY and Digital Mission progress",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Call for accelerated mineral exploration and inter-state coordination",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Mines",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister visits Hungary for bilateral cooperation",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister meets cricketer Suryakumar Yadav",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Overview of National Overseas Scholarship program",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Overview of National SC Student Fellowship",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "TRAI issues 'The Register of Interconnect Agreements (Fourth Amendment) Regulation, 2026'",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "TRAI",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
