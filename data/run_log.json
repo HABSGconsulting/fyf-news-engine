@@ -1,88 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-16T21:06:55.889820+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 2,
-      "items_seen": 7,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 8,
-      "policy_skipped": 6,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Government reviewing use of ship-recycling steel to boost domestic manufacturing and global leadership.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Hyderabad Liberation Day event to be held at Secunderabad Parade Ground.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "MHA designates Shahzad Bhatti network as a terrorist organization under UAPA.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry to participate in Special Campaign 6.0 from October 2026.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry conducts nationwide cleanliness drive under Special Campaign 6.0.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Heavy Industries",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "World Circular Economy Forum 2026 concludes in Gandhinagar.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "CAQM inspects industries in Hapur; 12 units issued show-cause notices for non-compliance.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Commission for Air Quality Management (CAQM)",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "DPE organizes workshop for CPSEs on credit rating and global debt market access.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Department of Public Enterprises",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-16T23:14:52.378612+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -32346,6 +32264,32 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-06T09:11:07.777285+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 16,
+      "items_evaluated": 0,
+      "items_skipped": 5,
+      "views_filtered": 2,
+      "more_reads": 6,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister acknowledges India's medal tally achievement at Asian Para Games",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
