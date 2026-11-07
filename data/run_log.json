@@ -1,61 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-18T00:45:25.442442+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 5,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Merchants cannot charge you extra for UPI payments over \u20b92,000",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "New UPI fee from October 15: How it impacts your festive budget",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister acknowledges birthday wishes from Shri Deve Gowda",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister acknowledges birthday wishes from Shri M. Venkaiah Naidu",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-18T05:12:55.838816+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31874,6 +31819,97 @@
           "gate": "Skip entirely",
           "ministry": "Central Bureau of Narcotics",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-07T16:11:56.782419+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 1,
+      "items_seen": 9,
+      "items_evaluated": 4,
+      "items_skipped": 4,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Supreme Court rejects pro-rata pension plea for former SSCOs",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "5 hidden costs to check before choosing 'No-Cost EMI' offers",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "RBI proposes tighter norms for gold-backed agriculture loans",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "NBCC auction dispute: Buyers challenge cancellation of 49 premium flats",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Defence Minister emphasizes operational readiness and cybersecurity for armed forces.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Quality compliance report confirms E20 petrol standards across 27 states and UTs.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Petroleum and Natural Gas",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Legislative Department initiates internal leadership and effectiveness dialogue series.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CAQM implements GRAP Stage-III in Delhi-NCR following severe air quality degradation.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Immediate",
           "material": false
         }
       ]
