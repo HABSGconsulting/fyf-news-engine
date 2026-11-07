@@ -1,147 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-18T15:36:43.554398+05:30",
-      "status": "ok",
-      "posts_published": 5,
-      "policy_published": 1,
-      "items_seen": 15,
-      "items_evaluated": 5,
-      "items_skipped": 6,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 19,
-      "policy_evaluated": 9,
-      "policy_skipped": 8,
-      "items_detail": [
-        {
-          "title": "Nestle India faces FSSAI scrutiny; what it means for your portfolio",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Can you route personal rent to your HUF? Tax rules explained",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Why a 'settled' loan status can block your future credit",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Maximize your Post Office MIS: Understanding investment limits and multiple accounts",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "ITAT relief: Why documentation is vital to avoid tax additions",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister shares article on leadership, reforms, and transformation",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares article on inclusive governance and effective implementation",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Training program for vigilance officers on Master Circulars and Vigilance Manual 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Central Vigilance Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "25th meeting of SCO Economic and Foreign Trade Ministers concludes in Tajikistan",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Progress and preparation for Special Campaign 6.0",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inauguration of renovated Guna Head Post Office in Madhya Pradesh",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes suo motu cognizance of a tragic incident in Palwal, Haryana",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Steel to hold an open meeting on steel import issues on September 24",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares Sanskrit Subhashitam emphasizing self-reliance and service",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-18T17:53:34.301346+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31966,6 +31825,34 @@
           "content_type": "news",
           "persona": "new_investor",
           "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-07T23:47:15.674400+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Sold property on instalments? ITAT ruling protects you from excess tax",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
           "actionability": 1,
           "behavioral_risk": "low"
         }
