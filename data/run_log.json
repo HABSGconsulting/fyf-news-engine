@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-18T07:06:04.941026+05:30",
-      "status": "gemini_failed",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-18T12:16:24.374517+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 0,
@@ -31948,6 +31931,83 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Information and Broadcasting",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-07T19:51:39.166881+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "International investing options shrink as more funds halt new subscriptions",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Review of internal security and law and order in Gujarat",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "President's greetings on the eve of Diwali",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Lok Sabha Speaker's festival greetings",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister's Diwali greetings to citizens",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister meets Vice President",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Revised prices for anti-cancer drugs effective from November 9",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Immediate",
           "material": false
         }
       ]
