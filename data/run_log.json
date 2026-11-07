@@ -1,74 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-18T14:01:00.046368+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 5,
-      "policy_published": 0,
-      "items_seen": 12,
-      "items_evaluated": 5,
-      "items_skipped": 6,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 17,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Global stagflation fears rise as energy and borrowing costs climb",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Tata Chemicals in focus as Tata Sons IPO speculation intensifies",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "SEC grants five-year exemption for tokenized stock trading",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "regulatory_draft",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "MCX price display glitch on Zerodha: What you need to know",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Does using 90% of your credit card limit hurt your score?",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-18T15:36:43.554398+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -32010,6 +31942,34 @@
       "policy_evaluated": 0,
       "policy_skipped": 0,
       "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-07T22:30:09.322423+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Exchanging old gold this Diwali? 6 tips to avoid losing money",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
       "policy_detail": []
     }
   ]
