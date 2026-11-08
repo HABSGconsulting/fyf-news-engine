@@ -1,101 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-19T12:10:59.485410+05:30",
-      "status": "ok",
-      "posts_published": 6,
-      "policy_published": 0,
-      "items_seen": 20,
-      "items_evaluated": 6,
-      "items_skipped": 11,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "Stock split alert: Check your portfolio for these three upcoming splits",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "MCX technical glitch: Traders face issues viewing positions and averages",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "SP Group seeks bond repayment extension: What bondholders should know",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Tata group stocks face volatility amid leadership uncertainty",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Home loan ending? Here is how to manage your freed-up EMI",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "8th Pay Commission: How potential fitment factors impact your salary",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "CBIC and field formations to conduct Special Campaign 6.0 from October 2 to October 31, 2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Fisheries reaffirms commitment to cleanliness and good governance under Special Campaign 6.0.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-19T13:47:53.659757+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31766,6 +31671,67 @@
       "policy_detail": [
         {
           "title": "Prime Minister celebrates Diwali with security forces in Bastar, Chhattisgarh.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-08T21:51:00.219274+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Can you invest \u20b93 lakh in your child's PPF? Rules explained",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister meets President for Diwali greetings",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares glimpses of Diwali celebration with security personnel in Bastar",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "WWF-India appeals for eco-friendly Diwali celebrations in Delhi-NCR",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister celebrates Diwali with security personnel in Bastar",
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
