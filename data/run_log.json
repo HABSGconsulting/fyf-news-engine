@@ -1,93 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-18T20:41:15.717963+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 2,
-      "items_skipped": 3,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Missed your KYC deadline? Your bank account isn't frozen yet",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Don't get fooled by 'No-Cost' EMIs; check the fine print",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Regional Agricultural Conference held in Hyderabad to discuss agricultural roadmaps for Southern states.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Government highlights the role of precision manufacturing ecosystem in supporting the domestic semiconductor industry.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister addresses Southern states' agricultural conference focusing on farmer income and development.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Science and Technology prepares for Special Campaign 6.0 starting October 2026.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Department of Science and Technology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister meets university vice-chancellors to discuss participation in Viksit Bharat Young Leaders Dialogue 2027.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Swachh Sagar Surakshit Sagar campaign highlighted as a national movement for coastal cleanliness.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Earth Sciences",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-18T22:44:46.701182+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31748,6 +31661,23 @@
           "behavioral_risk": "high"
         }
       ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-08T08:13:20.698857+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
       "policy_detail": []
     }
   ]
