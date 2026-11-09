@@ -1,53 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-20T14:19:21.461397+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Invesco reopens international funds: New \u20b910 lakh daily limit applies",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "mutual_fund_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "New EPF wage ceiling: How the \u20b925,000 limit impacts your salary",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister expresses condolences on the passing of journalist Payal Mehta.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-20T15:37:35.326579+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31609,6 +31562,15 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-10T03:08:17.870785+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
