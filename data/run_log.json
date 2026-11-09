@@ -1,80 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-19T18:57:15.227651+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 6,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Human interest story regarding social welfare beneficiary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Human interest story regarding entrepreneurship.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Ayush initiates integration of Artificial Intelligence in traditional medicine research.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Minister addresses regional job fair.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Departmental cleanliness pledge event.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Condolence message regarding accident.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM shares article on textile industry competitiveness initiatives.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-19T20:21:16.345672+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31580,6 +31506,23 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-11-09T06:44:11.618429+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
