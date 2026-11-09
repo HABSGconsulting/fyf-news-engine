@@ -1,95 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-20T18:08:43.064367+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 3,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Liqvd Digital India SME IPO opens Sep 23; price band Rs 51-54",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "EPFO wage ceiling hiked to Rs 25,000: Impact on your take-home pay",
-          "score": 10,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Bank strike scheduled for Sep 28-30: Plan your transactions in advance",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "macro",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "President of India to visit Gujarat from September 21 to 23.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Rashtrapati Bhavan",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Department of Justice to organize regional workshop on DISHA 2.0 scheme in Goa.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister of Textiles outlines vision for India to achieve global leadership in silk production.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Suryakiran Aerobatic Team performs aerial display in Meerut.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Sports Minister leads Indian diaspora in 'Sundays on Cycle' event in Nagoya.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-20T19:12:16.751726+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31540,6 +31451,15 @@
     },
     {
       "run_id": "2026-11-10T04:38:36.661063+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
+    },
+    {
+      "run_id": "2026-11-10T05:21:23.625894+05:30",
       "status": "skipped",
       "posts_published": 0,
       "policy_published": 0,
