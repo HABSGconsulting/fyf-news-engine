@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-20T07:10:14.914209+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-20T12:34:45.675146+05:30",
       "status": "ok",
       "posts_published": 6,
@@ -31649,6 +31632,97 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Telecom Regulatory Authority of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-09T23:19:38.132862+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 9,
+      "items_evaluated": 4,
+      "items_skipped": 4,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Nvidia shares slide 9% as CEO Jensen Huang faces investigation",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Cash deposits in bank: How to prove they aren't unexplained income",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Parag Parikh Flexi Cap adds Netflix, exits Meta in October",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Buying gold? Mandatory hallmarking now extended to six more districts",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister of Minority Affairs and Parliamentary Affairs visits Saudi Arabia",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Minority Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial address regarding global research opportunities and financial challenges",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Overview of NFSC fellowship academic support programs",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister holds telephonic conversation with President of Ukraine",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
