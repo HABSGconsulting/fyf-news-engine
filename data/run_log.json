@@ -1,91 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-19T22:18:12.765026+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 1,
-      "items_seen": 2,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Higher EPS pension delays: MP urges PM to remove administrative hurdles",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Minister visits medical college campus in Hubballi, Karnataka.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister interacts with beneficiaries and attends district development meeting.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister cites decline in unemployment rate due to government schemes.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "National resolution event scheduled for youth engagement across 1000 locations.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Biometric Aadhaar authentication mandatory for subsidized LPG refills from October 1, 2026.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Petroleum and Natural Gas",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister extends best wishes to the Indian contingent for Asian Games.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "INS Trishul makes a port call at Alexandria, Egypt.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-19T23:42:46.286896+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31484,6 +31399,83 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-09T14:12:08.228586+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 25,
+      "items_evaluated": 1,
+      "items_skipped": 19,
+      "views_filtered": 5,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "MakeMyTrip India gets SEBI nod for upcoming IPO",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "India-Myanmar bilateral HADR exercise concludes in Chennai",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Revised price caps for 1,364 anti-cancer formulations effective immediately",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Chemicals and Fertilizers",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Relics of Lord Shakyamuni Buddha arrive at Thubchog Gatsel Ling Monastery",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister extends greetings on Uttarakhand State Foundation Day",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam on values of fairness and justice",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "WWF-India appeals for eco-friendly Diwali celebrations in Delhi-NCR",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
