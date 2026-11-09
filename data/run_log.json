@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-20T05:06:32.362619+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-20T07:10:14.914209+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31547,6 +31530,125 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-09T19:52:19.757799+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 1,
+      "items_seen": 5,
+      "items_evaluated": 2,
+      "items_skipped": 3,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "Switching jobs? Understand the tax impact on your full and final settlement",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Diwali safety: Does your health insurance cover firecracker-related injuries?",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Awareness campaign on drug de-addiction",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Inauguration and foundation stone laying of development projects in Ahmedabad",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Nationwide Diwali event to promote drug-free celebrations",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Completion of Special Campaign 6 for cleanliness in Indian Railways",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Launch of first Yamuna river cruise service in Delhi",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Passing out parade of Agniveers at INS Chilka",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Completion of Special Campaign 6 for pendency disposal",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Completion of Special Campaign 6 for pendency disposal",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of New and Renewable Energy",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "TRAI issues Telecommunication Interconnection (Port Charges) (Third Amendment) Regulations 2026",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Telecom Regulatory Authority of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "TRAI assessment of mobile network quality on rail routes in Assam",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Telecom Regulatory Authority of India",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
