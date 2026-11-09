@@ -1,40 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-20T15:37:35.326579+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 3,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Vice President to inaugurate 9th India International Water Week 2026",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Coal India advances technology-based diversification in energy, minerals, and R&D",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Coal",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-20T18:08:43.064367+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31565,6 +31531,15 @@
     },
     {
       "run_id": "2026-11-10T03:08:17.870785+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
+    },
+    {
+      "run_id": "2026-11-10T04:38:36.661063+05:30",
       "status": "skipped",
       "posts_published": 0,
       "policy_published": 0,
