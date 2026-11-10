@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-20T23:49:29.591306+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "UPI Credit Lines: Use pre-sanctioned loans for your daily payments",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-21T05:03:32.373112+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31454,6 +31426,133 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-10T17:20:15.000617+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 8,
+      "items_evaluated": 2,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 11,
+      "policy_evaluated": 11,
+      "policy_skipped": 11,
+      "items_detail": [
+        {
+          "title": "8th Pay Commission: Potential salary hike and higher allowances on the horizon",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "EPFO meeting on November 19: Will minimum pension increase to \u20b93,000?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Indian Police Service probationers meet the President of India.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes foreign currency worth Rs 3.5 crore at Kolkata Airport.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes wildlife contraband in Assam.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President to visit Tuticorin, Tamil Nadu.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Vice President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes 6.642 kg of amphetamine in Bhopal.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes over 13,000 e-cigarettes worth Rs 4 crore at JNPT.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Ayush reports progress under Special Campaign 6.0.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NLMC issues RFP for e-auction of 11 government residential flats in Prayagraj.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Sports participates in Special Campaign 6.0.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM congratulates Anuj Shrivatri on becoming India's 100th Chess Grandmaster.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India reaffirms commitment to climate multilateralism at UNFCCC COP31.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
