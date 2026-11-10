@@ -1,93 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-21T16:37:26.913905+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 6,
-      "policy_evaluated": 6,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Bank strike scheduled for Sept 28-30: Will your payments be impacted?",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Missed tax notice? ITAT grants relief in \u20b93.79 crore TDS case",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Nationwide public participation campaign launched ahead of 11th Ayurveda Day.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "MSME Ministry prepares for Special Campaign 6.0 for cleanliness and disposal of pending matters.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Micro, Small and Medium Enterprises",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "72nd National Film Awards ceremony scheduled for September 22.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministerial statement on the role of Solar Energy Corporation of India in clean energy targets.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of New and Renewable Energy",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inauguration of WWF Global Conservation Conference in Jaipur.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Preparations for Special Campaign 6 for cleanliness and disposal of pending railway matters.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Railways",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-21T20:11:35.460080+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 2,
@@ -31556,6 +31469,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-11T02:07:17.694383+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
