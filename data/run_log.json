@@ -1,119 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-22T14:22:54.492468+05:30",
-      "status": "ok",
-      "posts_published": 7,
-      "policy_published": 0,
-      "items_seen": 16,
-      "items_evaluated": 7,
-      "items_skipped": 5,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "HDFC Bank shares rally on potential new CEO leadership news",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Loan repaid but still active on credit report? Fix it now",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Starting retirement planning at 40? Avoid the high-risk trap",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Long-duration debt funds offer 7.8% yields: Is the risk worth it?",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "performance",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Are your business assets truly protected? Lessons from recent flood disasters",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Will UPI stay free? Understanding the proposed 0.4% merchant charge",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 0,
-          "behavioral_risk": null
-        },
-        {
-          "title": "Avoid PF withdrawal delays by verifying these EPFO details first",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "India Cine Hub initiative announcement",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Semicon India 2026 exhibition announcement",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Coal India Limited corporate social responsibility review",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Coal",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-22T15:51:06.825800+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31664,6 +31551,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-12T00:23:06.592088+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
