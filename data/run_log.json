@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-22T05:55:21.740771+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "NSE IPO sees strong demand, final subscription hits 5.71 times",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "IPO rush: 23 companies racing to raise Rs 40,775 crore by September 30",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-22T07:25:08.582420+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 2,
@@ -31549,6 +31511,91 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Environment",
           "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-11T18:27:47.786148+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 7,
+      "policy_evaluated": 7,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Your HDFC Bank loan EMI may rise following 5-15 bps MCLR hike",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "NHAI bans Bijwasan toll collection agency for one month due to misconduct with road users.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Conclusion of Special Campaign 6.0 regarding institutionalizing cleanliness and clearing pendency.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Drinking Water and Sanitation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DGFT bans export of lithium-ion battery black mass to promote domestic recycling and critical mineral recovery.",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Directorate General of Foreign Trade",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Vice President attends 105th Foundation Day of Tamilnad Mercantile Bank.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President attends Platinum Jubilee celebration of V.O. Chidambaram College.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Central Bureau of Narcotics busts illicit mephedrone laboratory in Mau, Uttar Pradesh.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Central Bureau of Narcotics",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Bureau of Energy Efficiency organizes webinar and awareness activities during BRICS Sustainable Lifestyle Week.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Bureau of Energy Efficiency",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
