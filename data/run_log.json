@@ -1,125 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-22T12:21:13.942904+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 2,
-      "items_skipped": 11,
-      "views_filtered": 5,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 10,
-      "policy_skipped": 10,
-      "items_detail": [
-        {
-          "title": "Sterling and Wilson Renewable Energy surges 8% on new order wins",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Waaree Energies bags 2 GW solar module order, shares rise 2%",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "11th Ayurveda Day observance announcement",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares cultural message on prosperity",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "First meeting of state nodal officers for R&D infrastructure coordination",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Office of the Principal Scientific Adviser",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "CSIR-CRRI to provide scientific collaboration for road safety in Visakhapatnam",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Conference on workforce strengthening for Jal Jeevan Mission 2.0",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Department of Drinking Water and Sanitation",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "MoU signed for drug prevention awareness and community outreach",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Central Bureau of Narcotics",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Request to public sector bank employees for ensuring seamless banking services",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DRI seizes over 845 kg of banned drugs in anti-smuggling operation",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Department of Revenue Intelligence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministerial meeting with religious leader",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates athlete on medal win",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-22T14:22:54.492468+05:30",
       "status": "ok",
       "posts_published": 7,
@@ -31719,6 +31600,67 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Health and Family Welfare",
           "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-11T23:00:39.024009+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 4,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Did your FD auto-renew at a lower rate? Here is how to act",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President of India presents Swachh Survekshan awards",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Foundation stone laid for Rs 560 crore port infrastructure projects in Visakhapatnam",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Navy and Royal Navy of Oman conduct 15th bilateral maritime exercise",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "8th India-Myanmar Naval Exercise (IMNEX-26) commences in Visakhapatnam",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
