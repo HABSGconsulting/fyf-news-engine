@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-22T07:25:08.582420+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 2,
-      "items_skipped": 2,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Varmora Granito IPO: Anchor investors commit Rs 212 crore",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Market Watch: ONGC, Canara Bank, and others in focus today",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-22T12:21:13.942904+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -31596,6 +31558,167 @@
           "gate": "Skip entirely",
           "ministry": "Bureau of Energy Efficiency",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-11T21:09:53.999414+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 3,
+      "items_seen": 12,
+      "items_evaluated": 3,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 6,
+      "learn_links_matched": 0,
+      "policy_seen": 14,
+      "policy_evaluated": 14,
+      "policy_skipped": 11,
+      "items_detail": [
+        {
+          "title": "RBI to switch 250 billion rupees in bonds next week",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Fairfax Financial eyes exit from IIFL Finance stake",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Stand-Up India scheme extended: Boost for new entrepreneurs",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Indian Naval Ship Trishul completes port call at Safaga, Egypt",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Tribal Literature Festival scheduled for November 2026 in New Delhi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government simplifies Indian visa regime to enhance ease of travel",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Lok Sabha Speaker emphasizes need for effective institutions and civil servants",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Achievements of Ministry of Women and Child Development under Special Campaign 6.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister calls for international cooperation on cybersecurity at ITU PP-26",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government report on social inclusion initiatives",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Report on educational financial support schemes",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Army Chief delivers lecture at Mechanized Warfare Seminar 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government strengthens 4G connectivity in rural areas via 4G Saturation Project",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Communications",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Government report on de-addiction and self-reliance programs",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Bharat Parv 2026 showcases India's cultural heritage in Ekta Nagar",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister to visit Karnataka and Gujarat on November 13-14",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India strengthens regional health partnership at first BIMSTEC Health Ministers' meeting",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Structural (3-5Y+)",
           "material": false
         }
       ]
