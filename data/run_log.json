@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-23T05:21:56.819964+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-23T12:14:49.912323+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31554,6 +31537,64 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-12T21:45:43.053188+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 4,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Andhra Pradesh monitoring status for global maritime hub with focus on ports and shipbuilding",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Sister Nivedita Hostel in Tripura",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Development of North Eastern Region",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "National initiative launched for conservation of medicinal plants and sustainable livelihoods in 16 tribal hotspots",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government release on 'Risk to Respect' campaign",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Heavy Industries receives 22 bids for 10 GWh Advanced Chemistry Cell manufacturing capacity under PLI scheme",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Heavy Industries",
+          "horizon": "Cyclical (1-3Y)",
           "material": false
         }
       ]
