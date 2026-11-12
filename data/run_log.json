@@ -1,99 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-23T12:14:49.912323+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 2,
-      "items_seen": 25,
-      "items_evaluated": 1,
-      "items_skipped": 17,
-      "views_filtered": 2,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 8,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "NSE shares set to list tomorrow; expect a modest 2.4% debut",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government adopts 'whole-of-industry' approach to accelerate electronics and semiconductor manufacturing targets.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Electronics and Information Technology",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister extends greetings on Ayurveda Day.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Advisory issued regarding tampering of IMEI numbers.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Department of Telecommunications",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "National Zoological Park hosts orientation for Eco-Club teachers on World Rhino Day.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Telecommunications hosts third investor roundtable focusing on domestic manufacturing and innovation.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Department of Telecommunications",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Minister holds dialogue with industry stakeholders on ease of doing business and FTA opportunities.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister meets with religious leader from Udupi.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC holds statutory full commission meeting in New Delhi.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-23T14:21:01.823614+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31595,6 +31502,67 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Heavy Industries",
           "horizon": "Cyclical (1-3Y)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-12T23:15:36.784734+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Check your health insurance waiting period to avoid claim rejection",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister addresses Kisan Tak Bharat Agriculture Conference",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "57th IFFI scheduled in Goa from November 20-28, 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Second edition of National Tribal Literature Festival 2026 commences in New Delhi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister addresses regional conference on Jal Jeevan Mission 2.0 in Tiruchirappalli",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
