@@ -1,56 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-22T21:16:53.531740+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Ministerial delegation meeting with European Parliament ITRE committee",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Heavy Industries",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Announcement of 11th Ayurveda Day celebration",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Inauguration of 9th India International Water Week 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "PM memento e-auction 2026 featuring cultural artifacts",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-22T23:21:01.679617+05:30",
       "status": "gemini_failed",
       "posts_published": 0,
@@ -31376,6 +31326,113 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-12T14:23:48.569574+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 1,
+      "items_seen": 15,
+      "items_evaluated": 4,
+      "items_skipped": 5,
+      "views_filtered": 2,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Anthropic IPO: What the new mega-share playbook means for global markets",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Patna Municipal Corporation bond now on NSE: Earn 9.20% annual interest",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Don't let your insurance lapse: Why timely renewal protects your wealth",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Nvidia stock drops 13%: Check if your mutual fund is affected",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Registration for WaveX Startup Pavilion at IFFI Goa 2026 closes tomorrow.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "TDB-DST approves Rs 64.05 crore R&D support for sovereign space-based AI-ALINT constellation development.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Science and Technology",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Naturopathy Day 2026: Scientific research focus on nature-based healthcare systems.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "One Nation, One Ration Card implementation status update.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Public viewing of sacred relics of Shakyamuni Buddha in Arunachal Pradesh.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Tribal Pride Fortnight 2026: Nationwide outreach for welfare scheme implementation.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
