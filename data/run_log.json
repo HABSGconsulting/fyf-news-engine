@@ -1,111 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-23T14:21:01.823614+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 1,
-      "items_seen": 12,
-      "items_evaluated": 3,
-      "items_skipped": 4,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 6,
-      "items_detail": [
-        {
-          "title": "Buying property below stamp duty value? You may avoid extra tax",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "New Railway NPS rules: Families can claim up to 100% pension",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Is your family prepared to find your investments after you?",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "MHA and DARPG initiate Special Campaign 4.0 for administrative efficiency.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Textiles conducts cleanliness and awareness activities under Swachhata Hi Seva campaign.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Indian Railways commissions Kavach 4.0 system on South Central Railway.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Railways",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Launch of Waves OTT and MyWaves platform.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Government highlights performance milestones of Ayushman Bharat on its eighth anniversary.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Tribute paid to Ramdhari Singh Dinkar on his birth anniversary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "National Rainfed Area Authority holds high-level meeting on watershed development.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-23T15:47:29.587588+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31566,6 +31461,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-13T00:39:08.975827+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
