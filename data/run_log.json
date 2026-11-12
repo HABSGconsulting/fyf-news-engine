@@ -1,48 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-22T23:21:01.679617+05:30",
-      "status": "gemini_failed",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 9,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "President of India confers 72nd National Film Awards",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "President of India confers 72nd National Film Awards in Ekta Nagar, Gujarat",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Mahanadi Coalfields Limited initiates Special Campaign 6.0 for cleanliness drive",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Coal",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-23T00:42:41.179039+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31433,6 +31391,107 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-12T17:20:11.215253+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 3,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "DA hike and arrears: How to manage your extra festive cash",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister to inaugurate 45th India International Trade Fair",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "HUDCO reports administrative efficiency and cleanliness drive outcomes",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CPWD reports administrative efficiency and cleanliness drive outcomes",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Extension of timeline for public suggestions on Jal Sanchay Jan Bhagidari 2.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "President interacts with Eklavya Model Residential School students",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President to visit Andhra Pradesh",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Vice President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of three digital initiatives for Kendriya Vidyalaya Sangathan",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Minister emphasizes operational readiness and technological superiority",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian National Science Academy supports G20 science academies joint statement",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
