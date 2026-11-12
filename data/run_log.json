@@ -1,91 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-23T15:47:29.587588+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 1,
-      "items_skipped": 4,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "Snapdeal parent AceVector IPO opens September 25: Price band set",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister shares article on rhino conservation efforts.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates Asian Games medalist.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Banks to remain open on Sunday, September 27 for customer convenience.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates shooting team on medal win.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates weightlifter on silver medal win.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Textiles to launch special campaign for cleanliness and e-waste management.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Centre for Trade and Investment Law conducts webinar on WTO fisheries subsidies.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-23T18:39:10.881650+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 0,
@@ -31472,6 +31387,23 @@
       "items_skipped": 1,
       "views_filtered": 0,
       "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-13T02:35:28.663516+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 1,
       "learn_links_matched": 0,
       "policy_seen": 0,
       "policy_evaluated": 0,
