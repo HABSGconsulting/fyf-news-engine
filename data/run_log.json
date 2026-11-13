@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-24T07:09:28.482361+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 8,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 3,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-24T12:18:41.284948+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31460,6 +31443,44 @@
           "category": "regulatory",
           "actionability": 1,
           "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-13T21:12:18.230764+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 2,
+      "items_skipped": 1,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Buying property in family names? Avoid tax and legal pitfalls",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "HDFC MF launches new hybrid long-short fund; NFO open now",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
         }
       ],
       "policy_detail": []
