@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-24T05:29:41.110741+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-24T07:09:28.482361+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31452,6 +31435,34 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-13T18:56:18.772517+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 9,
+      "items_evaluated": 1,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 4,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Razorpay and Sembcorp Green Infra receive SEBI approval for IPOs",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
