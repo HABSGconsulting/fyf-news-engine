@@ -1,105 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-24T14:15:48.986925+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 1,
-      "items_seen": 15,
-      "items_evaluated": 4,
-      "items_skipped": 5,
-      "views_filtered": 2,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "PB Fintech shares crash 30% as IRDAI proposes commission reforms",
-          "score": 10,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "high"
-        },
-        {
-          "title": "SEBI board to discuss PMS overhaul and FPI commodity access",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "IRDAI proposes commission claw-back to curb insurance mis-selling",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Bank strike alert: Plan your end-of-month transactions by September 27",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government reduces import duties on key edible oils to provide relief to consumers.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY) operational update.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates athlete on medal win.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister expresses condolences on bus accident tragedy.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Departmental administrative efficiency drive.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Empowerment of Persons with Disabilities",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-24T16:09:52.175791+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31515,6 +31416,40 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-14T00:17:19.435664+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 2,
+      "policy_evaluated": 2,
+      "policy_skipped": 2,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Announcement of Swachh Survekshan 2025-26 results",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MSME Ministry concludes Special Campaign 6.0 focusing on office cleanliness",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Micro, Small and Medium Enterprises",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
