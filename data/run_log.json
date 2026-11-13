@@ -1,79 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-24T16:09:52.175791+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 16,
-      "items_evaluated": 3,
-      "items_skipped": 0,
-      "views_filtered": 4,
-      "more_reads": 7,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Info Edge shares drop 7% as PB Fintech stake value erodes",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "RBI tests offline e-rupee payments without internet",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Joint home loan: How it impacts your tax and EMI",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "INS Trishul arrives in Toulon, France for the 24th edition of bilateral maritime exercise 'Varuna'.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Coal initiates Special Campaign 6.0 focusing on e-waste disposal and workplace modernization.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Coal",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India highlights progress in Universal Health Coverage and disease eradication at UNGA 81.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-24T18:31:32.333158+05:30",
       "status": "gemini_failed",
       "posts_published": 0,
@@ -31454,6 +31381,15 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-14T02:08:52.335708+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
