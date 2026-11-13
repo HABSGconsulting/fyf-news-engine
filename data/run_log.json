@@ -1,152 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-24T12:18:41.284948+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 0,
-      "items_skipped": 7,
-      "views_filtered": 6,
-      "more_reads": 9,
-      "learn_links_matched": 0,
-      "policy_seen": 16,
-      "policy_evaluated": 16,
-      "policy_skipped": 16,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana 2.0",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "PB Word",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM congratulates athletes on medal win",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PM shares Sanskrit Subhashitam",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India Water Week 2026 proceedings",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "DRI seizes 21kg of smuggled gold worth Rs 32 crore",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "DRI seizes 12kg of smuggled gold worth Rs 17 crore",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "CCI approves acquisition of Onesto Labs by L'Oreal India",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Competition Commission of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "CCI approves acquisition of equity stake in IIFL Capital Services by FIH Mauritius",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Competition Commission of India",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Conclusion of 11th Ayurveda Day celebrations",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "11th Ayurveda Day celebrated in New Delhi",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "11th Ayurveda Day celebrated in Mandi",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Finance Minister inaugurates BRICS Tax Authorities meeting",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Elderline 14567 helpline overview",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NLMC conducts investor meeting for RINL land e-auction",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "PM memorabilia exhibition highlights",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-24T14:15:48.986925+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -31484,6 +31338,187 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-13T22:54:23.760233+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 2,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 19,
+      "policy_skipped": 17,
+      "items_detail": [
+        {
+          "title": "FD rates are rising: Lock in higher yields on your savings now",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister expresses condolences on the tragic accident in Golaghat, Assam",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Success story of NFSC fellowship beneficiary",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Participation report on Nasha Mukt Yuva quiz",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of Cosmos-Mysuru LED dome planetarium",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NRIDA receives U.P. Medal 2025 for innovation in road construction",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "INS Sahyadri completes visit to Yokosuka post Malabar 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Success story of Namaste scheme in Puducherry",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CBDT implements special campaign 6 for administrative efficiency",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Organization of first All India Rajbhasha Conference 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Telecommunications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President addresses 31st CII Partnership Summit",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Text of PM's address at Cosmos-Mysuru planetarium inauguration",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of RHTC Najafgarh institutional progress",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Creative India: Collective Possibilities event held in New Delhi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Total exports (goods and services) estimated at $568.84 billion for April-October 2026-27",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Housing and Urban Affairs resolves 736 public grievances under special campaign",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NLMC announces e-auction of residential flats in Chennai",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Railways celebrates Janjatiya Gaurav Divas",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM inaugurates and lays foundation for development projects worth over Rs 15,600 crore in Bengaluru",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "SHATAYU initiative strengthens elderly care system through digital connectivity",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
