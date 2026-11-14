@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-25T07:25:27.833215+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 8,
-      "items_evaluated": 2,
-      "items_skipped": 3,
-      "views_filtered": 2,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Market volatility hits Nifty; check your exposure to volatile stocks",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Inox Clean Energy eyes massive \u20b910,000 crore IPO",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "regulatory_draft",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-25T12:11:37.864493+05:30",
       "status": "ok",
       "posts_published": 8,
@@ -31449,6 +31411,59 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "N/A",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-14T18:00:40.689674+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "Yes Bank seeks Supreme Court review on Rs 8,415 crore AT-1 bond write-off",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President of India extends greetings on the occasion of Chhath Puja.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Union Environment Minister reviews measures to intensify action against air pollution in Delhi-NCR.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Conclusion of National Tribal Literature Festival focusing on preserving oral traditions.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
