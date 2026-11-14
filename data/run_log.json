@@ -1,177 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-25T12:11:37.864493+05:30",
-      "status": "ok",
-      "posts_published": 8,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 8,
-      "items_skipped": 9,
-      "views_filtered": 5,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 9,
-      "policy_evaluated": 9,
-      "policy_skipped": 9,
-      "items_detail": [
-        {
-          "title": "OFSS shares drop 5% on Oracle project delay concerns",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Ola Electric shares slide 9% as market weighs funding needs",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Half of Nifty 500 stocks down in 2026; time to pivot?",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "PB Fintech shares crash 36% on proposed insurance commission changes",
-          "score": 10,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "ArMee Infotech IPO: Final day to bid, subscribed 1.17x",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Swastika Infra IPO: Final day bidding, issue subscribed 1.6x",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "PB Fintech shares tumble: Understanding the impact of new IRDAI rules",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "German Green Steel IPO: Is the 20% premium worth the risk?",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "DDU-GKY 2.0 to provide skill training to 70,000 rural youth starting October 2026.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister pays tribute to Pandit Deendayal Upadhyaya on his birth anniversary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Conclusion of the 65th edition of the Subroto Cup International Football Tournament.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India Water Week 2026 focuses on climate resilience, water financing, and innovation.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ayush institutions organize awareness activities for 11th Ayurveda Day 2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Legislative Department organizes expert lecture on 'Swachhata Se Samriddhi'.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister discusses India's global economic participation and integration into global value chains.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "Minister flags off 'Youth Safety and Smart Mobility Expedition 2026'.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India-Africa Roundtable held during the 9th India International Water Week 2026.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-25T14:38:11.891562+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -31464,6 +31293,99 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-14T20:01:23.335296+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "ITAT rules: Third-party deposits in your account aren't always taxable income",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "CCI approves acquisition of stake in a hospital chain by a private entity.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Competition Commission of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "IICA stakeholder consultation meeting on public policy shifts.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NSS organizes block-level sports competitions against drug abuse.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "BRICS cinema showcase at 57th International Film Festival of India.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister to attend Janjatiya Gaurav Divas program.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Railways approves weekly train service between Janakpur Dham and Ayodhya.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Film screening announcement for IFFI 2026.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Regional conference on Jal Jeevan Mission 2.0 held in Tiruchirappalli.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
