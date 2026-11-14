@@ -1,133 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-25T01:00:21.364303+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 2,
-      "items_seen": 6,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 4,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 11,
-      "policy_evaluated": 11,
-      "policy_skipped": 9,
-      "items_detail": [
-        {
-          "title": "Snapdeal parent AceVector secures Rs 189 crore from anchor investors",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "UPI loan repayments: Rs 5 MDR charge explained for borrowers",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "SAIL 54th AGM highlights focus on value-added steel production and national infrastructure supply",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NCSC conducts on-site investigation at IIT Bombay regarding student death",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "PM congratulates athlete on Asian Games medal win",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "INS Sudarshini reaches Alexandria port under Lokayan-2026 campaign",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India participates in 14th East Asia Summit Economic Ministers and 23rd ASEAN-India Economic Ministers Consultations",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NBCFDC support for entrepreneurship and education among backward classes",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "FSSAI proposes draft amendment to restrict 'Paneer' labeling to dairy-derived products only",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "FSSAI",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DRDO signs high-value deep-tech project agreement with a startup for indigenous 20mK dilution refrigerator development",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Defence",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "PM congratulates men's badminton team on Asian Games medal win",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "AYUSH Secretary highlights potential in Sowa Rigpa education and research",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President releases book on Hindutva",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Vice President's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-25T05:31:52.007727+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31393,6 +31266,105 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-14T13:34:11.805974+05:30",
+      "status": "ok",
+      "posts_published": 4,
+      "policy_published": 0,
+      "items_seen": 18,
+      "items_evaluated": 4,
+      "items_skipped": 12,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Nvidia stock plunges 13% following CEO Jensen Huang's sudden exit",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "8th Pay Commission: Could salary revisions happen every five years?",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "India's largest small-cap fund reshuffles portfolio, increases expense ratio",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ICICI Bank credit card users: 6 key fee changes start November 25",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister of Commerce and Industry to visit Egypt on November 15-16, 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Pradhan Mantri Janjatiya Vikas Mission",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister of Commerce and Industry inaugurates 45th India International Trade Fair 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Shilp Samagam Mela 2026 sales report at Dilli Haat",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Textiles",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of web portal for Prime Minister's Awards for Excellence in Public Administration 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Administrative Reforms and Public Grievances",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
