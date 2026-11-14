@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-25T18:32:35.880977+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 16,
-      "items_evaluated": 3,
-      "items_skipped": 8,
-      "views_filtered": 5,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 18,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "UPI fee breakdown: How the 0.4% MDR is distributed",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "October 2026 tax deadlines: Don't miss these dates",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Bank strike alert: SBI waives ATM fees from Sept 28-30",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-25T20:20:28.252130+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 3,
@@ -31328,6 +31280,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-15T00:21:05.950026+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
