@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-25T20:20:28.252130+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 8,
-      "items_evaluated": 3,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Bank strike alert: Plan your transactions for September 28-30",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "behavioral",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Delayed flat possession? You can still claim interest, rules Court",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "NPS Swasthya: New pension option with health cover launches October 1",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-25T21:33:18.001509+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 0,
@@ -31297,6 +31249,15 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-15T01:34:10.920118+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
