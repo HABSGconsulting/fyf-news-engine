@@ -1,225 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-26T12:11:17.876154+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 2,
-      "items_seen": 25,
-      "items_evaluated": 4,
-      "items_skipped": 1,
-      "views_filtered": 4,
-      "more_reads": 13,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 20,
-      "policy_skipped": 18,
-      "items_detail": [
-        {
-          "title": "Bank branches closed today: Plan your weekend banking tasks accordingly",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "UPI payments over \u20b92,000: FM clarifies merchant MDR charges",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "ITAT cancels \u20b92.21 lakh penalty: Why your ITR verification matters",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Banks to stay open this Sunday: Plan your transactions to avoid delays",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Government departments initiate preparatory phase for Special Campaign 6.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister pays tribute to former Prime Minister Dr. Manmohan Singh.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Health Secretary reiterates India's commitment to global pandemic preparedness.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Direct recruitment for various positions in Government of India.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NSS organizes health awareness activities under Nasha Mukt Bharat Abhiyaan.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Youth Affairs and Sports",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates Asian Games medalists.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates Asian Games medalists.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates Asian Games medalists.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NLMC concludes investor outreach for RINL land e-auction.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Heavy Industries prepares for Special Campaign 6.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Heavy Industries",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "PSA reviews RUETAG 2.0 projects at IIT Roorkee.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Office of the Principal Scientific Adviser",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "9th India International Water Week 2026 concludes.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Tree plantation drive conducted under Swachhata Hi Seva.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department organizes session on sanitation and civilization.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "ICAT initiates dialogue on PM e-Drive and launches agricultural machinery testing facility.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Heavy Industries",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "Indian Coast Guard to strengthen maritime cooperation via Quad-at-Sea mission.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Success story of beneficiary under government welfare schemes.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "40th webinar in National Good Governance series held.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Department of Administrative Reforms and Public Grievances",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "New member appointed to the Board for Development of DNT communities.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "National-level consultation held for National Cooperative Training Framework (NCTF) 2026.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-26T14:25:32.098659+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -31451,6 +31232,115 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-15T20:30:36.420893+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 2,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "Received an excess tax refund? Here is how to return it",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Inauguration of Western Regional Office of Central Registrar of Cooperative Societies in Pune",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Cooperation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Promotion of Eklavya Model Residential Schools for tribal student empowerment",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Commemoration of Bhagwan Birsa Munda Jayanti",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India-Italy collaboration on International Physics Center",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Unveiling of logo and mascot for Khelo India Youth Games 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Participation in Janjatiya Gaurav Divas event",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Celebration of Malayalam cinema at IFFI 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Waves Film Bazaar anniversary celebration",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Spain designated as country of focus for 57th IFFI",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Health Accounts 2023-24 reports tripling of public health expenditure",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
