@@ -1,48 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-26T19:23:56.109565+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 1,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Launch of women empowerment and cooperative initiatives in Kollam, Kerala.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Cooperation",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Vice President's scheduled visit to Kerala on September 27.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Office of the Vice President",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "E-auction of Prime Minister's mementos featuring Maharashtra's heritage and art.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-26T20:37:40.080661+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31304,6 +31262,15 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-16T02:03:10.803170+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
