@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-27T05:26:16.337691+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-09-27T07:19:22.919574+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31195,6 +31186,159 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Agriculture and Farmers Welfare",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-16T17:33:02.520559+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 3,
+      "items_seen": 12,
+      "items_evaluated": 3,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 13,
+      "policy_evaluated": 13,
+      "policy_skipped": 10,
+      "items_detail": [
+        {
+          "title": "SEBI eyes easing FPI norms by raising ownership threshold to 25%",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Stop paying just the minimum due on your credit card today",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "SPARSH pensioners: Submit life certificates from abroad without visiting India",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister addresses statue unveiling ceremony in Pune",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry concludes special cleanliness campaign 6",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Waste site transformation project in Delhi",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Vice President inaugurates iconic tower at Sri Sri University",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "IEPFA and SEBI to organize investor awareness camps for claim settlement",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Corporate Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DBT concludes special cleanliness campaign",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Biotechnology",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MoD and Ministry of Social Justice sign MoU for senior citizen welfare in cantonment areas",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "TDB-DST signs agreement for indigenous critical mineral recovery technology",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Department of Science and Technology",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Vice President addresses orientation program for Odisha MLAs",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Release of WPI and producer price index estimates for October 2026",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Historical review of 2001 Kutch earthquake",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "NICDC showcases investment opportunities in Andhra Pradesh at CII Summit",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Leadership in crisis management article",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel",
+          "horizon": "Immediate",
           "material": false
         }
       ]
