@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-27T07:19:22.919574+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-27T12:43:27.723943+05:30",
       "status": "ok",
       "posts_published": 5,
@@ -31339,6 +31322,144 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Personnel",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-16T19:33:52.433053+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 15,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 15,
+      "policy_skipped": 14,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Census 2027 second phase self-enumeration process initiated for non-snowbound areas in select states.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Appointment of new Chairman and member to the National Sports Board.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of new Kanpur Express train service between Kanpur Central and Anand Vihar Terminal.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Departmental summit on inclusive policy resolution scheduled for November 2026.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Workshop conducted for State Public Service Commissions on examination security and recruitment reforms.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "UPSC",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Youth engagement campaign report under 'Nasha Mukt Bharat' initiative.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister visits International Centre for Genetic Engineering and Biotechnology in Italy.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial speech regarding journalistic ethics and technological adaptation.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Completion of NH-66 coastal highway connectivity project in Goa.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CCPA imposes penalty on e-commerce platform for illegal listing of hazardous chemicals.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Consumer Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Conclusion of 8th edition of India-Myanmar Naval Exercise (IMNEX-26).",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Release of Periodic Labour Force Survey (PLFS) monthly bulletin for October 2026.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM shares article on India's space sector achievements and future missions.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Department of Space",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM shares article on the impact of 'Lakhpati Didi' initiative on rural women empowerment.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Power pavilion at the 45th India International Trade Fair.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Power",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
