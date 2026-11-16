@@ -1,59 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-26T20:37:40.080661+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "UPI for trading: NSE CEO clarifies no new government MDR mandate",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Minister attends cultural event in Kerala",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "ICAR institutes promote sanitation and waste management",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Commission meeting held regarding administrative procedures",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-26T22:53:23.217374+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31265,6 +31212,15 @@
     },
     {
       "run_id": "2026-11-16T02:03:10.803170+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
+    },
+    {
+      "run_id": "2026-11-16T06:55:51.777596+05:30",
       "status": "skipped",
       "posts_published": 0,
       "policy_published": 0,
