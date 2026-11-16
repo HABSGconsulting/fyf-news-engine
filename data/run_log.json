@@ -1,77 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-27T20:20:42.173254+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 4,
-      "policy_evaluated": 4,
-      "policy_skipped": 4,
-      "items_detail": [
-        {
-          "title": "Avoid TDS on your interest and dividends with these forms",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Tamil Nadu to gift 1-gram gold rings to newborns in government hospitals",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "macro",
-          "actionability": 0,
-          "behavioral_risk": null
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Minister addresses centenary celebration of former VHP leader Ashok Singhal.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Senior citizens conduct cleanliness drive at local facility in Maharashtra.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "PM highlights youth-led anti-drug awareness campaign progress.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Announcement of Tarang Shakti-2026 military exercise.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-27T21:20:11.248431+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31415,6 +31344,15 @@
     },
     {
       "run_id": "2026-11-17T04:31:19.608697+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
+    },
+    {
+      "run_id": "2026-11-17T05:20:27.110425+05:30",
       "status": "skipped",
       "posts_published": 0,
       "policy_published": 0,
