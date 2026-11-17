@@ -1,53 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-28T00:46:45.850617+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 3,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Bank strike called off: Your branch services will remain operational",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Bank strike deferred: Normal operations to continue on Monday",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "NMDC approves Rs 5,427 crore investment for iron ore processing plant in Bastar, Chhattisgarh.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Steel",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-28T05:30:09.824991+05:30",
       "status": "skipped",
       "posts_published": 0,
@@ -31289,6 +31242,115 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-17T15:16:00.128678+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 17,
+      "items_evaluated": 1,
+      "items_skipped": 5,
+      "views_filtered": 7,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "Tax audit deadline extended: Get 21 extra days for your filings",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Oath taking ceremony of Member of Parliament",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Rajya Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Naval Ship Sahyadri participates in bilateral naval exercise JIMEX 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India and Sweden launch LeadIT 3.0 for low-carbon industrial transition",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Structural (3-5Y+)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister's opening statement at the 23rd ASEAN-India Summit",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister visits Khalsa Diwan Gurdwara in Manila",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Defence Minister to attend 4th India-Japan 2+2 Ministerial Dialogue",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister expresses grief over accident in Tehri Garhwal",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares Sanskrit Subhashitam on knowledge and discipline",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Global leadership program launched for Fiji defence officials",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India and Egypt reiterate commitment to strengthen trade and industrial cooperation",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
