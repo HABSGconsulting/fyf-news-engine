@@ -1,139 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-28T13:12:24.445410+05:30",
-      "status": "ok",
-      "posts_published": 5,
-      "policy_published": 1,
-      "items_seen": 25,
-      "items_evaluated": 5,
-      "items_skipped": 13,
-      "views_filtered": 4,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 8,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "Check your IPO allotment status for Elevate, Swastika, and ArMee today",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Insurance stocks slide 38%: IRDAI reforms spark market concern",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Bernstein sees 91% upside for PB Fintech despite regulatory pressure",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Gold and silver prices drop sharply; should you adjust your portfolio?",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "RBI rate hike expectations: What it means for your EMI",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Pradhan Mantri Anusuchit Jaati Abhyuday Yojana (PM-AJAY) implementation update",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Tribute to Ashok Singhal",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Cultural and health awareness message",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Tribute to Lata Mangeshkar",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Tribute to Bhagat Singh",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Congratulatory message for sports achievement",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Health awareness campaign under Viksit Bharat Abhiyan",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "World Skills Competition performance report",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-28T15:42:10.889992+05:30",
       "status": "ok",
       "posts_published": 6,
@@ -31582,6 +31449,127 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-17T22:37:07.971397+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 10,
+      "items_evaluated": 3,
+      "items_skipped": 5,
+      "views_filtered": 0,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "Lower margins for agri-derivatives: Trade more with less capital",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "active_trader",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Grow your daughter's future: Understanding Sukanya Samriddhi Yojana returns",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": null
+        },
+        {
+          "title": "Check your credit health: Get your four free reports annually",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "behavioral",
+          "actionability": 1,
+          "behavioral_risk": null
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "CSIR-SERC and CMC Hindi Pakhwada 2026 closing ceremony",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "IFFI 2026 highlights regional cinematic stories",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Extension of deadline for comments on DRM-based Digital Addressable System Audit Manual draft",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "APEDA facilitates first biscuit export consignment from Varanasi to Madagascar",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CAQM revokes Stage III GRAP restrictions in Delhi-NCR",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry pavilion at 45th India International Trade Fair 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India to leverage joint credit mechanism with Japan for low-carbon transition",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Outcome list of Prime Minister's visit to Manila, Philippines",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "President inaugurates golden jubilee of ICMR-National Institute of Malaria Research",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
