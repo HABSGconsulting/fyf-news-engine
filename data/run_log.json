@@ -1,64 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-29T17:05:34.748011+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 12,
-      "items_evaluated": 0,
-      "items_skipped": 7,
-      "views_filtered": 3,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 4,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Minister of Agriculture holds press conference on Rabi campaign strategy.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Indian Railways approves two new MEMU services connecting Meerut to Khurja and Saharanpur.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Railways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government announces Special Campaign 6.0 for cleanliness and pendency reduction.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Controller of Communication Accounts releases schedule for telecom pensioner life certificate camps.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Telecommunications",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "MSME and MOSPI sign MoU to develop and strengthen the Statistical Business Register.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of MSME",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-29T19:56:35.802899+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31446,6 +31388,15 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-19T01:07:12.527322+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
