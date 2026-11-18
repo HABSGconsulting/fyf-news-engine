@@ -1,165 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-29T21:39:12.567756+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 9,
-      "items_evaluated": 2,
-      "items_skipped": 3,
-      "views_filtered": 3,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 15,
-      "policy_evaluated": 15,
-      "policy_skipped": 14,
-      "items_detail": [
-        {
-          "title": "Returning to India? Your foreign salary might be taxable here",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Need cash? Know the rules for partial EPFO withdrawals",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "National Rural Infrastructure Development Agency updates",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Congratulatory message for sports achievements",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Eco Warrior awards ceremony",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Curtain raiser for Routes Asia event",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Civil Aviation",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Documentary trailer release",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tourism",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Administrative preparation for Special Campaign 6",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ports, Shipping and Waterways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Congratulatory message for sports achievements",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Governor meeting with Prime Minister",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Chief Minister meeting with Prime Minister",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Congratulatory message for sports achievements",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Swachhata Hi Seva campaign activities",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Bilateral tourism cooperation agreement with Italy",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tourism",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Swachhata Hi Seva campaign activities",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "CAQM approves revised GRAP schedule with stricter pollution control measures",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Commission for Air Quality Management",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Swachhata Hi Seva campaign event",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-29T22:37:21.822991+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31253,6 +31094,15 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-19T04:11:31.698059+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
