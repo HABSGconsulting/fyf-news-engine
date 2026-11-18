@@ -1,75 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-29T15:42:29.900465+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 19,
-      "items_evaluated": 1,
-      "items_skipped": 7,
-      "views_filtered": 1,
-      "more_reads": 7,
-      "learn_links_matched": 0,
-      "policy_seen": 5,
-      "policy_evaluated": 5,
-      "policy_skipped": 5,
-      "items_detail": [
-        {
-          "title": "Avoid overpaying tax: Ensure your tax-free bond interest is reported correctly",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "National Agriculture Conference on Rabi Campaign held in New Delhi",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry launches Special Campaign 6.0 for cleanliness of National Highways and Toll Plazas",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry prepares for Special Campaign 6.0 following outcomes of Special Campaign 5.0",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Skill Development and Entrepreneurship",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NIFT students win silver and excellence medals at WorldSkills Shanghai 2026",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry prepares for Special Campaign 6.0 focusing on cleanliness and pendency reduction",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tourism",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-29T17:05:34.748011+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31487,6 +31418,34 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-18T23:54:59.701725+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Telangana launches \u20b95 lakh family insurance scheme starting November 19",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
