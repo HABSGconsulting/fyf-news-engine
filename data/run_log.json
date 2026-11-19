@@ -1,69 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-30T00:26:27.808460+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 2,
-      "items_skipped": 1,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "Delayed flat possession? You can still claim interest, says Allahabad HC",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "NPS Vatsalya: Secure your child's future with this new investment option",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister congratulates athlete for bronze medal win at Asian Games 2026.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "District-level capacity building program on labour codes held at Okhla Industrial Estate.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Labour and Employment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister highlights role of creator economy and AI in nation building at YouTube Impact Summit 2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-30T01:43:35.082500+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31103,6 +31040,23 @@
           "behavioral_risk": "medium"
         }
       ],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-19T10:02:19.976427+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 25,
+      "items_evaluated": 0,
+      "items_skipped": 20,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
       "policy_detail": []
     }
   ]
