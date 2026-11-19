@@ -1,101 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-30T13:01:31.284005+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 2,
-      "items_skipped": 16,
-      "views_filtered": 2,
-      "more_reads": 5,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "Inox Clean Energy files for massive Rs 10,000 crore IPO",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "US Fed signals more rate hikes; expect market volatility ahead",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "PIB release on wastewater resource management",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "UPSC administrative update",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Legal Affairs e-waste awareness workshop",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Culture award ceremony",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "India-Korea Joint Committee meeting on defense industry cooperation",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "UIDAI launches five new initiatives at Aadhaar Samvad Kolkata",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Land Resources statement on watershed development",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-09-30T15:38:19.428944+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31469,6 +31374,104 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-19T22:20:46.093027+05:30",
+      "status": "gemini_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 13,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 10,
+      "policy_evaluated": 10,
+      "policy_skipped": 10,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Film Bazaar 20th Anniversary celebration",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PIB-FTII Film Appreciation Course announcement",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of PC and PNDT Act implementation by Central Supervisory Board",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Sales report of Ministry pavilion at IITF 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of 57th IFFI in Goa",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Bilateral defense talks between India and Japan",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Strengthening rehabilitation and livelihood opportunities via NAPDDR",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MoSPI vision for global statistical partnerships",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial call for improved road safety and construction quality",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "240th meeting of the Central Board of Trustees of EPFO",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
