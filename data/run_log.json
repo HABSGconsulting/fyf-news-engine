@@ -1,44 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-30T16:55:38.989665+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 8,
-      "items_evaluated": 2,
-      "items_skipped": 4,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 10,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Dearness Allowance and your taxes: What you need to know",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "J&K government employees: One-time switch from NPS to OPS allowed",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-30T19:49:46.043445+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 1,
@@ -31413,6 +31375,15 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-20T01:08:12.712481+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
