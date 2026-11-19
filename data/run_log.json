@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-09-30T07:54:29.640862+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 9,
-      "items_evaluated": 1,
-      "items_skipped": 4,
-      "views_filtered": 1,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Oil prices rise as US maintains Iran sanctions; watch your portfolio",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-09-30T13:01:31.284005+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -31327,6 +31299,176 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-19T20:15:21.224431+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 1,
+      "items_seen": 7,
+      "items_evaluated": 0,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 19,
+      "policy_skipped": 18,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Minister addresses counter-terrorism conference in New Delhi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Preparations for 57th International Film Festival of India in Goa",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of Bastar region comprehensive development plan",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Enhancing research opportunities for SC students via National Fellowship",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Lok Sabha Speaker pays tribute to Smt. Indira Gandhi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Registration open for SHRESHTA 2027 national entrance exam",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government signs agreements for Rs 1,011 crore ITI modernization projects in Telangana",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Skill Development and Entrepreneurship",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Telecom manufacturing sector in Gwalior receives impetus with 25 letters of intent",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Communications",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India-Egypt cooperation in digital governance and emerging technologies",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Joint statement of 4th India-Japan 2+2 ministerial meeting",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "State Labour Ministers' conference scheduled for November 2026",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Review of Catch the Rain 2026 progress in Maharashtra",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Distribution of Ayush Quality Mark certificates",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Central Bureau of Narcotics seizes illegal opium in Rajasthan",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Himalayan marmot scat as climate change indicator",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "EPFO Central Board of Trustees holds 240th meeting",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Bhashini and NIELIT sign MoU for AI and digital capacity development",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Speaker emphasizes India-US economic cooperation",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes 71kg heroin destined for Sri Lanka",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
