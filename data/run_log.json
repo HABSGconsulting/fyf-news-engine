@@ -1,184 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-01T20:22:43.674207+05:30",
-      "status": "gemini_failed",
-      "posts_published": 0,
-      "policy_published": 3,
-      "items_seen": 21,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 20,
-      "policy_skipped": 17,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Government initiates Special Campaign 6.0 for administrative efficiency and cleanliness.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "President of India issues greetings on the eve of Gandhi Jayanti.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Rashtrapati Bhavan",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "High-level delegation from Jordan meets Secretary, Ministry of Textiles.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Textiles",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Bhashini showcases multilingual AI solutions in Jammu and Kashmir.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Electronics and IT",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Integrated Defence Staff celebrates 25 years of jointness and integration.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Department of Food and Public Distribution organizes nationwide Shramdaan.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Setu NSP app facilitates access to scholarships for students.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "ICAR and FCI sign MoU for safe and sustainable grain storage.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Department of Justice initiates Special Campaign 6.0 for pendency reduction.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DoT continues Swachhata Hi Seva 2026 campaign.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Department of Telecommunications",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Arjun Ram Meghwal celebrates Golden Jubilee of Official Language Division.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Health holds national workshop on PC&PNDT Act implementation.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "E-auction of PM's mementos features cultural artifacts.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Defence organizes blood donation camp.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "MoRTH organizes Shramdaan under Swachhata Hi Seva.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Government amends guidelines for issuing discounted FASTags for Persons with Disabilities.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Coal initiates cleanliness and e-waste management drives.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Coal",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "PM congratulates Asian Games medalist.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Mines launches auction for two offshore mineral blocks.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Mines",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "PM congratulates Asian Games medalists.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-01T22:14:44.004184+05:30",
       "status": "ok",
       "posts_published": 4,
@@ -31704,6 +31526,15 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-21T03:01:24.886552+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
