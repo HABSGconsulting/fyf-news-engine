@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-01T08:03:40.609621+05:30",
-      "status": "gemini_failed",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 12,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-10-01T13:21:40.029613+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31738,6 +31721,155 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-20T19:52:14.886039+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 2,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 15,
+      "policy_evaluated": 15,
+      "policy_skipped": 13,
+      "items_detail": [
+        {
+          "title": "Why your EPFO dues might be at risk during corporate insolvency",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Ministry of Tourism holds consultation meeting with stakeholders on MICE and wedding tourism",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tourism",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministerial address on the teachings of Guru Nanak Dev Ji",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Minority Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Data user conference on new series of GDP, CPI, and IIP scheduled for November 23",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "First indigenous vaccine for Bird Flu (H5N1) dedicated to the nation",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "INSA President appointed to UN 10-member group for Science, Technology and Innovation",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister chairs plenary session of Inclusive Policy Resolution 2026",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Atal Innovation Mission, Microsoft and partners convene industry leaders on AI for MSMEs",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "NITI Aayog",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India emerging as a global research hub for health solutions",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MeitY amends Public Procurement Order 2020 for six IT hardware products to boost domestic manufacturing",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Electronics and Information Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "57th IFFI commences with the premiere of Fatherland",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister calls for 'Make in India, Play in India' in the sports industry",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "16th round of commercial coal mine auctions receives 85 bids for 18 mines",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Coal",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Article on overcoming economic barriers in engineering aspirations",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister to visit Bihar on November 21",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister to visit West Bengal and Uttar Pradesh on November 21",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
