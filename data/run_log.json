@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-01T01:51:05.532681+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 0,
-      "items_skipped": 3,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-10-01T06:23:53.789525+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 0,
@@ -31388,6 +31371,191 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Department of Pharmaceuticals",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-20T14:43:00.970497+05:30",
+      "status": "ok",
+      "posts_published": 7,
+      "policy_published": 1,
+      "items_seen": 17,
+      "items_evaluated": 7,
+      "items_skipped": 7,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 12,
+      "policy_evaluated": 12,
+      "policy_skipped": 11,
+      "items_detail": [
+        {
+          "title": "GIFT City may soon allow dual-class shares for global listings",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "long_term_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "DSP Multi Asset Omni Fund updates gold and silver allocation strategy",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Wedding gifts and taxes: Know the rules before you receive",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Pensioners: Beware of fake PPO update messages and phishing links",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Maharashtra wage rules: New limits on work hours and salary deductions",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Kerala government considers restoring employee benefits and pay revisions",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "8th Pay Commission: Potential salary hike scenarios for government employees",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "President attends 12th convocation of Atal Bihari Vajpayee Institute of Medical Sciences",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Indian Railways organizes mega camp for Digital Life Certificate campaign 5.0",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM shares article on transformative initiatives for farmers and rural empowerment",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM shares Sanskrit Subhashitam on parental respect",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Government reports growth in agricultural exports",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NFDC partners to make 57th IFFI accessible and inclusive",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "TRIFED organizes Aadi Mahotsav 2026 at Dilli Haat",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Tribal Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministry of Steel to hold open house on steel import issues",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Steel",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Cheetah population in India increases to 62 following new births",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Environment, Forest and Climate Change",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CGST Faridabad seizes undeclared pouch-packing machines in tax enforcement action",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Ministry of Jal Shakti launches Swachh Shauchalaya-Garimamay Bhavishya campaign",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Commerce Minister calls for FICCI to strengthen India's global economic partnerships",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
