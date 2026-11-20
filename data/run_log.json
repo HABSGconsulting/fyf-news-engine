@@ -1,177 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-01T22:14:44.004184+05:30",
-      "status": "ok",
-      "posts_published": 4,
-      "policy_published": 1,
-      "items_seen": 11,
-      "items_evaluated": 4,
-      "items_skipped": 5,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 14,
-      "policy_evaluated": 14,
-      "policy_skipped": 13,
-      "items_detail": [
-        {
-          "title": "UPI services to continue: 'No UPI Day' protest called off",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "NPS made easier: New Tatkal facility targets 3 crore subscribers",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Bank holiday on October 2: What to expect for your transactions",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Victim of cyber fraud? Act within the 'golden hour' to recover funds",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "behavioral",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Distribution of assistive devices to senior citizens on Swachh Bharat Diwas.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister leads cleanliness initiative at ministry office.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department conducts cleanliness drive under Swachhata Abhiyan.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Land Resources",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "National level Safaimitra Suraksha and Samman camp reaches 3.69 lakh beneficiaries.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Agreement signed for implementation of BharatNet program in Maharashtra.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Department of Telecommunications",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of bonded labor case in Telangana.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister leads Shramdaan activity in Paharganj.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Governor of Odisha meets Prime Minister.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Governor of Odisha",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates 4x400m relay team.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry organizes cleanliness drive under Swachhata Hi Seva.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Tourism",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister hosts water conservation warriors.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department to participate in Special Campaign 6.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Health Research",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry concludes Swachhata Hi Seva campaign.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Parliamentary Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department organizes Shramdaan under Swachhata Hi Seva.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Pharmaceuticals",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-01T23:00:30.260082+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31529,6 +31358,15 @@
     },
     {
       "run_id": "2026-11-21T03:01:24.886552+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
+    },
+    {
+      "run_id": "2026-11-21T03:50:34.959804+05:30",
       "status": "skipped",
       "posts_published": 0,
       "policy_published": 0,
