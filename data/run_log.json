@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-02T00:32:10.454334+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 7,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 4,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Pension Adalat in Gurugram: Resolve your retirement fund issues this weekend",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-10-02T02:01:09.189366+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31367,6 +31339,75 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-21T09:47:40.308486+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "New 15-day deadline for family pension and gratuity payments",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Delhi Customs intercepts narcotics smuggling attempt at Air Cargo Complex",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister inaugurates first SCO Civilizational Dialogue Forum",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Minister represents India at Oman National Day celebrations",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ports, Shipping and Waterways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "SVAMITVA scheme to be implemented in mission mode to achieve 100% target by March 2027",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Panchayati Raj",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Empowering women entrepreneurship through financial assistance under NSFDC",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Social Justice and Empowerment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
