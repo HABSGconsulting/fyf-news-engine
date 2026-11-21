@@ -1,136 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-02T15:34:47.686483+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 14,
-      "policy_evaluated": 14,
-      "policy_skipped": 14,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Transcript of conversation between Prime Minister and Captain Smit Machhar",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of School Education and Literacy conducts Swachhata Shramdaan",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister pays floral tribute to Mahatma Gandhi and Lal Bahadur Shastri",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates Asian Games medalists",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates Asian Games medalists",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates Asian Games medalists",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "First tigress released in Buxa Tiger Reserve under Tiger Rehabilitation Program",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Commerce Minister calls for WTO-aligned approach to address global trade distortions",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President pays tribute to national leaders",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Vice President's Secretariat",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "APEDA facilitates export of Bihar Makhana to Greece",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Department of Pharmaceuticals launches Special Campaign 6 for e-waste management",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Department of Pharmaceuticals",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "APEDA facilitates FPO-based export of frozen food products from Haryana to Canada",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NITI Aayog organizes national workshop on SDG budgeting in Kolkata",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "NITI Aayog",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister calls for promotion of Swadeshi on Gandhi Jayanti",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-02T16:52:06.110589+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31492,6 +31362,88 @@
           "gate": "Skip entirely",
           "ministry": "Office of the Vice President",
           "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-21T22:27:46.480015+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 8,
+      "policy_evaluated": 8,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister's address at the Skill Convocation Ceremony in Lucknow",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Secretary of I&B Ministry inaugurates Publications Division stall at IFFI",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Prasar Bharati launches 'Page to Pitch' initiative at IFFI 57",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prasar Bharati",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Sixth round of India-Canada CEPA negotiations concluded in New Delhi",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister attends 5th Skill Convocation Ceremony in Lucknow",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Director Leena Yadav speaks at IFFI 57",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Julie Bertuccelli discusses documentary filmmaking at IFFI 57",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Non-feature jury chair Himanshu Shekhar Khatua speaks at IFFI 57",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Immediate",
           "material": false
         }
       ]
