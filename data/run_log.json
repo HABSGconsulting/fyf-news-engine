@@ -1,59 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-03T14:56:00.384681+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 6,
-      "items_evaluated": 1,
-      "items_skipped": 3,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 3,
-      "policy_evaluated": 3,
-      "policy_skipped": 3,
-      "items_detail": [
-        {
-          "title": "SEBI to overhaul Closing Auction Session; new framework expected soon",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "regulatory_draft",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Indian Parliamentary delegation attends 153rd IPU Assembly in Tanzania",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Vice President addresses the 5th Kautilya Economic Conclave",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "DRI busts gold and diamond smuggling syndicate at Mumbai Airport",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-03T16:07:42.022071+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31295,6 +31242,75 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Science and Technology",
           "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-22T22:55:53.929519+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 0,
+      "items_seen": 3,
+      "items_evaluated": 1,
+      "items_skipped": 0,
+      "views_filtered": 1,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 5,
+      "policy_evaluated": 5,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Received a tax notice? Ensure it was served to your current address",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Lok Sabha Speaker calls for public movement to clean Yamuna river",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "57th IFFI BRICS Film Festival screening announcement",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Panel discussion on role of film schools at 57th IFFI",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "BRICS Film Festival roundtable on co-production and distribution",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister attends 5th Skill Convocation in Lucknow",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
