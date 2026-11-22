@@ -1,96 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-03T19:55:53.222966+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 9,
-      "policy_evaluated": 9,
-      "policy_skipped": 8,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Ministerial address at Gaupalak Sammelan and exhibition on new legal codes.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry of Education approves five Centres of Excellence for Classical Languages.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates Indian cricket team on Asian Games performance.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates athlete on Asian Games gold medal.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister congratulates athlete on Asian Games gold medal.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Indian Naval ships complete participation in AIME-2026.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Jal Arpan program conducted across 1,850 gram panchayats under Jal Jeevan Mission 2.0.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Demonstration of India's first 5.56 km free-space quantum distribution link.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Electronics and IT",
-          "horizon": "Structural (3-5Y+)",
-          "material": false
-        },
-        {
-          "title": "DARE/ICAR launches Special Campaign 6 for cleanliness and sanitation worker recognition.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-03T20:45:21.523059+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31298,6 +31208,15 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-23T02:45:32.622641+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
     }
   ]
 }
