@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-04T00:19:50.314125+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Avoid EPFO claim rejections: Check these common errors before applying",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-10-04T05:35:24.928022+05:30",
       "status": "skipped",
       "posts_published": 0,
@@ -31233,6 +31205,123 @@
           "score": 2,
           "gate": "Skip entirely",
           "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-23T15:24:04.536757+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 0,
+      "items_seen": 19,
+      "items_evaluated": 5,
+      "items_skipped": 8,
+      "views_filtered": 5,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 6,
+      "items_detail": [
+        {
+          "title": "Bandhan launches Nifty Commodities Index Fund: New NFO details inside",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Tripura government employees to receive 3% DA hike starting October",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "PF withdrawals via UPI expected by December: What you need to know",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "New EPFO rules: What changes for your retirement savings withdrawals",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "EPFO proposes systematic withdrawals to support retirees and those facing layoffs",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Joint press statement by Prime Minister of India and Prime Minister of Nepal",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Promotional update on floriculture export logistics",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Update on SCO civilizational dialogue forum",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Culture",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Announcement of youth dialogue programs for Constitution Day",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Update on Ayush pavilion at India International Trade Fair",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Ayush",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of Nai Chetna 5.0 campaign",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
