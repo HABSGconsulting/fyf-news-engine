@@ -1,51 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-04T16:48:21.123832+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 2,
-      "policy_evaluated": 2,
-      "policy_skipped": 2,
-      "items_detail": [
-        {
-          "title": "New UPI merchant fee rules: What you need to know",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Vice President addresses Kshamapana ceremony in New Delhi",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Vice President addresses 58th Foundation Day of ICSI at Bharat Mandapam",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-04T18:59:01.036557+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31281,6 +31236,23 @@
     },
     {
       "run_id": "2026-11-24T03:14:01.893904+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-24T04:29:13.838657+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 0,
       "policy_published": 0,
