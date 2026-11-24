@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-04T21:29:55.988838+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-10-04T23:19:48.470471+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31380,6 +31363,69 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-24T11:05:28.654458+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 15,
+      "items_evaluated": 2,
+      "items_skipped": 7,
+      "views_filtered": 5,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [
+        {
+          "title": "SGB 2021-22 Series I: Lock in 167% gains with early redemption",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "RBI's new 'Stop Switch' to keep your bank account safe",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "regulatory_draft",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Prime Minister attends Shabad Kirtan on the occasion of Prakash Parv of Sri Guru Nanak Dev Ji",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "Anti-Submarine Warfare Shallow Water Craft 'Ashank' (Yard 3036) delivered to the Indian Navy",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Immediate",
+          "material": false
+        },
+        {
+          "title": "MY Bharat organizes awareness campaign across 36 states/UTs",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Youth Affairs and Sports",
+          "horizon": "Immediate",
+          "material": false
+        }
+      ]
     }
   ]
 }
