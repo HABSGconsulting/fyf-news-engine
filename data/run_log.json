@@ -1,88 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-05T16:24:17.806480+05:30",
-      "status": "gemini_failed",
-      "posts_published": 0,
-      "policy_published": 1,
-      "items_seen": 22,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 8,
-      "policy_skipped": 7,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "ITRA study reports results on yoga and ayurveda for nocturnal enuresis management",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ayush",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Union Minister participates in PMGSY national brainstorming session",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Outcome list of the state visit of the President of the Swiss Confederation to India",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of External Affairs",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Cheetah population update in Kuno National Park",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Prime Minister's press statement during the visit of the Swiss President",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister inaugurates Chintan Shivir 2026 for future highway infrastructure agenda",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Swachhata Hi Seva-2026 campaign at Department of Science and Technology",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "TDB-DST signs agreement for Rs 130 crore RDI support for indigenous AI Vision SoC development",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Department of Science and Technology",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-05T18:11:12.248271+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31361,6 +31279,88 @@
       "policy_skipped": 0,
       "items_detail": [],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-25T01:53:11.254040+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 17,
+      "policy_evaluated": 8,
+      "policy_skipped": 8,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister shares photos of Dev Deepawali in Varanasi",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Gujarati film Lalo-Krishna Sada Sahayate screened at IFFI 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Director Abinash Bikram Shah discusses film Elephants in the Fog at IFFI",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Director Elena Sarban discusses film I Matter at IFFI 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "President of India attends Bali Jatra Festival 2026 in Cuttack",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Saurabh Sachdeva conducts masterclass at IFFI 2026",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Malayalam film Haaf screened at IFFI gala premiere",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Union Minister Dr. Virendra Kumar visits Siddhartha De-addiction Center",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Press Information Bureau",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
