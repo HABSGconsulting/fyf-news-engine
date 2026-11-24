@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-05T18:11:12.248271+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 15,
-      "items_evaluated": 3,
-      "items_skipped": 9,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Biocon Electric files for IPO: What you need to know",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "SEBI likely to ease derivative settlement rules after market feedback",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "regulatory_draft",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "NPS Swasthya: A new way to plan for your healthcare costs",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "fixed_income_investor",
-          "category": "product",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-10-05T21:57:40.690301+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31361,6 +31313,23 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-25T03:01:50.498814+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 1,
+      "items_evaluated": 0,
+      "items_skipped": 0,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
     }
   ]
 }
