@@ -1,91 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-04T23:19:48.470471+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 1,
-      "items_skipped": 0,
-      "views_filtered": 3,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 7,
-      "policy_evaluated": 7,
-      "policy_skipped": 7,
-      "items_detail": [
-        {
-          "title": "Paying a contractor? Know your TDS obligations for construction work",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister acknowledges performance of Indian contingent at Asian Games 2026.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Press Information Bureau",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Minister flags off first international cargo voyage from Dibrugarh.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ports, Shipping and Waterways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "DRI intensifies anti-narcotics enforcement operations.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Revenue Intelligence",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "CAQM conducts inspection of road dust and cleaning effectiveness in Delhi.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "17th Pension Adalat to be held at IIPA.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministry to organize 'Chintan Shivir 2026' for highway infrastructure planning.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Conclusion of Swachhata Hi Seva 2026 at AIIA.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of AYUSH",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-05T00:17:46.781759+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31423,6 +31338,48 @@
           "gate": "Skip entirely",
           "ministry": "Ministry of Youth Affairs and Sports",
           "horizon": "Immediate",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-24T12:49:21.928312+05:30",
+      "status": "ok",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 5,
+      "items_evaluated": 0,
+      "items_skipped": 3,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 3,
+      "policy_evaluated": 3,
+      "policy_skipped": 3,
+      "items_detail": [],
+      "policy_detail": [
+        {
+          "title": "Prime Minister extends greetings on the occasion of Parkash Purab of Sri Guru Nanak Dev Ji.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister pays tribute to Lachit Borphukan on Lachit Divas.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister extends greetings on Kartik Purnima and Dev Deepawali.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
