@@ -1,165 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-06T13:46:43.999098+05:30",
-      "status": "ok",
-      "posts_published": 6,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 6,
-      "items_skipped": 7,
-      "views_filtered": 5,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 10,
-      "policy_evaluated": 10,
-      "policy_skipped": 10,
-      "items_detail": [
-        {
-          "title": "SEBI may ease F&O settlement rules; broker stocks rally",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "active_trader",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "AWL Agri Business revenue jumps 24% YoY in Q2",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 0,
-          "behavioral_risk": null
-        },
-        {
-          "title": "Steamhouse India hits 10% circuit on 80% profit jump",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 0,
-          "behavioral_risk": null
-        },
-        {
-          "title": "Trent shares jump 13% as Zudio expansion hits 1,000-store milestone",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 0,
-          "behavioral_risk": null
-        },
-        {
-          "title": "GIFT IFSC entry becomes easier with new Third-Party Fund Management rules",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Acme Universal debuts with 42% premium; Pind Hospitality lists at 20% discount",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "performance",
-          "actionability": 0,
-          "behavioral_risk": null
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Steel sector growth data for H1 FY2026-27",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Cultural outreach and social messaging",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "E-Sanjeevani teleconsultation milestone achievement",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Notification of 375 permissible works under VB-G scheme",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministerial speech on maritime security and naval capacity",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Inauguration of India Chem 2026",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Chemicals and Fertilizers",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Memorial lecture event",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Law and Justice",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "World Habitat Day commemoration",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Housing and Urban Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Review of IMC 2026 preparations",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Annual performance indicators for telecom services 2025-26",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Department of Telecommunications",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-06T16:18:16.182943+05:30",
       "status": "gemini_policy_failed",
       "posts_published": 3,
@@ -31381,6 +31222,23 @@
       "more_reads": 0,
       "learn_links_matched": 0,
       "policy_seen": 15,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [],
+      "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-25T23:46:10.904245+05:30",
+      "status": "gemini_policy_failed",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 2,
+      "items_evaluated": 0,
+      "items_skipped": 1,
+      "views_filtered": 0,
+      "more_reads": 1,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
       "policy_evaluated": 0,
       "policy_skipped": 0,
       "items_detail": [],
