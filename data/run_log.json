@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-06T07:30:07.722754+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 10,
-      "items_evaluated": 0,
-      "items_skipped": 3,
-      "views_filtered": 1,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-10-06T08:52:05.896877+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31270,6 +31253,165 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-25T19:03:57.163421+05:30",
+      "status": "ok",
+      "posts_published": 6,
+      "policy_published": 2,
+      "items_seen": 16,
+      "items_evaluated": 6,
+      "items_skipped": 6,
+      "views_filtered": 2,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 20,
+      "policy_evaluated": 10,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "SEBI simplifies your investment journey with centralized KYC norms",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "SEBI proposes faster payouts for Farmer Producer Organisations",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "regulatory_draft",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "PhonePe eyes early 2024 IPO with $12-15 billion valuation",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Supreme Court ruling boosts pension rights for UP government employees",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Manage your PF account easily via the EPFO Member e-Sewa portal",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "ITAT ruling provides relief in property tax penalty case",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Launch of Nai Chetna 5.0 campaign and signing of quadripartite agreement for violence-free villages.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Launch of Nai Chetna 5.0 campaign and signing of quadripartite agreement for violence-free villages.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Rural Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Unveiling of statue by Vice President.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Government of India",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "NHAI mandates incident management services availability before opening highway sections.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Article on economic difficulties and educational aspirations.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Education",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MoSPI and DSCI sign MoU for secure data sharing in official statistics.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Statistics and Programme Implementation",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "President attends national scientific conference on homeopathy.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of AYUSH",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Article on transition from informal to formal employment.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India-Nepal joint military exercise 'Surya Kiran XX' commences.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Defence",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MSME sector reaches 10 crore registrations milestone.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of MSME",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
