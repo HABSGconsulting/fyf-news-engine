@@ -1,15 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-06T03:40:40.281351+05:30",
-      "status": "skipped",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 0,
-      "items_skipped": 0,
-      "more_reads": 0
-    },
-    {
       "run_id": "2026-10-06T07:30:07.722754+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31182,6 +31173,103 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-25T16:01:54.749078+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 1,
+      "items_seen": 12,
+      "items_evaluated": 3,
+      "items_skipped": 4,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 6,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "EPFO 3.0: Easier withdrawals and retirement planning coming by 2027",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Digital arrest scams: RBI pushes banks to compensate for fraud losses",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "new_investor",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Gold price drop: Why you might face a margin call on loans",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "macro",
+          "actionability": 2,
+          "behavioral_risk": "high"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "PM shares article on expansion of social security coverage for the national workforce.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DPIIT concludes Special Campaign 6 for administrative cleanliness and pendency disposal.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "DPIIT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM shares article on India's journey toward Viksit Bharat@2047 via investment and reform.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "PM shares article on India's role in shaping global cultural discourse.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Release of provisional Producer Price Index (PPI) for the services sector (Base Year 2022-23).",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Observance of National Milk Day.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
