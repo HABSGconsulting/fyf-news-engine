@@ -1,43 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-06T22:57:12.657814+05:30",
-      "status": "ok",
-      "posts_published": 1,
-      "policy_published": 0,
-      "items_seen": 2,
-      "items_evaluated": 1,
-      "items_skipped": 1,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Salaried taxpayers: Essential checks for your 2026 ITR filing",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "ECI clarifies protocol for meetings with political delegations.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Election Commission of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-07T00:33:44.887488+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31179,6 +31142,83 @@
       "items_seen": 0,
       "items_skipped": 0,
       "more_reads": 0
+    },
+    {
+      "run_id": "2026-11-26T09:18:17.396847+05:30",
+      "status": "ok",
+      "posts_published": 5,
+      "policy_published": 0,
+      "items_seen": 15,
+      "items_evaluated": 5,
+      "items_skipped": 4,
+      "views_filtered": 1,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 1,
+      "policy_evaluated": 1,
+      "policy_skipped": 1,
+      "items_detail": [
+        {
+          "title": "Global trade tensions rise: How new US tariffs impact your portfolio",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Nvidia under pressure: Governance concerns trigger rating watch",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "long_term_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Bank holidays ahead: Plan your transactions for Nov 27-29",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Boost your retirement: EPFO eyes tips and micro-contributions for PF accounts",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "regulatory_draft",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "8th Pay Commission: How potential fitment factors could boost your basic salary",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "India notes USTR Section 301 findings regarding digital services tax and trade practices",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
