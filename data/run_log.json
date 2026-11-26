@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-07T06:32:27.636851+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 3,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-10-07T08:12:53.679693+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31346,6 +31329,117 @@
           "score": 6,
           "gate": "Policy Desk",
           "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-26T18:46:11.044640+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 7,
+      "items_evaluated": 2,
+      "items_skipped": 2,
+      "views_filtered": 1,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 19,
+      "policy_evaluated": 9,
+      "policy_skipped": 9,
+      "items_detail": [
+        {
+          "title": "Correcting past foreign asset disclosure lapses: A guide for taxpayers",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "taxation",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Why your Gold ETF returns differ: 5 metrics to check",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "performance",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Workshop held to promote market-based financing under City Challenge Fund",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Housing and Urban Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Speaker remarks on the Constitution as the foundation of democracy",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Parliamentary Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Health Secretary calls for strengthening state-level regulatory capacity for food and drug safety",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "CSIR-NIScPR conducts capacity building program on AI for libraries",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "IFFI masterclass on casting and acting techniques",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "New method for solar particle event detection developed",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Science and Technology",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Health Secretary emphasizes increased investment and PPP in health sector",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Vice President releases updated versions of the Constitution in 22 scheduled languages",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Law and Justice",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National Good Governance Webinar series 42nd session held",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Personnel, Public Grievances and Pensions",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
