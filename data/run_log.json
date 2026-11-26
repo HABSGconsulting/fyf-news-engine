@@ -1,184 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-07T20:18:49.962996+05:30",
-      "status": "gemini_failed",
-      "posts_published": 0,
-      "policy_published": 3,
-      "items_seen": 21,
-      "items_evaluated": 0,
-      "items_skipped": 0,
-      "views_filtered": 0,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 20,
-      "policy_evaluated": 20,
-      "policy_skipped": 17,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "PMGSY Chintan Shivir outlines future roadmap for rural connectivity quality and technology.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Rural Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Departmental summit on Women and Child Development scheduled for October 8-9.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Women and Child Development",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministry of Steel conducts workshop on workplace mental peace.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Live Events Development Cell reviews single-window clearance and sector reforms.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NLMC conducts mock e-auction training for RINL land assets.",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Steel",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Success story of a National Fellowship beneficiary.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "ICAR reviews development and digitization of iGOT courses.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "General awareness on economic assistance and self-reliance.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "ICAR reviews progress on committee action points from Chief Secretaries conference.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "8th e-auction of mementos received by the Prime Minister.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Culture",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister interacts with GSMA board members on telecommunications roadmap.",
-          "score": 5,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Central Bureau of Narcotics conducts public outreach in Malana.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Finance",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Tribute paid to former Lok Sabha Speaker.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Parliament",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "MoD approves revised SOP for private industry use of defence testing facilities.",
-          "score": 7,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Defence",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Global leaders congratulate Prime Minister on 25 years in public service.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Home Minister congratulates Prime Minister on 25 years of service.",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Home Affairs",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Commerce Secretary calls for maximizing opportunities under India-EFTA TEPA.",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Cyclical (1-3Y)",
-          "material": false
-        },
-        {
-          "title": "New metal-free porous material developed for clean energy production.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DST reviews preparations for Special Campaign 6.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "DST intensifies focus on Special Campaign 6 for administrative efficiency.",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Science and Technology",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-07T23:34:59.495147+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31452,6 +31274,15 @@
     },
     {
       "run_id": "2026-11-27T02:03:12.409147+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
+    },
+    {
+      "run_id": "2026-11-27T04:04:49.302463+05:30",
       "status": "skipped",
       "posts_published": 0,
       "policy_published": 0,
