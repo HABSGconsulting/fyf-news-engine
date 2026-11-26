@@ -1,54 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-07T08:12:53.679693+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 13,
-      "items_evaluated": 3,
-      "items_skipped": 0,
-      "views_filtered": 3,
-      "more_reads": 7,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Trent shares jump 13% after strong Q2 revenue growth",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "8th Pay Commission meetings begin: What employees need to know",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "ITAT ruling clarifies rules on paying credit card bills with cash",
-          "score": 9,
-          "gate": "Impact post + Premium + Blog",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-10-07T13:15:51.506649+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31440,6 +31392,127 @@
           "score": 1,
           "gate": "Skip entirely",
           "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-26T21:21:26.289150+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 2,
+      "items_seen": 5,
+      "items_evaluated": 3,
+      "items_skipped": 1,
+      "views_filtered": 1,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 18,
+      "policy_evaluated": 9,
+      "policy_skipped": 7,
+      "items_detail": [
+        {
+          "title": "Bond yields rise as inflation concerns mount; what it means for you",
+          "score": 6,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Missed your SIP? Here is how it impacts your finances",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "behavioral",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Don't ignore that old PF account; it could still earn interest",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "product",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Film festival discussion on filmmaking techniques",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "India and UAE agree to accelerate joint development and production of next-gen defense equipment",
+          "score": 7,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Defence",
+          "horizon": "Cyclical (1-3Y)",
+          "material": false
+        },
+        {
+          "title": "Department of Financial Services pension division achieves top rank in grievance redressal index",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Department of Financial Services",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Jury member discusses Gandhi medal evaluation criteria",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "President attends Constitution Day celebrations",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "President's Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "IFFI session on Oscar submission processes",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Finance Minister concludes pre-budget consultations for Union Budget 2027-28",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Film screening on digital world impact",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Department of Drinking Water and Sanitation holds regional conference in Agra",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Department of Drinking Water and Sanitation",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
