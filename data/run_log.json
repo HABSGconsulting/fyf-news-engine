@@ -1,23 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-07T02:03:38.478061+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 0,
-      "items_skipped": 2,
-      "views_filtered": 1,
-      "more_reads": 1,
-      "learn_links_matched": 0,
-      "policy_seen": 0,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-10-07T06:32:27.636851+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31230,6 +31213,143 @@
         }
       ],
       "policy_detail": []
+    },
+    {
+      "run_id": "2026-11-26T15:43:28.512889+05:30",
+      "status": "ok",
+      "posts_published": 7,
+      "policy_published": 1,
+      "items_seen": 18,
+      "items_evaluated": 7,
+      "items_skipped": 6,
+      "views_filtered": 0,
+      "more_reads": 5,
+      "learn_links_matched": 0,
+      "policy_seen": 13,
+      "policy_evaluated": 6,
+      "policy_skipped": 5,
+      "items_detail": [
+        {
+          "title": "Bond yields rise as oil prices surge; RBI signals inflation caution",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Is your EPF account inactive? Here is how to claim your funds",
+          "score": 7,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "December tax checklist: Key deadlines for advance tax and TDS payments",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "taxation",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Open your NPS account instantly with Federal Bank's new Tatkal service",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Invesco launches new Financial Services Debt Fund: Should you invest?",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "PNB's 680-day FD offers 7.65% interest: Is it right for you?",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "fixed_income_investor",
+          "category": "performance",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Access your PF funds via UPI by 2026: What you need to know",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Lok Sabha Speaker pays tribute to Shri Rabi Ray",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Lok Sabha Secretariat",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "MoU signed between Digital India Bhashini and Department of Social Justice for multilingual access to government services",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Electronics and IT",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "National highways standards facilitate safe landing for military aircraft",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Road Transport and Highways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Directorate of Revenue Intelligence seizes 19kg of ivory near India-Nepal border",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister shares article on the uniqueness of the Indian Constitution",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Agriculture Ministry releases final production estimates for 2025-26 and first advance estimates for 2026-27 Kharif season",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Agriculture and Farmers Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
     }
   ]
 }
