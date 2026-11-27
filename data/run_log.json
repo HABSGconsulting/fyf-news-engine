@@ -1,53 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-08T23:30:36.976611+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 0,
-      "items_seen": 4,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 2,
-      "more_reads": 0,
-      "learn_links_matched": 0,
-      "policy_seen": 1,
-      "policy_evaluated": 1,
-      "policy_skipped": 1,
-      "items_detail": [
-        {
-          "title": "Personal loan growth hits 32%: What this means for your debt",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "retail_borrower",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "TDS filing goes digital: New TRACES process from FY 2026-27",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "business_owner",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "National Biodiversity Authority reports Rs 9.68 crore in access and benefit sharing receipts for April-September 2026.",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-09T00:55:59.528532+05:30",
       "status": "ok",
       "posts_published": 1,
@@ -31083,6 +31036,15 @@
     },
     {
       "run_id": "2026-11-28T03:49:29.330072+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
+    },
+    {
+      "run_id": "2026-11-28T05:13:58.057454+05:30",
       "status": "skipped",
       "posts_published": 0,
       "policy_published": 0,
