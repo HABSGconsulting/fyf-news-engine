@@ -1,88 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-08T17:44:57.595147+05:30",
-      "status": "ok",
-      "posts_published": 0,
-      "policy_published": 0,
-      "items_seen": 8,
-      "items_evaluated": 0,
-      "items_skipped": 1,
-      "views_filtered": 4,
-      "more_reads": 3,
-      "learn_links_matched": 0,
-      "policy_seen": 8,
-      "policy_evaluated": 8,
-      "policy_skipped": 8,
-      "items_detail": [],
-      "policy_detail": [
-        {
-          "title": "Ministerial speech regarding youth participation in 2047 development goals",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes suo motu cognizance of alleged police misconduct in Delhi",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "NHRC takes cognizance of infrastructure failure in a Bihar government school",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "National Human Rights Commission",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Department of Biotechnology initiates e-waste management and workplace cleanliness drive",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Department of Biotechnology",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "MoSPI signs MoU with India Foundation for statistical research collaboration",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Statistics and Programme Implementation",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Ministerial remarks on global trade policy and connectivity",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Commerce and Industry",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Inauguration of the 10th India Mobile Congress",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Communications",
-          "horizon": "Immediate",
-          "material": false
-        },
-        {
-          "title": "Nationwide screening of inclusive education awareness modules via PRASHAST portal",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Education",
-          "horizon": "Immediate",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-08T20:28:32.031691+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -31399,6 +31317,54 @@
           "material": false
         }
       ]
+    },
+    {
+      "run_id": "2026-11-28T00:41:36.922179+05:30",
+      "status": "ok",
+      "posts_published": 3,
+      "policy_published": 0,
+      "items_seen": 9,
+      "items_evaluated": 3,
+      "items_skipped": 4,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 0,
+      "policy_evaluated": 0,
+      "policy_skipped": 0,
+      "items_detail": [
+        {
+          "title": "Axis Mutual Fund launches Nifty LargeMidcap 250 Index Fund NFO",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "mutual_fund_investor",
+          "category": "product",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "New RBI rules for ATM withdrawals and card payments explained",
+          "score": 9,
+          "gate": "Impact post + Premium + Blog",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        },
+        {
+          "title": "Personal business loans are driving credit growth for micro-entrepreneurs",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "macro",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": []
     }
   ]
 }
