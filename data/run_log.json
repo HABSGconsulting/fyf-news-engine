@@ -1,117 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-08T22:31:16.804524+05:30",
-      "status": "ok",
-      "posts_published": 2,
-      "policy_published": 1,
-      "items_seen": 5,
-      "items_evaluated": 2,
-      "items_skipped": 0,
-      "views_filtered": 1,
-      "more_reads": 2,
-      "learn_links_matched": 0,
-      "policy_seen": 9,
-      "policy_evaluated": 9,
-      "policy_skipped": 8,
-      "items_detail": [
-        {
-          "title": "UPI merchant fees delayed: What this means for your business costs",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "regulatory_draft",
-          "persona": "business_owner",
-          "category": "regulatory",
-          "actionability": 2,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Taxing your child's investments: What parents must report in ITR",
-          "score": 7,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "salaried_taxpayer",
-          "category": "taxation",
-          "actionability": 2,
-          "behavioral_risk": "medium"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Inauguration of new facilities at ICAR-IIAB, Ranchi",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Agriculture and Farmers Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Ministerial statement on global partnerships and inclusivity in maritime sector",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Ports, Shipping and Waterways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Acknowledgment of greetings from Grenada PM",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Acknowledgment of greetings from Ethiopia PM",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Completion of Swachhata Hi Seva campaign",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Information and Broadcasting",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Acknowledgment of greetings from Zambia President",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Acknowledgment of greetings from Kazakhstan President",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NHAI issues guidelines for wildlife protection measures on national highways",
-          "score": 6,
-          "gate": "Policy Desk",
-          "ministry": "Ministry of Road Transport and Highways",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Regional review meeting scheduled in Diu",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-08T23:30:36.976611+05:30",
       "status": "ok",
       "posts_published": 2,
@@ -31185,6 +31074,15 @@
     },
     {
       "run_id": "2026-11-28T01:49:40.386289+05:30",
+      "status": "skipped",
+      "posts_published": 0,
+      "policy_published": 0,
+      "items_seen": 0,
+      "items_skipped": 0,
+      "more_reads": 0
+    },
+    {
+      "run_id": "2026-11-28T03:49:29.330072+05:30",
       "status": "skipped",
       "posts_published": 0,
       "policy_published": 0,
