@@ -1,151 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-08T16:27:21.395037+05:30",
-      "status": "ok",
-      "posts_published": 3,
-      "policy_published": 0,
-      "items_seen": 20,
-      "items_evaluated": 3,
-      "items_skipped": 1,
-      "views_filtered": 5,
-      "more_reads": 8,
-      "learn_links_matched": 0,
-      "policy_seen": 12,
-      "policy_evaluated": 12,
-      "policy_skipped": 12,
-      "items_detail": [
-        {
-          "title": "TCS reports 15% profit growth; declares Rs 12 per share dividend",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Earnings warning: 46 companies may see sharp profit declines this quarter",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Vedanta announces Rs 5 dividend; buy by Oct 13 to qualify",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        }
-      ],
-      "policy_detail": [
-        {
-          "title": "Prime Minister shares article on governance and leadership approach",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Launch of youth-led initiatives for tuberculosis elimination",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Health and Family Welfare",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "NISD to conduct five-day elderly care training program in Diu",
-          "score": 2,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Social Justice and Empowerment",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India emphasizes regional energy cooperation at 20th East Asia Summit",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Power",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Indian parliamentary delegation participates in 153rd IPU Assembly",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Parliament of India",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "TRAI assesses mobile network quality in Fazilka, Punjab",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "TRAI",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Empowered Task Force on Ganga rejuvenation holds 20th meeting",
-          "score": 3,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Jal Shakti",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Condolence message on passing of Rupi Soren",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Condolence message on passing of Nana Patekar",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "India calls for balanced outcomes at upcoming UNFCCC COP31",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of Environment, Forest and Climate Change",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "National SC-ST Hub: Empowering inclusive entrepreneurship",
-          "score": 4,
-          "gate": "Skip entirely",
-          "ministry": "Ministry of MSME",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        },
-        {
-          "title": "Prime Minister shares article on 25 years of public service",
-          "score": 1,
-          "gate": "Skip entirely",
-          "ministry": "Prime Minister's Office",
-          "horizon": "Near-term (0-12M)",
-          "material": false
-        }
-      ]
-    },
-    {
       "run_id": "2026-10-08T17:44:57.595147+05:30",
       "status": "ok",
       "posts_published": 0,
@@ -31470,6 +31325,77 @@
           "gate": "Policy Desk",
           "ministry": "Ministry of Science and Technology",
           "horizon": "Structural (3-5Y+)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-27T23:09:50.758961+05:30",
+      "status": "ok",
+      "posts_published": 2,
+      "policy_published": 0,
+      "items_seen": 6,
+      "items_evaluated": 2,
+      "items_skipped": 2,
+      "views_filtered": 2,
+      "more_reads": 0,
+      "learn_links_matched": 0,
+      "policy_seen": 4,
+      "policy_evaluated": 4,
+      "policy_skipped": 4,
+      "items_detail": [
+        {
+          "title": "Resolve your PF issues in person at EPFO's Nidhi Aapke Nikat camps",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "salaried_taxpayer",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        },
+        {
+          "title": "Married daughters can claim insurance compensation, Delhi High Court clarifies",
+          "score": 5,
+          "gate": "Impact post",
+          "content_type": "news",
+          "persona": "retail_borrower",
+          "category": "regulatory",
+          "actionability": 1,
+          "behavioral_risk": "low"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Launch of Navya 2.0 initiative for skill development",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister meets IORA foreign ministers and delegation heads",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of External Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Inauguration of advanced spectral CT facility at NIMHANS",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Regional conference on Jal Jeevan Mission 2.0 concludes in Agra",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Jal Shakti",
+          "horizon": "Near-term (0-12M)",
           "material": false
         }
       ]
