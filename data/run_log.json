@@ -1,94 +1,6 @@
 {
   "runs": [
     {
-      "run_id": "2026-10-09T13:38:14.187017+05:30",
-      "status": "gemini_policy_failed",
-      "posts_published": 7,
-      "policy_published": 0,
-      "items_seen": 25,
-      "items_evaluated": 7,
-      "items_skipped": 11,
-      "views_filtered": 3,
-      "more_reads": 4,
-      "learn_links_matched": 0,
-      "policy_seen": 16,
-      "policy_evaluated": 0,
-      "policy_skipped": 0,
-      "items_detail": [
-        {
-          "title": "Hospital stocks rise despite new price caps on cancer drugs",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "sectoral",
-          "actionability": 1,
-          "behavioral_risk": "medium"
-        },
-        {
-          "title": "Hexaware shares jump 11% following Anthropic AI partnership",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 0,
-          "behavioral_risk": null
-        },
-        {
-          "title": "NCC shares rise 5% on new Rs 1,286 crore road order",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 0,
-          "behavioral_risk": null
-        },
-        {
-          "title": "Foreign investors pull back: Key sectors see major selloff in September",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "Fusion CX IPO opens October 14: Check price band and key dates",
-          "score": 6,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "new_investor",
-          "category": "product",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "TCS Q2 results: Profit rises 15%, interim dividend declared",
-          "score": 8,
-          "gate": "Impact post + Premium",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "performance",
-          "actionability": 1,
-          "behavioral_risk": "low"
-        },
-        {
-          "title": "US labor market stays resilient as jobless claims drop to 197,000",
-          "score": 5,
-          "gate": "Impact post",
-          "content_type": "news",
-          "persona": "long_term_investor",
-          "category": "macro",
-          "actionability": 0,
-          "behavioral_risk": null
-        }
-      ],
-      "policy_detail": []
-    },
-    {
       "run_id": "2026-10-09T16:28:57.715525+05:30",
       "status": "ok",
       "posts_published": 3,
@@ -31188,6 +31100,107 @@
           "score": 3,
           "gate": "Skip entirely",
           "ministry": "Ministry of Commerce and Industry",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-28T20:02:21.957858+05:30",
+      "status": "ok",
+      "posts_published": 1,
+      "policy_published": 1,
+      "items_seen": 8,
+      "items_evaluated": 1,
+      "items_skipped": 2,
+      "views_filtered": 3,
+      "more_reads": 2,
+      "learn_links_matched": 0,
+      "policy_seen": 9,
+      "policy_evaluated": 9,
+      "policy_skipped": 8,
+      "items_detail": [
+        {
+          "title": "Business owners: Regularise your PF trusts before the December 28 deadline",
+          "score": 8,
+          "gate": "Impact post + Premium",
+          "content_type": "news",
+          "persona": "business_owner",
+          "category": "regulatory",
+          "actionability": 2,
+          "behavioral_risk": "medium"
+        }
+      ],
+      "policy_detail": [
+        {
+          "title": "Minister addresses religious festival in Vadodara via video conference.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Home Affairs",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Ministers launch 'Navya 2.0' initiative in Haridwar.",
+          "score": 2,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Women and Child Development",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Health Ministry pavilion at IITF 2026 records 1.5 lakh visitors.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Health and Family Welfare",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Prime Minister expresses condolences for accident in Pauri Garhwal.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Prime Minister's Office",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Breakthrough achieved in Tunnel 10 of Sivok-Rangpo rail project.",
+          "score": 4,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Railways",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Closing film of 57th IFFI highlights family relationships.",
+          "score": 1,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Information and Broadcasting",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DGGI detects Rs 88 crore GST refund fraud in tobacco sector.",
+          "score": 6,
+          "gate": "Policy Desk",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "DRI seizes illegal wildlife products in Maharashtra.",
+          "score": 3,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Finance",
+          "horizon": "Near-term (0-12M)",
+          "material": false
+        },
+        {
+          "title": "Chief Labour Commissioner initiates stakeholder consultation for Labour Code implementation.",
+          "score": 5,
+          "gate": "Skip entirely",
+          "ministry": "Ministry of Labour and Employment",
           "horizon": "Near-term (0-12M)",
           "material": false
         }
